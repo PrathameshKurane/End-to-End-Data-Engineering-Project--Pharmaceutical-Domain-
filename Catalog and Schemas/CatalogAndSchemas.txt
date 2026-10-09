@@ -2,20 +2,20 @@
 -- Create enterprise catalog
 CREATE CATALOG pharma_catalog_prod
 COMMENT "Pharmaceutical analytics catalog"
-MANAGED LOCATION 'abfss://bronze@pharmadatalake789.dfs.core.windows.net/';
+MANAGED LOCATION 'abfss://bronze@pharmadatalake.dfs.core.windows.net/';
 
 -- Create schemas for medallion layers
 CREATE SCHEMA pharma_catalog_prod.bronze
 COMMENT "Raw pharmaceutical data"
-MANAGED LOCATION 'abfss://bronze@pharmadatalake789.dfs.core.windows.net/';
+MANAGED LOCATION 'abfss://bronze@pharmadatalake.dfs.core.windows.net/';
 
 CREATE SCHEMA pharma_catalog_prod.silver
 COMMENT "Cleaned pharmaceutical data"
-MANAGED LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/';
+MANAGED LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/';
 
 CREATE SCHEMA pharma_catalog_prod.gold
 COMMENT "Aggregated pharmaceutical analytics"
-MANAGED LOCATION 'abfss://gold@pharmadatalake789.dfs.core.windows.net/';
+MANAGED LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/';
 
 -- Show catalogs
 SHOW CATALOGS;
