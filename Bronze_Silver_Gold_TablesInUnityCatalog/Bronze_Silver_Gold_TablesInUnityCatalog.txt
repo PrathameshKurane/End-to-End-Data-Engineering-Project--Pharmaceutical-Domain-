@@ -60,47 +60,94 @@ USE SCHEMA silver;
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_clinical_trials
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/clinical_trials_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/clinical_trials_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_sales
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/sales_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/sales_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_inventory
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/inventory_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/inventory_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_prescriptions
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/prescriptions_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/prescriptions_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_side_effects
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/side_effects_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/side_effects_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_rd_pipeline
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/rd_pipeline_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/rd_pipeline_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_pricing
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/pricing_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/pricing_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_physician
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/physician_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/physician_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_marketing
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/marketing_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/marketing_silver/';
 
 CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_employees
 USING DELTA
-LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/employees_silver/';
+LOCATION 'abfss://silver@pharmadatalake.dfs.core.windows.net/employees_silver/';
 
 -- Verify all tables
 SHOW TABLES IN pharma_catalog_prod.silver;
 
+
+-- CREATE ALL GOLD TABLES IN UNITY CATALOG
+-- ============================================
+
+USE CATALOG pharma_catalog_prod;
+USE SCHEMA gold;
+
+-- Dimension Tables
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.dim_clinical_trials
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/dim_clinical_trials/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.dim_drugs
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/dim_drugs/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.dim_physicians
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/dim_physicians/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.dim_date
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/dim_date/';
+
+-- Fact Tables
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.fact_sales
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/fact_sales/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.fact_clinical_trials
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/fact_clinical_trials/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.fact_prescriptions
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/fact_prescriptions/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.fact_inventory
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/fact_inventory/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.gold.fact_marketing
+USING DELTA
+LOCATION 'abfss://gold@pharmadatalake.dfs.core.windows.net/fact_marketing/';
+
+-- Verify all tables
+SHOW TABLES IN pharma_catalog_prod.gold;
 
 
 
