@@ -1,0 +1,391 @@
+from pyspark.sql.functions import *
+from pyspark.sql.types import *
+from datetime import datetime
+
+print("="*70)
+print("SILVER LAYER TRANSFORMATIONS - ALL PHARMA DATASETS")
+print("="*70)
+
+# Storage account configuration
+storage_account = "pharmadatalake"
+bronze_base_path = f"abfss://bronze@{storage_account}.dfs.core.windows.net/"
+silver_base_path = f"abfss://silver@{storage_account}.dfs.core.windows.net/"
+
+print(f"Bronze path: {bronze_base_path}")
+print(f"Silver path: {silver_base_path}")
+
+# ============================================
+# SECTION 1: SILVER LAYER TRANSFORMATIONS
+# ============================================
+
+print("\n" + "="*60)
+print("SECTION 1: SILVER LAYER TRANSFORMATIONS")
+print("="*60)
+
+# ============================================
+# 1.1 CLINICAL TRIALS - Silver Layer
+# ============================================
+print("\n1.1 Processing Clinical Trials Data (Bronze → Silver)...")
+
+df_ct_bronze = spark.read.format("delta").load(f"{bronze_base_path}clinical_trials/")
+print(f"  Bronze records: {df_ct_bronze.count()}")
+
+df_ct_silver = df_ct_bronze \
+    .dropDuplicates(["trial_id"]) \
+    .filter(col("trial_id").isNotNull()) \
+    .withColumn("trial_phase_standardized", 
+        when(col("trial_phase").isin(['Phase I', 'Phase II', 'Phase III', 'Phase IV']), col("trial_phase"))
+        .otherwise("Unknown")) \
+    .withColumn("trial_status_standardized",
+        when(col("trial_status").isin(['Active', 'Completed', 'Planned', 'Recruiting', 'Terminated', 'Suspended', 'Ongoing']), col("trial_status"))
+        .otherwise("Unknown")) \
+    .withColumn("efficacy_rate", coalesce(col("efficacy_rate"), lit(0.0))) \
+    .withColumn("is_completed", col("trial_status") == "Completed") \
+    .withColumn("is_ongoing", col("trial_status") == "Ongoing") \
+    .withColumn("trial_year", year(col("start_date"))) \
+    .withColumn("trial_month", month(col("start_date"))) \
+    .withColumn("enrollment_category",
+        when(col("patient_count") < 1000, "Small (<1000)")
+        .when(col("patient_count") < 3000, "Medium (1000-3000)")
+        .otherwise("Large (>3000)")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_ct_silver.count()}")
+print("  Trial status distribution:")
+df_ct_silver.groupBy("trial_status_standardized").count().show()
+
+df_ct_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}clinical_trials_silver/")
+print(f"  ✓ Saved to: {silver_base_path}clinical_trials_silver/")
+
+# ============================================
+# 1.2 SALES - Silver Layer
+# ============================================
+print("\n1.2 Processing Sales Data (Bronze → Silver)...")
+
+df_sales_bronze = spark.read.format("delta").load(f"{bronze_base_path}sales/")
+print(f"  Bronze records: {df_sales_bronze.count()}")
+
+df_sales_silver = df_sales_bronze \
+    .dropDuplicates(["sale_id"]) \
+    .filter(col("sale_id").isNotNull()) \
+    .filter(col("total_revenue_usd") > 0) \
+    .withColumn("sales_channel_standardized",
+        when(col("sales_channel").isin(['Hospital', 'Retail Pharmacy', 'Online', 'Wholesale']), col("sales_channel"))
+        .otherwise("Other")) \
+    .withColumn("sales_year", year(col("sales_date"))) \
+    .withColumn("sales_month", month(col("sales_date"))) \
+    .withColumn("sales_quarter", quarter(col("sales_date"))) \
+    .withColumn("is_high_value", col("total_revenue_usd") > 1000000) \
+    .withColumn("revenue_category",
+        when(col("total_revenue_usd") < 100000, "Low (<$100K)")
+        .when(col("total_revenue_usd") < 500000, "Medium ($100K-$500K)")
+        .when(col("total_revenue_usd") < 1000000, "High ($500K-$1M)")
+        .otherwise("Very High (>$1M)")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_sales_silver.count()}")
+print(f"  Total revenue: ${df_sales_silver.agg(sum('total_revenue_usd')).collect()[0][0]:,.2f}")
+
+df_sales_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}sales_silver/")
+print(f"  ✓ Saved to: {silver_base_path}sales_silver/")
+
+# ============================================
+# 1.3 INVENTORY - Silver Layer
+# ============================================
+print("\n1.3 Processing Inventory Data (Bronze → Silver)...")
+
+df_inv_bronze = spark.read.format("delta").load(f"{bronze_base_path}inventory/")
+print(f"  Bronze records: {df_inv_bronze.count()}")
+
+df_inv_silver = df_inv_bronze \
+    .dropDuplicates(["inventory_id"]) \
+    .filter(col("inventory_id").isNotNull()) \
+    .withColumn("drug_type_standardized",
+        when(col("drug_type").isin(['Tablet', 'Capsule', 'Liquid', 'Injectable', 'Cream', 'Inhaler']), col("drug_type"))
+        .otherwise("Other")) \
+    .withColumn("stockout_risk_standardized",
+        when(col("stockout_risk").isin(['Low', 'Medium', 'High']), col("stockout_risk"))
+        .otherwise("Unknown")) \
+    .withColumn("days_to_expiry", datediff(col("expiry_date"), current_date())) \
+    .withColumn("expiry_risk",
+        when(col("days_to_expiry") < 30, "Critical")
+        .when(col("days_to_expiry") < 90, "High")
+        .when(col("days_to_expiry") < 180, "Medium")
+        .otherwise("Low")) \
+    .withColumn("stock_ratio", col("quantity_in_stock") / col("reorder_level")) \
+    .withColumn("stock_status",
+        when(col("stock_ratio") < 0.5, "Critical Stock")
+        .when(col("stock_ratio") < 1, "Below Reorder Level")
+        .when(col("stock_ratio") < 2, "Optimal")
+        .otherwise("Overstocked")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_inv_silver.count()}")
+print("  Expiry risk distribution:")
+df_inv_silver.groupBy("expiry_risk").count().show()
+
+df_inv_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}inventory_silver/")
+print(f"  ✓ Saved to: {silver_base_path}inventory_silver/")
+
+# ============================================
+# 1.4 PRESCRIPTIONS - Silver Layer
+# ============================================
+print("\n1.4 Processing Prescriptions Data (Bronze → Silver)...")
+
+df_rx_bronze = spark.read.format("delta").load(f"{bronze_base_path}prescriptions/")
+print(f"  Bronze records: {df_rx_bronze.count()}")
+
+df_rx_silver = df_rx_bronze \
+    .dropDuplicates(["prescription_id"]) \
+    .filter(col("prescription_id").isNotNull()) \
+    .withColumn("prescription_year", year(col("prescription_date"))) \
+    .withColumn("prescription_month", month(col("prescription_date"))) \
+    .withColumn("prescription_quarter", quarter(col("prescription_date"))) \
+    .withColumn("frequency_standardized",
+        when(col("frequency").contains("Once daily"), "Once Daily")
+        .when(col("frequency").contains("Twice daily"), "Twice Daily")
+        .when(col("frequency").contains("Three times daily"), "Three Times Daily")
+        .when(col("frequency").contains("Weekly"), "Weekly")
+        .when(col("frequency").contains("As needed"), "As Needed")
+        .otherwise("Other")) \
+    .withColumn("duration_category",
+        when(col("duration_days") <= 30, "Short-term (≤30 days)")
+        .when(col("duration_days") <= 90, "Medium-term (31-90 days)")
+        .otherwise("Long-term (>90 days)")) \
+    .withColumn("adherence_level",
+        when(col("adherence_score") >= 80, "High Adherence")
+        .when(col("adherence_score") >= 60, "Medium Adherence")
+        .otherwise("Low Adherence")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_rx_silver.count()}")
+print("  Adherence level distribution:")
+df_rx_silver.groupBy("adherence_level").count().show()
+
+df_rx_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}prescriptions_silver/")
+print(f"  ✓ Saved to: {silver_base_path}prescriptions_silver/")
+
+# ============================================
+# 1.5 SIDE EFFECTS - Silver Layer
+# ============================================
+print("\n1.5 Processing Side Effects Data (Bronze → Silver)...")
+
+df_se_bronze = spark.read.format("delta").load(f"{bronze_base_path}side_effects/")
+print(f"  Bronze records: {df_se_bronze.count()}")
+
+df_se_silver = df_se_bronze \
+    .dropDuplicates(["event_id"]) \
+    .filter(col("event_id").isNotNull()) \
+    .withColumn("severity_standardized",
+        when(col("event_severity").isin(['Mild', 'Moderate', 'Severe', 'Life-threatening']), col("event_severity"))
+        .otherwise("Unknown")) \
+    .withColumn("severity_score",
+        when(col("event_severity") == "Mild", 1)
+        .when(col("event_severity") == "Moderate", 2)
+        .when(col("event_severity") == "Severe", 3)
+        .when(col("event_severity") == "Life-threatening", 4)
+        .otherwise(0)) \
+    .withColumn("is_serious", col("severity_score") >= 3) \
+    .withColumn("is_fatal", col("outcome") == "Fatal") \
+    .withColumn("event_year", year(col("event_date"))) \
+    .withColumn("event_month", month(col("event_date"))) \
+    .withColumn("age_group",
+        when(col("patient_age") < 18, "Pediatric")
+        .when(col("patient_age") < 40, "Young Adult")
+        .when(col("patient_age") < 65, "Adult")
+        .otherwise("Geriatric")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_se_silver.count()}")
+print("  Severity distribution:")
+df_se_silver.groupBy("severity_standardized").count().show()
+
+df_se_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}side_effects_silver/")
+print(f"  ✓ Saved to: {silver_base_path}side_effects_silver/")
+
+# ============================================
+# 1.6 R&D PIPELINE - Silver Layer
+# ============================================
+print("\n1.6 Processing R&D Pipeline Data (Bronze → Silver)...")
+
+df_rd_bronze = spark.read.format("delta").load(f"{bronze_base_path}rd_pipeline/")
+print(f"  Bronze records: {df_rd_bronze.count()}")
+
+df_rd_silver = df_rd_bronze \
+    .dropDuplicates(["project_id"]) \
+    .filter(col("project_id").isNotNull()) \
+    .withColumn("development_stage_standardized",
+        when(col("development_stage").isin(['Discovery', 'Preclinical', 'Phase I', 'Phase II', 'Phase III', 'Pre-registration']), col("development_stage"))
+        .otherwise("Unknown")) \
+    .withColumn("risk_level", 
+        when(col("risk_assessment") == "Low", 1)
+        .when(col("risk_assessment") == "Medium", 2)
+        .when(col("risk_assessment") == "High", 3)
+        .otherwise(0)) \
+    .withColumn("is_high_risk", col("risk_level") >= 2) \
+    .withColumn("project_duration_days", datediff(col("expected_completion"), col("start_date"))) \
+    .withColumn("duration_category",
+        when(col("project_duration_days") < 730, "Short (<2 years)")
+        .when(col("project_duration_days") < 1460, "Medium (2-4 years)")
+        .otherwise("Long (>4 years)")) \
+    .withColumn("priority_level_standardized",
+        when(col("priority_level").isin(['Critical', 'High', 'Medium', 'Low']), col("priority_level"))
+        .otherwise("Unknown")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_rd_silver.count()}")
+print("  Development stage distribution:")
+df_rd_silver.groupBy("development_stage_standardized").count().show()
+
+df_rd_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}rd_pipeline_silver/")
+print(f"  ✓ Saved to: {silver_base_path}rd_pipeline_silver/")
+
+# ============================================
+# 1.7 PRICING - Silver Layer
+# ============================================
+print("\n1.7 Processing Pricing Data (Bronze → Silver)...")
+
+df_pricing_bronze = spark.read.format("delta").load(f"{bronze_base_path}pricing/")
+print(f"  Bronze records: {df_pricing_bronze.count()}")
+
+df_pricing_silver = df_pricing_bronze \
+    .dropDuplicates(["pricing_id"]) \
+    .filter(col("pricing_id").isNotNull()) \
+    .withColumn("payer_type_standardized",
+        when(col("payer_type").isin(['Commercial', 'Medicare', 'Medicaid', 'VA', 'TRICARE', 'Self-pay']), col("payer_type"))
+        .otherwise("Other")) \
+    .withColumn("generic_available_flag", col("generic_available") == "Yes") \
+    .withColumn("patient_assistance_flag", col("patient_assistance") == "Yes") \
+    .withColumn("price_category",
+        when(col("list_price_usd") < 1000, "Low (<$1K)")
+        .when(col("list_price_usd") < 5000, "Medium ($1K-$5K)")
+        .when(col("list_price_usd") < 10000, "High ($5K-$10K)")
+        .otherwise("Very High (>$10K)")) \
+    .withColumn("price_increase_category",
+        when(col("price_increase_annual") < 0, "Price Decrease")
+        .when(col("price_increase_annual") < 5, "Low Increase (<5%)")
+        .when(col("price_increase_annual") < 10, "Moderate Increase (5-10%)")
+        .otherwise("High Increase (>10%)")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_pricing_silver.count()}")
+print("  Payer type distribution:")
+df_pricing_silver.groupBy("payer_type_standardized").count().show()
+
+df_pricing_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}pricing_silver/")
+print(f"  ✓ Saved to: {silver_base_path}pricing_silver/")
+
+# ============================================
+# 1.8 PHYSICIAN PRESCRIBING - Silver Layer
+# ============================================
+print("\n1.8 Processing Physician Prescribing Data (Bronze → Silver)...")
+
+df_physician_bronze = spark.read.format("delta").load(f"{bronze_base_path}physician/")
+print(f"  Bronze records: {df_physician_bronze.count()}")
+
+df_physician_silver = df_physician_bronze \
+    .dropDuplicates(["physician_id"]) \
+    .filter(col("physician_id").isNotNull()) \
+    .withColumn("experience_level",
+        when(col("years_experience") < 5, "Junior (<5 yrs)")
+        .when(col("years_experience") < 15, "Mid-Level (5-15 yrs)")
+        .when(col("years_experience") < 30, "Senior (15-30 yrs)")
+        .otherwise("Expert (>30 yrs)")) \
+    .withColumn("e_prescribing_flag", col("e-prescribing_usage") == "Yes") \
+    .withColumn("sample_drugs_flag", col("sample_drugs_accepted") == "Yes") \
+    .withColumn("prescription_volume_category",
+        when(col("prescription_volume_monthly") < 200, "Low (<200)")
+        .when(col("prescription_volume_monthly") < 500, "Medium (200-500)")
+        .when(col("prescription_volume_monthly") < 800, "High (500-800)")
+        .otherwise("Very High (>800)")) \
+    .withColumn("satisfaction_category",
+        when(col("patient_satisfaction_score") >= 4.5, "Excellent")
+        .when(col("patient_satisfaction_score") >= 4.0, "Good")
+        .when(col("patient_satisfaction_score") >= 3.5, "Average")
+        .otherwise("Poor")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_physician_silver.count()}")
+print("  Experience level distribution:")
+df_physician_silver.groupBy("experience_level").count().show()
+
+df_physician_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}physician_silver/")
+print(f"  ✓ Saved to: {silver_base_path}physician_silver/")
+
+# ============================================
+# 1.9 MARKETING - Silver Layer
+# ============================================
+print("\n1.9 Processing Marketing Data (Bronze → Silver)...")
+
+df_marketing_bronze = spark.read.format("delta").load(f"{bronze_base_path}marketing/")
+print(f"  Bronze records: {df_marketing_bronze.count()}")
+
+df_marketing_silver = df_marketing_bronze \
+    .dropDuplicates(["campaign_id"]) \
+    .filter(col("campaign_id").isNotNull()) \
+    .withColumn("budget_usd", coalesce(col("budget_usd"), lit(0.0))) \
+    .withColumn("spent_usd", coalesce(col("spent_usd"), lit(0.0))) \
+    .withColumn("budget_utilization", 
+        when(col("budget_usd") > 0, col("spent_usd") / col("budget_usd") * 100)
+        .otherwise(0)) \
+    .withColumn("roi_percent", coalesce(col("roi_percent"), lit(0.0))) \
+    .withColumn("campaign_year", year(col("campaign_start"))) \
+    .withColumn("campaign_month", month(col("campaign_start"))) \
+    .withColumn("roi_category",
+        when(col("roi_percent") < 0, "Negative ROI")
+        .when(col("roi_percent") < 50, "Low ROI (<50%)")
+        .when(col("roi_percent") < 150, "Medium ROI (50-150%)")
+        .otherwise("High ROI (>150%)")) \
+    .withColumn("conversion_category",
+        when(col("conversion_rate") < 5, "Low (<5%)")
+        .when(col("conversion_rate") < 10, "Medium (5-10%)")
+        .when(col("conversion_rate") < 15, "High (10-15%)")
+        .otherwise("Very High (>15%)")) \
+    .withColumn("silver_processing_timestamp", current_timestamp()) \
+    .withColumn("silver_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+
+print(f"  Silver records: {df_marketing_silver.count()}")
+print("  ROI category distribution:")
+df_marketing_silver.groupBy("roi_category").count().show()
+
+df_marketing_silver.write.format("delta") \
+    .mode("overwrite") \
+    .option("overwriteSchema", "true") \
+    .save(f"{silver_base_path}marketing_silver/")
+print(f"  ✓ Saved to: {silver_base_path}marketing_silver/")
+
+print("\n" + "="*60)
+print("✅ SILVER LAYER COMPLETED - All tables saved to ADLS")
+print("="*60)
