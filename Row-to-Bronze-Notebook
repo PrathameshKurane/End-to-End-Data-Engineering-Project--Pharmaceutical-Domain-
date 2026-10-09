@@ -1,0 +1,187 @@
+print("="*60)
+print("READING ALL PHARMA DATASETS FROM ADLS")
+print("="*60)
+
+# Storage account configuration
+storage_account = "pharmadatalake"
+raw_base_path = f"abfss://raw@{storage_account}.dfs.core.windows.net/"
+bronze_base_path = f"abfss://bronze@{storage_account}.dfs.core.windows.net/"
+
+# ============================================
+# 1. Read Clinical Trials Dataset
+# ============================================
+print("\n1. Reading Clinical Trials Dataset...")
+clinical_trials_path = f"{raw_base_path}pharma_1_clinical_trials.csv"
+df_clinical_trials = spark.read.option("header", True).option("inferSchema", True).csv(clinical_trials_path)
+print(f"✓ Clinical Trials records: {df_clinical_trials.count()}")
+
+# ============================================
+# 2. Read Sales Revenue Dataset
+# ============================================
+print("\n2. Reading Sales Revenue Dataset...")
+sales_path = f"{raw_base_path}pharma_2_sales_revenue.csv"
+df_sales = spark.read.option("header", True).option("inferSchema", True).csv(sales_path)
+print(f"✓ Sales records: {df_sales.count()}")
+
+# ============================================
+# 3. Read Inventory Supply Chain Dataset
+# ============================================
+print("\n3. Reading Inventory Dataset...")
+inventory_path = f"{raw_base_path}pharma_3_inventory_supply_chain.csv"
+df_inventory = spark.read.option("header", True).option("inferSchema", True).csv(inventory_path)
+print(f"✓ Inventory records: {df_inventory.count()}")
+
+# ============================================
+# 4. Read Prescriptions Dataset
+# ============================================
+print("\n4. Reading Prescriptions Dataset...")
+prescriptions_path = f"{raw_base_path}pharma_4_prescriptions.csv"
+df_prescriptions = spark.read.option("header", True).option("inferSchema", True).csv(prescriptions_path)
+print(f"✓ Prescriptions records: {df_prescriptions.count()}")
+
+# ============================================
+# 5. Read Side Effects Dataset
+# ============================================
+print("\n5. Reading Side Effects Dataset...")
+side_effects_path = f"{raw_base_path}pharma_5_side_effects.csv"
+df_side_effects = spark.read.option("header", True).option("inferSchema", True).csv(side_effects_path)
+print(f"✓ Side Effects records: {df_side_effects.count()}")
+
+# ============================================
+# 6. Read R&D Pipeline Dataset
+# ============================================
+print("\n6. Reading R&D Pipeline Dataset...")
+rd_pipeline_path = f"{raw_base_path}pharma_6_rd_pipeline.csv"
+df_rd_pipeline = spark.read.option("header", True).option("inferSchema", True).csv(rd_pipeline_path)
+print(f"✓ R&D Pipeline records: {df_rd_pipeline.count()}")
+
+# ============================================
+# 7. Read Pricing Reimbursement Dataset
+# ============================================
+print("\n7. Reading Pricing Dataset...")
+pricing_path = f"{raw_base_path}pharma_7_pricing_reimbursement.csv"
+df_pricing = spark.read.option("header", True).option("inferSchema", True).csv(pricing_path)
+print(f"✓ Pricing records: {df_pricing.count()}")
+
+# ============================================
+# 8. Read Physician Prescribing Dataset
+# ============================================
+print("\n8. Reading Physician Prescribing Dataset...")
+physician_path = f"{raw_base_path}pharma_8_physician_prescribing.csv"
+df_physician = spark.read.option("header", True).option("inferSchema", True).csv(physician_path)
+print(f"✓ Physician records: {df_physician.count()}")
+
+# ============================================
+# 9. Read Marketing Promotions Dataset
+# ============================================
+print("\n9. Reading Marketing Dataset...")
+marketing_path = f"{raw_base_path}pharma_9_marketing_promotions.csv"
+df_marketing = spark.read.option("header", True).option("inferSchema", True).csv(marketing_path)
+print(f"✓ Marketing records: {df_marketing.count()}")
+
+# Purpose: Write all pharma datasets as Delta tables to Bronze container
+
+from pyspark.sql.functions import current_timestamp, lit
+from datetime import datetime
+
+print("="*60)
+print("CREATING BRONZE DELTA TABLES FOR ALL PHARMA DATASETS")
+print("="*60)
+
+# Read and Write each table as Delta
+print("\nReading raw CSV files and writing as Delta tables...\n")
+
+# 1. Clinical Trials Table
+print("Processing Clinical Trials...")
+df_clinical_trials = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_1_clinical_trials.csv")
+df_clinical_trials_with_metadata = df_clinical_trials \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_1_clinical_trials.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_clinical_trials_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}clinical_trials/")
+print(f"✓ Clinical Trials Delta table created")
+
+# 2. Sales Table
+print("Processing Sales...")
+df_sales = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_2_sales_revenue.csv")
+df_sales_with_metadata = df_sales \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_2_sales_revenue.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_sales_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}sales/")
+print(f"✓ Sales Delta table created")
+
+# 3. Inventory Table
+print("Processing Inventory...")
+df_inventory = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_3_inventory_supply_chain.csv")
+df_inventory_with_metadata = df_inventory \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_3_inventory_supply_chain.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_inventory_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}inventory/")
+print(f"✓ Inventory Delta table created")
+
+# 4. Prescriptions Table
+print("Processing Prescriptions...")
+df_prescriptions = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_4_prescriptions.csv")
+df_prescriptions_with_metadata = df_prescriptions \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_4_prescriptions.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_prescriptions_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}prescriptions/")
+print(f"✓ Prescriptions Delta table created")
+
+# 5. Side Effects Table
+print("Processing Side Effects...")
+df_side_effects = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_5_side_effects.csv")
+df_side_effects_with_metadata = df_side_effects \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_5_side_effects.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_side_effects_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}side_effects/")
+print(f"✓ Side Effects Delta table created")
+
+# 6. R&D Pipeline Table
+print("Processing R&D Pipeline...")
+df_rd_pipeline = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_6_rd_pipeline.csv")
+df_rd_pipeline_with_metadata = df_rd_pipeline \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_6_rd_pipeline.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_rd_pipeline_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}rd_pipeline/")
+print(f"✓ R&D Pipeline Delta table created")
+
+# 7. Pricing Table
+print("Processing Pricing...")
+df_pricing = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_7_pricing_reimbursement.csv")
+df_pricing_with_metadata = df_pricing \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_7_pricing_reimbursement.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_pricing_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}pricing/")
+print(f"✓ Pricing Delta table created")
+
+# 8. Physician Prescribing Table
+print("Processing Physician Prescribing...")
+df_physician = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_8_physician_prescribing.csv")
+df_physician_with_metadata = df_physician \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_8_physician_prescribing.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_physician_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}physician/")
+print(f"✓ Physician Prescribing Delta table created")
+
+# 9. Marketing Table
+print("Processing Marketing...")
+df_marketing = spark.read.option("header", True).option("inferSchema", True).csv(f"{raw_base_path}pharma_9_marketing_promotions.csv")
+df_marketing_with_metadata = df_marketing \
+    .withColumn("ingestion_timestamp", current_timestamp()) \
+    .withColumn("source_file", lit("pharma_9_marketing_promotions.csv")) \
+    .withColumn("ingestion_batch_id", lit(datetime.now().strftime("%Y%m%d_%H%M%S")))
+df_marketing_with_metadata.write.format("delta").mode("overwrite").save(f"{bronze_base_path}marketing/")
+print(f"✓ Marketing Delta table created")
+
+
+print("\n" + "="*60)
+print("✅ ALL BRONZE DELTA TABLES CREATED SUCCESSFULLY!")
+print("="*60)
