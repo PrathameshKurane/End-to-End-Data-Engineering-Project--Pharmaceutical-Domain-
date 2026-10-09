@@ -1,0 +1,1001 @@
+sale_id,drug_name,region,country,sales_channel,sales_date,units_sold,unit_price_usd,total_revenue_usd,discount_percent,net_revenue_usd,sales_rep_id,customer_type,insurance_coverage,promotion_applied,season
+SALE000001,Drug_92,Latin America,Saint Martin,Hospital,2025-05-24,21042,407.85,6487820.63,10.5,5433117.8,SR8432,Pharmacy,No,Yes,Winter
+SALE000002,Drug_40,Latin America,Ghana,Retail Pharmacy,2024-11-28,24351,249.29,8711999.28,5.0,8059764.67,SR7078,Hospital,Yes,No,Summer
+SALE000003,Drug_34,Asia Pacific,Serbia,Wholesale,2024-10-31,25158,106.66,7483439.69,1.0,7796209.62,SR9850,Pharmacy,Partial,No,Winter
+SALE000004,Drug_96,North America,Belgium,Hospital,2025-09-27,35345,369.93,8687703.55,11.6,8013887.5,SR7866,Clinic,Yes,Yes,Summer
+SALE000005,Drug_79,Europe,Germany,Hospital,2026-04-26,3193,351.36,5366010.16,27.1,2430628.96,SR3531,Clinic,Partial,No,Fall
+SALE000006,Drug_17,Asia Pacific,Honduras,Hospital,2025-04-11,25018,126.9,7519010.57,7.2,315614.41,SR7797,Pharmacy,No,No,Fall
+SALE000007,Drug_33,North America,Chile,Retail Pharmacy,2026-07-10,7307,452.19,1401505.53,6.2,2350192.35,SR2622,Hospital,Yes,No,Winter
+SALE000008,Drug_47,North America,Mauritania,Retail Pharmacy,2025-01-19,9494,56.66,3483397.88,29.1,2508943.14,SR9017,Pharmacy,No,Yes,Fall
+SALE000009,Drug_52,Latin America,India,Wholesale,2025-10-26,27074,491.43,3896102.1,0.8,8184315.45,SR7686,Individual,Yes,Yes,Winter
+SALE000010,Drug_80,North America,French Southern Territories,Hospital,2025-04-29,28272,430.82,5113446.17,23.6,5843465.2,SR5583,Individual,Yes,No,Summer
+SALE000011,Drug_93,Asia Pacific,San Marino,Wholesale,2025-11-29,32383,345.51,9290834.53,9.6,736070.27,SR1536,Hospital,Yes,No,Fall
+SALE000012,Drug_9,Europe,Czech Republic,Hospital,2025-09-04,47709,469.68,8743091.31,1.1,1219099.06,SR7070,Pharmacy,Yes,No,Fall
+SALE000013,Drug_33,Europe,Vanuatu,Retail Pharmacy,2025-05-29,39095,362.54,1346120.4,27.5,1401760.59,SR4559,Pharmacy,Partial,Yes,Winter
+SALE000014,Drug_60,North America,Colombia,Hospital,2024-08-14,13380,99.28,1728723.73,4.2,5674091.4,SR8264,Clinic,Yes,No,Winter
+SALE000015,Drug_93,Latin America,Bhutan,Online,2026-01-01,36403,223.87,3577047.86,16.6,6618937.9,SR8285,Hospital,No,No,Winter
+SALE000016,Drug_77,Europe,United States of America,Retail Pharmacy,2026-05-27,27553,40.39,2908147.92,8.2,7736907.48,SR4868,Individual,Yes,Yes,Winter
+SALE000017,Drug_21,Europe,Serbia,Retail Pharmacy,2025-07-07,43450,197.88,6148094.76,2.0,8465776.45,SR6942,Individual,No,No,Spring
+SALE000018,Drug_58,Asia Pacific,Ethiopia,Online,2024-12-31,3013,372.09,9027857.7,1.5,1815979.65,SR2627,Hospital,Yes,No,Winter
+SALE000019,Drug_85,Asia Pacific,Kazakhstan,Hospital,2026-05-19,25865,196.29,9622953.13,3.5,2788504.54,SR7018,Individual,No,Yes,Spring
+SALE000020,Drug_69,Africa,Namibia,Hospital,2025-10-14,2440,168.5,6536375.92,2.1,2163513.67,SR9920,Hospital,Partial,Yes,Summer
+SALE000021,Drug_10,Europe,Hungary,Online,2025-03-29,26279,299.7,8381753.85,22.8,3229367.1,SR6876,Individual,No,No,Winter
+SALE000022,Drug_6,Europe,Guinea-Bissau,Hospital,2025-03-16,27973,436.74,5252496.8,14.6,8232054.23,SR1992,Individual,Yes,No,Spring
+SALE000023,Drug_13,Africa,Djibouti,Hospital,2024-08-13,38157,28.55,2084061.14,10.3,5176353.01,SR7523,Hospital,No,No,Spring
+SALE000024,Drug_65,Asia Pacific,Myanmar,Retail Pharmacy,2025-04-25,697,195.81,5247359.43,12.6,6643936.52,SR5520,Hospital,Yes,No,Spring
+SALE000025,Drug_20,North America,Paraguay,Retail Pharmacy,2025-04-01,29219,83.33,5551270.93,27.9,4411481.03,SR4109,Individual,Yes,Yes,Fall
+SALE000026,Drug_57,North America,Gabon,Hospital,2024-11-03,15125,349.2,7424833.18,27.3,260498.13,SR3001,Individual,Yes,No,Spring
+SALE000027,Drug_46,Latin America,Guyana,Hospital,2024-12-29,7245,57.33,2199610.01,21.5,578508.02,SR8450,Clinic,Yes,No,Winter
+SALE000028,Drug_8,Europe,Denmark,Hospital,2024-11-06,35770,334.08,3683735.51,26.5,4841676.94,SR2501,Pharmacy,Yes,Yes,Winter
+SALE000029,Drug_10,Asia Pacific,Tokelau,Retail Pharmacy,2026-07-01,41823,146.66,3640910.66,9.6,6469326.28,SR4475,Hospital,Partial,No,Winter
+SALE000030,Drug_73,Europe,Papua New Guinea,Online,2025-10-22,7794,103.46,9594436.52,11.4,1938602.48,SR1349,Hospital,Yes,Yes,Spring
+SALE000031,Drug_67,North America,Somalia,Wholesale,2026-05-26,4930,468.49,4440005.66,18.4,6497408.64,SR1828,Pharmacy,Yes,Yes,Spring
+SALE000032,Drug_11,Asia Pacific,Senegal,Retail Pharmacy,2024-09-30,24030,14.17,7551184.58,18.7,7296143.43,SR6464,Clinic,Yes,Yes,Fall
+SALE000033,Drug_12,North America,Gibraltar,Hospital,2025-06-16,23852,221.7,7508363.0,14.5,3707547.79,SR4990,Individual,No,Yes,Summer
+SALE000034,Drug_10,Europe,Paraguay,Wholesale,2026-07-04,42702,15.71,2656176.3,12.0,6717975.96,SR3063,Individual,No,No,Fall
+SALE000035,Drug_25,Europe,Iraq,Retail Pharmacy,2026-04-02,10589,244.38,5719125.02,29.6,3636746.33,SR4362,Clinic,Yes,No,Winter
+SALE000036,Drug_49,Europe,Cambodia,Hospital,2026-04-14,32792,253.02,8943134.63,24.6,6105412.98,SR2124,Clinic,Partial,No,Winter
+SALE000037,Drug_49,Asia Pacific,Bhutan,Wholesale,2025-05-25,15868,164.22,4752502.0,13.0,6876162.25,SR4394,Pharmacy,No,No,Winter
+SALE000038,Drug_89,Latin America,Sierra Leone,Online,2025-08-12,43232,70.42,9451229.96,21.8,8927346.02,SR4538,Pharmacy,Yes,No,Fall
+SALE000039,Drug_11,Asia Pacific,Lao People's Democratic Republic,Retail Pharmacy,2025-06-18,2260,191.31,2145367.84,8.1,3109093.64,SR4817,Individual,No,No,Winter
+SALE000040,Drug_62,North America,Chile,Retail Pharmacy,2026-03-18,46136,337.77,742516.9,3.0,3699838.19,SR6383,Clinic,No,No,Winter
+SALE000041,Drug_36,North America,Indonesia,Hospital,2026-06-07,20233,392.29,8914647.28,10.6,1491248.04,SR3417,Clinic,No,No,Winter
+SALE000042,Drug_39,Europe,Germany,Hospital,2026-08-08,47353,267.72,8476964.3,12.1,1837294.27,SR1046,Individual,Yes,No,Spring
+SALE000043,Drug_53,Middle East,Bangladesh,Retail Pharmacy,2026-02-17,35790,296.97,9925906.17,0.5,6240800.31,SR5542,Individual,Yes,No,Summer
+SALE000044,Drug_90,Latin America,Saint Vincent and the Grenadines,Hospital,2026-03-09,22970,104.31,6794255.49,24.4,8253476.67,SR3370,Individual,Yes,Yes,Spring
+SALE000045,Drug_78,Latin America,Guyana,Retail Pharmacy,2024-09-04,24596,147.23,9366942.58,10.8,3551928.88,SR3129,Individual,No,No,Spring
+SALE000046,Drug_56,North America,Sierra Leone,Online,2025-05-18,36672,85.14,8269663.3,17.4,1619256.15,SR9850,Individual,Partial,No,Summer
+SALE000047,Drug_1,Europe,Jordan,Online,2026-06-07,2468,128.4,8444418.9,2.2,2566467.41,SR5106,Pharmacy,Yes,No,Summer
+SALE000048,Drug_56,Europe,Faroe Islands,Retail Pharmacy,2025-06-03,48025,116.32,5691846.56,5.2,4095901.3,SR3858,Individual,Yes,Yes,Fall
+SALE000049,Drug_4,North America,Martinique,Online,2024-08-17,40961,262.13,3824263.61,26.7,2616420.44,SR2801,Clinic,Partial,No,Summer
+SALE000050,Drug_30,North America,China,Online,2025-01-03,36800,283.53,9345646.17,18.3,2102824.88,SR1422,Hospital,Partial,No,Fall
+SALE000051,Drug_12,Middle East,Bahamas,Retail Pharmacy,2024-08-16,29303,472.75,4321739.64,28.5,6624071.61,SR3159,Pharmacy,Partial,Yes,Fall
+SALE000052,Drug_35,North America,Saint Lucia,Hospital,2024-09-23,11652,101.81,5388654.85,30.0,71398.02,SR1243,Clinic,No,No,Spring
+SALE000053,Drug_77,North America,Zambia,Hospital,2024-12-07,5708,322.63,4461696.96,11.2,4853443.36,SR6869,Hospital,Partial,Yes,Winter
+SALE000054,Drug_52,North America,Slovenia,Hospital,2026-06-17,45767,409.54,5648618.32,9.0,7144066.25,SR4898,Pharmacy,Yes,No,Spring
+SALE000055,Drug_31,Middle East,Ireland,Hospital,2025-05-14,22585,282.32,4705580.28,25.8,2396641.59,SR6304,Individual,Yes,No,Spring
+SALE000056,Drug_87,Europe,Congo,Hospital,2025-04-19,42160,131.23,480627.62,30.0,5429940.96,SR1258,Pharmacy,Yes,No,Summer
+SALE000057,Drug_68,Asia Pacific,San Marino,Hospital,2026-06-02,9962,134.96,8820599.81,18.9,6020365.83,SR3854,Individual,Partial,No,Summer
+SALE000058,Drug_52,Middle East,Portugal,Retail Pharmacy,2025-02-10,38399,24.43,4444493.8,23.9,5895498.25,SR5347,Individual,Yes,No,Fall
+SALE000059,Drug_80,North America,Switzerland,Wholesale,2025-12-28,10512,156.19,5889847.54,23.5,4013090.03,SR1858,Individual,Yes,Yes,Fall
+SALE000060,Drug_7,Asia Pacific,Grenada,Hospital,2024-11-16,21454,373.58,1392738.84,10.7,3119724.63,SR3076,Hospital,Yes,Yes,Fall
+SALE000061,Drug_22,North America,Palau,Retail Pharmacy,2025-11-27,6444,28.52,34875.09,17.2,7523447.92,SR7897,Pharmacy,Yes,Yes,Summer
+SALE000062,Drug_93,North America,Malaysia,Retail Pharmacy,2025-07-11,49627,113.55,2453655.65,25.0,6826206.86,SR9619,Individual,Partial,Yes,Fall
+SALE000063,Drug_75,Latin America,Haiti,Hospital,2025-05-16,40755,354.59,7046155.74,20.6,2891839.56,SR2862,Clinic,Yes,No,Fall
+SALE000064,Drug_56,Asia Pacific,Saint Helena,Wholesale,2025-01-04,18093,392.41,992846.11,0.6,927890.33,SR2041,Pharmacy,Yes,No,Summer
+SALE000065,Drug_97,Europe,Lithuania,Retail Pharmacy,2025-11-03,28782,230.38,9088965.52,10.1,647010.46,SR8802,Clinic,Partial,Yes,Winter
+SALE000066,Drug_58,Europe,North Macedonia,Hospital,2026-06-06,49026,350.55,2151010.67,4.3,849208.38,SR8344,Hospital,Yes,Yes,Spring
+SALE000067,Drug_93,Europe,Tajikistan,Online,2025-05-10,28515,197.04,2046731.55,7.0,5246157.96,SR6931,Hospital,No,No,Summer
+SALE000068,Drug_64,North America,Cayman Islands,Hospital,2025-09-27,19423,84.16,1815898.11,27.2,465718.25,SR9408,Pharmacy,Partial,No,Fall
+SALE000069,Drug_12,North America,Saint Vincent and the Grenadines,Retail Pharmacy,2024-10-09,18097,202.08,140803.15,1.1,3032872.33,SR2786,Hospital,Partial,No,Spring
+SALE000070,Drug_7,North America,Switzerland,Hospital,2025-02-20,3779,292.08,7718282.88,6.6,6778994.76,SR8405,Hospital,Partial,No,Summer
+SALE000071,Drug_55,North America,Svalbard & Jan Mayen Islands,Online,2024-08-24,29589,474.29,8750470.28,9.3,2649698.02,SR9254,Pharmacy,Yes,No,Spring
+SALE000072,Drug_62,Latin America,Antigua and Barbuda,Retail Pharmacy,2025-04-02,40408,39.03,6142012.86,18.5,6869962.05,SR4629,Clinic,No,Yes,Spring
+SALE000073,Drug_90,North America,Netherlands,Retail Pharmacy,2024-08-23,9588,256.16,1882811.62,16.0,6709406.97,SR1710,Individual,Yes,No,Winter
+SALE000074,Drug_73,North America,Yemen,Hospital,2026-04-24,39942,167.82,2853494.69,6.5,2213047.53,SR9543,Pharmacy,Yes,Yes,Fall
+SALE000075,Drug_98,Europe,Norfolk Island,Retail Pharmacy,2024-10-28,4096,256.61,4759791.05,4.9,6559616.56,SR5941,Pharmacy,Yes,Yes,Summer
+SALE000076,Drug_77,Latin America,Japan,Online,2026-04-20,5795,16.87,9543505.17,7.1,6730191.52,SR8504,Individual,Yes,Yes,Fall
+SALE000077,Drug_55,North America,Australia,Retail Pharmacy,2024-12-17,30304,159.95,2474266.37,15.1,3577567.37,SR1510,Clinic,Partial,No,Winter
+SALE000078,Drug_36,North America,Andorra,Retail Pharmacy,2026-05-02,23482,410.83,7316727.39,8.1,1894416.02,SR1996,Individual,Yes,No,Winter
+SALE000079,Drug_89,Europe,British Indian Ocean Territory (Chagos Archipelago),Retail Pharmacy,2025-04-18,14335,279.2,4395042.78,28.4,4691820.25,SR8847,Individual,No,Yes,Summer
+SALE000080,Drug_24,Asia Pacific,French Guiana,Online,2025-11-25,2466,228.04,2979175.64,13.9,8292641.17,SR7580,Clinic,Yes,No,Summer
+SALE000081,Drug_44,Europe,Bosnia and Herzegovina,Retail Pharmacy,2025-11-30,27567,146.33,4559703.45,1.8,5756838.9,SR7984,Clinic,Yes,No,Winter
+SALE000082,Drug_17,Latin America,Belarus,Online,2025-02-10,47032,152.53,712995.97,21.9,1556964.14,SR2768,Individual,Partial,No,Summer
+SALE000083,Drug_2,Africa,Iceland,Online,2025-01-31,6864,194.64,7987075.02,9.9,6145066.12,SR9032,Individual,Yes,Yes,Spring
+SALE000084,Drug_13,Asia Pacific,Eritrea,Retail Pharmacy,2024-10-01,25460,418.61,2433775.98,19.6,3845285.48,SR8267,Pharmacy,No,No,Spring
+SALE000085,Drug_31,Asia Pacific,Korea,Hospital,2026-03-23,48395,483.77,7254395.82,8.4,5324085.95,SR2204,Clinic,Yes,No,Winter
+SALE000086,Drug_93,Europe,Haiti,Retail Pharmacy,2025-10-25,32023,222.13,684415.37,17.1,6606789.06,SR2323,Hospital,Yes,Yes,Fall
+SALE000087,Drug_28,North America,Congo,Online,2025-04-17,30275,199.71,9551030.46,23.2,4634914.21,SR6277,Clinic,Yes,Yes,Summer
+SALE000088,Drug_60,Africa,Slovenia,Hospital,2025-01-26,16392,424.04,1930956.84,27.8,7326004.58,SR3430,Individual,Partial,Yes,Summer
+SALE000089,Drug_27,Europe,Bosnia and Herzegovina,Retail Pharmacy,2026-02-10,1714,216.32,8827538.02,7.8,6499622.49,SR2076,Individual,Yes,Yes,Spring
+SALE000090,Drug_15,North America,Ukraine,Online,2024-11-03,21039,278.25,8094922.62,10.0,5535968.0,SR3067,Individual,Yes,No,Summer
+SALE000091,Drug_95,Asia Pacific,Tonga,Hospital,2026-06-07,47264,119.32,9678631.38,13.9,1357814.71,SR5505,Individual,Yes,No,Fall
+SALE000092,Drug_79,North America,Pitcairn Islands,Retail Pharmacy,2025-06-01,18900,373.03,4779428.72,27.8,7523673.24,SR9984,Hospital,Partial,No,Summer
+SALE000093,Drug_33,Europe,Sao Tome and Principe,Hospital,2025-08-28,23346,268.33,7274245.54,27.0,8423201.54,SR6327,Clinic,Partial,Yes,Summer
+SALE000094,Drug_20,Europe,Bouvet Island (Bouvetoya),Hospital,2024-10-16,49748,405.47,3707735.86,2.7,1233376.54,SR7240,Hospital,No,No,Spring
+SALE000095,Drug_42,Europe,Reunion,Online,2025-07-31,49756,391.46,1844498.01,4.0,4394579.57,SR9692,Hospital,Yes,No,Summer
+SALE000096,Drug_12,Latin America,Oman,Hospital,2026-02-13,31788,111.43,4431316.25,14.9,2330591.57,SR5831,Individual,Partial,No,Winter
+SALE000097,Drug_73,North America,Christmas Island,Hospital,2024-11-10,28062,359.24,1658324.4,3.2,6790906.15,SR8433,Hospital,Partial,No,Winter
+SALE000098,Drug_23,Europe,Canada,Online,2024-12-30,29864,401.03,9820464.18,10.4,6494889.42,SR9282,Individual,Partial,Yes,Fall
+SALE000099,Drug_72,Europe,Belize,Hospital,2025-11-24,32570,176.32,963368.66,4.5,1268653.38,SR8048,Individual,Partial,No,Fall
+SALE000100,Drug_96,Asia Pacific,Latvia,Wholesale,2025-03-22,38601,90.44,5892528.02,19.1,7893343.82,SR2624,Individual,No,No,Fall
+SALE000101,Drug_14,Asia Pacific,Bahamas,Wholesale,2025-11-10,3316,6.3,6265012.09,28.5,1629412.8,SR2874,Hospital,Yes,No,Fall
+SALE000102,Drug_91,Europe,Zimbabwe,Hospital,2025-04-27,22172,228.2,5381257.35,29.9,7175493.42,SR4522,Individual,Partial,No,Spring
+SALE000103,Drug_25,Asia Pacific,Bahrain,Hospital,2026-02-05,28342,179.45,6622196.67,11.3,4113257.65,SR8046,Hospital,Partial,Yes,Summer
+SALE000104,Drug_77,North America,Vietnam,Retail Pharmacy,2025-10-05,37232,279.68,1162691.57,18.0,2954988.02,SR8398,Clinic,Yes,Yes,Spring
+SALE000105,Drug_85,Middle East,Greenland,Retail Pharmacy,2025-03-14,45137,98.08,5550630.22,25.7,1424826.77,SR4743,Individual,Yes,No,Fall
+SALE000106,Drug_31,Europe,Hungary,Hospital,2025-03-02,17961,430.53,2872838.5,3.5,1509194.21,SR7779,Pharmacy,Partial,No,Summer
+SALE000107,Drug_54,Asia Pacific,Montserrat,Retail Pharmacy,2025-03-23,46697,132.59,9401820.46,20.7,5957285.48,SR6553,Pharmacy,Yes,No,Winter
+SALE000108,Drug_5,North America,Bolivia,Hospital,2024-08-21,5060,117.08,7620954.46,12.3,4954233.15,SR8430,Pharmacy,Partial,Yes,Spring
+SALE000109,Drug_13,North America,Guinea-Bissau,Online,2026-05-07,18881,242.95,9725172.31,6.2,1099471.13,SR7532,Pharmacy,Yes,No,Summer
+SALE000110,Drug_28,Europe,Eritrea,Hospital,2026-02-03,41169,251.93,376523.14,12.1,1014990.59,SR7815,Pharmacy,Yes,No,Winter
+SALE000111,Drug_43,Latin America,Congo,Hospital,2025-03-23,31226,111.47,2852046.62,2.3,651537.32,SR2557,Hospital,Yes,No,Winter
+SALE000112,Drug_89,Europe,Guam,Hospital,2024-12-11,41709,139.57,1955030.44,20.9,6694111.11,SR6120,Clinic,Yes,Yes,Fall
+SALE000113,Drug_99,Middle East,Barbados,Wholesale,2026-05-19,22678,89.0,112534.72,7.6,6407169.26,SR7992,Hospital,Yes,Yes,Winter
+SALE000114,Drug_47,Europe,Kyrgyz Republic,Retail Pharmacy,2026-02-02,40598,360.64,2424014.98,9.3,526632.17,SR6120,Individual,Yes,No,Winter
+SALE000115,Drug_71,Europe,Bahrain,Online,2025-07-05,17983,386.19,6788081.06,3.6,5042782.46,SR5176,Clinic,Partial,No,Fall
+SALE000116,Drug_38,North America,Saint Pierre and Miquelon,Hospital,2025-05-23,29882,233.85,2311658.13,25.9,762817.66,SR7132,Clinic,Partial,No,Summer
+SALE000117,Drug_96,Latin America,United Kingdom,Hospital,2025-03-01,17079,358.47,5090525.45,14.8,8133788.94,SR3500,Clinic,Yes,No,Summer
+SALE000118,Drug_67,North America,Venezuela,Hospital,2024-10-29,33846,369.29,8878293.33,17.2,8164131.08,SR8770,Clinic,No,No,Fall
+SALE000119,Drug_62,Latin America,Latvia,Retail Pharmacy,2026-01-18,830,73.45,6937885.45,17.1,6284338.32,SR2099,Pharmacy,No,Yes,Spring
+SALE000120,Drug_39,Middle East,Portugal,Retail Pharmacy,2024-11-03,156,483.26,3946896.07,12.3,8335759.34,SR2494,Individual,No,Yes,Fall
+SALE000121,Drug_37,Middle East,Andorra,Retail Pharmacy,2026-05-11,31557,411.41,3725316.92,5.8,7303228.11,SR2398,Clinic,No,Yes,Summer
+SALE000122,Drug_86,Europe,Lebanon,Hospital,2025-08-27,2343,106.22,4557902.4,22.4,7456984.35,SR2527,Clinic,Yes,No,Spring
+SALE000123,Drug_8,Asia Pacific,Nicaragua,Wholesale,2025-02-13,1801,97.15,1771237.37,3.8,5127714.89,SR8075,Pharmacy,Yes,No,Fall
+SALE000124,Drug_81,Asia Pacific,Nauru,Hospital,2026-04-23,8403,67.2,6340373.67,3.1,2755087.94,SR2582,Hospital,Yes,No,Summer
+SALE000125,Drug_52,North America,Jordan,Wholesale,2024-11-08,15200,73.5,3642164.04,21.3,1960817.8,SR7105,Hospital,Yes,Yes,Summer
+SALE000126,Drug_91,Asia Pacific,Yemen,Hospital,2025-11-04,45866,375.34,8523801.13,6.3,2945338.44,SR3131,Hospital,Partial,No,Summer
+SALE000127,Drug_33,North America,Yemen,Retail Pharmacy,2025-01-28,42261,237.48,7565770.05,9.2,5656756.07,SR1982,Individual,Yes,No,Winter
+SALE000128,Drug_81,Europe,Portugal,Hospital,2025-09-05,1047,392.55,6105521.13,14.3,1554570.7,SR6400,Hospital,Partial,No,Winter
+SALE000129,Drug_42,North America,Czech Republic,Retail Pharmacy,2026-03-02,20605,374.4,3642658.02,13.5,2328355.22,SR3002,Clinic,Partial,Yes,Spring
+SALE000130,Drug_76,North America,Malaysia,Retail Pharmacy,2025-10-05,6653,304.28,2100108.38,21.3,4212973.32,SR7730,Pharmacy,Partial,No,Spring
+SALE000131,Drug_27,Europe,Zimbabwe,Retail Pharmacy,2025-10-14,33625,344.75,7761742.49,18.7,2098064.45,SR6793,Pharmacy,Partial,No,Spring
+SALE000132,Drug_8,Europe,Ghana,Retail Pharmacy,2024-11-16,14966,14.09,4864604.58,19.3,5298122.11,SR7929,Hospital,Yes,No,Winter
+SALE000133,Drug_23,Asia Pacific,Brazil,Retail Pharmacy,2026-06-21,30572,159.33,2248275.63,21.4,8308645.72,SR1842,Pharmacy,No,No,Spring
+SALE000134,Drug_64,North America,Angola,Retail Pharmacy,2025-11-04,44448,320.72,1952550.98,8.8,6733005.82,SR5712,Clinic,Yes,Yes,Summer
+SALE000135,Drug_93,Europe,Israel,Online,2026-05-30,5751,9.63,1654843.64,9.7,5998106.39,SR6119,Hospital,Partial,No,Summer
+SALE000136,Drug_20,North America,Trinidad and Tobago,Hospital,2026-01-22,7373,21.32,7771834.8,13.1,5244827.11,SR6761,Clinic,Partial,No,Spring
+SALE000137,Drug_16,Europe,Lesotho,Retail Pharmacy,2025-07-20,10133,426.68,2290642.87,9.2,4391940.82,SR2697,Individual,Partial,No,Spring
+SALE000138,Drug_17,Asia Pacific,Jordan,Retail Pharmacy,2025-05-09,3635,343.59,5266895.99,29.5,1679725.49,SR9313,Clinic,Yes,No,Winter
+SALE000139,Drug_80,Europe,Cambodia,Hospital,2024-12-14,18777,136.36,4516012.06,24.4,8052478.33,SR4485,Clinic,Partial,Yes,Summer
+SALE000140,Drug_19,Asia Pacific,Maldives,Retail Pharmacy,2025-08-04,17588,345.54,5796529.38,4.9,2237425.19,SR3535,Clinic,Yes,Yes,Fall
+SALE000141,Drug_8,North America,Malta,Hospital,2026-07-21,41721,397.27,8771671.85,0.2,822506.85,SR8900,Clinic,Yes,No,Fall
+SALE000142,Drug_38,Asia Pacific,Netherlands Antilles,Hospital,2025-01-07,1008,156.86,8677606.15,1.3,6750336.6,SR4674,Individual,Partial,Yes,Winter
+SALE000143,Drug_38,Europe,Bosnia and Herzegovina,Hospital,2025-04-14,4717,22.84,4511309.64,7.3,1581199.32,SR2773,Hospital,Yes,No,Winter
+SALE000144,Drug_53,Europe,China,Hospital,2024-08-21,42916,466.73,154647.14,3.4,3347566.48,SR6736,Clinic,Partial,Yes,Winter
+SALE000145,Drug_93,Asia Pacific,Bahamas,Retail Pharmacy,2025-07-30,30531,175.86,4265011.61,16.0,255341.73,SR7022,Hospital,Yes,Yes,Summer
+SALE000146,Drug_100,North America,Guadeloupe,Retail Pharmacy,2025-10-12,23553,57.71,6062329.18,25.7,1234301.83,SR2882,Pharmacy,Partial,No,Spring
+SALE000147,Drug_90,Asia Pacific,Egypt,Wholesale,2025-10-05,35179,248.47,5578089.83,22.1,1559494.11,SR5564,Clinic,Yes,Yes,Spring
+SALE000148,Drug_31,Asia Pacific,Belarus,Retail Pharmacy,2025-06-10,16120,385.39,6513709.72,6.5,490447.62,SR4705,Clinic,Partial,No,Winter
+SALE000149,Drug_44,North America,Senegal,Hospital,2024-08-13,46453,114.72,1541603.25,12.0,5910187.28,SR8030,Pharmacy,Partial,No,Summer
+SALE000150,Drug_60,North America,New Caledonia,Online,2025-12-10,46885,138.4,6465704.45,15.2,7533200.56,SR1430,Hospital,Partial,No,Fall
+SALE000151,Drug_76,North America,Anguilla,Online,2024-09-05,49423,125.14,1827333.54,24.3,3360340.0,SR5381,Individual,Yes,No,Winter
+SALE000152,Drug_17,Middle East,Belarus,Retail Pharmacy,2024-11-02,45420,495.88,7505489.28,25.2,7871288.63,SR1474,Clinic,Partial,Yes,Summer
+SALE000153,Drug_79,Asia Pacific,Lithuania,Retail Pharmacy,2025-05-15,26662,102.71,3391537.05,27.3,1920748.49,SR3955,Pharmacy,Yes,No,Winter
+SALE000154,Drug_73,North America,Kuwait,Wholesale,2025-03-16,24473,289.88,7099244.44,15.3,2929053.5,SR5477,Pharmacy,Yes,No,Summer
+SALE000155,Drug_39,Europe,Vietnam,Retail Pharmacy,2025-01-28,46205,463.01,479608.12,20.8,1357312.35,SR6062,Clinic,Yes,No,Summer
+SALE000156,Drug_42,Europe,Ethiopia,Wholesale,2025-04-09,30264,77.71,4079192.4,3.4,5585336.31,SR6567,Hospital,Partial,No,Winter
+SALE000157,Drug_48,Latin America,Mayotte,Hospital,2026-01-11,1985,485.57,7050640.19,17.0,3779290.42,SR6751,Hospital,Yes,No,Spring
+SALE000158,Drug_12,North America,Angola,Hospital,2026-01-20,1149,474.0,2269478.29,7.5,5519859.49,SR1100,Clinic,Partial,No,Winter
+SALE000159,Drug_96,North America,Jamaica,Retail Pharmacy,2025-08-12,43371,442.86,7953075.16,13.0,6855264.81,SR3972,Pharmacy,Partial,No,Spring
+SALE000160,Drug_89,Latin America,Northern Mariana Islands,Retail Pharmacy,2025-04-03,1261,111.21,6308166.55,19.0,4911690.58,SR3347,Clinic,Yes,Yes,Spring
+SALE000161,Drug_18,North America,Timor-Leste,Online,2025-09-07,915,318.86,5876030.16,7.7,5648971.09,SR7566,Individual,Partial,Yes,Fall
+SALE000162,Drug_79,North America,Bahrain,Wholesale,2025-02-03,36634,381.64,3536134.99,1.6,8417304.63,SR2140,Individual,Yes,No,Summer
+SALE000163,Drug_96,Africa,Gambia,Hospital,2024-09-21,27598,493.08,4825032.25,0.3,2692139.54,SR3324,Hospital,Partial,Yes,Winter
+SALE000164,Drug_6,Asia Pacific,Nauru,Hospital,2025-06-25,25137,94.31,5973895.66,0.7,3232988.12,SR1502,Individual,Yes,Yes,Summer
+SALE000165,Drug_43,North America,Portugal,Online,2026-02-25,36107,384.18,4725148.68,0.3,6459556.09,SR2503,Pharmacy,No,Yes,Fall
+SALE000166,Drug_35,North America,Malta,Retail Pharmacy,2025-07-25,14042,172.71,6983434.93,3.3,5502060.61,SR9691,Individual,Yes,No,Spring
+SALE000167,Drug_98,North America,Iran,Hospital,2025-02-24,27378,91.94,4337535.63,7.2,1607453.31,SR4524,Clinic,Yes,No,Winter
+SALE000168,Drug_54,North America,Burkina Faso,Retail Pharmacy,2025-01-01,8372,213.58,2023529.54,6.6,3385824.87,SR7163,Pharmacy,Yes,No,Summer
+SALE000169,Drug_62,Latin America,Jersey,Retail Pharmacy,2026-06-27,33737,397.95,2140123.89,29.6,4210967.85,SR7878,Hospital,Yes,No,Fall
+SALE000170,Drug_69,Europe,Lebanon,Online,2026-06-24,38394,235.1,59031.88,9.2,3774973.03,SR8432,Hospital,Yes,No,Spring
+SALE000171,Drug_82,Asia Pacific,Ecuador,Retail Pharmacy,2025-08-28,7841,271.07,3010276.2,3.8,1605130.66,SR6585,Individual,Yes,No,Spring
+SALE000172,Drug_16,Middle East,Georgia,Hospital,2026-05-26,4794,497.6,7489427.49,16.4,8319931.28,SR3578,Hospital,Yes,No,Summer
+SALE000173,Drug_8,Europe,Bermuda,Wholesale,2025-03-07,30406,202.56,7941832.93,25.7,6861059.0,SR7062,Clinic,Partial,No,Spring
+SALE000174,Drug_89,North America,Spain,Retail Pharmacy,2025-07-28,2034,309.62,2025472.95,20.3,4332617.4,SR6105,Pharmacy,No,No,Fall
+SALE000175,Drug_96,Europe,Palestinian Territory,Retail Pharmacy,2025-01-20,21656,185.8,9590480.92,8.9,6120805.21,SR6314,Clinic,Partial,No,Spring
+SALE000176,Drug_90,Middle East,Bosnia and Herzegovina,Hospital,2025-10-08,49955,199.43,5024525.53,16.8,8075626.22,SR2391,Clinic,No,No,Winter
+SALE000177,Drug_86,Latin America,United Arab Emirates,Retail Pharmacy,2024-12-15,49186,349.34,9169870.51,21.4,1226258.34,SR1861,Clinic,No,No,Winter
+SALE000178,Drug_31,North America,Korea,Hospital,2025-06-27,19007,469.25,7067946.05,21.8,2253957.16,SR3549,Clinic,No,No,Summer
+SALE000179,Drug_10,Asia Pacific,Monaco,Hospital,2025-01-25,6259,273.47,7224611.8,20.0,4884677.06,SR3579,Pharmacy,Yes,No,Fall
+SALE000180,Drug_56,Europe,Anguilla,Retail Pharmacy,2025-05-31,48587,385.36,851351.17,26.1,7191254.13,SR1815,Pharmacy,No,No,Spring
+SALE000181,Drug_76,Middle East,India,Hospital,2025-11-26,29258,49.16,2200691.28,26.1,327065.06,SR2336,Clinic,Yes,No,Spring
+SALE000182,Drug_92,North America,Afghanistan,Retail Pharmacy,2025-12-17,20393,109.52,89139.52,17.4,8856176.14,SR5458,Clinic,Partial,No,Spring
+SALE000183,Drug_70,Europe,Slovakia (Slovak Republic),Hospital,2025-08-01,45861,253.56,7161560.28,12.9,4094595.5,SR8259,Hospital,Partial,No,Winter
+SALE000184,Drug_20,Latin America,Western Sahara,Retail Pharmacy,2026-01-01,46681,14.91,3445038.45,19.2,3233592.88,SR7947,Hospital,Yes,No,Fall
+SALE000185,Drug_5,Europe,San Marino,Hospital,2024-09-07,34032,130.16,7866738.51,24.5,2635085.76,SR8957,Pharmacy,Partial,No,Spring
+SALE000186,Drug_23,Europe,El Salvador,Hospital,2026-03-07,33487,261.11,3390023.26,0.2,1569870.88,SR8242,Hospital,Yes,No,Summer
+SALE000187,Drug_9,North America,Antigua and Barbuda,Hospital,2025-09-14,40850,12.41,8193518.19,29.8,7124331.92,SR7785,Pharmacy,Yes,No,Fall
+SALE000188,Drug_58,North America,Dominican Republic,Wholesale,2025-11-15,3166,135.95,1307851.84,5.5,8598763.15,SR5475,Pharmacy,Yes,No,Fall
+SALE000189,Drug_59,North America,Tonga,Online,2025-07-15,21356,259.45,1734558.19,14.1,3723271.88,SR4531,Individual,Partial,No,Spring
+SALE000190,Drug_93,Middle East,Kiribati,Hospital,2025-04-21,41506,288.71,3409424.52,26.2,8571824.32,SR9394,Pharmacy,Partial,No,Winter
+SALE000191,Drug_80,North America,British Indian Ocean Territory (Chagos Archipelago),Online,2025-03-05,35205,463.25,4085465.4,6.8,7414319.5,SR2864,Hospital,Partial,No,Fall
+SALE000192,Drug_54,Europe,Mauritania,Retail Pharmacy,2025-02-14,5694,324.45,3487679.41,14.3,4329875.31,SR6655,Individual,Yes,Yes,Summer
+SALE000193,Drug_46,Asia Pacific,Lebanon,Wholesale,2026-05-10,2560,210.29,7636706.68,4.0,6066496.39,SR8043,Hospital,No,No,Fall
+SALE000194,Drug_22,North America,Mauritius,Hospital,2024-10-14,6920,465.52,970416.97,11.9,3915309.63,SR2816,Pharmacy,Partial,No,Winter
+SALE000195,Drug_64,Europe,Somalia,Retail Pharmacy,2024-09-22,36310,393.52,3512818.98,5.3,5028863.7,SR5640,Pharmacy,Yes,No,Summer
+SALE000196,Drug_8,Asia Pacific,Guam,Hospital,2025-10-08,16291,104.0,8372562.76,10.9,523170.6,SR8972,Clinic,No,No,Winter
+SALE000197,Drug_20,Latin America,Ireland,Hospital,2025-12-30,19195,69.77,668903.98,11.2,6266614.27,SR9633,Pharmacy,Yes,Yes,Spring
+SALE000198,Drug_51,Asia Pacific,Spain,Wholesale,2026-01-19,49194,339.53,9423492.73,29.8,476179.54,SR6053,Individual,Yes,No,Fall
+SALE000199,Drug_78,Asia Pacific,Cuba,Retail Pharmacy,2026-08-02,10629,282.14,9863182.11,29.8,7353910.85,SR1744,Pharmacy,Yes,No,Summer
+SALE000200,Drug_39,North America,Bermuda,Hospital,2026-04-22,32275,395.89,886593.17,3.4,7424662.41,SR4612,Clinic,No,Yes,Winter
+SALE000201,Drug_37,Middle East,Somalia,Hospital,2025-08-05,17775,370.71,2913433.95,21.8,2134305.93,SR7475,Pharmacy,Yes,No,Spring
+SALE000202,Drug_50,North America,Antarctica (the territory South of 60 deg S),Retail Pharmacy,2024-09-22,43258,314.48,3724634.26,1.6,2913506.1,SR1897,Pharmacy,Yes,No,Summer
+SALE000203,Drug_34,Asia Pacific,Romania,Retail Pharmacy,2026-01-28,46898,493.26,7764137.3,0.9,4332208.36,SR1125,Pharmacy,Yes,No,Fall
+SALE000204,Drug_75,North America,United Kingdom,Hospital,2025-02-11,5474,269.13,5959672.19,3.2,5370288.83,SR4349,Clinic,Yes,Yes,Fall
+SALE000205,Drug_33,Middle East,Madagascar,Wholesale,2025-09-23,26076,60.99,6444012.64,29.0,2586753.07,SR5938,Hospital,Yes,No,Winter
+SALE000206,Drug_31,Asia Pacific,Christmas Island,Hospital,2025-11-05,13242,415.0,7575340.72,28.2,5332703.65,SR4460,Pharmacy,Yes,No,Summer
+SALE000207,Drug_54,Asia Pacific,Zambia,Hospital,2024-09-24,12304,129.67,1180672.02,5.8,2680645.43,SR3248,Individual,No,Yes,Spring
+SALE000208,Drug_44,North America,Sri Lanka,Wholesale,2025-10-17,7494,389.76,8332261.36,4.9,500172.1,SR5186,Clinic,Yes,Yes,Spring
+SALE000209,Drug_34,Europe,Seychelles,Hospital,2025-01-30,49956,478.77,7056492.42,7.2,23545.93,SR5742,Individual,Partial,Yes,Spring
+SALE000210,Drug_71,Asia Pacific,Netherlands,Hospital,2024-08-16,33693,349.91,5773839.91,15.5,911078.6,SR6375,Pharmacy,Partial,No,Winter
+SALE000211,Drug_62,Asia Pacific,Jamaica,Retail Pharmacy,2025-02-13,42064,300.03,8897463.61,17.1,7130422.5,SR2965,Clinic,Yes,Yes,Spring
+SALE000212,Drug_23,North America,Norfolk Island,Online,2025-07-10,11752,232.89,7003363.23,6.6,8652912.67,SR1126,Pharmacy,Yes,Yes,Summer
+SALE000213,Drug_46,Africa,Turkmenistan,Hospital,2024-10-31,49628,185.38,2017797.93,22.7,3843154.22,SR9149,Individual,Partial,No,Winter
+SALE000214,Drug_56,Latin America,Lebanon,Wholesale,2026-06-28,33840,179.74,4298024.07,9.3,4614545.43,SR8055,Clinic,Yes,No,Fall
+SALE000215,Drug_7,North America,Cambodia,Online,2025-12-21,44136,320.0,4940934.63,27.7,1322316.04,SR3878,Hospital,Yes,No,Winter
+SALE000216,Drug_89,Latin America,Uzbekistan,Hospital,2025-07-08,543,376.88,553121.05,19.7,4959641.35,SR3116,Hospital,Yes,No,Winter
+SALE000217,Drug_61,Europe,Senegal,Retail Pharmacy,2025-05-28,24003,340.87,9546420.5,13.1,1302578.39,SR7229,Hospital,No,Yes,Winter
+SALE000218,Drug_3,Europe,Chad,Hospital,2024-12-19,33622,103.21,1286644.03,23.7,5501240.01,SR9725,Pharmacy,No,No,Summer
+SALE000219,Drug_38,North America,Slovakia (Slovak Republic),Retail Pharmacy,2024-08-26,28280,249.52,6974915.21,24.5,8399381.4,SR4770,Clinic,Partial,Yes,Fall
+SALE000220,Drug_84,Europe,Jamaica,Online,2024-10-15,48891,396.86,5062804.13,8.7,1761930.29,SR9196,Individual,Partial,No,Fall
+SALE000221,Drug_34,Asia Pacific,Macao,Wholesale,2024-10-24,21219,240.47,257296.87,10.2,6881261.81,SR6802,Individual,Yes,No,Winter
+SALE000222,Drug_44,Europe,Senegal,Hospital,2026-03-02,10463,270.63,9247550.01,28.1,212303.0,SR2180,Pharmacy,Yes,Yes,Winter
+SALE000223,Drug_30,Asia Pacific,Tajikistan,Retail Pharmacy,2025-02-24,43765,386.71,8518516.25,4.9,3379974.77,SR7505,Pharmacy,Yes,No,Winter
+SALE000224,Drug_17,Asia Pacific,Central African Republic,Retail Pharmacy,2025-06-09,38264,332.33,5243055.02,1.3,997447.97,SR1693,Individual,Yes,No,Summer
+SALE000225,Drug_59,Asia Pacific,Bhutan,Hospital,2026-01-04,31641,207.63,2290194.42,13.6,3172796.99,SR8147,Clinic,Yes,Yes,Summer
+SALE000226,Drug_10,North America,Botswana,Hospital,2025-07-07,3565,448.23,1217107.28,24.0,1562493.45,SR1307,Pharmacy,Yes,No,Spring
+SALE000227,Drug_99,Latin America,Ukraine,Hospital,2025-03-19,2811,85.47,3634561.4,23.2,3360246.27,SR8532,Clinic,Yes,No,Fall
+SALE000228,Drug_84,Europe,Suriname,Retail Pharmacy,2026-02-28,25298,497.78,2555027.38,27.6,3758171.24,SR2275,Individual,Yes,No,Spring
+SALE000229,Drug_18,North America,Benin,Retail Pharmacy,2025-12-05,22588,63.83,5067405.32,16.0,2705879.63,SR6129,Clinic,Yes,No,Spring
+SALE000230,Drug_45,North America,United States Minor Outlying Islands,Hospital,2025-11-03,38615,12.4,9664126.55,3.0,5909872.25,SR8033,Hospital,Partial,No,Winter
+SALE000231,Drug_91,Europe,Uruguay,Online,2025-10-24,23708,445.56,5749959.98,17.7,8269733.38,SR7626,Individual,No,Yes,Summer
+SALE000232,Drug_59,Latin America,Myanmar,Online,2025-10-25,27998,126.25,8899420.63,23.4,3605837.89,SR7843,Hospital,Partial,Yes,Spring
+SALE000233,Drug_62,Europe,Greenland,Retail Pharmacy,2024-09-25,2019,366.2,6509137.5,2.8,1731734.53,SR5743,Individual,Yes,No,Spring
+SALE000234,Drug_59,Asia Pacific,Sweden,Hospital,2024-10-30,31271,406.45,4752990.02,5.2,2437088.25,SR2887,Hospital,Yes,Yes,Spring
+SALE000235,Drug_49,North America,Tokelau,Retail Pharmacy,2026-03-24,46341,430.2,8546221.02,0.4,7686124.21,SR7636,Clinic,Yes,No,Winter
+SALE000236,Drug_100,Europe,Comoros,Hospital,2025-07-08,20699,495.84,4714209.73,17.8,5145100.2,SR1341,Individual,Yes,No,Winter
+SALE000237,Drug_63,Africa,Iraq,Hospital,2025-04-26,17065,150.55,8686413.08,26.6,4095535.28,SR6321,Individual,Yes,Yes,Summer
+SALE000238,Drug_87,Asia Pacific,Honduras,Retail Pharmacy,2024-12-01,47103,356.57,2916476.12,20.1,1347410.78,SR3815,Hospital,Partial,Yes,Spring
+SALE000239,Drug_32,North America,Libyan Arab Jamahiriya,Hospital,2025-10-04,48578,62.12,1289001.92,29.5,4047985.99,SR8538,Clinic,Partial,No,Spring
+SALE000240,Drug_10,Europe,Russian Federation,Hospital,2024-09-28,14534,206.37,8553289.33,1.9,2507005.24,SR6928,Individual,Yes,No,Summer
+SALE000241,Drug_11,North America,Senegal,Hospital,2025-01-03,46346,424.75,5874564.22,27.1,8488513.62,SR2443,Pharmacy,Yes,No,Summer
+SALE000242,Drug_70,Europe,Portugal,Hospital,2026-05-13,36749,186.99,8891034.89,24.4,7956723.73,SR8155,Hospital,Yes,No,Summer
+SALE000243,Drug_62,Asia Pacific,Montserrat,Hospital,2025-07-25,2099,297.59,9378334.24,9.4,755855.75,SR2734,Individual,Yes,Yes,Fall
+SALE000244,Drug_47,Asia Pacific,Kazakhstan,Wholesale,2026-05-19,14949,254.37,537230.28,29.2,4650268.08,SR4986,Clinic,Yes,No,Summer
+SALE000245,Drug_34,North America,Guadeloupe,Hospital,2024-09-07,11003,324.75,5010192.05,8.6,2026145.06,SR8138,Clinic,Yes,Yes,Winter
+SALE000246,Drug_100,Middle East,Senegal,Hospital,2024-11-04,49652,486.58,3750270.53,26.7,3697465.18,SR7560,Clinic,Yes,No,Fall
+SALE000247,Drug_17,Europe,South Georgia and the South Sandwich Islands,Hospital,2026-06-10,47568,32.59,6258958.11,26.4,7891730.51,SR9584,Clinic,Yes,No,Summer
+SALE000248,Drug_54,Europe,Mauritius,Wholesale,2025-02-28,5545,289.11,7936118.38,22.7,4748008.67,SR2288,Hospital,Yes,No,Winter
+SALE000249,Drug_76,Europe,Lithuania,Retail Pharmacy,2025-05-16,35496,432.2,2806621.57,16.9,3008470.27,SR7484,Individual,Yes,No,Summer
+SALE000250,Drug_85,Asia Pacific,Guernsey,Hospital,2025-01-26,18140,243.28,5568427.05,3.6,1871628.88,SR6083,Hospital,Yes,No,Summer
+SALE000251,Drug_40,Europe,Tajikistan,Online,2026-05-16,49872,43.87,7087577.07,16.0,7203083.47,SR6562,Hospital,Partial,No,Fall
+SALE000252,Drug_19,Europe,United Arab Emirates,Hospital,2026-03-14,346,282.47,1345176.4,10.7,5620962.52,SR4630,Clinic,Yes,No,Winter
+SALE000253,Drug_67,Europe,Sierra Leone,Hospital,2025-05-04,31253,169.38,8140854.99,23.8,4213014.69,SR6456,Pharmacy,Partial,No,Spring
+SALE000254,Drug_82,North America,Reunion,Hospital,2026-04-16,5312,81.7,6061489.89,22.7,1957985.2,SR3754,Clinic,Partial,No,Summer
+SALE000255,Drug_53,Latin America,Philippines,Hospital,2025-04-26,3439,425.27,9495424.83,27.3,3008749.97,SR2251,Pharmacy,Partial,No,Fall
+SALE000256,Drug_64,Europe,Latvia,Hospital,2024-12-03,23242,263.19,3395949.66,0.4,8638622.97,SR9363,Hospital,Partial,Yes,Winter
+SALE000257,Drug_83,North America,Cote d'Ivoire,Retail Pharmacy,2025-03-23,19494,466.97,1082351.28,24.3,4681193.37,SR2868,Clinic,No,Yes,Summer
+SALE000258,Drug_47,Asia Pacific,Seychelles,Hospital,2025-03-25,35236,403.98,5065505.51,28.2,3606772.97,SR9693,Clinic,Partial,Yes,Spring
+SALE000259,Drug_6,Middle East,Honduras,Retail Pharmacy,2025-12-15,12286,348.02,859021.91,23.7,4693181.24,SR9355,Hospital,Yes,No,Winter
+SALE000260,Drug_16,Middle East,Belarus,Hospital,2025-06-13,34707,7.49,9695295.71,3.9,7011073.36,SR4176,Clinic,Yes,Yes,Winter
+SALE000261,Drug_72,Europe,American Samoa,Hospital,2025-07-25,39073,216.77,387810.9,2.4,3061508.34,SR6724,Individual,Partial,No,Fall
+SALE000262,Drug_18,North America,United States Minor Outlying Islands,Retail Pharmacy,2024-09-19,4495,102.76,7535285.51,0.6,1609012.12,SR6752,Pharmacy,Partial,No,Summer
+SALE000263,Drug_52,Europe,Nicaragua,Wholesale,2024-12-12,15390,455.84,5251498.88,18.9,5264757.12,SR3419,Pharmacy,Partial,Yes,Summer
+SALE000264,Drug_48,North America,Norway,Hospital,2025-03-28,22251,91.42,3686837.9,18.9,5987104.77,SR4871,Pharmacy,Partial,No,Winter
+SALE000265,Drug_43,Middle East,Denmark,Retail Pharmacy,2026-01-08,3791,146.6,659355.8,29.6,6414691.85,SR2684,Clinic,Partial,Yes,Summer
+SALE000266,Drug_39,North America,Cayman Islands,Hospital,2026-05-25,7570,260.83,6222047.07,11.9,7937982.73,SR3399,Individual,Partial,No,Winter
+SALE000267,Drug_49,North America,Netherlands,Hospital,2025-02-24,3941,135.36,5852618.07,10.0,3341070.15,SR5193,Clinic,Partial,No,Spring
+SALE000268,Drug_12,Europe,Hungary,Hospital,2024-10-01,37216,108.88,2809551.85,18.7,678933.78,SR4232,Pharmacy,No,No,Fall
+SALE000269,Drug_10,Europe,Suriname,Hospital,2025-05-16,17876,301.55,9102306.79,24.8,8625170.57,SR3842,Clinic,Partial,Yes,Summer
+SALE000270,Drug_71,Asia Pacific,Qatar,Hospital,2025-05-09,6160,49.02,3041795.96,28.1,3915559.34,SR3504,Pharmacy,Partial,No,Summer
+SALE000271,Drug_55,Europe,Swaziland,Hospital,2024-08-23,27684,33.79,4497804.38,24.1,5609618.98,SR2234,Hospital,Partial,No,Fall
+SALE000272,Drug_1,North America,Papua New Guinea,Online,2025-02-04,48393,189.26,5438080.8,12.8,5997014.86,SR3902,Pharmacy,No,No,Spring
+SALE000273,Drug_49,North America,Israel,Hospital,2025-11-16,4400,361.73,1003218.55,19.0,4918986.17,SR9095,Hospital,Yes,No,Spring
+SALE000274,Drug_36,Europe,Gabon,Retail Pharmacy,2025-01-27,3438,279.63,9321685.03,25.7,1847953.56,SR8601,Hospital,Yes,Yes,Spring
+SALE000275,Drug_21,North America,Afghanistan,Hospital,2026-01-21,5587,214.32,3745986.99,14.7,6796483.34,SR8354,Hospital,Partial,No,Spring
+SALE000276,Drug_37,Asia Pacific,Rwanda,Retail Pharmacy,2024-12-31,36382,285.05,808711.36,6.5,7233924.77,SR6295,Pharmacy,No,No,Spring
+SALE000277,Drug_24,Europe,Puerto Rico,Retail Pharmacy,2026-04-29,29629,185.9,3873524.45,5.1,4977137.89,SR6179,Individual,Yes,Yes,Winter
+SALE000278,Drug_55,Asia Pacific,Israel,Hospital,2025-10-27,30362,468.39,6002425.27,0.0,4397459.6,SR3473,Pharmacy,Yes,No,Summer
+SALE000279,Drug_25,Middle East,Bolivia,Hospital,2024-09-12,11380,32.18,5137013.07,21.5,1026152.5,SR8205,Clinic,Partial,No,Summer
+SALE000280,Drug_7,Middle East,Yemen,Retail Pharmacy,2025-12-21,43175,338.33,6945725.2,3.3,756297.79,SR2118,Clinic,Partial,No,Summer
+SALE000281,Drug_81,Middle East,Chile,Online,2024-12-01,28904,446.18,555783.94,7.3,3056611.96,SR8682,Individual,Partial,Yes,Winter
+SALE000282,Drug_93,North America,Somalia,Hospital,2025-02-16,10015,402.92,2846121.56,8.9,2798166.72,SR8245,Individual,No,Yes,Fall
+SALE000283,Drug_94,North America,Saudi Arabia,Hospital,2024-12-16,11258,96.1,8192486.54,16.8,8582945.13,SR5961,Individual,Yes,No,Spring
+SALE000284,Drug_71,North America,Croatia,Online,2024-08-21,8721,151.48,799856.98,11.9,7052777.78,SR5500,Hospital,Yes,No,Fall
+SALE000285,Drug_97,Latin America,Togo,Hospital,2025-12-30,10647,359.94,8555004.06,20.2,5939590.72,SR1920,Individual,Yes,Yes,Spring
+SALE000286,Drug_71,Africa,Korea,Retail Pharmacy,2025-09-19,23277,46.71,919869.02,1.7,4659218.68,SR6766,Individual,Partial,No,Spring
+SALE000287,Drug_24,Latin America,Antarctica (the territory South of 60 deg S),Hospital,2025-04-05,46353,406.87,8344707.69,3.7,1506973.88,SR9312,Individual,Yes,Yes,Fall
+SALE000288,Drug_11,North America,Maldives,Hospital,2026-01-14,2559,360.86,3608523.22,15.0,8806127.28,SR2215,Pharmacy,No,No,Summer
+SALE000289,Drug_73,Middle East,Turkmenistan,Retail Pharmacy,2026-03-01,28868,366.16,6122478.42,10.1,3375866.25,SR6085,Clinic,No,No,Winter
+SALE000290,Drug_12,Europe,Equatorial Guinea,Retail Pharmacy,2024-09-29,38141,54.62,1529718.27,8.9,963044.88,SR8565,Clinic,No,No,Fall
+SALE000291,Drug_35,North America,Ireland,Hospital,2026-03-16,42325,360.29,662621.05,2.0,4444595.02,SR8404,Individual,Partial,No,Summer
+SALE000292,Drug_63,Europe,Bolivia,Retail Pharmacy,2025-03-06,38291,341.51,2160166.1,26.9,7866082.91,SR1616,Clinic,Yes,No,Spring
+SALE000293,Drug_68,North America,Lesotho,Online,2025-10-17,17534,416.31,1279410.33,20.8,7985709.18,SR1932,Pharmacy,Partial,No,Summer
+SALE000294,Drug_100,Europe,China,Retail Pharmacy,2026-04-10,38347,25.59,3124746.57,3.6,99484.47,SR7041,Clinic,Yes,No,Spring
+SALE000295,Drug_92,North America,Ethiopia,Hospital,2025-02-16,15519,16.44,5144318.08,2.0,7976752.67,SR5703,Hospital,Yes,No,Spring
+SALE000296,Drug_57,Europe,Malawi,Retail Pharmacy,2026-08-08,35117,189.64,5888005.88,29.2,2443940.77,SR2257,Pharmacy,Yes,Yes,Summer
+SALE000297,Drug_13,Asia Pacific,Bhutan,Retail Pharmacy,2026-04-28,35677,78.65,7898891.21,20.4,351520.1,SR2479,Clinic,Yes,No,Spring
+SALE000298,Drug_23,Latin America,Togo,Online,2026-02-15,3021,281.4,6562742.69,12.5,7630234.2,SR9307,Clinic,Partial,Yes,Winter
+SALE000299,Drug_83,Asia Pacific,Lebanon,Retail Pharmacy,2024-10-07,4776,459.09,6087974.49,21.1,7774909.71,SR7299,Pharmacy,No,No,Summer
+SALE000300,Drug_39,Europe,Egypt,Hospital,2025-10-08,20525,198.78,4118408.49,22.7,5366402.73,SR8581,Clinic,Yes,Yes,Fall
+SALE000301,Drug_88,Latin America,Brunei Darussalam,Retail Pharmacy,2025-11-24,35285,423.25,4738610.54,23.4,5170244.27,SR1672,Clinic,Yes,No,Spring
+SALE000302,Drug_80,Middle East,Guatemala,Retail Pharmacy,2025-09-05,49784,5.12,4145793.77,14.3,7318231.96,SR8368,Individual,No,Yes,Spring
+SALE000303,Drug_97,North America,Germany,Hospital,2024-11-02,13563,88.41,8421818.13,12.9,7076956.93,SR4084,Hospital,Partial,No,Winter
+SALE000304,Drug_12,Europe,Tajikistan,Retail Pharmacy,2025-12-27,25574,20.06,2300774.53,0.3,8011037.18,SR6267,Pharmacy,Yes,No,Winter
+SALE000305,Drug_34,North America,Comoros,Hospital,2025-10-10,41035,167.43,58203.59,27.8,4975084.83,SR8792,Individual,No,No,Fall
+SALE000306,Drug_71,North America,Malawi,Retail Pharmacy,2025-11-18,1569,454.55,6513547.65,18.1,8708849.72,SR9214,Clinic,Partial,No,Spring
+SALE000307,Drug_75,Asia Pacific,Svalbard & Jan Mayen Islands,Hospital,2025-04-02,7392,52.99,2025419.37,6.1,8965324.56,SR3471,Pharmacy,No,No,Fall
+SALE000308,Drug_31,Latin America,Faroe Islands,Retail Pharmacy,2024-12-25,25509,305.17,8901261.25,27.6,1049608.25,SR2013,Pharmacy,Yes,No,Fall
+SALE000309,Drug_93,North America,Puerto Rico,Wholesale,2024-10-30,23626,228.49,8590604.25,27.4,7646014.2,SR8381,Hospital,No,No,Spring
+SALE000310,Drug_62,Latin America,Samoa,Online,2024-10-24,23565,469.54,768196.99,29.7,4498800.46,SR2695,Hospital,No,No,Fall
+SALE000311,Drug_13,Latin America,Norway,Wholesale,2026-06-23,31055,65.65,1064777.67,26.2,3488586.99,SR6626,Pharmacy,Partial,Yes,Fall
+SALE000312,Drug_31,Middle East,Christmas Island,Wholesale,2026-07-20,26885,109.95,4952220.75,29.9,5517960.33,SR2381,Hospital,No,No,Winter
+SALE000313,Drug_2,North America,Hong Kong,Hospital,2025-12-23,21133,19.62,6092617.41,7.3,504445.24,SR9266,Hospital,Partial,No,Winter
+SALE000314,Drug_15,Middle East,Lao People's Democratic Republic,Retail Pharmacy,2025-11-11,7031,219.8,2749808.47,25.3,4558544.9,SR3827,Clinic,Yes,No,Fall
+SALE000315,Drug_57,North America,Cook Islands,Retail Pharmacy,2025-05-02,1191,142.53,7168260.37,24.7,7838118.42,SR1641,Hospital,Partial,No,Spring
+SALE000316,Drug_75,Europe,Indonesia,Online,2025-05-11,25872,435.6,5949565.29,6.9,1921782.88,SR5059,Hospital,No,No,Winter
+SALE000317,Drug_34,North America,Benin,Hospital,2026-07-14,16463,304.45,3248916.27,3.0,3837967.94,SR8172,Individual,No,Yes,Fall
+SALE000318,Drug_68,North America,Grenada,Wholesale,2025-03-30,28590,308.97,254689.51,29.4,8455376.4,SR8199,Clinic,Yes,No,Summer
+SALE000319,Drug_75,Asia Pacific,Djibouti,Retail Pharmacy,2026-02-13,360,268.3,7501752.66,8.9,3857531.69,SR9586,Clinic,Yes,No,Summer
+SALE000320,Drug_29,Europe,Mozambique,Online,2026-05-17,10556,50.47,2148321.9,26.1,3225822.0,SR9564,Pharmacy,Partial,No,Fall
+SALE000321,Drug_66,North America,Cape Verde,Hospital,2025-01-12,22420,225.28,8344902.96,0.1,3965277.4,SR3600,Hospital,Partial,No,Summer
+SALE000322,Drug_16,North America,Gibraltar,Hospital,2026-04-13,13535,499.76,4203482.31,0.6,4675459.34,SR6962,Individual,Yes,Yes,Winter
+SALE000323,Drug_39,Asia Pacific,Ecuador,Online,2024-11-27,42245,418.44,5771197.35,14.0,5688216.5,SR7108,Individual,No,No,Spring
+SALE000324,Drug_77,North America,Togo,Hospital,2026-03-23,48681,447.26,8729614.36,7.2,7206394.65,SR5634,Clinic,Yes,Yes,Fall
+SALE000325,Drug_37,Latin America,Hong Kong,Online,2024-10-23,27125,412.5,8636366.39,20.7,4069358.17,SR7347,Hospital,Partial,No,Winter
+SALE000326,Drug_81,North America,Guadeloupe,Hospital,2026-03-24,28209,56.01,3715824.23,17.0,7357474.43,SR7697,Individual,Partial,No,Spring
+SALE000327,Drug_21,North America,Saint Barthelemy,Retail Pharmacy,2026-07-16,20854,117.59,2089680.04,2.3,4803858.98,SR6543,Pharmacy,Yes,No,Summer
+SALE000328,Drug_44,Europe,Malta,Hospital,2025-01-30,4401,6.55,7751685.63,4.9,3046853.81,SR1857,Hospital,Partial,No,Summer
+SALE000329,Drug_19,Europe,Cameroon,Retail Pharmacy,2024-10-01,7307,155.24,4331368.96,11.6,5921831.09,SR6482,Hospital,Partial,No,Summer
+SALE000330,Drug_71,Europe,Montenegro,Retail Pharmacy,2025-01-16,28020,58.76,1921227.89,5.6,6459726.11,SR2079,Hospital,Yes,Yes,Summer
+SALE000331,Drug_8,North America,Korea,Hospital,2025-03-10,22303,239.03,9044349.0,23.8,5022794.34,SR6401,Individual,Partial,No,Winter
+SALE000332,Drug_77,Africa,New Zealand,Hospital,2025-07-16,49344,340.18,1981843.84,12.5,510289.47,SR2548,Clinic,Yes,Yes,Winter
+SALE000333,Drug_66,Asia Pacific,Somalia,Hospital,2026-06-04,21645,437.88,259045.87,2.8,1529609.97,SR7333,Clinic,No,No,Spring
+SALE000334,Drug_41,North America,Anguilla,Retail Pharmacy,2025-05-15,24116,375.86,203779.46,14.5,2568251.25,SR5655,Pharmacy,Yes,Yes,Fall
+SALE000335,Drug_75,Europe,Nigeria,Retail Pharmacy,2025-10-07,31198,469.6,6223531.25,2.7,2544204.35,SR5128,Individual,Yes,No,Spring
+SALE000336,Drug_88,Latin America,Nepal,Retail Pharmacy,2024-10-27,8656,31.68,6617088.93,3.9,6061048.47,SR3463,Hospital,Yes,Yes,Fall
+SALE000337,Drug_70,North America,Cambodia,Retail Pharmacy,2025-08-29,46663,11.03,3111106.01,7.2,165923.28,SR6461,Pharmacy,Yes,No,Summer
+SALE000338,Drug_61,North America,Azerbaijan,Retail Pharmacy,2025-02-02,20202,332.36,3200789.88,25.8,6801331.45,SR2335,Pharmacy,Partial,No,Summer
+SALE000339,Drug_26,Asia Pacific,Guadeloupe,Hospital,2026-06-28,38993,148.23,3395599.66,27.7,2388670.0,SR3317,Clinic,Yes,No,Summer
+SALE000340,Drug_71,Asia Pacific,Malawi,Hospital,2025-09-24,2024,130.48,6801905.31,24.8,2790748.6,SR6731,Hospital,Yes,No,Summer
+SALE000341,Drug_83,Europe,Senegal,Hospital,2026-03-14,19579,168.79,582279.78,10.0,4751566.12,SR6082,Hospital,Partial,No,Winter
+SALE000342,Drug_70,North America,Antigua and Barbuda,Wholesale,2024-08-22,39551,138.55,9291234.41,8.2,1943957.67,SR7421,Individual,Yes,No,Spring
+SALE000343,Drug_29,North America,Uruguay,Online,2026-06-05,19022,258.16,2225987.92,16.5,7960334.25,SR3112,Individual,No,No,Fall
+SALE000344,Drug_66,Asia Pacific,Paraguay,Hospital,2025-04-21,18760,222.87,9996732.38,21.7,769050.72,SR2388,Individual,Partial,No,Fall
+SALE000345,Drug_19,North America,Mayotte,Retail Pharmacy,2026-06-19,46199,258.65,1716055.42,29.8,3999885.75,SR6072,Pharmacy,Partial,No,Winter
+SALE000346,Drug_68,Europe,Madagascar,Online,2026-08-04,10045,337.99,7715693.03,3.9,7644920.89,SR7171,Hospital,Yes,Yes,Summer
+SALE000347,Drug_58,Europe,Australia,Retail Pharmacy,2025-03-10,406,196.63,2234902.04,1.5,5542902.37,SR6381,Clinic,Yes,No,Spring
+SALE000348,Drug_70,North America,Romania,Hospital,2025-07-25,23059,129.4,809387.17,20.8,2631531.78,SR3093,Pharmacy,Partial,No,Summer
+SALE000349,Drug_57,Middle East,Sudan,Hospital,2025-01-06,4331,87.27,8749458.31,25.0,3787305.26,SR9624,Pharmacy,Yes,Yes,Winter
+SALE000350,Drug_37,Latin America,San Marino,Retail Pharmacy,2025-04-15,38896,177.99,8587653.84,25.4,6360484.07,SR2531,Clinic,Yes,No,Fall
+SALE000351,Drug_61,Asia Pacific,Palau,Wholesale,2026-02-08,12307,372.19,4036300.35,20.4,8759368.08,SR7937,Clinic,Yes,No,Winter
+SALE000352,Drug_92,North America,Honduras,Retail Pharmacy,2025-08-25,39526,379.57,7024259.03,28.6,8038333.95,SR9331,Individual,Yes,Yes,Fall
+SALE000353,Drug_30,North America,Dominica,Hospital,2025-10-19,6436,335.12,5571102.26,15.3,3082421.33,SR6928,Clinic,Partial,No,Spring
+SALE000354,Drug_71,Europe,Netherlands,Hospital,2026-04-16,46764,120.84,8529708.18,27.4,8983782.36,SR1298,Clinic,Partial,No,Fall
+SALE000355,Drug_73,North America,Chad,Online,2025-12-24,9730,296.1,3151244.64,29.0,32339.17,SR6940,Clinic,Partial,Yes,Spring
+SALE000356,Drug_25,Africa,Burkina Faso,Online,2026-05-28,17356,287.49,5237200.33,25.4,249445.7,SR6060,Clinic,Partial,No,Summer
+SALE000357,Drug_97,North America,Mayotte,Retail Pharmacy,2026-05-03,34009,244.71,4854238.34,9.3,7414705.56,SR3953,Individual,Yes,No,Summer
+SALE000358,Drug_65,Europe,British Virgin Islands,Retail Pharmacy,2026-08-12,49917,277.24,3539704.36,5.9,1795804.61,SR4509,Pharmacy,Yes,Yes,Winter
+SALE000359,Drug_6,Europe,French Guiana,Hospital,2026-06-01,41268,248.44,8914659.19,16.4,547674.8,SR6598,Hospital,Partial,No,Spring
+SALE000360,Drug_18,Asia Pacific,Denmark,Online,2026-01-10,33819,284.9,1659613.37,13.6,2134942.94,SR8967,Hospital,Yes,No,Summer
+SALE000361,Drug_10,North America,Indonesia,Online,2024-10-11,42117,359.18,1495936.89,26.3,3835360.51,SR4145,Pharmacy,Yes,No,Spring
+SALE000362,Drug_92,Europe,Sri Lanka,Hospital,2025-12-21,45804,59.27,5769518.44,3.0,6575311.98,SR4711,Hospital,Partial,No,Summer
+SALE000363,Drug_11,North America,Tajikistan,Retail Pharmacy,2026-01-19,30113,376.06,6575284.81,7.7,5619320.27,SR3253,Hospital,No,No,Summer
+SALE000364,Drug_97,Latin America,Tuvalu,Hospital,2024-11-28,14555,72.26,1946997.92,22.6,2139200.86,SR3538,Pharmacy,Yes,No,Fall
+SALE000365,Drug_65,North America,British Indian Ocean Territory (Chagos Archipelago),Hospital,2026-04-05,4822,37.98,3907783.71,2.8,4529831.42,SR2264,Hospital,Partial,Yes,Winter
+SALE000366,Drug_77,Middle East,Spain,Hospital,2026-05-03,12912,488.16,9465691.87,9.6,8335985.98,SR5846,Hospital,Partial,No,Fall
+SALE000367,Drug_84,Latin America,Sierra Leone,Hospital,2026-07-29,30376,478.71,2466927.61,11.6,7335217.99,SR2657,Pharmacy,Yes,No,Spring
+SALE000368,Drug_65,North America,Heard Island and McDonald Islands,Hospital,2025-05-12,36876,34.92,6683938.66,18.7,2909249.51,SR9317,Hospital,Partial,Yes,Summer
+SALE000369,Drug_52,Asia Pacific,Slovenia,Retail Pharmacy,2026-01-24,10160,224.41,7401753.79,4.7,8840395.24,SR9843,Clinic,Yes,No,Winter
+SALE000370,Drug_67,North America,Western Sahara,Retail Pharmacy,2025-02-25,13156,97.19,4481838.87,25.8,6377816.71,SR9626,Pharmacy,No,Yes,Summer
+SALE000371,Drug_82,Africa,Gibraltar,Retail Pharmacy,2024-09-26,6755,245.25,9375322.34,13.4,562794.24,SR1618,Individual,Partial,No,Summer
+SALE000372,Drug_78,Europe,Burundi,Hospital,2024-12-30,22674,415.94,7366830.7,27.5,317218.29,SR6517,Hospital,Partial,No,Fall
+SALE000373,Drug_31,North America,Anguilla,Hospital,2025-09-24,13127,475.55,4579787.87,14.0,1516336.81,SR3147,Individual,Yes,No,Spring
+SALE000374,Drug_91,Europe,Ghana,Retail Pharmacy,2025-10-15,4130,318.96,5693782.68,8.3,6550920.53,SR7172,Hospital,Yes,Yes,Winter
+SALE000375,Drug_17,North America,Holy See (Vatican City State),Hospital,2025-01-22,24343,180.18,6926441.82,4.3,1654303.34,SR3527,Clinic,Yes,No,Winter
+SALE000376,Drug_55,Africa,Oman,Hospital,2025-09-25,33389,303.65,5922309.61,0.1,4603771.73,SR3658,Pharmacy,No,Yes,Winter
+SALE000377,Drug_93,North America,Guyana,Online,2025-09-08,19839,159.44,8787097.14,16.0,840066.47,SR3962,Individual,Yes,No,Spring
+SALE000378,Drug_36,Asia Pacific,Belarus,Retail Pharmacy,2025-01-19,34268,455.36,3569529.73,3.2,8288038.71,SR3712,Pharmacy,Yes,No,Winter
+SALE000379,Drug_26,Europe,Falkland Islands (Malvinas),Online,2024-12-21,44798,435.85,2999557.51,11.8,3096170.35,SR8170,Individual,Yes,No,Spring
+SALE000380,Drug_53,Middle East,Romania,Retail Pharmacy,2024-09-13,36591,281.32,2139175.06,17.7,8173262.0,SR1715,Hospital,Yes,No,Winter
+SALE000381,Drug_17,North America,Turkey,Hospital,2026-07-01,30113,165.78,378791.9,8.3,8503924.88,SR7731,Clinic,Yes,No,Summer
+SALE000382,Drug_86,Europe,Tuvalu,Retail Pharmacy,2025-08-03,6679,150.23,431096.63,5.3,55952.92,SR6968,Individual,Partial,Yes,Spring
+SALE000383,Drug_25,Europe,Seychelles,Hospital,2025-05-14,18342,21.54,8700681.88,23.2,4177645.38,SR4891,Individual,Yes,No,Fall
+SALE000384,Drug_2,Asia Pacific,Moldova,Retail Pharmacy,2025-12-07,4881,408.83,6784253.07,28.4,222684.78,SR8277,Clinic,Yes,No,Winter
+SALE000385,Drug_86,North America,Andorra,Hospital,2026-05-30,20548,227.94,6605663.62,3.0,8178307.94,SR5668,Clinic,Partial,No,Fall
+SALE000386,Drug_5,North America,Georgia,Online,2024-10-04,45741,165.94,6146813.55,4.7,4666053.18,SR8355,Clinic,Partial,Yes,Spring
+SALE000387,Drug_4,North America,Cuba,Hospital,2025-05-05,49394,238.2,8492342.23,28.8,675236.16,SR4833,Clinic,Yes,No,Summer
+SALE000388,Drug_36,Asia Pacific,New Zealand,Wholesale,2026-05-22,21546,410.28,4803188.99,1.1,993202.33,SR9749,Clinic,Yes,No,Fall
+SALE000389,Drug_6,North America,Cyprus,Online,2026-07-15,11143,66.68,8704237.87,29.3,3452074.41,SR4918,Pharmacy,Partial,No,Fall
+SALE000390,Drug_21,Europe,Botswana,Retail Pharmacy,2026-01-09,19953,429.54,3595090.82,0.1,8462155.55,SR6070,Hospital,Yes,No,Summer
+SALE000391,Drug_77,North America,British Indian Ocean Territory (Chagos Archipelago),Retail Pharmacy,2025-04-03,49243,449.27,9267148.34,26.2,6236428.04,SR8684,Hospital,Partial,No,Summer
+SALE000392,Drug_89,Latin America,Turkey,Retail Pharmacy,2025-10-20,20179,473.62,6986871.14,9.2,7808675.7,SR4178,Individual,Yes,Yes,Spring
+SALE000393,Drug_26,Middle East,North Macedonia,Online,2025-12-16,17201,201.76,2572514.18,28.2,3298616.65,SR7026,Clinic,Yes,Yes,Winter
+SALE000394,Drug_55,Europe,Paraguay,Retail Pharmacy,2026-01-07,742,112.48,5641285.13,9.5,389688.72,SR8218,Pharmacy,Yes,No,Fall
+SALE000395,Drug_39,Europe,Qatar,Online,2025-11-04,28116,189.95,5330772.58,19.6,8768879.28,SR8564,Pharmacy,Partial,No,Fall
+SALE000396,Drug_84,North America,Cuba,Retail Pharmacy,2026-06-01,19032,169.79,1379850.32,2.4,155343.18,SR5616,Individual,Partial,No,Spring
+SALE000397,Drug_33,North America,Bhutan,Wholesale,2025-07-26,44753,92.2,5912837.81,7.3,8528906.76,SR7256,Clinic,Yes,No,Winter
+SALE000398,Drug_14,North America,Czech Republic,Retail Pharmacy,2026-05-02,25045,305.6,3148541.45,23.2,3318601.87,SR9239,Hospital,No,No,Spring
+SALE000399,Drug_56,Asia Pacific,Saint Martin,Retail Pharmacy,2025-04-02,7649,240.93,524435.32,15.9,91605.57,SR9641,Clinic,Yes,No,Fall
+SALE000400,Drug_100,Europe,Jamaica,Online,2026-08-01,13497,433.52,9486612.92,27.8,6202663.76,SR7859,Pharmacy,Yes,No,Fall
+SALE000401,Drug_81,Middle East,Liberia,Online,2025-03-16,25462,20.89,6415262.2,12.9,8824878.3,SR3655,Clinic,Partial,No,Summer
+SALE000402,Drug_21,Europe,Samoa,Retail Pharmacy,2024-09-16,47942,323.71,8769312.4,26.1,8690659.0,SR4271,Hospital,Yes,No,Summer
+SALE000403,Drug_46,Asia Pacific,Niger,Hospital,2026-06-16,46639,382.66,6760883.99,13.5,1449104.35,SR3267,Hospital,Partial,No,Winter
+SALE000404,Drug_16,Europe,Azerbaijan,Retail Pharmacy,2025-01-23,33817,380.95,3570479.94,29.4,1631885.26,SR5096,Individual,No,Yes,Fall
+SALE000405,Drug_16,Europe,Canada,Wholesale,2025-08-03,49773,443.61,5127368.04,28.8,5090197.8,SR1854,Pharmacy,Partial,Yes,Fall
+SALE000406,Drug_84,North America,Gibraltar,Online,2024-08-17,23116,365.87,6757791.86,9.9,5736033.59,SR8873,Clinic,Partial,No,Summer
+SALE000407,Drug_29,Europe,Saint Helena,Online,2026-08-09,14832,464.27,9602563.0,26.6,6654969.69,SR7081,Clinic,Yes,No,Spring
+SALE000408,Drug_92,Europe,Lesotho,Hospital,2025-05-25,49606,169.67,2537440.92,25.4,1630108.4,SR2680,Individual,Yes,No,Spring
+SALE000409,Drug_8,Asia Pacific,Guam,Retail Pharmacy,2024-12-16,27011,254.09,8749895.61,6.3,8631096.58,SR9452,Individual,Yes,No,Fall
+SALE000410,Drug_88,Middle East,Senegal,Retail Pharmacy,2025-11-08,17966,11.97,9240853.98,18.7,5748942.32,SR3042,Individual,Yes,Yes,Fall
+SALE000411,Drug_3,North America,Kuwait,Online,2025-06-12,42707,8.44,6704484.73,2.2,7623544.63,SR5670,Pharmacy,Yes,Yes,Winter
+SALE000412,Drug_89,North America,Russian Federation,Hospital,2026-01-10,27721,123.86,9312735.01,25.1,4860959.38,SR2374,Clinic,Yes,No,Winter
+SALE000413,Drug_19,Europe,Tunisia,Online,2025-04-05,12923,54.9,3979388.0,5.2,3728960.21,SR3626,Individual,Partial,No,Summer
+SALE000414,Drug_97,Europe,Myanmar,Retail Pharmacy,2026-07-01,30086,133.8,9530208.74,2.1,8794664.41,SR5469,Pharmacy,Yes,No,Fall
+SALE000415,Drug_66,North America,Morocco,Hospital,2025-04-25,14790,92.64,7028125.99,12.0,5239426.64,SR8361,Clinic,Partial,Yes,Spring
+SALE000416,Drug_79,Asia Pacific,France,Hospital,2025-07-03,39207,19.12,421015.67,17.3,7801968.75,SR9410,Hospital,Partial,No,Winter
+SALE000417,Drug_86,Africa,Isle of Man,Hospital,2025-12-07,11056,455.11,9068821.45,25.6,8579668.93,SR3414,Individual,Partial,No,Summer
+SALE000418,Drug_74,Middle East,Angola,Retail Pharmacy,2025-03-08,21403,9.07,4845243.62,29.2,6078451.36,SR8167,Pharmacy,Yes,No,Summer
+SALE000419,Drug_82,North America,Czech Republic,Hospital,2025-11-11,36633,369.36,4603809.52,13.2,4940808.96,SR2502,Clinic,Yes,No,Spring
+SALE000420,Drug_22,Latin America,Paraguay,Hospital,2025-05-02,29774,80.31,5665099.59,1.8,32394.85,SR4637,Clinic,Yes,Yes,Winter
+SALE000421,Drug_46,Asia Pacific,Guinea-Bissau,Online,2024-12-10,35695,456.55,1494696.08,22.5,360944.75,SR8391,Individual,Yes,No,Spring
+SALE000422,Drug_91,Europe,Philippines,Hospital,2025-05-10,2158,446.93,4692191.32,17.0,1808300.26,SR6727,Individual,Yes,No,Summer
+SALE000423,Drug_13,Europe,Croatia,Hospital,2024-09-14,11619,328.68,8311441.04,13.4,1674727.08,SR1436,Clinic,Partial,No,Fall
+SALE000424,Drug_33,Latin America,United States Minor Outlying Islands,Retail Pharmacy,2024-12-06,31215,337.76,155809.11,9.3,2293425.35,SR7797,Pharmacy,Yes,No,Spring
+SALE000425,Drug_5,Europe,Oman,Retail Pharmacy,2025-11-12,830,7.64,2729898.69,15.1,2744967.79,SR1872,Hospital,No,Yes,Summer
+SALE000426,Drug_90,Europe,Liechtenstein,Online,2025-09-05,1932,492.51,25543.41,10.2,3241101.39,SR7495,Clinic,Partial,No,Fall
+SALE000427,Drug_77,Europe,New Zealand,Retail Pharmacy,2025-06-30,41468,439.53,4157697.38,22.7,3785302.78,SR9224,Pharmacy,Yes,No,Fall
+SALE000428,Drug_27,Europe,Macao,Online,2026-06-08,22989,448.08,7283426.79,16.3,890517.95,SR7126,Individual,Yes,Yes,Winter
+SALE000429,Drug_78,North America,Ecuador,Retail Pharmacy,2025-04-11,48486,331.33,7987919.52,26.3,382023.5,SR4862,Clinic,Partial,Yes,Winter
+SALE000430,Drug_24,Middle East,San Marino,Hospital,2024-11-17,40038,175.67,9451952.42,16.3,6065760.89,SR7326,Individual,Yes,No,Summer
+SALE000431,Drug_67,Asia Pacific,Thailand,Hospital,2024-12-06,4279,447.36,6085437.63,7.1,4836383.56,SR2337,Hospital,No,Yes,Spring
+SALE000432,Drug_63,Asia Pacific,Kyrgyz Republic,Retail Pharmacy,2026-05-20,6399,149.3,2547014.04,25.5,3997742.5,SR7142,Individual,Yes,No,Fall
+SALE000433,Drug_94,North America,Spain,Hospital,2026-05-14,7930,283.54,9241555.34,16.7,5710251.92,SR4678,Hospital,Partial,No,Winter
+SALE000434,Drug_99,Asia Pacific,Brazil,Retail Pharmacy,2025-08-19,44307,54.37,7753382.22,6.2,7449252.52,SR1461,Individual,Yes,No,Winter
+SALE000435,Drug_48,North America,Korea,Retail Pharmacy,2025-07-29,37670,461.37,5744710.4,18.7,3849694.03,SR6221,Individual,Yes,No,Spring
+SALE000436,Drug_63,North America,Samoa,Hospital,2026-03-03,22541,74.68,6956706.52,10.7,5770362.29,SR2623,Hospital,No,Yes,Winter
+SALE000437,Drug_78,Europe,Ethiopia,Hospital,2025-04-20,6715,116.32,9243239.23,25.3,8582187.16,SR6493,Individual,Yes,Yes,Summer
+SALE000438,Drug_12,Europe,Qatar,Hospital,2025-09-05,6862,281.28,7124227.89,13.6,7556748.76,SR3392,Pharmacy,Yes,No,Spring
+SALE000439,Drug_28,Europe,Angola,Retail Pharmacy,2025-12-27,38411,383.23,3684376.7,21.8,3834466.49,SR3254,Individual,Yes,No,Fall
+SALE000440,Drug_44,North America,Vietnam,Retail Pharmacy,2025-12-03,24809,311.58,7130568.99,2.9,5802735.77,SR1627,Clinic,Yes,No,Summer
+SALE000441,Drug_93,Europe,Falkland Islands (Malvinas),Retail Pharmacy,2024-08-23,37751,119.91,403741.35,11.9,1594296.64,SR5700,Individual,No,No,Fall
+SALE000442,Drug_43,North America,Eritrea,Hospital,2025-10-23,23534,5.47,3864769.2,29.5,5045051.25,SR8740,Pharmacy,No,Yes,Fall
+SALE000443,Drug_17,Africa,Bouvet Island (Bouvetoya),Retail Pharmacy,2025-06-22,21443,379.79,4063824.0,24.3,8831969.56,SR3273,Clinic,No,Yes,Winter
+SALE000444,Drug_40,Europe,San Marino,Online,2026-01-29,15839,492.68,1669215.51,4.8,4665221.38,SR8685,Pharmacy,No,No,Summer
+SALE000445,Drug_49,Asia Pacific,Uruguay,Hospital,2025-02-17,766,405.91,231831.72,8.3,8348802.58,SR8349,Clinic,Yes,No,Summer
+SALE000446,Drug_85,North America,Iran,Retail Pharmacy,2026-05-16,33144,232.8,1334678.99,9.9,3666488.42,SR1086,Individual,Yes,No,Spring
+SALE000447,Drug_57,North America,Greece,Wholesale,2025-04-12,27983,452.36,6546560.34,19.5,8989604.37,SR2298,Pharmacy,Partial,Yes,Summer
+SALE000448,Drug_87,Africa,Iceland,Hospital,2024-11-20,14163,207.87,8023085.87,22.7,5213316.94,SR1311,Individual,Partial,Yes,Spring
+SALE000449,Drug_84,North America,Iceland,Retail Pharmacy,2025-09-02,33749,264.84,9882046.72,22.5,381187.13,SR5193,Clinic,Yes,No,Summer
+SALE000450,Drug_64,Europe,Cape Verde,Hospital,2026-04-13,34928,241.18,3464288.67,15.3,5281123.77,SR4533,Pharmacy,Yes,No,Fall
+SALE000451,Drug_75,Asia Pacific,Nepal,Retail Pharmacy,2025-03-26,47545,226.57,5994192.84,24.3,2471734.6,SR3449,Hospital,Yes,No,Spring
+SALE000452,Drug_57,North America,Turkmenistan,Hospital,2024-10-16,39570,388.72,9371512.52,13.1,293105.91,SR9991,Pharmacy,No,No,Summer
+SALE000453,Drug_98,Latin America,Cayman Islands,Wholesale,2024-09-25,9529,265.75,1671250.77,3.7,7387823.06,SR9647,Individual,No,No,Spring
+SALE000454,Drug_74,Europe,North Macedonia,Retail Pharmacy,2025-11-27,48721,161.77,7176738.22,16.9,2482146.15,SR7934,Hospital,Yes,No,Winter
+SALE000455,Drug_74,North America,Egypt,Online,2026-02-20,33026,132.79,7550032.35,28.6,7169099.75,SR2821,Hospital,Partial,No,Winter
+SALE000456,Drug_70,North America,Pakistan,Retail Pharmacy,2024-09-24,48864,23.68,890666.38,23.8,2594527.67,SR5720,Clinic,Yes,Yes,Spring
+SALE000457,Drug_100,North America,Malaysia,Retail Pharmacy,2026-02-05,38097,293.68,8612632.6,17.4,1749581.72,SR4893,Hospital,Yes,No,Spring
+SALE000458,Drug_88,Latin America,Tajikistan,Retail Pharmacy,2025-03-27,40824,118.83,8131237.37,19.4,8765441.02,SR5934,Hospital,Partial,Yes,Fall
+SALE000459,Drug_76,Asia Pacific,Saint Kitts and Nevis,Online,2026-06-26,32369,78.33,334996.66,27.9,3255318.63,SR2996,Clinic,Yes,Yes,Summer
+SALE000460,Drug_43,North America,India,Wholesale,2024-10-07,31804,328.65,911753.06,12.9,5412704.8,SR1782,Pharmacy,Yes,Yes,Winter
+SALE000461,Drug_23,North America,Timor-Leste,Retail Pharmacy,2025-05-01,28491,342.2,492219.81,9.9,5490145.45,SR4906,Individual,Partial,No,Winter
+SALE000462,Drug_27,Asia Pacific,Portugal,Wholesale,2025-04-19,24287,377.32,3348100.57,29.3,5044612.96,SR7878,Pharmacy,Partial,No,Summer
+SALE000463,Drug_58,Europe,Cayman Islands,Retail Pharmacy,2026-03-30,45434,254.27,5093380.62,25.9,8232329.94,SR8489,Hospital,Partial,Yes,Winter
+SALE000464,Drug_37,Europe,Norfolk Island,Retail Pharmacy,2024-12-07,2626,447.56,5323944.93,9.7,6070230.09,SR2029,Individual,Yes,No,Winter
+SALE000465,Drug_6,Europe,United States of America,Retail Pharmacy,2024-10-02,24786,468.49,2677399.93,13.9,3634074.05,SR2816,Pharmacy,Yes,No,Spring
+SALE000466,Drug_65,North America,Syrian Arab Republic,Hospital,2025-06-22,7903,404.65,9116057.27,12.5,7761533.56,SR9189,Individual,Partial,No,Winter
+SALE000467,Drug_6,Asia Pacific,Cameroon,Hospital,2024-11-04,32768,319.62,3683259.64,4.5,1630221.24,SR9782,Hospital,No,No,Winter
+SALE000468,Drug_50,Africa,Brazil,Hospital,2025-05-02,6674,155.34,456456.01,28.7,4898495.43,SR1269,Pharmacy,Partial,Yes,Winter
+SALE000469,Drug_22,North America,Holy See (Vatican City State),Retail Pharmacy,2026-04-30,8833,491.56,3002970.89,12.1,8554992.91,SR9443,Individual,Yes,Yes,Summer
+SALE000470,Drug_88,Europe,Philippines,Hospital,2026-07-06,7357,140.7,5311563.12,26.3,5628878.35,SR4963,Individual,Yes,No,Fall
+SALE000471,Drug_25,Europe,Greece,Retail Pharmacy,2024-10-05,36151,105.32,4082810.0,5.7,7352862.48,SR3352,Pharmacy,Partial,No,Spring
+SALE000472,Drug_79,Europe,Guadeloupe,Wholesale,2025-03-15,16009,223.87,2739151.35,16.4,5882323.68,SR5772,Pharmacy,No,No,Fall
+SALE000473,Drug_90,North America,Nicaragua,Hospital,2025-05-01,24246,33.14,1314101.17,0.7,7554466.28,SR8032,Hospital,Yes,No,Winter
+SALE000474,Drug_72,Latin America,Botswana,Retail Pharmacy,2026-08-08,11902,489.35,8191825.84,22.9,8500435.33,SR1025,Clinic,Yes,No,Winter
+SALE000475,Drug_51,Europe,Grenada,Hospital,2026-07-18,7996,296.27,9961456.28,17.4,2456877.21,SR6780,Individual,Yes,No,Winter
+SALE000476,Drug_88,Europe,Wallis and Futuna,Hospital,2026-02-11,28233,280.69,3296091.79,18.8,1527614.0,SR4941,Pharmacy,Yes,No,Fall
+SALE000477,Drug_48,North America,Svalbard & Jan Mayen Islands,Online,2025-05-11,13626,329.62,3816828.82,1.6,4356329.56,SR7825,Pharmacy,Yes,Yes,Summer
+SALE000478,Drug_70,North America,Saint Martin,Retail Pharmacy,2025-10-17,11378,251.03,6180757.21,6.3,6317000.35,SR4068,Pharmacy,Yes,No,Summer
+SALE000479,Drug_99,North America,Aruba,Online,2025-04-21,46110,20.87,7184696.31,2.2,2045339.53,SR2402,Individual,Partial,Yes,Spring
+SALE000480,Drug_65,Asia Pacific,Eritrea,Hospital,2026-03-11,25651,308.09,3920903.32,8.7,37709.77,SR9576,Hospital,Yes,Yes,Fall
+SALE000481,Drug_60,North America,Belgium,Retail Pharmacy,2025-08-23,25398,359.51,9049390.24,18.8,3086941.69,SR6908,Clinic,Partial,Yes,Summer
+SALE000482,Drug_46,Asia Pacific,Grenada,Hospital,2026-03-17,35438,211.29,5600479.89,17.0,8719758.93,SR2108,Individual,Yes,No,Spring
+SALE000483,Drug_36,Europe,New Zealand,Hospital,2025-08-02,22291,379.86,4504450.37,18.4,6254951.17,SR9618,Hospital,No,Yes,Winter
+SALE000484,Drug_58,Europe,Suriname,Hospital,2025-04-02,33192,117.37,6467080.86,16.5,3612407.94,SR9914,Individual,Yes,Yes,Winter
+SALE000485,Drug_76,Europe,Cyprus,Hospital,2024-10-31,23971,114.53,9528085.68,8.2,1733830.82,SR9312,Individual,Partial,No,Spring
+SALE000486,Drug_38,Europe,Philippines,Hospital,2025-03-12,9821,84.9,7945728.39,7.3,3205322.19,SR9316,Pharmacy,Partial,No,Summer
+SALE000487,Drug_11,North America,New Caledonia,Hospital,2024-11-24,38513,189.14,401091.29,4.1,1529219.03,SR1333,Hospital,Partial,No,Fall
+SALE000488,Drug_12,North America,Afghanistan,Wholesale,2026-04-08,30379,424.27,3323766.8,25.5,957467.35,SR7397,Pharmacy,No,No,Spring
+SALE000489,Drug_42,Asia Pacific,Nepal,Hospital,2025-08-17,14504,414.82,4705976.3,18.5,8160755.96,SR8702,Pharmacy,Yes,Yes,Summer
+SALE000490,Drug_39,Asia Pacific,Greece,Hospital,2025-06-10,4586,194.5,3145861.2,5.6,8978854.93,SR1713,Hospital,Partial,Yes,Spring
+SALE000491,Drug_71,North America,Slovakia (Slovak Republic),Hospital,2025-10-03,35298,296.61,7002175.42,5.3,1477698.66,SR7338,Pharmacy,Partial,Yes,Summer
+SALE000492,Drug_11,Europe,Lebanon,Retail Pharmacy,2026-02-01,28787,361.8,8262865.23,26.2,491459.41,SR7116,Pharmacy,Partial,No,Winter
+SALE000493,Drug_36,North America,Mozambique,Hospital,2026-02-25,13256,124.4,7313719.61,22.3,2968116.18,SR5155,Clinic,Yes,No,Spring
+SALE000494,Drug_52,North America,Djibouti,Online,2026-03-05,667,88.23,9893343.53,19.8,4155363.3,SR1266,Hospital,Partial,Yes,Fall
+SALE000495,Drug_31,North America,Mauritius,Wholesale,2026-06-02,2279,486.19,2726203.93,12.2,1844027.37,SR6850,Hospital,Yes,No,Spring
+SALE000496,Drug_33,Latin America,Zambia,Hospital,2025-09-13,2119,310.69,8750019.96,7.9,2713383.07,SR2106,Pharmacy,Yes,No,Winter
+SALE000497,Drug_13,North America,Georgia,Retail Pharmacy,2024-10-24,16019,490.8,7666460.03,29.4,1808475.92,SR6649,Pharmacy,Yes,No,Winter
+SALE000498,Drug_18,North America,Egypt,Hospital,2026-06-15,19803,172.19,3622425.4,23.9,6968525.71,SR4950,Hospital,Yes,No,Summer
+SALE000499,Drug_41,North America,Cameroon,Retail Pharmacy,2025-01-08,18804,353.0,7341511.31,9.1,6413431.43,SR2698,Hospital,Partial,Yes,Winter
+SALE000500,Drug_58,North America,Bahrain,Retail Pharmacy,2025-02-11,18130,115.19,1041655.49,25.4,5714855.68,SR6447,Individual,Partial,Yes,Summer
+SALE000501,Drug_56,Asia Pacific,Falkland Islands (Malvinas),Hospital,2024-11-17,4009,134.29,7893545.49,22.8,3485450.94,SR3185,Hospital,Partial,No,Winter
+SALE000502,Drug_24,North America,Maldives,Hospital,2025-04-04,8115,258.39,5323773.7,8.9,8181441.24,SR1726,Individual,No,No,Summer
+SALE000503,Drug_73,North America,Cyprus,Retail Pharmacy,2024-09-16,3520,163.21,2923609.44,12.8,8725817.25,SR6772,Pharmacy,No,No,Fall
+SALE000504,Drug_31,Asia Pacific,Libyan Arab Jamahiriya,Retail Pharmacy,2025-02-01,47753,87.97,6558117.24,5.6,1563414.9,SR9945,Clinic,Partial,No,Summer
+SALE000505,Drug_55,North America,Guernsey,Hospital,2026-04-17,16840,135.13,6416558.37,3.3,2007735.36,SR6546,Clinic,Yes,No,Summer
+SALE000506,Drug_10,Asia Pacific,Sri Lanka,Retail Pharmacy,2024-12-26,40353,22.7,2095652.74,21.7,4731058.75,SR3868,Individual,Partial,No,Fall
+SALE000507,Drug_60,Europe,Cape Verde,Retail Pharmacy,2025-01-27,30428,353.69,304943.75,8.0,821982.12,SR8612,Pharmacy,No,Yes,Summer
+SALE000508,Drug_2,North America,Norfolk Island,Online,2025-08-16,19565,248.6,4336792.25,24.6,3928486.43,SR8840,Pharmacy,No,No,Summer
+SALE000509,Drug_15,Asia Pacific,Bermuda,Hospital,2024-11-16,4231,51.65,5695549.18,29.9,5236455.95,SR3986,Pharmacy,No,No,Fall
+SALE000510,Drug_3,North America,Ethiopia,Online,2025-11-10,10752,89.99,8766176.18,2.3,4699044.48,SR3209,Hospital,Partial,No,Winter
+SALE000511,Drug_43,Europe,Congo,Retail Pharmacy,2024-10-24,21607,55.75,9282239.74,14.2,2978712.52,SR2033,Pharmacy,Yes,No,Spring
+SALE000512,Drug_31,Europe,Lebanon,Hospital,2025-10-21,47247,308.23,5288523.38,24.1,4882378.3,SR8498,Hospital,Yes,No,Summer
+SALE000513,Drug_70,North America,Korea,Retail Pharmacy,2026-05-11,47771,51.63,7538281.03,23.7,8629241.55,SR1605,Individual,Partial,No,Winter
+SALE000514,Drug_67,Asia Pacific,Mexico,Retail Pharmacy,2026-06-25,48781,378.37,4393593.42,22.8,1854791.82,SR5807,Clinic,Yes,No,Spring
+SALE000515,Drug_56,Latin America,Ireland,Wholesale,2025-09-26,23906,15.15,7461075.48,10.5,5893758.36,SR4302,Individual,Partial,No,Fall
+SALE000516,Drug_63,Africa,Sudan,Hospital,2024-12-03,19271,128.44,2048810.45,13.6,391335.53,SR1717,Pharmacy,Yes,No,Summer
+SALE000517,Drug_75,Asia Pacific,Slovakia (Slovak Republic),Retail Pharmacy,2026-02-23,20693,445.88,3711276.28,17.8,598494.51,SR4268,Pharmacy,Yes,No,Summer
+SALE000518,Drug_15,Europe,Trinidad and Tobago,Hospital,2025-08-18,9570,360.67,6342645.76,29.2,4966812.56,SR1686,Individual,Partial,No,Fall
+SALE000519,Drug_92,North America,Jersey,Wholesale,2024-09-13,49717,41.12,182561.5,9.8,945168.67,SR6170,Hospital,Yes,No,Summer
+SALE000520,Drug_10,North America,Nauru,Hospital,2024-08-19,44408,411.46,7224890.64,27.7,201903.22,SR6080,Hospital,No,No,Spring
+SALE000521,Drug_38,Europe,Timor-Leste,Wholesale,2025-02-15,21426,249.05,8355519.48,8.1,1544279.77,SR9444,Hospital,Yes,No,Spring
+SALE000522,Drug_47,Europe,Saudi Arabia,Wholesale,2025-12-15,4697,424.16,3992017.47,29.7,5083990.66,SR7524,Clinic,Yes,No,Fall
+SALE000523,Drug_57,Middle East,Armenia,Hospital,2025-11-09,37404,302.37,4479976.23,20.1,6330305.92,SR9897,Clinic,No,No,Summer
+SALE000524,Drug_50,Europe,Wallis and Futuna,Online,2026-01-05,30888,342.51,8512970.84,13.9,1822945.09,SR8756,Pharmacy,Yes,Yes,Winter
+SALE000525,Drug_71,Europe,Bulgaria,Wholesale,2025-01-26,49577,496.78,7756770.7,18.4,6014600.33,SR5150,Individual,Partial,No,Summer
+SALE000526,Drug_15,Europe,Cocos (Keeling) Islands,Hospital,2026-03-01,42825,120.01,2882206.74,8.2,1642941.0,SR1599,Individual,Partial,No,Fall
+SALE000527,Drug_18,Latin America,Japan,Retail Pharmacy,2026-03-13,37030,313.85,3240437.09,8.2,5521426.07,SR4131,Pharmacy,Yes,No,Winter
+SALE000528,Drug_82,Asia Pacific,Montenegro,Retail Pharmacy,2025-05-10,33171,232.86,6789103.45,3.4,3708107.55,SR5687,Hospital,No,No,Spring
+SALE000529,Drug_88,Asia Pacific,Djibouti,Hospital,2025-05-28,5167,24.53,5632417.73,3.4,5884472.54,SR6848,Clinic,No,No,Spring
+SALE000530,Drug_2,North America,Sierra Leone,Hospital,2025-11-05,5124,12.16,1623133.48,10.4,8955478.73,SR1783,Individual,Yes,Yes,Winter
+SALE000531,Drug_84,Latin America,Saint Martin,Hospital,2025-01-27,7815,64.02,3099989.16,22.9,8440402.43,SR6438,Pharmacy,Yes,No,Winter
+SALE000532,Drug_98,North America,Slovenia,Hospital,2026-07-25,31870,326.3,8999932.79,18.2,39332.4,SR5476,Hospital,Yes,Yes,Fall
+SALE000533,Drug_43,Latin America,Montenegro,Retail Pharmacy,2025-08-28,11326,285.75,6882056.19,3.1,7969040.53,SR3039,Hospital,No,No,Summer
+SALE000534,Drug_26,Europe,Algeria,Hospital,2026-01-28,35499,278.95,9859757.2,25.6,599163.96,SR7029,Clinic,No,No,Spring
+SALE000535,Drug_71,Europe,Ghana,Online,2026-06-30,13512,20.77,7670358.29,18.0,8577456.84,SR8159,Clinic,No,No,Summer
+SALE000536,Drug_38,Europe,Niger,Retail Pharmacy,2026-01-15,47905,237.3,9419802.35,28.8,2537005.65,SR7553,Pharmacy,Partial,No,Spring
+SALE000537,Drug_94,Asia Pacific,Nigeria,Hospital,2025-10-10,44515,462.69,2162669.55,20.1,3438807.85,SR8204,Pharmacy,Partial,No,Summer
+SALE000538,Drug_42,North America,Finland,Retail Pharmacy,2026-01-21,12669,201.81,7715077.26,5.3,825470.54,SR7334,Hospital,No,Yes,Spring
+SALE000539,Drug_5,Latin America,Marshall Islands,Retail Pharmacy,2026-06-21,2469,314.34,203154.98,14.2,1011165.01,SR6554,Hospital,Partial,Yes,Summer
+SALE000540,Drug_11,Europe,Eritrea,Wholesale,2026-04-29,44527,391.01,6707929.46,19.5,6540883.69,SR4060,Individual,Yes,No,Fall
+SALE000541,Drug_65,North America,North Macedonia,Hospital,2025-07-14,32121,393.04,4693353.5,0.8,8499034.66,SR9129,Hospital,Partial,No,Spring
+SALE000542,Drug_34,North America,Kyrgyz Republic,Hospital,2026-05-08,628,262.04,3468253.96,0.4,5497047.86,SR9151,Pharmacy,No,No,Fall
+SALE000543,Drug_1,Europe,Benin,Wholesale,2025-06-23,43370,429.69,8624181.12,3.9,6442877.46,SR7018,Clinic,Partial,Yes,Spring
+SALE000544,Drug_83,Europe,Bolivia,Wholesale,2024-09-09,30414,198.73,8542822.66,7.5,6857918.13,SR9507,Pharmacy,No,Yes,Spring
+SALE000545,Drug_2,Europe,Cameroon,Retail Pharmacy,2025-01-10,37543,444.9,223994.75,12.9,2365918.22,SR5369,Individual,Yes,Yes,Spring
+SALE000546,Drug_85,Asia Pacific,Niue,Online,2025-02-22,18147,123.91,6095441.72,14.6,407830.49,SR2353,Individual,No,Yes,Summer
+SALE000547,Drug_20,Europe,Zimbabwe,Hospital,2025-08-12,19848,143.71,3678954.41,4.1,17653.2,SR7955,Clinic,Yes,No,Spring
+SALE000548,Drug_61,Africa,Jamaica,Retail Pharmacy,2025-03-30,35209,31.29,4157194.35,20.2,3156363.03,SR2293,Pharmacy,No,Yes,Fall
+SALE000549,Drug_87,Europe,United Kingdom,Hospital,2025-03-19,14019,398.81,8320575.35,17.9,2173784.88,SR8055,Individual,Yes,No,Summer
+SALE000550,Drug_21,Latin America,Vietnam,Hospital,2025-09-02,47598,211.44,3099087.88,8.8,561609.67,SR3956,Pharmacy,Partial,Yes,Summer
+SALE000551,Drug_88,North America,Belize,Online,2026-01-05,15356,118.41,9430545.06,0.4,1616411.01,SR9937,Individual,No,No,Spring
+SALE000552,Drug_68,Europe,Spain,Hospital,2025-11-29,5005,119.74,1797158.63,2.3,1121190.49,SR5813,Clinic,No,No,Winter
+SALE000553,Drug_12,North America,Cyprus,Retail Pharmacy,2026-04-14,48407,451.19,6627561.51,11.8,8233973.52,SR6262,Individual,Yes,Yes,Summer
+SALE000554,Drug_22,Europe,Nigeria,Wholesale,2025-07-29,48123,417.79,6721378.57,4.6,1263092.71,SR2680,Pharmacy,Partial,No,Spring
+SALE000555,Drug_20,Latin America,Sweden,Hospital,2025-10-16,8984,279.0,2522699.42,11.3,4839206.06,SR2311,Pharmacy,Partial,No,Fall
+SALE000556,Drug_82,North America,Zambia,Wholesale,2025-09-07,29006,309.97,3248181.34,18.8,5338279.11,SR6372,Individual,Partial,Yes,Winter
+SALE000557,Drug_1,North America,Jamaica,Wholesale,2025-06-14,42011,239.79,8348150.13,16.4,4891770.33,SR5843,Hospital,Yes,No,Summer
+SALE000558,Drug_30,Latin America,Maldives,Retail Pharmacy,2026-04-08,6050,198.87,7618290.74,6.9,892228.66,SR6021,Clinic,No,No,Winter
+SALE000559,Drug_97,North America,Timor-Leste,Hospital,2025-10-28,1460,458.16,3291629.71,10.3,2869730.22,SR8305,Clinic,Yes,No,Summer
+SALE000560,Drug_24,Asia Pacific,Saudi Arabia,Hospital,2026-04-23,37995,67.18,5340031.51,18.4,462191.98,SR7981,Individual,No,No,Winter
+SALE000561,Drug_14,Europe,Saint Kitts and Nevis,Retail Pharmacy,2025-08-15,22046,212.13,617741.28,25.8,3561512.69,SR3730,Individual,Yes,No,Winter
+SALE000562,Drug_36,Latin America,Mozambique,Hospital,2024-10-02,47120,175.56,2088250.08,22.6,1698039.5,SR8272,Hospital,No,Yes,Fall
+SALE000563,Drug_69,North America,New Caledonia,Hospital,2025-03-22,8830,251.58,4858719.77,16.6,5055043.49,SR6759,Clinic,No,No,Winter
+SALE000564,Drug_75,North America,Myanmar,Wholesale,2025-01-11,22261,231.53,860651.38,10.9,6235521.3,SR8325,Hospital,Yes,Yes,Fall
+SALE000565,Drug_24,Europe,Honduras,Hospital,2025-11-29,27838,261.85,8433480.22,11.0,4789453.05,SR1693,Clinic,Yes,No,Spring
+SALE000566,Drug_60,Middle East,Nepal,Retail Pharmacy,2025-05-28,4025,74.26,7180344.09,26.4,3908582.88,SR6776,Individual,Partial,No,Summer
+SALE000567,Drug_95,Europe,United Kingdom,Hospital,2026-06-02,8563,259.01,9436393.07,1.2,3486490.92,SR8126,Clinic,Yes,Yes,Fall
+SALE000568,Drug_55,North America,Malawi,Retail Pharmacy,2025-08-31,17512,125.0,6934975.59,29.6,7575352.56,SR5498,Clinic,Partial,No,Summer
+SALE000569,Drug_77,Asia Pacific,Swaziland,Wholesale,2025-11-06,22502,96.24,9404073.32,19.9,1974937.09,SR1939,Clinic,Yes,No,Fall
+SALE000570,Drug_80,Middle East,Cyprus,Hospital,2025-12-03,34110,37.09,5545571.04,20.4,6608177.68,SR2229,Hospital,Yes,No,Summer
+SALE000571,Drug_24,Latin America,Wallis and Futuna,Hospital,2025-11-18,25817,382.51,6002585.89,1.1,6817534.94,SR7655,Hospital,Yes,No,Fall
+SALE000572,Drug_77,Africa,Japan,Retail Pharmacy,2026-04-02,41652,216.58,9769733.58,18.2,3773264.71,SR6952,Clinic,Partial,No,Summer
+SALE000573,Drug_24,North America,Zimbabwe,Retail Pharmacy,2025-05-16,9897,315.19,6421649.34,14.5,2676267.55,SR9406,Pharmacy,Yes,No,Spring
+SALE000574,Drug_54,North America,San Marino,Retail Pharmacy,2026-03-11,20694,365.16,308834.9,3.2,4235296.94,SR3621,Hospital,Partial,No,Summer
+SALE000575,Drug_26,Asia Pacific,Tuvalu,Hospital,2025-07-09,6506,341.26,7238303.96,8.3,839650.76,SR1510,Individual,No,No,Spring
+SALE000576,Drug_66,Latin America,Sao Tome and Principe,Hospital,2026-01-02,14065,237.9,9054781.45,26.7,414133.55,SR3339,Individual,Yes,Yes,Spring
+SALE000577,Drug_80,North America,Tuvalu,Wholesale,2025-05-12,13833,197.01,7956006.92,16.5,1005139.51,SR8179,Clinic,Partial,Yes,Spring
+SALE000578,Drug_38,North America,Western Sahara,Wholesale,2025-04-05,27026,191.1,5838748.89,12.4,1684955.57,SR1570,Individual,Yes,No,Winter
+SALE000579,Drug_65,Asia Pacific,Romania,Retail Pharmacy,2025-11-09,28883,321.82,6713363.83,2.2,4537988.04,SR3068,Hospital,Partial,No,Summer
+SALE000580,Drug_75,North America,Cuba,Online,2025-08-25,17924,249.92,9901927.7,21.4,7642350.42,SR2101,Pharmacy,Yes,No,Winter
+SALE000581,Drug_51,Europe,Montserrat,Retail Pharmacy,2025-04-15,36494,425.32,907530.22,21.1,2121392.47,SR4866,Pharmacy,Yes,No,Winter
+SALE000582,Drug_35,Europe,Ukraine,Retail Pharmacy,2025-11-24,42942,437.98,6672781.04,18.4,8416509.97,SR7001,Pharmacy,Partial,Yes,Summer
+SALE000583,Drug_43,Europe,Bahamas,Hospital,2025-07-31,28387,89.43,2834693.55,15.3,8594207.25,SR6933,Individual,Partial,Yes,Spring
+SALE000584,Drug_29,Asia Pacific,Saudi Arabia,Retail Pharmacy,2026-08-12,16668,72.44,6401263.88,13.0,8630174.32,SR7272,Clinic,Yes,No,Winter
+SALE000585,Drug_37,Europe,Somalia,Retail Pharmacy,2024-11-08,30536,317.05,6076628.14,17.8,7538194.56,SR1530,Individual,Partial,Yes,Winter
+SALE000586,Drug_81,Asia Pacific,French Southern Territories,Hospital,2024-09-13,21480,154.11,1535414.86,7.0,3274934.31,SR3513,Clinic,Yes,No,Fall
+SALE000587,Drug_58,Europe,Northern Mariana Islands,Retail Pharmacy,2026-04-21,24896,14.19,2068259.71,28.2,654897.05,SR8371,Pharmacy,Partial,No,Summer
+SALE000588,Drug_54,Europe,Turkey,Online,2026-06-19,8131,444.88,6216674.15,17.7,5119713.53,SR7077,Hospital,No,Yes,Winter
+SALE000589,Drug_39,Asia Pacific,Bolivia,Retail Pharmacy,2026-04-26,22047,117.32,1283171.24,9.3,5028486.05,SR7095,Individual,Yes,Yes,Summer
+SALE000590,Drug_42,North America,Puerto Rico,Retail Pharmacy,2026-05-27,3288,464.99,2652543.57,13.5,7649901.92,SR8273,Hospital,Yes,No,Summer
+SALE000591,Drug_28,North America,Canada,Wholesale,2025-06-05,25769,360.13,8352620.23,24.2,8963922.67,SR2259,Pharmacy,Yes,No,Winter
+SALE000592,Drug_29,North America,Northern Mariana Islands,Hospital,2025-01-28,35813,382.51,3271587.97,4.8,4573809.23,SR3255,Clinic,Yes,No,Summer
+SALE000593,Drug_43,North America,Cape Verde,Retail Pharmacy,2026-03-26,31913,104.72,4881113.5,8.8,3107360.12,SR9674,Hospital,Yes,No,Spring
+SALE000594,Drug_3,Europe,Puerto Rico,Online,2024-08-22,6865,120.93,9411462.21,20.4,1673766.68,SR7012,Individual,No,No,Winter
+SALE000595,Drug_10,Latin America,Estonia,Retail Pharmacy,2026-05-21,23271,263.03,2272263.74,9.5,43994.58,SR7521,Hospital,Partial,Yes,Winter
+SALE000596,Drug_59,Asia Pacific,Angola,Hospital,2025-03-12,10907,90.19,3896870.55,23.8,4582415.94,SR6150,Hospital,Yes,Yes,Winter
+SALE000597,Drug_14,Asia Pacific,Iraq,Hospital,2025-09-13,10304,156.19,6064971.3,3.9,5000023.59,SR5566,Individual,No,No,Fall
+SALE000598,Drug_76,Europe,Luxembourg,Online,2024-09-11,27166,164.12,7553633.96,22.9,7424586.37,SR5089,Clinic,No,Yes,Fall
+SALE000599,Drug_47,Europe,Dominica,Retail Pharmacy,2025-08-13,42220,84.02,9016632.21,2.1,4541589.05,SR2858,Individual,Partial,Yes,Fall
+SALE000600,Drug_42,Europe,Japan,Online,2025-05-24,37467,106.57,9154814.4,0.4,8248281.96,SR1424,Pharmacy,No,No,Fall
+SALE000601,Drug_94,North America,France,Retail Pharmacy,2026-02-21,22758,395.33,7766624.1,26.9,5653048.82,SR4048,Clinic,No,No,Winter
+SALE000602,Drug_32,North America,Germany,Retail Pharmacy,2025-02-24,37181,87.76,2284080.04,17.4,7563153.87,SR9176,Hospital,Yes,Yes,Spring
+SALE000603,Drug_32,Europe,Nicaragua,Online,2025-09-26,35086,19.09,249068.49,10.6,1335396.97,SR9482,Individual,Yes,No,Summer
+SALE000604,Drug_42,Africa,Ecuador,Retail Pharmacy,2025-03-27,13886,316.53,3838355.53,7.0,7698140.9,SR7340,Pharmacy,Yes,No,Summer
+SALE000605,Drug_32,North America,Congo,Hospital,2025-05-08,29383,488.11,1416346.96,18.5,6076554.57,SR2929,Individual,Yes,Yes,Winter
+SALE000606,Drug_26,North America,Pitcairn Islands,Retail Pharmacy,2025-08-04,156,168.95,7104166.09,15.3,1532761.11,SR5288,Clinic,Yes,No,Spring
+SALE000607,Drug_1,Asia Pacific,Bouvet Island (Bouvetoya),Online,2025-05-12,45401,63.73,6611644.74,29.7,1708520.21,SR5264,Pharmacy,No,Yes,Summer
+SALE000608,Drug_56,North America,Netherlands,Hospital,2024-09-14,33011,287.34,440672.44,29.5,8338564.37,SR8311,Hospital,Yes,No,Spring
+SALE000609,Drug_2,Latin America,Singapore,Hospital,2025-07-02,40086,453.65,8366101.2,19.1,290712.47,SR4515,Clinic,No,Yes,Winter
+SALE000610,Drug_81,Asia Pacific,Liechtenstein,Hospital,2025-07-01,8659,393.11,2488183.92,13.3,4163244.46,SR5678,Pharmacy,Yes,No,Fall
+SALE000611,Drug_30,Middle East,Swaziland,Wholesale,2026-04-27,26158,313.15,4322838.53,14.7,2821826.83,SR9047,Clinic,Partial,Yes,Spring
+SALE000612,Drug_71,Europe,Tokelau,Hospital,2025-10-02,22845,160.95,6679669.42,20.5,5985964.9,SR4279,Hospital,Partial,No,Summer
+SALE000613,Drug_52,Asia Pacific,Latvia,Retail Pharmacy,2026-04-21,715,273.23,4294758.45,3.0,7556792.78,SR3009,Pharmacy,Yes,No,Summer
+SALE000614,Drug_91,Europe,Rwanda,Retail Pharmacy,2025-03-30,8162,50.17,4413436.74,9.9,3243914.79,SR3223,Individual,Yes,No,Summer
+SALE000615,Drug_9,Asia Pacific,Botswana,Retail Pharmacy,2025-01-30,28314,341.08,657214.33,2.3,3842577.26,SR2213,Individual,No,No,Fall
+SALE000616,Drug_22,Europe,Saint Pierre and Miquelon,Retail Pharmacy,2025-03-25,44388,363.92,4015034.05,2.2,8837274.53,SR8406,Hospital,Yes,Yes,Spring
+SALE000617,Drug_34,North America,Syrian Arab Republic,Hospital,2025-07-16,38845,482.69,7648714.08,5.9,7055421.45,SR3828,Pharmacy,Yes,No,Spring
+SALE000618,Drug_49,Europe,Greenland,Retail Pharmacy,2026-03-06,44287,133.9,9151848.2,14.6,8074919.42,SR8292,Hospital,Yes,Yes,Summer
+SALE000619,Drug_1,Europe,Cambodia,Online,2026-04-08,42648,14.14,4135557.87,23.5,3949308.98,SR2438,Hospital,Partial,No,Spring
+SALE000620,Drug_73,Latin America,Estonia,Online,2025-05-09,10781,275.08,4236434.68,14.6,2107298.57,SR6236,Clinic,Partial,Yes,Summer
+SALE000621,Drug_84,Asia Pacific,Algeria,Hospital,2026-03-15,7084,354.86,7026568.44,10.1,3707241.7,SR6692,Individual,No,No,Spring
+SALE000622,Drug_53,Asia Pacific,Montenegro,Online,2026-01-19,27679,396.25,9427777.24,2.5,6445054.39,SR2063,Hospital,No,No,Fall
+SALE000623,Drug_83,North America,Djibouti,Retail Pharmacy,2025-04-03,25374,100.9,2671342.34,16.5,985586.1,SR9882,Clinic,Partial,No,Fall
+SALE000624,Drug_100,Asia Pacific,Indonesia,Online,2025-09-21,37839,134.57,4402001.92,8.1,2434805.58,SR5757,Hospital,Partial,Yes,Winter
+SALE000625,Drug_40,Europe,Barbados,Retail Pharmacy,2026-07-30,27499,258.73,7959936.46,18.4,420485.8,SR5914,Hospital,Partial,No,Winter
+SALE000626,Drug_45,Latin America,Andorra,Retail Pharmacy,2025-05-30,31581,168.65,6097326.0,29.3,3891583.77,SR3580,Hospital,Yes,No,Winter
+SALE000627,Drug_68,Middle East,Heard Island and McDonald Islands,Wholesale,2025-08-19,1044,430.95,1106752.85,3.3,7447149.67,SR3852,Individual,Yes,No,Spring
+SALE000628,Drug_9,North America,Eritrea,Online,2025-07-09,28557,239.51,6277699.62,6.4,222753.46,SR6922,Pharmacy,No,No,Fall
+SALE000629,Drug_22,Latin America,Botswana,Retail Pharmacy,2026-05-14,9214,400.79,1868276.1,14.2,6078171.48,SR9335,Individual,No,No,Fall
+SALE000630,Drug_18,North America,Hungary,Hospital,2025-07-23,39946,292.41,5102649.12,29.1,8392516.87,SR4673,Clinic,Yes,No,Fall
+SALE000631,Drug_76,Europe,Korea,Hospital,2025-04-12,18230,387.68,5291503.57,23.2,2132961.21,SR2988,Pharmacy,Yes,Yes,Summer
+SALE000632,Drug_43,Europe,Panama,Hospital,2025-08-08,12412,169.67,8762157.42,26.9,6242958.66,SR4292,Clinic,Partial,No,Spring
+SALE000633,Drug_39,North America,Grenada,Hospital,2025-07-17,32696,416.55,4625480.25,10.0,8775937.03,SR3275,Hospital,Partial,No,Spring
+SALE000634,Drug_73,Asia Pacific,Dominican Republic,Hospital,2024-11-08,38651,140.91,2795144.78,29.8,8660532.72,SR4878,Pharmacy,Yes,No,Winter
+SALE000635,Drug_6,North America,Switzerland,Online,2026-03-09,9851,275.32,2310432.52,3.1,2114974.79,SR9094,Clinic,Partial,No,Summer
+SALE000636,Drug_83,North America,Puerto Rico,Hospital,2025-04-14,7007,110.93,8742644.51,1.6,903699.21,SR1430,Hospital,No,No,Summer
+SALE000637,Drug_48,Europe,Slovakia (Slovak Republic),Retail Pharmacy,2025-12-16,28214,240.39,1710937.53,25.7,1335224.22,SR6912,Clinic,Partial,No,Fall
+SALE000638,Drug_7,Asia Pacific,Nicaragua,Hospital,2025-10-13,25109,162.5,4259259.74,27.8,6318559.39,SR7044,Clinic,Yes,No,Winter
+SALE000639,Drug_80,Middle East,Guinea-Bissau,Hospital,2026-02-16,19410,137.02,1872543.98,2.7,6532049.27,SR8657,Individual,Yes,No,Spring
+SALE000640,Drug_69,Asia Pacific,Barbados,Hospital,2025-04-14,35825,483.66,7733267.1,3.4,6068389.67,SR3126,Hospital,Yes,No,Summer
+SALE000641,Drug_16,Asia Pacific,El Salvador,Hospital,2026-01-08,19096,84.24,4744252.03,1.0,3025236.63,SR2412,Individual,Yes,No,Fall
+SALE000642,Drug_1,Europe,India,Online,2026-03-06,6147,394.73,3512085.76,3.1,1528656.64,SR2077,Pharmacy,No,Yes,Spring
+SALE000643,Drug_37,North America,Mayotte,Online,2024-09-24,39117,492.16,3611635.31,6.3,5227185.22,SR6067,Hospital,Yes,Yes,Fall
+SALE000644,Drug_83,North America,Cuba,Hospital,2026-02-01,28867,14.85,8522289.85,29.1,4353537.07,SR7523,Individual,Partial,Yes,Spring
+SALE000645,Drug_37,Europe,Malawi,Retail Pharmacy,2026-03-22,16447,351.02,5538185.77,20.0,6559724.26,SR8842,Individual,Yes,No,Fall
+SALE000646,Drug_81,Asia Pacific,Saint Kitts and Nevis,Retail Pharmacy,2026-05-02,36627,130.19,7178960.64,23.4,3972687.62,SR9612,Pharmacy,Yes,No,Spring
+SALE000647,Drug_64,Europe,Martinique,Online,2025-04-14,24202,25.04,8970488.12,23.3,3048286.34,SR7730,Clinic,No,No,Winter
+SALE000648,Drug_90,Asia Pacific,Dominican Republic,Online,2026-05-11,4363,204.43,9017515.02,16.1,2641872.41,SR7708,Clinic,No,No,Spring
+SALE000649,Drug_86,Europe,North Macedonia,Retail Pharmacy,2024-08-19,43149,467.93,3285762.03,23.9,1903863.7,SR2208,Clinic,Yes,No,Spring
+SALE000650,Drug_62,North America,Montserrat,Retail Pharmacy,2025-03-05,2002,10.82,9524560.18,17.9,2392304.79,SR3053,Pharmacy,Partial,No,Spring
+SALE000651,Drug_72,North America,Egypt,Online,2026-07-13,30923,296.0,249733.94,9.4,854198.09,SR6194,Individual,No,No,Fall
+SALE000652,Drug_61,Latin America,Anguilla,Hospital,2026-06-14,30640,253.19,3768978.77,16.8,3122235.61,SR2215,Hospital,No,Yes,Summer
+SALE000653,Drug_33,Asia Pacific,Paraguay,Retail Pharmacy,2026-05-12,35435,437.33,8958092.78,16.0,329899.06,SR8372,Pharmacy,Partial,Yes,Spring
+SALE000654,Drug_66,Latin America,Holy See (Vatican City State),Wholesale,2026-02-21,10290,46.58,2747094.16,24.7,1678375.49,SR8632,Clinic,Yes,Yes,Spring
+SALE000655,Drug_30,North America,Chad,Retail Pharmacy,2024-12-14,40943,342.36,2731541.42,29.5,6721136.59,SR9476,Clinic,No,Yes,Winter
+SALE000656,Drug_20,Africa,Kenya,Retail Pharmacy,2025-12-24,27790,341.65,3026920.23,12.3,2929760.52,SR6644,Hospital,Partial,Yes,Spring
+SALE000657,Drug_60,North America,Paraguay,Retail Pharmacy,2025-10-26,3094,336.19,6123521.54,22.9,6014398.56,SR3102,Pharmacy,Yes,No,Winter
+SALE000658,Drug_82,North America,Tanzania,Hospital,2026-07-07,38097,471.46,4383889.42,3.0,6452184.07,SR3981,Clinic,Yes,Yes,Spring
+SALE000659,Drug_74,Africa,Malta,Retail Pharmacy,2025-01-15,2110,412.43,7267621.63,23.3,5231003.14,SR3114,Pharmacy,Partial,Yes,Fall
+SALE000660,Drug_24,North America,Guinea-Bissau,Retail Pharmacy,2025-05-08,7477,25.78,8949211.52,11.1,8628312.71,SR8088,Individual,Yes,Yes,Summer
+SALE000661,Drug_4,Asia Pacific,Sri Lanka,Retail Pharmacy,2025-08-29,13136,238.19,6742319.55,1.2,193741.65,SR9238,Pharmacy,Yes,No,Summer
+SALE000662,Drug_37,North America,Chad,Retail Pharmacy,2025-07-31,26567,201.99,2045462.74,10.9,6648082.93,SR1907,Individual,Partial,No,Summer
+SALE000663,Drug_4,Europe,Uganda,Online,2025-09-01,148,158.52,9326886.34,18.3,8629112.77,SR3034,Hospital,Yes,No,Fall
+SALE000664,Drug_77,Middle East,Greece,Hospital,2024-10-06,37078,228.41,2645664.24,3.6,7760555.75,SR9488,Individual,Yes,Yes,Winter
+SALE000665,Drug_89,North America,Fiji,Retail Pharmacy,2025-08-13,47706,195.18,1499793.06,27.7,1511699.91,SR3507,Individual,Partial,No,Summer
+SALE000666,Drug_77,Asia Pacific,Malawi,Retail Pharmacy,2026-03-04,16138,219.01,900582.82,2.3,2941921.3,SR5982,Hospital,Partial,Yes,Fall
+SALE000667,Drug_18,North America,United Kingdom,Retail Pharmacy,2024-12-28,32676,489.73,5634274.02,27.9,1552728.6,SR3697,Clinic,Yes,Yes,Fall
+SALE000668,Drug_88,Asia Pacific,Senegal,Hospital,2026-05-14,7978,48.87,1138510.86,21.2,5412094.23,SR3653,Hospital,No,No,Spring
+SALE000669,Drug_66,North America,Cote d'Ivoire,Retail Pharmacy,2025-03-27,27709,461.5,1388620.07,9.9,6409922.09,SR6286,Pharmacy,Partial,No,Winter
+SALE000670,Drug_48,North America,France,Online,2025-05-21,49322,242.72,3001004.78,11.7,2854210.27,SR4694,Hospital,Partial,No,Fall
+SALE000671,Drug_33,North America,Guinea,Retail Pharmacy,2024-11-18,48215,313.75,2817248.44,22.2,4855927.56,SR6669,Pharmacy,Yes,No,Winter
+SALE000672,Drug_58,North America,Bermuda,Wholesale,2026-07-23,24170,415.94,6042790.86,18.0,6218532.39,SR9501,Clinic,Yes,No,Summer
+SALE000673,Drug_83,Middle East,Uzbekistan,Wholesale,2025-07-11,40747,183.43,8167636.05,20.1,3792521.28,SR5653,Pharmacy,Yes,Yes,Summer
+SALE000674,Drug_73,Europe,Cayman Islands,Hospital,2025-03-21,22096,218.06,7613735.21,11.7,7686256.56,SR2292,Hospital,Partial,No,Summer
+SALE000675,Drug_28,North America,Kazakhstan,Hospital,2026-01-14,18261,207.71,2625582.06,14.6,6944132.18,SR5105,Hospital,Partial,Yes,Spring
+SALE000676,Drug_35,Europe,Wallis and Futuna,Wholesale,2025-03-10,46122,190.49,2453859.67,29.7,582738.16,SR4216,Clinic,Partial,No,Spring
+SALE000677,Drug_10,North America,Faroe Islands,Wholesale,2024-11-29,40248,463.14,9657949.51,6.4,5590430.79,SR5496,Hospital,Partial,Yes,Winter
+SALE000678,Drug_65,Asia Pacific,Belize,Hospital,2025-09-24,2328,415.32,83354.18,12.5,2118541.7,SR3050,Clinic,No,No,Winter
+SALE000679,Drug_42,Africa,Rwanda,Hospital,2026-04-29,26465,58.95,8797325.61,8.8,5018018.37,SR5961,Clinic,Yes,No,Spring
+SALE000680,Drug_85,Europe,Saint Helena,Hospital,2025-02-28,25288,58.52,1998085.46,23.0,8612030.47,SR9740,Hospital,Partial,No,Fall
+SALE000681,Drug_9,Latin America,Brunei Darussalam,Wholesale,2026-05-25,42682,216.8,9472895.95,22.9,7911654.79,SR2530,Individual,Partial,Yes,Winter
+SALE000682,Drug_60,Europe,France,Hospital,2026-07-25,8988,53.84,3423730.54,8.8,3641124.01,SR9234,Pharmacy,No,No,Winter
+SALE000683,Drug_15,North America,Palau,Retail Pharmacy,2025-06-01,23230,311.45,4404077.39,2.4,2624191.51,SR3762,Individual,Yes,No,Summer
+SALE000684,Drug_99,Asia Pacific,Lithuania,Online,2026-05-27,39259,76.13,7071499.02,0.3,2110264.18,SR3526,Clinic,Partial,No,Winter
+SALE000685,Drug_57,Europe,Antarctica (the territory South of 60 deg S),Hospital,2026-04-22,42297,263.57,5877102.85,12.8,4793007.82,SR3804,Pharmacy,Yes,No,Winter
+SALE000686,Drug_69,Asia Pacific,French Guiana,Retail Pharmacy,2024-09-18,18890,8.57,3180075.36,12.3,1028944.68,SR6531,Individual,Yes,No,Fall
+SALE000687,Drug_22,Latin America,Holy See (Vatican City State),Hospital,2025-09-26,24924,161.72,5538755.33,29.7,4943835.65,SR1674,Hospital,No,Yes,Winter
+SALE000688,Drug_64,Europe,British Indian Ocean Territory (Chagos Archipelago),Online,2025-07-13,33505,340.21,7307338.14,14.1,12801.69,SR1464,Individual,No,No,Fall
+SALE000689,Drug_41,Middle East,Dominican Republic,Hospital,2026-03-14,24574,244.6,424307.12,7.7,2915187.6,SR2330,Pharmacy,Yes,Yes,Summer
+SALE000690,Drug_87,Asia Pacific,Turkey,Retail Pharmacy,2025-09-22,17433,489.24,112981.85,26.7,1980032.88,SR1744,Pharmacy,Partial,Yes,Spring
+SALE000691,Drug_71,Europe,Madagascar,Retail Pharmacy,2024-08-21,42964,437.68,4581211.32,14.7,8740992.13,SR5336,Pharmacy,Yes,No,Summer
+SALE000692,Drug_56,Asia Pacific,Kenya,Hospital,2025-11-17,36455,182.74,1319234.34,18.0,6545399.08,SR4453,Pharmacy,Yes,No,Fall
+SALE000693,Drug_23,North America,Montserrat,Hospital,2025-04-30,33979,27.52,6643778.57,2.9,3147400.7,SR7825,Individual,Yes,Yes,Fall
+SALE000694,Drug_25,Africa,Botswana,Retail Pharmacy,2025-11-08,8467,423.59,2141310.51,11.5,836331.5,SR1496,Hospital,Partial,Yes,Winter
+SALE000695,Drug_91,Asia Pacific,Papua New Guinea,Hospital,2024-12-05,822,456.06,4329078.22,28.3,4651591.91,SR9159,Hospital,Partial,No,Winter
+SALE000696,Drug_6,North America,Georgia,Online,2025-10-16,31245,411.21,1977511.7,17.7,1921660.17,SR9938,Pharmacy,Partial,Yes,Spring
+SALE000697,Drug_34,North America,New Zealand,Online,2024-11-06,37734,68.34,5485287.37,10.3,4828236.77,SR5745,Hospital,Partial,No,Fall
+SALE000698,Drug_63,Asia Pacific,Czech Republic,Retail Pharmacy,2025-09-12,10239,498.97,1161418.54,18.8,7518392.9,SR5949,Individual,Yes,No,Fall
+SALE000699,Drug_9,North America,Falkland Islands (Malvinas),Retail Pharmacy,2026-08-09,49954,133.0,232045.42,27.3,5542440.33,SR8912,Hospital,Yes,No,Summer
+SALE000700,Drug_60,North America,Palau,Retail Pharmacy,2025-05-23,2228,363.48,512265.25,8.2,5704388.75,SR5012,Clinic,No,Yes,Spring
+SALE000701,Drug_49,Europe,United States Minor Outlying Islands,Online,2024-11-13,41986,454.48,9542630.16,15.2,4869639.78,SR7653,Hospital,Yes,Yes,Summer
+SALE000702,Drug_97,North America,Yemen,Retail Pharmacy,2025-08-20,20717,121.67,1423719.9,28.8,8345448.88,SR5873,Pharmacy,Partial,No,Winter
+SALE000703,Drug_51,Europe,Niger,Hospital,2025-01-11,28180,454.59,7085074.05,5.2,8387178.64,SR8430,Hospital,No,No,Winter
+SALE000704,Drug_60,North America,Poland,Hospital,2025-12-15,35385,158.19,680194.12,21.6,4614898.63,SR2195,Hospital,Partial,Yes,Summer
+SALE000705,Drug_70,North America,India,Retail Pharmacy,2025-10-04,17633,488.32,1082495.36,18.4,2752390.78,SR1981,Hospital,Yes,Yes,Winter
+SALE000706,Drug_37,Asia Pacific,Italy,Retail Pharmacy,2026-07-20,32724,144.22,5089253.64,20.4,4136715.38,SR3589,Hospital,Yes,Yes,Summer
+SALE000707,Drug_31,Europe,Grenada,Retail Pharmacy,2026-04-06,47096,476.95,4649244.43,10.5,1679671.96,SR8202,Clinic,No,No,Fall
+SALE000708,Drug_98,North America,Tajikistan,Hospital,2025-09-06,47047,31.5,9515851.51,9.4,5727389.76,SR7809,Individual,Yes,No,Fall
+SALE000709,Drug_41,North America,Lao People's Democratic Republic,Retail Pharmacy,2026-02-27,28056,356.09,9448409.69,20.5,4501230.95,SR8933,Pharmacy,No,No,Winter
+SALE000710,Drug_62,Europe,Russian Federation,Hospital,2026-06-01,42543,268.4,7796306.82,6.5,930421.66,SR8609,Pharmacy,Yes,No,Spring
+SALE000711,Drug_93,North America,Egypt,Hospital,2026-07-02,33177,241.55,6021416.2,12.6,1779471.91,SR4342,Hospital,Yes,No,Fall
+SALE000712,Drug_58,North America,Cook Islands,Retail Pharmacy,2025-03-02,4052,115.63,4550148.21,5.6,4317103.9,SR6573,Individual,Yes,No,Winter
+SALE000713,Drug_14,North America,Albania,Hospital,2024-08-19,46739,354.27,3562429.16,0.2,7988390.85,SR3353,Hospital,Yes,Yes,Spring
+SALE000714,Drug_36,Latin America,Italy,Retail Pharmacy,2026-05-22,42560,99.45,9470928.38,29.1,5097863.37,SR6121,Clinic,No,Yes,Winter
+SALE000715,Drug_36,Asia Pacific,Gibraltar,Hospital,2025-01-15,22896,278.66,6029485.21,13.0,6134069.77,SR6231,Individual,Yes,Yes,Summer
+SALE000716,Drug_79,Asia Pacific,Oman,Retail Pharmacy,2024-08-24,31846,130.36,5791146.2,29.1,3051785.72,SR6658,Individual,Yes,No,Winter
+SALE000717,Drug_8,Asia Pacific,Dominican Republic,Retail Pharmacy,2024-09-05,21349,478.03,2319779.32,4.2,5143045.41,SR7532,Individual,Yes,No,Summer
+SALE000718,Drug_26,Asia Pacific,Antigua and Barbuda,Hospital,2025-05-29,115,19.17,467931.48,17.6,4026860.5,SR3142,Individual,Yes,No,Fall
+SALE000719,Drug_36,Europe,Gambia,Hospital,2025-07-18,49857,103.87,9451940.61,6.0,5932441.91,SR7070,Hospital,Yes,Yes,Fall
+SALE000720,Drug_48,Asia Pacific,Mozambique,Online,2025-10-02,26057,124.94,3138038.85,23.7,455939.63,SR9437,Clinic,Yes,Yes,Winter
+SALE000721,Drug_85,North America,Niue,Retail Pharmacy,2025-07-26,16105,209.96,4426447.64,23.5,4440107.31,SR2739,Individual,No,Yes,Spring
+SALE000722,Drug_28,Asia Pacific,Moldova,Retail Pharmacy,2024-10-06,21392,120.2,1147284.8,3.4,2664496.83,SR6228,Pharmacy,No,No,Winter
+SALE000723,Drug_68,Asia Pacific,Serbia,Hospital,2025-03-16,31976,248.22,8369406.37,27.4,2936204.6,SR4960,Pharmacy,No,Yes,Winter
+SALE000724,Drug_62,Europe,Hungary,Retail Pharmacy,2026-06-02,47146,436.87,277290.7,5.8,8648288.15,SR8642,Clinic,Partial,Yes,Fall
+SALE000725,Drug_80,Europe,Japan,Retail Pharmacy,2025-04-21,14917,357.47,8340073.63,18.4,1644907.16,SR3007,Pharmacy,Yes,No,Fall
+SALE000726,Drug_86,North America,Fiji,Retail Pharmacy,2026-06-12,25570,292.08,1403709.84,29.6,2801758.28,SR5382,Hospital,No,Yes,Winter
+SALE000727,Drug_76,Asia Pacific,Belgium,Retail Pharmacy,2025-05-31,9859,49.06,8865754.56,26.5,4589425.27,SR8366,Hospital,Partial,No,Fall
+SALE000728,Drug_80,Asia Pacific,Finland,Hospital,2025-07-19,48532,348.53,7297996.6,28.7,7767352.11,SR5061,Clinic,Yes,Yes,Summer
+SALE000729,Drug_51,Latin America,Libyan Arab Jamahiriya,Hospital,2025-05-27,6512,87.38,1647537.95,10.3,3750497.41,SR3308,Individual,Partial,No,Winter
+SALE000730,Drug_42,North America,Jersey,Online,2025-12-25,20604,394.25,5658614.11,3.2,6694992.44,SR2586,Pharmacy,Yes,No,Fall
+SALE000731,Drug_29,Asia Pacific,Macao,Wholesale,2024-11-27,43064,128.78,3127250.49,5.7,7707481.78,SR1829,Pharmacy,Yes,No,Winter
+SALE000732,Drug_82,Europe,Vanuatu,Hospital,2025-07-30,8607,211.44,1783152.76,15.0,2790699.19,SR5754,Clinic,Partial,No,Fall
+SALE000733,Drug_10,Latin America,Somalia,Retail Pharmacy,2026-05-16,21150,178.48,8591962.81,23.8,3535237.45,SR7293,Clinic,Yes,No,Summer
+SALE000734,Drug_39,Europe,Cocos (Keeling) Islands,Hospital,2026-01-17,4920,430.11,4035824.14,4.5,3209520.77,SR7850,Pharmacy,Yes,No,Summer
+SALE000735,Drug_82,Europe,Greece,Hospital,2026-02-04,7935,67.64,3986038.6,19.8,7495835.99,SR5067,Individual,Yes,No,Winter
+SALE000736,Drug_1,Europe,Nauru,Hospital,2026-08-09,27731,284.99,1699696.86,9.7,399886.28,SR3616,Clinic,Yes,No,Summer
+SALE000737,Drug_39,Asia Pacific,Pakistan,Hospital,2025-05-03,34717,75.32,3831273.7,10.2,2776343.06,SR6364,Hospital,Yes,No,Summer
+SALE000738,Drug_21,Africa,Dominican Republic,Retail Pharmacy,2026-02-01,13687,353.87,8716296.85,19.9,6114933.49,SR6123,Pharmacy,No,No,Fall
+SALE000739,Drug_65,North America,Djibouti,Retail Pharmacy,2024-08-18,34821,453.01,3631923.98,14.0,5089339.14,SR4110,Clinic,Partial,Yes,Winter
+SALE000740,Drug_15,North America,Bahamas,Hospital,2026-07-19,45599,220.13,9516084.02,24.4,3927055.2,SR3610,Clinic,Partial,No,Fall
+SALE000741,Drug_4,Middle East,Cote d'Ivoire,Hospital,2025-01-08,6940,246.61,9463142.68,4.7,4859902.09,SR9163,Clinic,Yes,No,Fall
+SALE000742,Drug_60,Europe,Bahamas,Online,2024-10-20,37934,464.07,1449841.69,23.7,1778903.2,SR9433,Pharmacy,Partial,No,Spring
+SALE000743,Drug_61,Asia Pacific,Marshall Islands,Hospital,2025-03-31,31540,262.89,1773935.22,1.9,3876905.02,SR8648,Hospital,No,Yes,Summer
+SALE000744,Drug_20,Europe,Liberia,Retail Pharmacy,2026-03-08,35283,246.36,8626878.03,5.8,4515725.5,SR9171,Hospital,Yes,No,Fall
+SALE000745,Drug_10,North America,Guinea-Bissau,Hospital,2025-04-17,30736,291.27,3928216.43,19.7,8110781.15,SR6055,Pharmacy,Partial,Yes,Fall
+SALE000746,Drug_87,Asia Pacific,Timor-Leste,Retail Pharmacy,2026-01-11,2489,346.17,44735.45,25.6,2348107.8,SR9148,Clinic,Partial,No,Fall
+SALE000747,Drug_34,Asia Pacific,Cayman Islands,Hospital,2025-07-02,49079,57.91,2739444.33,7.6,7810562.26,SR1379,Pharmacy,Partial,Yes,Summer
+SALE000748,Drug_48,North America,China,Hospital,2026-03-10,863,411.45,5976692.3,9.8,5798457.21,SR2475,Pharmacy,Yes,No,Summer
+SALE000749,Drug_33,North America,Puerto Rico,Hospital,2025-06-15,24025,220.57,7992860.39,16.1,183851.21,SR7442,Clinic,Yes,Yes,Summer
+SALE000750,Drug_98,Latin America,Burundi,Hospital,2025-04-20,26649,40.81,1334752.78,6.3,6521902.33,SR9281,Pharmacy,Partial,Yes,Winter
+SALE000751,Drug_61,North America,Guernsey,Retail Pharmacy,2025-11-29,39123,394.16,1106303.1,24.3,320738.46,SR8491,Individual,No,No,Fall
+SALE000752,Drug_10,Latin America,Saint Kitts and Nevis,Retail Pharmacy,2025-01-25,40041,191.59,9221004.44,23.2,8976432.24,SR4944,Hospital,No,No,Summer
+SALE000753,Drug_54,North America,Central African Republic,Hospital,2025-12-19,23557,54.68,7511732.53,4.4,7853832.08,SR4524,Individual,No,Yes,Fall
+SALE000754,Drug_84,Europe,Burundi,Hospital,2025-05-31,21523,318.72,5898206.23,13.9,2676655.85,SR6781,Individual,Partial,No,Winter
+SALE000755,Drug_65,Middle East,Guinea,Retail Pharmacy,2025-05-05,10618,440.67,7692098.71,23.2,2317295.14,SR1797,Individual,Yes,Yes,Spring
+SALE000756,Drug_77,Asia Pacific,Palestinian Territory,Retail Pharmacy,2026-04-29,43120,444.44,4289114.76,10.1,3433464.59,SR1828,Pharmacy,No,No,Winter
+SALE000757,Drug_1,Europe,Bermuda,Wholesale,2025-09-05,32460,479.04,7584799.02,19.0,3206017.75,SR5609,Clinic,Yes,No,Summer
+SALE000758,Drug_5,Asia Pacific,Mongolia,Retail Pharmacy,2026-04-17,45315,434.51,3718658.11,1.5,3351542.5,SR9108,Pharmacy,No,Yes,Summer
+SALE000759,Drug_80,North America,China,Retail Pharmacy,2024-10-19,47957,6.06,2441701.63,18.3,2865034.29,SR8710,Hospital,Partial,No,Winter
+SALE000760,Drug_15,North America,Chad,Retail Pharmacy,2024-12-27,28273,193.22,7290405.2,4.6,5590503.75,SR5681,Pharmacy,Yes,Yes,Fall
+SALE000761,Drug_28,Africa,Cook Islands,Wholesale,2026-05-10,9495,410.18,4197303.25,24.9,1479041.56,SR9793,Pharmacy,No,No,Summer
+SALE000762,Drug_95,Asia Pacific,Hong Kong,Online,2025-03-09,44935,186.3,9813789.67,10.7,7613954.85,SR1133,Pharmacy,Yes,No,Summer
+SALE000763,Drug_23,Asia Pacific,Cuba,Hospital,2024-10-05,19307,302.77,3495502.34,8.4,7311772.43,SR2761,Pharmacy,Yes,No,Winter
+SALE000764,Drug_17,Europe,Falkland Islands (Malvinas),Hospital,2026-02-02,38155,305.13,9217352.48,25.2,4288767.68,SR8060,Individual,Yes,No,Fall
+SALE000765,Drug_98,North America,United States Virgin Islands,Hospital,2025-05-15,46329,185.69,9329692.52,1.5,7674687.5,SR3194,Clinic,Yes,No,Winter
+SALE000766,Drug_13,North America,Burkina Faso,Retail Pharmacy,2024-08-24,26739,452.71,2419287.62,11.9,2224907.91,SR5333,Hospital,Yes,Yes,Winter
+SALE000767,Drug_14,Europe,Guinea,Retail Pharmacy,2025-03-15,46270,254.1,7982413.59,11.1,158875.05,SR6992,Hospital,Yes,No,Fall
+SALE000768,Drug_11,Asia Pacific,Norfolk Island,Retail Pharmacy,2026-06-13,29024,235.07,4331311.98,8.5,5573175.96,SR7606,Hospital,Partial,No,Fall
+SALE000769,Drug_28,Europe,Ireland,Hospital,2025-10-29,7533,498.77,9175329.75,27.4,4121618.34,SR6995,Pharmacy,Partial,No,Spring
+SALE000770,Drug_42,Latin America,Saint Barthelemy,Retail Pharmacy,2025-08-24,30204,249.28,4501792.6,22.5,5104827.19,SR1741,Hospital,No,No,Winter
+SALE000771,Drug_96,North America,Brunei Darussalam,Online,2025-08-15,44152,93.31,7443292.87,1.9,8094135.21,SR7563,Individual,Yes,Yes,Fall
+SALE000772,Drug_99,Europe,Pitcairn Islands,Hospital,2025-04-05,37694,258.97,4670207.12,21.4,8729354.22,SR1838,Clinic,Partial,Yes,Summer
+SALE000773,Drug_61,North America,Ireland,Retail Pharmacy,2025-11-16,3764,407.94,2278779.76,15.8,5710370.7,SR4189,Pharmacy,No,Yes,Spring
+SALE000774,Drug_64,Europe,Norway,Retail Pharmacy,2026-05-05,10628,389.55,1994301.94,27.0,6876689.06,SR6939,Pharmacy,Yes,Yes,Winter
+SALE000775,Drug_31,North America,United States of America,Online,2026-03-31,28290,395.35,4254886.51,9.4,755008.85,SR5728,Individual,Partial,Yes,Fall
+SALE000776,Drug_81,Africa,Japan,Online,2024-12-11,597,355.47,7555191.08,17.2,1447111.69,SR2204,Hospital,Yes,No,Spring
+SALE000777,Drug_73,North America,Gambia,Retail Pharmacy,2024-10-07,7741,130.84,6051109.78,15.0,6599056.68,SR7329,Pharmacy,No,No,Spring
+SALE000778,Drug_10,Middle East,Venezuela,Retail Pharmacy,2024-09-02,4743,431.73,6886604.27,14.7,3882744.02,SR9261,Pharmacy,Yes,Yes,Summer
+SALE000779,Drug_8,Europe,Denmark,Online,2025-05-04,5156,447.25,2823981.18,13.7,4014130.66,SR8378,Individual,Yes,No,Spring
+SALE000780,Drug_21,Africa,Slovenia,Retail Pharmacy,2025-04-22,32999,101.11,4814872.02,6.2,2778022.25,SR5582,Individual,Partial,Yes,Winter
+SALE000781,Drug_77,Europe,Mexico,Hospital,2025-10-24,5543,69.58,444908.25,22.7,5466521.57,SR2946,Hospital,Yes,No,Fall
+SALE000782,Drug_59,Middle East,Aruba,Online,2026-06-16,17341,487.92,8175506.63,13.5,1667137.28,SR3108,Clinic,Yes,No,Spring
+SALE000783,Drug_50,North America,Slovenia,Hospital,2025-03-24,46311,434.82,9898931.73,28.8,5642544.98,SR2584,Clinic,Partial,No,Spring
+SALE000784,Drug_69,Asia Pacific,Bosnia and Herzegovina,Hospital,2024-09-20,8812,447.15,4069383.75,7.8,1564850.68,SR7453,Hospital,Partial,No,Winter
+SALE000785,Drug_70,Middle East,India,Online,2026-03-19,8321,443.76,110625.57,20.5,575183.25,SR7114,Clinic,No,Yes,Summer
+SALE000786,Drug_30,North America,Guyana,Retail Pharmacy,2026-07-17,31446,273.13,1698756.6,28.2,2973754.91,SR6555,Individual,Yes,No,Summer
+SALE000787,Drug_95,North America,Montserrat,Retail Pharmacy,2025-12-13,15760,324.97,6525616.25,19.9,2080878.17,SR6990,Individual,Yes,No,Fall
+SALE000788,Drug_17,Europe,Peru,Hospital,2026-06-13,39015,274.95,6121181.1,26.1,8001013.55,SR3363,Individual,Partial,No,Winter
+SALE000789,Drug_75,Middle East,Sao Tome and Principe,Hospital,2025-06-05,11688,30.35,7878859.33,24.8,495337.12,SR4261,Clinic,Yes,Yes,Summer
+SALE000790,Drug_20,Europe,Algeria,Hospital,2026-02-01,37472,374.02,2539586.23,10.8,1590181.94,SR9341,Clinic,Yes,No,Fall
+SALE000791,Drug_48,Europe,Malawi,Hospital,2025-09-23,42320,255.14,7636555.52,18.0,4938837.47,SR7576,Pharmacy,No,No,Fall
+SALE000792,Drug_73,North America,Guadeloupe,Retail Pharmacy,2024-08-24,18042,325.62,6880152.23,4.7,4330019.86,SR9193,Pharmacy,Yes,No,Summer
+SALE000793,Drug_2,North America,Antarctica (the territory South of 60 deg S),Hospital,2024-12-25,49267,253.81,3228822.16,16.1,413431.48,SR1659,Pharmacy,Yes,Yes,Winter
+SALE000794,Drug_37,Latin America,Egypt,Retail Pharmacy,2026-01-25,36473,248.45,5455335.99,6.9,66066.05,SR1742,Clinic,Yes,Yes,Spring
+SALE000795,Drug_1,North America,Pitcairn Islands,Hospital,2025-10-15,46152,90.04,1473590.81,22.3,8892621.02,SR1637,Pharmacy,Yes,No,Summer
+SALE000796,Drug_4,Asia Pacific,Burkina Faso,Wholesale,2025-07-17,1707,142.96,4526192.47,15.8,5929785.24,SR3245,Individual,Yes,Yes,Spring
+SALE000797,Drug_100,Middle East,Saint Barthelemy,Hospital,2025-06-24,44577,83.63,8812092.2,12.3,3289162.85,SR6456,Clinic,Yes,Yes,Spring
+SALE000798,Drug_54,North America,Wallis and Futuna,Hospital,2026-06-17,2116,101.85,4212492.61,8.1,4234313.88,SR8761,Hospital,Yes,Yes,Winter
+SALE000799,Drug_25,Asia Pacific,French Guiana,Hospital,2025-12-08,3674,486.62,8395827.5,30.0,2399537.84,SR9508,Clinic,Partial,Yes,Winter
+SALE000800,Drug_3,North America,Italy,Retail Pharmacy,2026-01-07,46409,80.79,5902943.4,2.2,3104388.15,SR8487,Pharmacy,Partial,Yes,Fall
+SALE000801,Drug_9,Asia Pacific,Turkey,Retail Pharmacy,2026-01-08,7374,138.29,1919575.25,1.3,5841680.97,SR3440,Clinic,Yes,No,Winter
+SALE000802,Drug_86,North America,Zambia,Retail Pharmacy,2025-10-15,42803,297.34,5811481.34,6.5,7945399.94,SR9446,Pharmacy,No,Yes,Fall
+SALE000803,Drug_87,Asia Pacific,Nigeria,Retail Pharmacy,2025-03-18,15848,307.04,5060327.31,29.1,1657822.9,SR3290,Pharmacy,Yes,Yes,Summer
+SALE000804,Drug_76,North America,Nauru,Hospital,2026-04-03,20275,81.22,3987014.71,29.4,7563381.26,SR6373,Hospital,Yes,Yes,Spring
+SALE000805,Drug_74,Europe,Madagascar,Retail Pharmacy,2025-11-10,39274,397.89,1197184.76,19.6,1094712.42,SR6218,Hospital,Yes,No,Winter
+SALE000806,Drug_34,Europe,Antarctica (the territory South of 60 deg S),Retail Pharmacy,2025-05-24,11926,393.68,4167669.93,26.4,1935558.02,SR3662,Individual,No,No,Summer
+SALE000807,Drug_43,North America,Ecuador,Hospital,2026-07-15,17572,122.47,728551.0,6.4,335347.85,SR7438,Pharmacy,Partial,No,Fall
+SALE000808,Drug_74,Asia Pacific,Tunisia,Hospital,2025-11-18,34229,147.89,988591.74,29.2,1267994.11,SR5902,Clinic,No,Yes,Winter
+SALE000809,Drug_94,North America,Korea,Hospital,2025-08-24,4573,469.3,4159749.41,4.3,8255794.47,SR6511,Hospital,Yes,No,Spring
+SALE000810,Drug_22,Asia Pacific,Vanuatu,Hospital,2025-03-04,23590,413.71,3054509.44,3.0,4135381.17,SR9311,Hospital,Yes,No,Summer
+SALE000811,Drug_70,North America,Cuba,Retail Pharmacy,2025-12-12,40187,350.41,9255517.71,3.4,699730.62,SR9351,Pharmacy,Partial,Yes,Winter
+SALE000812,Drug_2,Asia Pacific,Zimbabwe,Hospital,2026-03-22,41535,45.71,3757682.35,17.2,8637573.76,SR9721,Clinic,Yes,No,Winter
+SALE000813,Drug_94,North America,Brazil,Hospital,2025-04-13,9581,212.04,7578823.36,23.4,7911027.58,SR9025,Hospital,Partial,No,Summer
+SALE000814,Drug_66,Europe,Gibraltar,Hospital,2026-05-18,8620,281.85,5302945.02,11.0,6792338.94,SR5911,Hospital,No,No,Fall
+SALE000815,Drug_32,North America,Nepal,Wholesale,2026-03-20,26515,97.77,7041152.6,29.3,8401308.35,SR8780,Clinic,Partial,No,Fall
+SALE000816,Drug_16,Asia Pacific,Myanmar,Online,2026-06-28,17670,226.87,2601899.71,13.0,1981788.68,SR1272,Hospital,Partial,No,Winter
+SALE000817,Drug_76,North America,Senegal,Hospital,2024-10-18,19898,302.51,9419107.82,4.5,7527454.54,SR7035,Clinic,Partial,Yes,Fall
+SALE000818,Drug_1,Latin America,Korea,Hospital,2026-02-03,3636,167.05,5301354.88,14.0,6210168.77,SR6427,Pharmacy,No,No,Fall
+SALE000819,Drug_72,Latin America,Cyprus,Hospital,2026-07-02,1873,391.57,8313409.39,20.4,7827937.44,SR2795,Hospital,No,Yes,Summer
+SALE000820,Drug_48,North America,Tuvalu,Retail Pharmacy,2026-04-23,29994,421.02,3651091.89,25.0,7172366.56,SR7824,Pharmacy,Yes,No,Fall
+SALE000821,Drug_50,Asia Pacific,Cape Verde,Hospital,2025-11-16,43123,165.19,1003013.28,13.8,3118978.37,SR6040,Clinic,Partial,Yes,Fall
+SALE000822,Drug_13,North America,Georgia,Retail Pharmacy,2025-05-27,35426,420.14,6737442.77,17.8,6969767.31,SR1436,Pharmacy,Yes,No,Summer
+SALE000823,Drug_15,Europe,Central African Republic,Retail Pharmacy,2025-08-02,5179,56.27,78588.72,8.0,2362696.76,SR8775,Pharmacy,Yes,No,Winter
+SALE000824,Drug_53,Asia Pacific,Brazil,Online,2024-10-22,25938,419.68,4753454.47,19.4,2957866.59,SR5350,Pharmacy,Yes,No,Winter
+SALE000825,Drug_44,Asia Pacific,Kazakhstan,Hospital,2024-11-05,21904,80.61,1928826.22,29.6,971865.13,SR4728,Individual,Yes,Yes,Summer
+SALE000826,Drug_8,Asia Pacific,Jamaica,Online,2025-10-11,47209,46.05,6274127.67,1.5,8415741.48,SR1841,Clinic,No,No,Spring
+SALE000827,Drug_74,North America,Bermuda,Online,2025-01-13,19775,322.68,9794219.31,26.6,2619597.47,SR8871,Clinic,No,No,Summer
+SALE000828,Drug_46,Europe,Falkland Islands (Malvinas),Hospital,2026-07-19,25694,238.61,4644564.66,16.9,4685985.69,SR3793,Clinic,Yes,Yes,Spring
+SALE000829,Drug_69,North America,Togo,Hospital,2026-04-09,42849,454.41,8175165.07,7.6,3522482.46,SR9589,Clinic,Yes,No,Fall
+SALE000830,Drug_19,Asia Pacific,French Polynesia,Hospital,2026-04-08,36392,184.78,5078334.09,28.6,8639385.14,SR7229,Clinic,Partial,Yes,Winter
+SALE000831,Drug_38,Europe,Guatemala,Hospital,2024-09-02,9098,147.14,4958904.47,14.5,3015974.5,SR3421,Hospital,Partial,No,Spring
+SALE000832,Drug_11,Asia Pacific,India,Hospital,2025-05-03,13797,252.86,9304304.51,10.0,7007089.56,SR4968,Hospital,Partial,Yes,Spring
+SALE000833,Drug_43,North America,New Zealand,Retail Pharmacy,2025-05-20,46474,230.69,8899768.72,5.4,7698861.06,SR1517,Hospital,Yes,Yes,Fall
+SALE000834,Drug_20,North America,Saint Kitts and Nevis,Retail Pharmacy,2026-07-01,13529,175.49,7858218.85,7.3,3920909.99,SR2800,Pharmacy,Partial,No,Winter
+SALE000835,Drug_20,North America,Uruguay,Wholesale,2025-01-13,48907,348.4,2963261.28,25.0,3404043.79,SR4125,Pharmacy,Yes,No,Fall
+SALE000836,Drug_21,North America,Wallis and Futuna,Hospital,2026-04-21,7240,380.98,5450539.15,18.4,6729914.19,SR1310,Clinic,Yes,Yes,Winter
+SALE000837,Drug_82,North America,Papua New Guinea,Wholesale,2026-08-13,41653,427.23,2239748.44,27.4,8216133.51,SR8225,Individual,Yes,No,Winter
+SALE000838,Drug_57,Latin America,Rwanda,Hospital,2025-11-14,15001,486.56,4439723.06,7.0,6794581.65,SR6139,Clinic,Yes,Yes,Fall
+SALE000839,Drug_50,Latin America,Zimbabwe,Online,2025-05-16,23379,136.99,4842646.44,3.6,2044755.59,SR7861,Hospital,Yes,Yes,Spring
+SALE000840,Drug_74,Europe,Azerbaijan,Hospital,2026-07-26,28625,359.47,8316568.76,0.2,7994859.08,SR3481,Clinic,Partial,No,Summer
+SALE000841,Drug_98,Europe,Anguilla,Hospital,2024-11-16,20591,200.16,8960387.62,15.2,3488724.94,SR7765,Pharmacy,Yes,Yes,Winter
+SALE000842,Drug_26,North America,Switzerland,Online,2024-10-12,3380,340.16,4146786.0,29.9,5186403.72,SR4340,Clinic,Yes,No,Winter
+SALE000843,Drug_30,Latin America,Puerto Rico,Hospital,2024-10-06,35080,240.61,178026.75,20.8,7483055.43,SR7723,Hospital,Yes,No,Summer
+SALE000844,Drug_73,North America,Palestinian Territory,Retail Pharmacy,2025-10-29,48081,496.92,8617876.62,9.3,1696202.19,SR9221,Clinic,Yes,No,Summer
+SALE000845,Drug_31,Middle East,Netherlands Antilles,Retail Pharmacy,2025-08-01,30089,365.81,1743612.51,26.3,7060763.61,SR8726,Pharmacy,No,No,Fall
+SALE000846,Drug_42,Europe,Guadeloupe,Retail Pharmacy,2024-11-02,8178,476.48,6219197.76,23.5,5365788.25,SR2020,Individual,Yes,Yes,Winter
+SALE000847,Drug_68,North America,Spain,Retail Pharmacy,2026-06-07,26218,418.31,250684.03,0.5,8040160.1,SR3262,Hospital,Partial,No,Fall
+SALE000848,Drug_61,Middle East,Japan,Retail Pharmacy,2025-12-10,24085,451.94,3995665.25,24.5,1548396.04,SR9498,Clinic,Yes,No,Summer
+SALE000849,Drug_61,North America,Bermuda,Hospital,2026-02-26,48804,408.14,9859617.06,9.0,3786603.59,SR4397,Pharmacy,No,Yes,Fall
+SALE000850,Drug_70,Europe,Sri Lanka,Retail Pharmacy,2024-11-25,17097,232.28,1007835.32,4.5,7495721.56,SR6325,Hospital,Partial,No,Winter
+SALE000851,Drug_78,Europe,Sudan,Online,2026-06-06,14374,129.64,4237507.83,6.8,173869.95,SR8837,Hospital,Partial,No,Spring
+SALE000852,Drug_68,North America,Libyan Arab Jamahiriya,Hospital,2025-06-25,968,188.31,3072192.35,14.1,1010522.54,SR9609,Pharmacy,Partial,No,Spring
+SALE000853,Drug_90,Europe,Gabon,Hospital,2026-07-26,26498,15.02,9050976.15,12.7,8915094.46,SR7173,Clinic,No,No,Winter
+SALE000854,Drug_17,Asia Pacific,Portugal,Retail Pharmacy,2025-08-05,16142,264.38,8693531.74,8.7,2524123.29,SR6140,Clinic,Yes,Yes,Fall
+SALE000855,Drug_19,Asia Pacific,Hungary,Retail Pharmacy,2025-03-18,31920,255.0,2377749.9,5.2,8779908.31,SR3837,Clinic,No,No,Summer
+SALE000856,Drug_51,North America,Italy,Retail Pharmacy,2026-05-10,48275,265.0,812796.68,22.9,1643437.93,SR8531,Hospital,Partial,No,Summer
+SALE000857,Drug_70,Middle East,Papua New Guinea,Hospital,2025-08-30,21346,487.15,6271756.8,29.7,3250361.11,SR9734,Individual,Partial,No,Spring
+SALE000858,Drug_63,North America,Palau,Retail Pharmacy,2025-11-01,20661,456.17,3364350.75,23.3,6776022.7,SR6608,Hospital,Yes,Yes,Fall
+SALE000859,Drug_93,North America,Macao,Hospital,2025-05-22,16354,85.05,6721171.82,8.9,5920279.44,SR9950,Clinic,Yes,No,Summer
+SALE000860,Drug_75,North America,Turks and Caicos Islands,Retail Pharmacy,2025-07-26,34612,187.6,322165.44,7.3,5230436.7,SR6804,Hospital,Partial,No,Summer
+SALE000861,Drug_80,North America,Cocos (Keeling) Islands,Online,2025-05-08,35124,214.86,1334858.95,6.5,4769468.66,SR5331,Individual,Yes,No,Winter
+SALE000862,Drug_30,North America,Lesotho,Hospital,2026-02-10,24096,183.46,6864035.96,4.1,7591089.24,SR8932,Hospital,Yes,No,Fall
+SALE000863,Drug_25,Africa,Equatorial Guinea,Retail Pharmacy,2026-06-01,28718,400.26,2124494.18,16.5,2115149.11,SR4150,Pharmacy,Yes,No,Fall
+SALE000864,Drug_75,North America,Liechtenstein,Wholesale,2025-06-25,11959,264.4,8576019.17,18.2,3982684.37,SR5038,Clinic,No,No,Summer
+SALE000865,Drug_71,North America,Bouvet Island (Bouvetoya),Retail Pharmacy,2025-07-18,23680,288.19,586850.29,21.2,1399746.27,SR5571,Clinic,Partial,No,Fall
+SALE000866,Drug_26,North America,Kyrgyz Republic,Online,2025-10-18,5523,427.24,2155604.35,20.4,5363797.61,SR5890,Clinic,Yes,Yes,Fall
+SALE000867,Drug_56,Asia Pacific,Tunisia,Retail Pharmacy,2024-09-27,37957,403.93,9985603.92,8.8,2255499.38,SR4684,Hospital,Yes,No,Fall
+SALE000868,Drug_22,Latin America,Moldova,Online,2026-04-23,6708,70.44,4331327.95,9.9,3005111.51,SR5876,Hospital,Yes,No,Winter
+SALE000869,Drug_89,North America,Congo,Hospital,2024-12-05,42585,358.39,7029953.67,20.4,4241679.45,SR5735,Hospital,Yes,No,Summer
+SALE000870,Drug_19,North America,Niger,Hospital,2026-02-28,4976,220.54,1827447.83,10.5,241713.85,SR4396,Clinic,No,No,Spring
+SALE000871,Drug_31,North America,French Polynesia,Hospital,2024-10-29,21138,150.85,6099077.48,6.4,828167.87,SR9011,Hospital,No,No,Fall
+SALE000872,Drug_26,North America,Panama,Retail Pharmacy,2024-12-16,28106,29.76,7261334.58,11.2,6173614.24,SR6194,Clinic,Yes,No,Summer
+SALE000873,Drug_42,North America,Micronesia,Online,2026-05-04,35875,246.19,3145451.88,8.2,3861186.65,SR8861,Hospital,No,Yes,Spring
+SALE000874,Drug_41,Europe,Trinidad and Tobago,Hospital,2024-11-09,30910,180.94,8289142.22,2.6,7783220.17,SR6714,Clinic,Partial,Yes,Winter
+SALE000875,Drug_100,North America,Greenland,Retail Pharmacy,2025-12-10,14425,129.5,6034572.37,24.9,6252292.3,SR5480,Pharmacy,Yes,No,Summer
+SALE000876,Drug_23,Europe,Romania,Retail Pharmacy,2026-07-22,35992,348.86,3891840.97,25.6,73701.99,SR5715,Hospital,Yes,No,Winter
+SALE000877,Drug_47,North America,Montserrat,Retail Pharmacy,2026-05-10,1853,385.9,5576866.29,6.6,5550717.61,SR2996,Clinic,Partial,No,Summer
+SALE000878,Drug_13,Middle East,Vanuatu,Hospital,2025-12-14,29631,126.17,5768031.71,1.9,844248.81,SR9899,Pharmacy,Yes,No,Winter
+SALE000879,Drug_89,Middle East,Gambia,Retail Pharmacy,2025-11-16,18096,29.48,1656187.39,22.2,7028573.87,SR7220,Pharmacy,Partial,No,Summer
+SALE000880,Drug_66,Europe,Bermuda,Hospital,2025-02-22,3375,425.13,4027920.97,6.3,8923575.99,SR7464,Individual,Yes,No,Winter
+SALE000881,Drug_66,Europe,Mongolia,Hospital,2025-01-24,8847,9.93,3434962.45,11.8,4781164.19,SR6654,Hospital,Partial,No,Spring
+SALE000882,Drug_16,Europe,Finland,Wholesale,2025-02-09,45311,468.87,4009626.32,1.9,6145269.28,SR3399,Clinic,Partial,No,Summer
+SALE000883,Drug_73,Europe,Solomon Islands,Hospital,2025-09-23,924,315.67,7611344.77,6.8,2136437.6,SR5758,Individual,No,No,Spring
+SALE000884,Drug_28,Asia Pacific,Samoa,Hospital,2026-01-24,13980,164.31,4825901.54,23.8,3938829.62,SR1689,Hospital,Partial,No,Fall
+SALE000885,Drug_77,Europe,United Kingdom,Online,2025-12-26,43909,127.01,9403221.22,24.1,7704973.11,SR5712,Pharmacy,Partial,No,Spring
+SALE000886,Drug_35,Latin America,Denmark,Hospital,2025-04-08,1181,9.46,2937470.46,6.2,1507472.59,SR2294,Hospital,No,No,Summer
+SALE000887,Drug_41,Middle East,Madagascar,Retail Pharmacy,2025-08-07,11617,121.56,4157620.08,10.1,2390408.02,SR6674,Clinic,Yes,No,Spring
+SALE000888,Drug_77,North America,Estonia,Hospital,2025-05-08,21783,73.18,7869781.15,4.0,4009346.73,SR8247,Pharmacy,Yes,No,Summer
+SALE000889,Drug_31,Europe,Malta,Hospital,2025-07-02,16976,308.02,5460699.91,2.2,6410470.23,SR5201,Individual,Partial,No,Winter
+SALE000890,Drug_85,North America,Vietnam,Hospital,2026-06-27,37632,87.44,5470734.44,29.8,3383454.89,SR8849,Hospital,No,Yes,Fall
+SALE000891,Drug_32,North America,American Samoa,Hospital,2026-01-23,8366,266.67,534348.29,19.7,8349648.33,SR4505,Hospital,Yes,No,Spring
+SALE000892,Drug_54,Europe,Uruguay,Retail Pharmacy,2024-10-03,11283,297.11,3986598.03,16.3,850837.9,SR4310,Individual,Yes,No,Fall
+SALE000893,Drug_98,North America,Kazakhstan,Retail Pharmacy,2026-02-17,21166,152.53,2708066.59,23.0,3337741.13,SR9824,Hospital,No,No,Spring
+SALE000894,Drug_72,Latin America,Djibouti,Retail Pharmacy,2024-12-03,49580,22.36,9993351.89,25.2,6380819.95,SR5442,Hospital,Yes,No,Summer
+SALE000895,Drug_59,North America,Heard Island and McDonald Islands,Wholesale,2025-04-25,12977,23.44,3084242.35,24.2,2034500.1,SR5450,Hospital,Yes,Yes,Spring
+SALE000896,Drug_41,Europe,Marshall Islands,Hospital,2025-08-30,10082,18.04,8845080.85,0.5,5907993.08,SR3249,Pharmacy,Partial,Yes,Fall
+SALE000897,Drug_66,Asia Pacific,Sierra Leone,Retail Pharmacy,2026-06-13,9068,370.87,6762661.12,5.6,1478621.25,SR2789,Pharmacy,No,No,Spring
+SALE000898,Drug_96,Asia Pacific,Ghana,Retail Pharmacy,2025-11-01,26698,162.41,3409823.18,19.6,504577.78,SR4920,Clinic,Yes,Yes,Fall
+SALE000899,Drug_54,Europe,Tanzania,Wholesale,2024-12-29,14739,399.17,5435800.25,11.3,1089844.64,SR4972,Hospital,Yes,No,Fall
+SALE000900,Drug_40,Latin America,Antarctica (the territory South of 60 deg S),Hospital,2025-02-23,4774,218.71,8405518.26,29.5,8369919.06,SR1831,Clinic,Yes,Yes,Summer
+SALE000901,Drug_28,Europe,Azerbaijan,Retail Pharmacy,2024-08-21,4416,229.23,8833799.61,20.0,4966116.55,SR9700,Pharmacy,Yes,No,Winter
+SALE000902,Drug_37,Europe,Saint Helena,Online,2025-09-10,48182,258.88,1604778.36,28.7,7167274.9,SR4697,Hospital,No,Yes,Winter
+SALE000903,Drug_65,North America,Austria,Hospital,2025-01-25,9795,357.95,3396391.84,6.0,2994424.38,SR4814,Clinic,No,No,Spring
+SALE000904,Drug_74,Europe,Andorra,Online,2025-01-03,48682,140.38,3352896.58,25.9,5334253.7,SR1860,Hospital,Yes,No,Fall
+SALE000905,Drug_55,Latin America,Greece,Hospital,2026-03-08,31194,65.19,421405.92,9.6,4454973.24,SR2641,Hospital,Yes,Yes,Summer
+SALE000906,Drug_4,Asia Pacific,Guyana,Retail Pharmacy,2024-12-22,22287,280.25,5982779.36,29.7,8511685.04,SR7771,Individual,Yes,No,Winter
+SALE000907,Drug_99,Latin America,Gabon,Wholesale,2024-11-30,41247,166.85,8548345.71,4.7,6728373.66,SR6411,Clinic,Partial,No,Summer
+SALE000908,Drug_10,Europe,Svalbard & Jan Mayen Islands,Retail Pharmacy,2026-04-02,1314,224.03,3816362.3,15.5,6575099.25,SR8739,Pharmacy,Yes,No,Summer
+SALE000909,Drug_47,North America,Marshall Islands,Retail Pharmacy,2026-06-18,24040,325.24,7400619.41,23.8,417942.34,SR2647,Clinic,Partial,Yes,Fall
+SALE000910,Drug_75,North America,Malawi,Hospital,2025-04-21,44506,249.59,6277376.44,13.0,4947387.29,SR3252,Clinic,Partial,No,Spring
+SALE000911,Drug_14,North America,Italy,Wholesale,2025-07-15,25785,312.04,3757111.71,14.0,4203349.49,SR1084,Clinic,No,No,Fall
+SALE000912,Drug_38,Asia Pacific,Saint Vincent and the Grenadines,Retail Pharmacy,2025-05-15,43581,274.38,1411456.94,29.6,8350638.13,SR3587,Individual,Partial,No,Winter
+SALE000913,Drug_12,Asia Pacific,Aruba,Hospital,2026-07-10,16077,371.2,7093529.2,12.8,2316672.02,SR7666,Hospital,Yes,No,Winter
+SALE000914,Drug_45,North America,Kazakhstan,Retail Pharmacy,2025-06-24,44939,354.44,8545797.12,18.1,2429085.21,SR8793,Pharmacy,No,No,Summer
+SALE000915,Drug_17,Europe,El Salvador,Retail Pharmacy,2026-01-14,36004,269.42,6858859.07,1.6,3702587.16,SR8822,Individual,Yes,No,Fall
+SALE000916,Drug_80,Europe,Marshall Islands,Hospital,2025-11-25,25638,341.06,179766.96,25.3,2190932.72,SR4267,Pharmacy,Partial,No,Fall
+SALE000917,Drug_35,Europe,Cuba,Hospital,2025-08-11,39486,437.41,2163112.71,19.4,1163351.91,SR5706,Individual,Yes,Yes,Summer
+SALE000918,Drug_66,North America,Zimbabwe,Hospital,2025-01-22,38133,218.97,695730.37,12.1,7716847.69,SR6262,Hospital,Partial,No,Spring
+SALE000919,Drug_75,North America,Malawi,Retail Pharmacy,2026-05-12,8065,209.32,5704290.61,0.5,5024842.1,SR5676,Pharmacy,Yes,No,Summer
+SALE000920,Drug_41,North America,Philippines,Retail Pharmacy,2025-11-24,9697,383.3,7565020.31,17.8,7752375.38,SR1969,Clinic,Partial,No,Summer
+SALE000921,Drug_67,North America,Bahamas,Retail Pharmacy,2024-08-21,41576,293.36,1106681.29,0.4,7480347.98,SR2465,Individual,Yes,No,Winter
+SALE000922,Drug_29,North America,French Southern Territories,Online,2026-01-10,27840,40.15,8383539.87,0.0,2538955.56,SR4804,Pharmacy,No,No,Fall
+SALE000923,Drug_18,North America,Iceland,Online,2025-07-20,6669,446.6,5555534.27,18.5,4929998.81,SR9767,Hospital,Yes,Yes,Winter
+SALE000924,Drug_20,Asia Pacific,New Zealand,Retail Pharmacy,2025-01-26,38081,20.24,6900000.15,5.7,749692.75,SR1611,Pharmacy,Yes,No,Summer
+SALE000925,Drug_14,North America,Ireland,Hospital,2025-01-16,11981,375.46,9714047.08,5.8,8237334.75,SR3868,Individual,No,No,Fall
+SALE000926,Drug_34,Africa,United States of America,Retail Pharmacy,2024-10-23,37096,380.6,837726.2,19.6,3638841.03,SR7846,Hospital,Partial,Yes,Summer
+SALE000927,Drug_49,North America,Dominica,Retail Pharmacy,2025-02-09,32277,476.79,9012339.01,1.6,3543570.71,SR3880,Clinic,Yes,No,Summer
+SALE000928,Drug_54,North America,Heard Island and McDonald Islands,Retail Pharmacy,2025-03-27,37277,31.8,1261900.86,9.4,2725356.13,SR1595,Individual,Partial,No,Spring
+SALE000929,Drug_31,Europe,Tonga,Retail Pharmacy,2026-03-10,690,300.44,3930195.11,4.5,4146405.17,SR7504,Individual,No,No,Winter
+SALE000930,Drug_58,North America,Armenia,Hospital,2024-08-17,26219,216.78,8514535.52,17.4,2266433.07,SR9116,Hospital,Partial,No,Winter
+SALE000931,Drug_42,Latin America,Paraguay,Wholesale,2025-10-21,28015,168.66,9062636.11,19.9,3374170.57,SR4052,Individual,Yes,No,Summer
+SALE000932,Drug_58,North America,Saint Barthelemy,Hospital,2024-10-22,2808,49.71,5064210.36,21.6,7199683.48,SR5742,Pharmacy,Yes,No,Spring
+SALE000933,Drug_82,Middle East,Lebanon,Retail Pharmacy,2026-01-19,38849,283.51,5941452.28,7.7,7508432.13,SR1613,Clinic,Partial,No,Summer
+SALE000934,Drug_30,Latin America,Northern Mariana Islands,Hospital,2024-11-08,45089,242.13,7081765.2,2.7,2738198.95,SR1151,Pharmacy,Yes,No,Summer
+SALE000935,Drug_25,Europe,Turks and Caicos Islands,Wholesale,2025-05-23,22206,56.75,8327753.93,2.4,4221554.66,SR5888,Hospital,No,Yes,Summer
+SALE000936,Drug_63,Europe,Saint Vincent and the Grenadines,Hospital,2025-02-21,17231,308.18,1215990.18,12.8,7864478.93,SR2758,Individual,Yes,No,Spring
+SALE000937,Drug_19,Asia Pacific,Sudan,Hospital,2024-10-07,46653,370.29,8100883.01,28.4,474817.85,SR6489,Clinic,Yes,Yes,Fall
+SALE000938,Drug_72,Europe,Saint Helena,Hospital,2025-09-21,6653,384.8,4813280.23,6.5,8002393.34,SR5662,Hospital,No,No,Spring
+SALE000939,Drug_92,Asia Pacific,Paraguay,Hospital,2024-12-29,17981,453.16,4506783.63,7.7,1973283.76,SR8444,Pharmacy,Partial,No,Summer
+SALE000940,Drug_8,North America,Congo,Hospital,2025-05-24,1479,207.69,4239573.62,3.0,6107110.37,SR9901,Individual,No,No,Fall
+SALE000941,Drug_95,North America,Romania,Retail Pharmacy,2025-03-25,25355,476.77,5092606.64,18.2,5243299.23,SR9590,Individual,Yes,No,Summer
+SALE000942,Drug_3,Europe,Vietnam,Retail Pharmacy,2025-11-09,40228,433.39,9450560.48,20.4,4976824.38,SR9092,Hospital,Yes,Yes,Spring
+SALE000943,Drug_67,Europe,Palau,Hospital,2024-09-11,3870,151.77,5482489.52,19.3,7734354.53,SR3198,Pharmacy,Yes,No,Spring
+SALE000944,Drug_86,Latin America,United Arab Emirates,Hospital,2026-03-29,19826,83.85,9531822.21,25.8,914868.04,SR9261,Individual,Yes,No,Fall
+SALE000945,Drug_81,North America,San Marino,Online,2026-06-06,47317,220.52,1803721.02,14.6,3123774.61,SR8668,Pharmacy,Partial,No,Spring
+SALE000946,Drug_100,Latin America,Mauritania,Retail Pharmacy,2026-03-13,9188,203.94,7241635.65,4.0,4844644.11,SR5470,Clinic,Partial,No,Summer
+SALE000947,Drug_17,North America,United States of America,Retail Pharmacy,2026-03-01,34414,289.98,8122583.15,8.7,7301750.65,SR4159,Individual,Yes,No,Fall
+SALE000948,Drug_14,Europe,Singapore,Retail Pharmacy,2025-05-15,39076,293.78,6791609.18,19.9,1948614.6,SR2845,Clinic,Partial,No,Winter
+SALE000949,Drug_9,North America,Bouvet Island (Bouvetoya),Hospital,2025-08-25,16450,376.24,6069615.88,18.4,7226526.23,SR6417,Individual,Yes,No,Summer
+SALE000950,Drug_62,Europe,Burundi,Hospital,2026-08-13,41743,257.4,5648563.0,15.9,3597226.63,SR3662,Hospital,Partial,No,Winter
+SALE000951,Drug_94,North America,New Zealand,Hospital,2025-01-04,34163,56.89,8609443.9,20.5,1700873.58,SR8518,Individual,Yes,No,Fall
+SALE000952,Drug_21,Europe,Mongolia,Online,2024-12-22,15961,429.85,8216644.33,19.1,6831070.77,SR5215,Individual,No,No,Fall
+SALE000953,Drug_76,Latin America,Cook Islands,Wholesale,2025-09-18,14073,158.33,1223764.92,26.4,818817.39,SR4050,Pharmacy,Yes,No,Summer
+SALE000954,Drug_37,Europe,Bolivia,Retail Pharmacy,2026-04-20,17869,485.79,8486027.98,17.6,4633294.55,SR1230,Pharmacy,Yes,Yes,Spring
+SALE000955,Drug_96,Europe,Malaysia,Hospital,2024-09-26,47349,63.34,4141272.13,23.4,575630.95,SR6523,Clinic,Yes,No,Summer
+SALE000956,Drug_11,Latin America,United Kingdom,Hospital,2025-05-31,17426,479.33,2537714.6,7.5,3208275.56,SR5833,Clinic,Yes,Yes,Spring
+SALE000957,Drug_20,Asia Pacific,Mongolia,Hospital,2025-04-11,36148,50.05,8697815.91,20.3,5410010.33,SR4164,Clinic,Yes,Yes,Spring
+SALE000958,Drug_35,Europe,Congo,Retail Pharmacy,2026-02-07,46465,119.36,4320815.97,27.1,5005394.98,SR3875,Individual,Yes,Yes,Summer
+SALE000959,Drug_53,North America,Saint Lucia,Hospital,2025-11-03,2886,28.06,8083838.54,11.6,3642375.04,SR7643,Individual,Yes,Yes,Fall
+SALE000960,Drug_47,Latin America,Hungary,Wholesale,2025-10-19,35101,354.03,2634772.72,23.4,3861888.71,SR8007,Clinic,No,No,Summer
+SALE000961,Drug_75,Europe,Senegal,Hospital,2025-09-06,1720,425.9,40289.28,21.7,2041544.56,SR9442,Hospital,Yes,Yes,Winter
+SALE000962,Drug_52,North America,Aruba,Wholesale,2024-08-19,36403,219.87,4955096.47,1.8,4103378.59,SR6372,Hospital,No,Yes,Fall
+SALE000963,Drug_8,North America,Hong Kong,Online,2026-02-24,19689,464.62,1003182.34,17.4,8579331.1,SR2421,Individual,Yes,Yes,Spring
+SALE000964,Drug_4,Latin America,Suriname,Online,2025-12-06,2982,297.2,7544005.18,3.9,7654195.9,SR7567,Hospital,Partial,Yes,Fall
+SALE000965,Drug_27,North America,Barbados,Retail Pharmacy,2026-04-23,49422,316.85,2761475.29,29.0,1307779.64,SR2562,Hospital,Partial,Yes,Summer
+SALE000966,Drug_44,Africa,Afghanistan,Retail Pharmacy,2024-12-19,24624,423.48,4437012.82,24.3,268803.26,SR4027,Clinic,Yes,No,Fall
+SALE000967,Drug_40,North America,San Marino,Retail Pharmacy,2026-03-03,9845,151.92,871248.62,3.3,8401771.99,SR3303,Hospital,No,No,Spring
+SALE000968,Drug_47,Asia Pacific,Brazil,Retail Pharmacy,2025-07-27,36765,180.36,2867305.83,3.7,4741126.35,SR8822,Hospital,Yes,No,Spring
+SALE000969,Drug_94,Europe,Northern Mariana Islands,Retail Pharmacy,2026-07-21,15961,453.45,7815120.94,17.8,4840910.14,SR6301,Individual,Partial,No,Fall
+SALE000970,Drug_44,Europe,El Salvador,Wholesale,2024-10-07,26271,450.98,1516727.53,10.3,7026637.39,SR5064,Individual,No,Yes,Winter
+SALE000971,Drug_48,Latin America,Guadeloupe,Retail Pharmacy,2025-03-22,26299,488.36,6471948.45,1.0,2832749.01,SR1111,Individual,Yes,Yes,Spring
+SALE000972,Drug_91,Europe,Northern Mariana Islands,Online,2026-04-16,2937,451.41,9174341.1,16.2,4337582.59,SR5272,Hospital,Yes,Yes,Winter
+SALE000973,Drug_85,Europe,Ghana,Online,2024-09-06,8699,68.05,6798687.76,11.6,8717991.29,SR7284,Clinic,Yes,No,Spring
+SALE000974,Drug_52,North America,Poland,Hospital,2024-08-13,16011,412.74,8110405.87,3.0,6049600.46,SR4858,Pharmacy,Yes,Yes,Fall
+SALE000975,Drug_84,North America,Romania,Hospital,2024-11-24,20653,207.87,1090607.32,24.1,1384382.29,SR8319,Individual,No,No,Spring
+SALE000976,Drug_68,North America,Estonia,Retail Pharmacy,2025-01-18,39589,495.45,2508067.53,27.5,1199734.15,SR5374,Individual,Yes,Yes,Winter
+SALE000977,Drug_11,Asia Pacific,Hungary,Retail Pharmacy,2024-09-22,49931,238.78,8945493.98,22.7,1839019.41,SR6400,Individual,Yes,Yes,Winter
+SALE000978,Drug_77,North America,Sudan,Online,2024-12-27,23913,279.15,7151341.03,24.7,6900591.7,SR5947,Clinic,Yes,No,Fall
+SALE000979,Drug_73,North America,Bahrain,Retail Pharmacy,2026-05-27,38355,267.24,6395898.71,6.5,2658956.73,SR1187,Pharmacy,Yes,No,Winter
+SALE000980,Drug_4,Europe,Latvia,Retail Pharmacy,2026-05-25,47989,164.26,6638003.59,7.9,193282.51,SR5285,Pharmacy,Yes,No,Winter
+SALE000981,Drug_76,Asia Pacific,Greece,Retail Pharmacy,2024-12-07,29620,42.14,4142591.34,6.3,8497613.93,SR6890,Individual,Partial,No,Fall
+SALE000982,Drug_73,Asia Pacific,Ethiopia,Hospital,2024-10-14,29641,448.35,446521.76,23.0,1528084.98,SR4871,Hospital,Yes,No,Spring
+SALE000983,Drug_77,North America,New Zealand,Retail Pharmacy,2026-05-29,336,402.32,7844630.98,28.4,86816.03,SR2017,Individual,No,No,Fall
+SALE000984,Drug_48,North America,Iraq,Online,2026-03-25,27450,74.07,6787453.65,21.5,2134794.72,SR2936,Individual,Yes,No,Spring
+SALE000985,Drug_26,Middle East,Korea,Hospital,2025-12-05,44497,389.5,4728571.84,26.4,2115871.06,SR8625,Hospital,Yes,Yes,Spring
+SALE000986,Drug_77,North America,British Indian Ocean Territory (Chagos Archipelago),Retail Pharmacy,2025-01-14,11649,314.79,8997696.39,19.2,3798509.65,SR6026,Hospital,No,No,Spring
+SALE000987,Drug_39,Latin America,Montserrat,Retail Pharmacy,2024-12-08,27553,207.53,3362260.49,11.6,8283572.17,SR3616,Individual,Yes,No,Summer
+SALE000988,Drug_92,Latin America,Czech Republic,Hospital,2024-11-04,35291,130.74,2943923.12,12.8,7912760.91,SR7642,Clinic,Yes,No,Spring
+SALE000989,Drug_58,Asia Pacific,Canada,Hospital,2025-10-04,13006,430.57,8728090.45,2.3,4112485.48,SR9233,Clinic,No,No,Fall
+SALE000990,Drug_19,North America,Croatia,Wholesale,2025-12-03,15088,351.59,7970079.56,0.9,3698570.43,SR6095,Hospital,Yes,No,Fall
+SALE000991,Drug_88,Latin America,Mozambique,Hospital,2025-08-09,27823,276.13,5150283.13,20.9,4995437.77,SR2923,Individual,Yes,No,Fall
+SALE000992,Drug_83,Asia Pacific,Namibia,Hospital,2025-12-29,33900,306.74,1308216.66,13.2,2191691.34,SR5833,Clinic,No,No,Summer
+SALE000993,Drug_77,Europe,Belarus,Hospital,2025-01-23,39207,50.08,2151499.64,16.6,470423.18,SR7021,Individual,No,No,Winter
+SALE000994,Drug_77,North America,Vietnam,Retail Pharmacy,2026-03-21,27530,239.59,6562623.68,16.7,8453065.85,SR4618,Individual,Yes,No,Summer
+SALE000995,Drug_58,North America,Cook Islands,Retail Pharmacy,2024-11-16,32635,100.88,3851027.34,8.3,1680941.5,SR4590,Individual,Yes,No,Fall
+SALE000996,Drug_28,North America,Maldives,Retail Pharmacy,2026-04-02,3040,108.15,8364895.44,14.3,1786247.84,SR3188,Clinic,Yes,Yes,Fall
+SALE000997,Drug_66,Europe,Tonga,Hospital,2025-08-07,21893,332.35,9499600.14,14.1,4252564.99,SR8834,Pharmacy,Yes,No,Winter
+SALE000998,Drug_10,Europe,Mauritius,Online,2024-09-20,12362,456.07,8056563.62,11.7,4424926.81,SR3509,Individual,No,Yes,Summer
+SALE000999,Drug_86,Europe,Norfolk Island,Hospital,2026-01-09,44520,204.86,3776076.68,24.6,166693.14,SR8454,Clinic,Partial,No,Fall
+SALE001000,Drug_77,Europe,Sierra Leone,Hospital,2025-10-11,37810,107.84,7887075.61,13.5,1332274.29,SR7121,Pharmacy,Partial,No,Spring

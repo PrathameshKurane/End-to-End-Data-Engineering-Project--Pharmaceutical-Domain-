@@ -1,0 +1,601 @@
+event_id,drug_name,reaction_meddra_term,patient_age,patient_gender,event_severity,event_date,report_date,reporter_type,country,suspected_drug_interaction,concomitant_medications,outcome,hospitalization_required,disability_caused,report_fda_submitted
+AE000001,Drug_32,Headache,1,F,Mild,2022-05-22,2024-01-12,Patient,Saint Kitts and Nevis,No,1,Fatal,No,No,Yes
+AE000002,Drug_33,Constipation,54,F,Severe,2022-10-20,2022-10-23,Healthcare Professional,Suriname,No,3,Not Recovered,No,No,No
+AE000003,Drug_49,Chest pain,80,F,Mild,2023-04-17,2022-11-05,Healthcare Professional,Azerbaijan,No,4,Recovered,No,No,Yes
+AE000004,Drug_43,Fatigue,1,M,Life-threatening,2023-12-08,2025-11-08,Pharmacist,Martinique,No,5,Recovered,No,No,Yes
+AE000005,Drug_22,Fatigue,63,M,Mild,2022-02-12,2024-05-14,Patient,Portugal,Yes,4,Unknown,No,No,Yes
+AE000006,Drug_11,Shortness of breath,55,F,Mild,2023-09-10,2026-05-15,Pharmacist,Solomon Islands,No,4,Recovered,No,No,Yes
+AE000007,Drug_40,Fever,86,F,Mild,2024-03-12,2021-09-24,Pharmacist,Iran,Yes,5,Recovered,No,No,Yes
+AE000008,Drug_20,Rash,77,M,Moderate,2024-06-23,2023-09-19,Healthcare Professional,Falkland Islands (Malvinas),No,5,Recovered,No,No,Yes
+AE000009,Drug_24,Allergic reaction,27,M,Life-threatening,2022-12-20,2022-06-02,Healthcare Professional,Sweden,No,5,Not Recovered,No,No,Yes
+AE000010,Drug_28,Diarrhea,15,M,Mild,2022-05-11,2024-06-24,Pharmacist,Oman,No,6,Recovered,No,No,No
+AE000011,Drug_13,Seizure,81,M,Moderate,2025-04-27,2024-11-17,Healthcare Professional,Swaziland,No,1,Fatal,No,Yes,No
+AE000012,Drug_32,Drowsiness,9,F,Moderate,2023-04-06,2022-10-27,Patient,Iran,No,4,Not Recovered,No,No,Yes
+AE000013,Drug_41,Dizziness,69,M,Moderate,2022-12-31,2025-02-18,Patient,Belize,No,5,Recovered,No,No,No
+AE000014,Drug_5,Fatigue,59,M,Moderate,2021-08-25,2024-03-25,Pharmacist,Saint Pierre and Miquelon,No,2,Recovered,Yes,No,Yes
+AE000015,Drug_35,Diarrhea,23,F,Mild,2026-03-17,2025-09-20,Patient,Namibia,Yes,2,Unknown,No,No,Yes
+AE000016,Drug_14,Nausea,11,M,Mild,2022-06-25,2022-03-01,Pharmacist,Ukraine,No,5,Recovered,No,No,Yes
+AE000017,Drug_19,Constipation,24,F,Moderate,2025-05-12,2026-07-01,Patient,Uganda,No,0,Recovered,No,No,Yes
+AE000018,Drug_17,Constipation,72,M,Mild,2025-03-19,2024-05-07,Healthcare Professional,Bosnia and Herzegovina,No,6,Unknown,No,No,No
+AE000019,Drug_4,Chest pain,54,F,Severe,2025-03-09,2026-07-29,Patient,Honduras,Yes,4,Unknown,No,No,Yes
+AE000020,Drug_20,Shortness of breath,31,M,Severe,2024-08-15,2025-02-27,Healthcare Professional,Romania,No,7,Recovered,Yes,No,Yes
+AE000021,Drug_37,Drowsiness,22,M,Severe,2025-10-05,2023-02-14,Pharmacist,Pakistan,No,6,Recovered,No,No,Yes
+AE000022,Drug_26,Shortness of breath,14,M,Mild,2026-07-31,2026-06-28,Patient,China,No,3,Recovered,No,No,Yes
+AE000023,Drug_15,Insomnia,5,F,Mild,2025-05-30,2024-09-11,Healthcare Professional,Saint Martin,No,6,Unknown,No,No,Yes
+AE000024,Drug_40,Drowsiness,17,F,Mild,2022-04-08,2024-01-05,Healthcare Professional,Nauru,No,0,Fatal,No,No,Yes
+AE000025,Drug_48,Vomiting,82,M,Life-threatening,2025-08-28,2026-01-23,Pharmacist,Antigua and Barbuda,No,7,Recovered,No,No,Yes
+AE000026,Drug_6,Fatigue,83,F,Mild,2022-08-06,2023-09-05,Pharmacist,Russian Federation,Yes,4,Not Recovered,No,No,No
+AE000027,Drug_46,Fatigue,71,M,Mild,2023-03-28,2025-12-05,Patient,British Virgin Islands,Yes,6,Not Recovered,No,No,Yes
+AE000028,Drug_38,Rash,89,F,Mild,2023-12-03,2022-03-14,Patient,Portugal,Yes,4,Recovered,No,Yes,No
+AE000029,Drug_7,Fatigue,82,M,Mild,2025-11-01,2025-01-26,Patient,Guadeloupe,Yes,7,Not Recovered,No,No,Yes
+AE000030,Drug_38,Fatigue,44,F,Mild,2025-07-04,2025-03-31,Healthcare Professional,Isle of Man,No,5,Recovered,No,No,Yes
+AE000031,Drug_22,Diarrhea,79,M,Mild,2022-07-06,2023-07-22,Pharmacist,Mauritania,No,1,Not Recovered,No,No,Yes
+AE000032,Drug_18,Insomnia,49,F,Mild,2026-01-05,2022-01-26,Patient,Egypt,No,6,Recovered,Yes,No,Yes
+AE000033,Drug_5,Chest pain,65,F,Life-threatening,2022-08-11,2025-06-01,Patient,Georgia,No,1,Not Recovered,No,No,Yes
+AE000034,Drug_37,Dizziness,4,M,Moderate,2024-12-05,2024-07-20,Healthcare Professional,Liberia,No,2,Recovered,Yes,No,No
+AE000035,Drug_34,Dizziness,9,M,Moderate,2021-08-13,2023-03-25,Patient,Angola,No,0,Recovered,No,No,Yes
+AE000036,Drug_31,Vomiting,36,F,Mild,2025-08-31,2023-07-14,Healthcare Professional,Turks and Caicos Islands,Yes,0,Recovered,No,No,Yes
+AE000037,Drug_28,Constipation,51,F,Severe,2026-05-23,2026-07-24,Healthcare Professional,Korea,No,7,Not Recovered,No,No,Yes
+AE000038,Drug_14,Dizziness,32,F,Severe,2022-03-06,2025-06-20,Pharmacist,Lesotho,No,7,Recovered,No,No,No
+AE000039,Drug_23,Chest pain,88,F,Life-threatening,2022-10-21,2024-06-03,Healthcare Professional,Belize,No,5,Not Recovered,No,No,No
+AE000040,Drug_5,Allergic reaction,18,F,Mild,2025-04-03,2026-05-22,Pharmacist,Bouvet Island (Bouvetoya),No,0,Recovered,Yes,No,Yes
+AE000041,Drug_42,Fatigue,15,M,Severe,2026-01-16,2025-09-21,Healthcare Professional,Liberia,No,7,Not Recovered,No,No,Yes
+AE000042,Drug_20,Insomnia,20,F,Mild,2024-09-09,2021-12-30,Pharmacist,Japan,No,5,Recovered,No,No,Yes
+AE000043,Drug_33,Diarrhea,58,M,Mild,2022-07-20,2022-08-12,Healthcare Professional,Guam,No,2,Recovered,No,No,Yes
+AE000044,Drug_20,Insomnia,40,F,Mild,2026-01-03,2025-04-13,Patient,Samoa,No,3,Recovered,No,No,No
+AE000045,Drug_28,Allergic reaction,66,F,Moderate,2023-01-07,2024-05-02,Pharmacist,Sierra Leone,Yes,3,Recovered,No,No,No
+AE000046,Drug_43,Dizziness,89,F,Moderate,2023-04-24,2025-12-04,Pharmacist,Kenya,No,5,Not Recovered,No,No,Yes
+AE000047,Drug_35,Allergic reaction,13,F,Mild,2026-08-13,2025-02-06,Healthcare Professional,Morocco,No,3,Not Recovered,No,No,Yes
+AE000048,Drug_21,Cough,13,M,Moderate,2023-01-17,2023-06-21,Patient,Fiji,No,5,Recovered,No,No,Yes
+AE000049,Drug_13,Insomnia,62,F,Mild,2022-07-18,2026-04-06,Patient,Morocco,No,7,Not Recovered,No,No,Yes
+AE000050,Drug_27,Fatigue,28,F,Mild,2026-05-06,2022-11-07,Pharmacist,Turks and Caicos Islands,No,0,Recovered,No,No,Yes
+AE000051,Drug_26,Rash,46,M,Mild,2024-08-15,2023-11-05,Patient,India,No,4,Recovered,No,No,Yes
+AE000052,Drug_17,Seizure,15,M,Moderate,2022-04-14,2025-07-03,Patient,Chile,Yes,0,Recovered,Yes,No,Yes
+AE000053,Drug_40,Chest pain,85,F,Mild,2022-08-16,2022-01-07,Healthcare Professional,Moldova,No,7,Recovered,No,No,Yes
+AE000054,Drug_33,Rash,44,M,Mild,2022-02-24,2026-07-24,Patient,United States of America,Yes,5,Not Recovered,No,No,Yes
+AE000055,Drug_30,Dizziness,23,F,Life-threatening,2021-12-20,2023-04-02,Patient,Jersey,Yes,4,Unknown,No,No,No
+AE000056,Drug_43,Rash,67,F,Severe,2023-10-08,2023-05-13,Patient,Yemen,No,6,Recovered,No,No,Yes
+AE000057,Drug_49,Cough,78,F,Mild,2023-08-28,2024-10-22,Patient,Canada,No,7,Recovered,No,No,Yes
+AE000058,Drug_36,Cough,66,F,Moderate,2025-12-08,2022-07-13,Healthcare Professional,Sierra Leone,Yes,1,Unknown,No,No,No
+AE000059,Drug_12,Rash,50,M,Mild,2023-09-05,2025-04-24,Healthcare Professional,Canada,No,7,Recovered,No,No,Yes
+AE000060,Drug_2,Drowsiness,13,F,Moderate,2023-12-18,2022-08-10,Patient,Oman,Yes,5,Recovered,No,No,Yes
+AE000061,Drug_41,Diarrhea,2,M,Mild,2023-04-16,2023-04-04,Healthcare Professional,Guinea-Bissau,No,5,Recovered,No,No,No
+AE000062,Drug_46,Rash,76,M,Mild,2024-06-20,2026-01-08,Pharmacist,Haiti,No,7,Not Recovered,No,No,No
+AE000063,Drug_34,Diarrhea,34,F,Mild,2022-01-19,2026-06-15,Healthcare Professional,Malaysia,No,2,Not Recovered,No,No,Yes
+AE000064,Drug_12,Seizure,40,M,Mild,2026-07-13,2021-10-04,Healthcare Professional,Malawi,No,6,Not Recovered,No,No,Yes
+AE000065,Drug_37,Rash,69,M,Mild,2024-08-23,2023-03-10,Healthcare Professional,Ireland,Yes,3,Recovered,No,No,No
+AE000066,Drug_32,Fatigue,61,F,Severe,2022-03-29,2024-03-11,Pharmacist,Qatar,Yes,0,Not Recovered,No,No,Yes
+AE000067,Drug_14,Insomnia,25,M,Life-threatening,2022-08-04,2023-11-28,Pharmacist,Serbia,No,0,Recovered,No,No,Yes
+AE000068,Drug_43,Constipation,75,F,Severe,2022-07-22,2021-12-16,Pharmacist,Mozambique,No,1,Unknown,No,No,Yes
+AE000069,Drug_48,Fatigue,77,F,Life-threatening,2025-04-23,2025-12-19,Healthcare Professional,Niue,No,4,Recovered,No,No,No
+AE000070,Drug_30,Rash,63,M,Mild,2025-06-14,2024-06-17,Pharmacist,Cape Verde,Yes,3,Recovered,No,No,Yes
+AE000071,Drug_18,Vomiting,28,M,Moderate,2022-04-03,2024-06-15,Pharmacist,Greenland,No,7,Unknown,No,No,Yes
+AE000072,Drug_41,Nausea,85,M,Mild,2024-12-28,2023-02-23,Healthcare Professional,Russian Federation,No,2,Fatal,Yes,No,Yes
+AE000073,Drug_35,Vomiting,56,M,Severe,2022-03-26,2025-03-04,Patient,Suriname,Yes,4,Not Recovered,No,No,Yes
+AE000074,Drug_40,Cough,26,M,Severe,2022-10-16,2023-04-28,Healthcare Professional,Sudan,No,4,Recovered,No,No,Yes
+AE000075,Drug_50,Seizure,27,F,Mild,2023-05-20,2025-10-30,Healthcare Professional,Australia,No,5,Fatal,No,No,Yes
+AE000076,Drug_28,Nausea,26,F,Mild,2026-05-10,2024-02-01,Healthcare Professional,Malta,No,7,Not Recovered,No,No,Yes
+AE000077,Drug_37,Allergic reaction,15,M,Mild,2022-03-16,2026-06-18,Patient,United Arab Emirates,No,7,Not Recovered,No,No,No
+AE000078,Drug_47,Chest pain,50,F,Mild,2021-09-28,2025-09-15,Healthcare Professional,United States Virgin Islands,No,3,Unknown,No,No,Yes
+AE000079,Drug_41,Allergic reaction,6,M,Life-threatening,2025-05-12,2022-03-13,Healthcare Professional,Denmark,Yes,2,Recovered,No,No,Yes
+AE000080,Drug_4,Allergic reaction,68,F,Severe,2022-02-05,2023-08-23,Patient,Uzbekistan,No,6,Recovered,Yes,No,Yes
+AE000081,Drug_34,Constipation,4,M,Mild,2022-06-30,2024-04-23,Healthcare Professional,Norway,No,6,Not Recovered,No,No,Yes
+AE000082,Drug_13,Drowsiness,30,M,Mild,2022-04-29,2024-09-28,Healthcare Professional,Maldives,No,3,Recovered,No,No,Yes
+AE000083,Drug_24,Rash,77,F,Mild,2025-10-12,2026-07-27,Healthcare Professional,Canada,No,3,Recovered,No,No,Yes
+AE000084,Drug_30,Diarrhea,9,M,Life-threatening,2025-06-17,2022-10-04,Patient,Suriname,No,0,Recovered,No,No,Yes
+AE000085,Drug_10,Nausea,42,F,Severe,2023-09-27,2026-07-10,Healthcare Professional,Brunei Darussalam,No,7,Not Recovered,Yes,No,Yes
+AE000086,Drug_16,Seizure,14,M,Moderate,2025-05-22,2021-10-23,Patient,Antigua and Barbuda,No,7,Recovered,No,No,No
+AE000087,Drug_10,Dizziness,40,M,Moderate,2025-11-20,2024-04-30,Patient,Cape Verde,No,2,Recovered,Yes,No,Yes
+AE000088,Drug_48,Insomnia,3,F,Moderate,2022-07-24,2024-07-28,Pharmacist,North Macedonia,Yes,4,Recovered,No,No,Yes
+AE000089,Drug_44,Nausea,41,F,Mild,2025-07-16,2023-11-06,Healthcare Professional,Bahamas,No,3,Recovered,No,No,No
+AE000090,Drug_49,Chest pain,33,M,Severe,2022-03-17,2025-02-24,Healthcare Professional,Egypt,No,1,Recovered,No,No,No
+AE000091,Drug_20,Cough,79,M,Moderate,2021-10-18,2021-10-30,Pharmacist,United Arab Emirates,No,2,Recovered,Yes,No,No
+AE000092,Drug_28,Insomnia,60,F,Mild,2025-08-06,2022-04-12,Pharmacist,Belgium,Yes,1,Unknown,No,No,Yes
+AE000093,Drug_27,Headache,64,F,Mild,2024-10-05,2024-07-15,Healthcare Professional,Argentina,No,4,Recovered,No,No,No
+AE000094,Drug_21,Allergic reaction,62,F,Moderate,2022-08-24,2025-10-06,Healthcare Professional,Saint Barthelemy,No,2,Not Recovered,No,No,No
+AE000095,Drug_5,Allergic reaction,79,F,Mild,2026-07-26,2025-07-21,Pharmacist,Paraguay,No,0,Not Recovered,No,No,Yes
+AE000096,Drug_41,Vomiting,7,F,Moderate,2023-08-03,2023-08-09,Healthcare Professional,Kyrgyz Republic,No,7,Recovered,No,No,Yes
+AE000097,Drug_14,Chest pain,76,M,Severe,2025-02-10,2024-07-18,Healthcare Professional,Algeria,Yes,2,Recovered,No,No,Yes
+AE000098,Drug_27,Rash,50,F,Moderate,2026-01-15,2025-02-03,Healthcare Professional,Australia,No,4,Unknown,No,No,Yes
+AE000099,Drug_18,Fever,39,F,Moderate,2026-03-13,2021-12-12,Pharmacist,Saint Barthelemy,No,0,Recovered,No,No,Yes
+AE000100,Drug_19,Allergic reaction,71,F,Moderate,2026-04-11,2025-04-15,Pharmacist,Mongolia,No,4,Recovered,No,No,Yes
+AE000101,Drug_42,Vomiting,47,M,Mild,2025-02-10,2025-08-04,Patient,Falkland Islands (Malvinas),No,5,Recovered,No,No,Yes
+AE000102,Drug_11,Seizure,70,F,Mild,2023-06-11,2021-12-03,Patient,Dominican Republic,Yes,2,Recovered,No,No,Yes
+AE000103,Drug_17,Headache,26,F,Mild,2022-05-16,2023-10-08,Healthcare Professional,Guinea-Bissau,No,4,Recovered,No,No,Yes
+AE000104,Drug_44,Nausea,58,F,Severe,2026-03-05,2025-05-18,Healthcare Professional,North Macedonia,Yes,2,Recovered,No,No,Yes
+AE000105,Drug_39,Chest pain,73,M,Severe,2022-08-02,2024-05-26,Patient,Ecuador,Yes,7,Recovered,No,No,Yes
+AE000106,Drug_16,Cough,51,F,Mild,2025-11-20,2023-10-03,Patient,Cyprus,No,7,Not Recovered,No,Yes,Yes
+AE000107,Drug_26,Chest pain,88,F,Severe,2023-03-08,2026-01-14,Patient,Bulgaria,Yes,0,Unknown,No,No,Yes
+AE000108,Drug_16,Chest pain,52,F,Moderate,2024-08-22,2026-07-09,Healthcare Professional,Nauru,No,2,Recovered,No,No,Yes
+AE000109,Drug_8,Cough,16,F,Life-threatening,2021-12-18,2022-02-10,Healthcare Professional,Holy See (Vatican City State),No,4,Recovered,No,No,Yes
+AE000110,Drug_10,Shortness of breath,48,F,Mild,2022-08-09,2022-11-23,Patient,Thailand,No,4,Not Recovered,No,No,No
+AE000111,Drug_13,Fatigue,27,M,Moderate,2022-10-25,2021-12-09,Pharmacist,Cameroon,Yes,5,Recovered,No,No,Yes
+AE000112,Drug_2,Headache,33,M,Moderate,2026-06-20,2025-04-06,Patient,Chad,No,6,Recovered,No,No,No
+AE000113,Drug_16,Diarrhea,23,M,Mild,2023-08-29,2022-06-06,Pharmacist,Australia,Yes,5,Fatal,No,No,Yes
+AE000114,Drug_20,Cough,45,F,Mild,2024-10-22,2024-12-09,Pharmacist,Bolivia,No,4,Unknown,No,No,Yes
+AE000115,Drug_30,Fever,83,M,Mild,2025-11-06,2025-11-30,Healthcare Professional,Norfolk Island,No,1,Recovered,No,No,Yes
+AE000116,Drug_32,Fever,83,F,Mild,2023-05-09,2023-07-27,Pharmacist,Chile,No,1,Recovered,No,No,Yes
+AE000117,Drug_36,Dizziness,22,F,Mild,2022-01-01,2023-09-09,Pharmacist,Suriname,No,1,Recovered,Yes,No,Yes
+AE000118,Drug_28,Cough,42,F,Moderate,2026-04-20,2024-08-26,Patient,Grenada,Yes,3,Recovered,No,No,No
+AE000119,Drug_28,Diarrhea,33,F,Moderate,2022-12-04,2025-03-01,Patient,Congo,No,7,Recovered,No,No,Yes
+AE000120,Drug_42,Fatigue,10,F,Life-threatening,2025-08-01,2021-12-29,Pharmacist,Nigeria,Yes,5,Recovered,No,No,Yes
+AE000121,Drug_3,Vomiting,47,F,Mild,2026-03-04,2024-01-29,Patient,Faroe Islands,No,2,Recovered,Yes,No,Yes
+AE000122,Drug_13,Cough,79,M,Severe,2022-09-26,2023-01-30,Patient,United Kingdom,No,7,Recovered,Yes,No,Yes
+AE000123,Drug_11,Drowsiness,39,M,Moderate,2023-03-15,2022-03-03,Patient,Fiji,Yes,1,Recovered,No,No,Yes
+AE000124,Drug_18,Drowsiness,46,M,Mild,2025-09-12,2024-11-12,Patient,Trinidad and Tobago,No,4,Unknown,No,No,Yes
+AE000125,Drug_9,Insomnia,72,M,Moderate,2022-06-02,2024-03-29,Pharmacist,Romania,No,7,Unknown,No,No,Yes
+AE000126,Drug_2,Constipation,51,F,Moderate,2024-01-19,2025-05-22,Pharmacist,Italy,Yes,4,Not Recovered,No,No,Yes
+AE000127,Drug_17,Fever,25,M,Mild,2024-01-22,2023-09-28,Pharmacist,Thailand,No,1,Recovered,Yes,No,Yes
+AE000128,Drug_18,Allergic reaction,82,F,Moderate,2025-04-17,2023-05-02,Pharmacist,Korea,No,5,Recovered,Yes,No,Yes
+AE000129,Drug_43,Fever,15,M,Moderate,2025-01-01,2023-12-31,Pharmacist,Romania,No,1,Not Recovered,No,No,No
+AE000130,Drug_36,Insomnia,58,F,Life-threatening,2022-12-12,2022-09-26,Healthcare Professional,Haiti,No,4,Not Recovered,No,No,No
+AE000131,Drug_12,Diarrhea,59,M,Severe,2022-10-27,2025-11-02,Patient,Cayman Islands,No,7,Not Recovered,No,No,Yes
+AE000132,Drug_42,Rash,26,M,Moderate,2021-10-31,2025-04-05,Healthcare Professional,Cocos (Keeling) Islands,No,1,Recovered,No,No,Yes
+AE000133,Drug_3,Fever,41,M,Moderate,2025-12-25,2026-06-29,Pharmacist,American Samoa,No,6,Not Recovered,No,No,Yes
+AE000134,Drug_47,Dizziness,44,F,Severe,2022-07-14,2022-05-10,Patient,Serbia,No,5,Unknown,Yes,No,Yes
+AE000135,Drug_32,Allergic reaction,85,M,Life-threatening,2024-10-01,2023-08-19,Pharmacist,Cambodia,No,3,Recovered,No,No,Yes
+AE000136,Drug_2,Rash,22,F,Severe,2024-10-12,2024-06-12,Healthcare Professional,Dominican Republic,No,3,Recovered,No,No,Yes
+AE000137,Drug_4,Fatigue,37,F,Moderate,2022-07-30,2026-04-07,Pharmacist,Guadeloupe,No,6,Recovered,No,No,No
+AE000138,Drug_6,Dizziness,14,M,Mild,2022-12-11,2024-06-22,Patient,Martinique,No,5,Not Recovered,No,No,Yes
+AE000139,Drug_21,Nausea,4,M,Severe,2022-02-24,2025-06-22,Pharmacist,Cote d'Ivoire,No,7,Recovered,No,No,Yes
+AE000140,Drug_39,Constipation,24,F,Mild,2022-11-26,2023-04-29,Pharmacist,Brunei Darussalam,No,3,Unknown,Yes,No,Yes
+AE000141,Drug_20,Seizure,66,M,Moderate,2024-02-08,2025-08-14,Patient,San Marino,No,7,Recovered,Yes,No,Yes
+AE000142,Drug_5,Fatigue,63,F,Mild,2025-09-26,2026-07-09,Healthcare Professional,Turkmenistan,Yes,0,Unknown,No,No,No
+AE000143,Drug_27,Cough,65,M,Mild,2025-09-11,2026-06-09,Healthcare Professional,Austria,No,7,Recovered,No,No,Yes
+AE000144,Drug_24,Dizziness,66,F,Mild,2025-11-08,2024-04-04,Patient,Uruguay,No,3,Recovered,No,No,Yes
+AE000145,Drug_43,Cough,13,F,Severe,2023-11-25,2024-11-11,Patient,Anguilla,Yes,4,Fatal,No,No,No
+AE000146,Drug_43,Fatigue,27,F,Moderate,2022-11-04,2023-05-08,Healthcare Professional,Gambia,Yes,5,Unknown,No,No,Yes
+AE000147,Drug_6,Nausea,81,M,Moderate,2024-07-29,2022-01-28,Patient,Uganda,No,6,Unknown,No,No,Yes
+AE000148,Drug_26,Cough,17,F,Moderate,2023-05-29,2025-04-26,Healthcare Professional,United States Minor Outlying Islands,No,0,Recovered,No,No,Yes
+AE000149,Drug_47,Insomnia,69,F,Life-threatening,2022-10-09,2022-04-28,Pharmacist,Portugal,Yes,4,Recovered,No,No,Yes
+AE000150,Drug_9,Dizziness,88,F,Mild,2025-04-22,2023-06-23,Healthcare Professional,San Marino,No,4,Recovered,No,No,Yes
+AE000151,Drug_16,Constipation,57,F,Moderate,2024-09-13,2025-02-23,Patient,Moldova,No,7,Recovered,No,No,Yes
+AE000152,Drug_8,Fever,72,F,Moderate,2022-06-29,2022-05-19,Pharmacist,Poland,Yes,5,Recovered,No,No,Yes
+AE000153,Drug_37,Chest pain,73,F,Severe,2025-07-27,2024-11-28,Patient,Ireland,No,5,Recovered,No,No,Yes
+AE000154,Drug_48,Seizure,18,F,Mild,2023-02-08,2025-11-10,Healthcare Professional,Saudi Arabia,No,1,Unknown,Yes,No,Yes
+AE000155,Drug_33,Chest pain,16,M,Life-threatening,2024-07-09,2022-01-23,Pharmacist,Italy,No,6,Recovered,No,No,Yes
+AE000156,Drug_8,Chest pain,51,M,Mild,2022-02-11,2022-01-29,Healthcare Professional,Somalia,No,5,Not Recovered,No,No,No
+AE000157,Drug_34,Shortness of breath,40,F,Mild,2021-11-09,2025-10-20,Pharmacist,Northern Mariana Islands,Yes,2,Not Recovered,No,No,No
+AE000158,Drug_43,Vomiting,39,M,Mild,2024-03-07,2022-03-14,Patient,Macao,No,3,Recovered,No,No,Yes
+AE000159,Drug_38,Rash,56,F,Mild,2022-12-27,2024-04-03,Healthcare Professional,Bosnia and Herzegovina,No,5,Unknown,No,No,Yes
+AE000160,Drug_50,Allergic reaction,54,F,Moderate,2025-12-27,2022-10-26,Pharmacist,Guam,No,2,Recovered,No,No,Yes
+AE000161,Drug_34,Diarrhea,44,M,Moderate,2022-11-24,2023-09-04,Pharmacist,Saudi Arabia,Yes,7,Unknown,Yes,No,Yes
+AE000162,Drug_17,Diarrhea,46,M,Mild,2025-05-06,2022-05-11,Pharmacist,Heard Island and McDonald Islands,Yes,7,Unknown,No,Yes,No
+AE000163,Drug_32,Allergic reaction,32,M,Moderate,2025-02-18,2023-01-23,Healthcare Professional,Russian Federation,Yes,2,Unknown,No,No,Yes
+AE000164,Drug_6,Seizure,48,F,Severe,2022-09-15,2022-04-26,Patient,Albania,No,7,Not Recovered,No,No,Yes
+AE000165,Drug_16,Fever,61,M,Severe,2022-01-12,2023-05-04,Patient,Cocos (Keeling) Islands,No,7,Recovered,Yes,No,Yes
+AE000166,Drug_39,Allergic reaction,66,M,Moderate,2024-11-07,2024-06-18,Pharmacist,Myanmar,Yes,1,Recovered,Yes,No,Yes
+AE000167,Drug_8,Headache,38,F,Life-threatening,2023-11-01,2025-10-21,Patient,Uganda,No,2,Recovered,No,No,Yes
+AE000168,Drug_50,Rash,43,M,Moderate,2025-12-17,2023-09-10,Healthcare Professional,Cayman Islands,No,3,Recovered,No,No,Yes
+AE000169,Drug_21,Drowsiness,4,F,Mild,2023-11-08,2022-01-20,Patient,Montenegro,No,0,Fatal,No,No,No
+AE000170,Drug_22,Drowsiness,5,F,Mild,2022-06-16,2022-01-05,Patient,Cook Islands,Yes,4,Not Recovered,Yes,No,Yes
+AE000171,Drug_38,Vomiting,58,M,Mild,2023-04-29,2024-04-23,Healthcare Professional,Trinidad and Tobago,No,3,Recovered,Yes,No,Yes
+AE000172,Drug_48,Dizziness,37,M,Moderate,2023-10-16,2023-04-11,Healthcare Professional,Cook Islands,Yes,1,Recovered,No,No,Yes
+AE000173,Drug_25,Drowsiness,26,M,Severe,2025-12-17,2024-08-29,Patient,Congo,No,0,Recovered,No,No,Yes
+AE000174,Drug_48,Drowsiness,9,M,Severe,2025-08-05,2025-11-16,Patient,Mongolia,Yes,1,Recovered,No,No,Yes
+AE000175,Drug_48,Fatigue,15,M,Mild,2023-02-03,2022-08-31,Patient,Hungary,No,7,Recovered,No,No,No
+AE000176,Drug_16,Fever,88,F,Moderate,2026-06-08,2025-12-23,Pharmacist,Ireland,No,6,Not Recovered,No,No,Yes
+AE000177,Drug_28,Drowsiness,88,F,Moderate,2025-12-27,2023-04-18,Healthcare Professional,Paraguay,Yes,3,Not Recovered,No,No,Yes
+AE000178,Drug_14,Constipation,89,F,Life-threatening,2025-05-18,2024-11-02,Pharmacist,Turks and Caicos Islands,No,7,Recovered,No,No,Yes
+AE000179,Drug_10,Dizziness,26,M,Mild,2024-07-02,2023-07-02,Pharmacist,Cape Verde,No,4,Recovered,No,No,Yes
+AE000180,Drug_7,Headache,63,M,Mild,2023-03-12,2024-09-26,Pharmacist,Tanzania,No,2,Not Recovered,No,No,Yes
+AE000181,Drug_12,Diarrhea,87,M,Life-threatening,2023-11-28,2026-05-12,Pharmacist,Mauritania,No,5,Recovered,No,No,Yes
+AE000182,Drug_14,Cough,70,M,Life-threatening,2024-07-11,2026-06-12,Patient,French Polynesia,No,5,Unknown,No,No,No
+AE000183,Drug_18,Cough,27,F,Mild,2022-07-07,2022-08-03,Healthcare Professional,Bermuda,No,2,Recovered,No,No,Yes
+AE000184,Drug_29,Drowsiness,54,M,Mild,2025-03-03,2026-02-26,Patient,Canada,No,1,Recovered,No,No,Yes
+AE000185,Drug_27,Nausea,83,M,Moderate,2022-04-09,2023-07-21,Healthcare Professional,Tonga,No,0,Unknown,Yes,No,Yes
+AE000186,Drug_17,Vomiting,31,F,Severe,2022-02-03,2024-10-09,Pharmacist,Saint Kitts and Nevis,No,7,Recovered,No,No,Yes
+AE000187,Drug_38,Vomiting,32,F,Mild,2022-11-20,2024-07-17,Healthcare Professional,San Marino,Yes,5,Recovered,No,No,Yes
+AE000188,Drug_4,Diarrhea,2,F,Severe,2021-11-24,2026-02-19,Healthcare Professional,South Africa,No,4,Not Recovered,No,No,Yes
+AE000189,Drug_32,Rash,18,M,Mild,2022-12-10,2025-05-31,Healthcare Professional,Vanuatu,No,1,Not Recovered,No,No,Yes
+AE000190,Drug_35,Headache,28,M,Moderate,2024-05-03,2024-12-14,Healthcare Professional,Nauru,No,4,Recovered,No,No,Yes
+AE000191,Drug_24,Drowsiness,71,M,Moderate,2025-01-11,2023-01-06,Patient,Syrian Arab Republic,Yes,5,Recovered,No,No,Yes
+AE000192,Drug_45,Diarrhea,87,M,Mild,2024-05-30,2025-01-03,Pharmacist,Kyrgyz Republic,No,1,Recovered,No,Yes,Yes
+AE000193,Drug_8,Shortness of breath,88,F,Mild,2026-03-16,2024-05-09,Patient,Paraguay,No,6,Not Recovered,No,No,No
+AE000194,Drug_21,Dizziness,25,F,Mild,2023-07-01,2025-02-06,Pharmacist,Western Sahara,No,6,Recovered,Yes,Yes,Yes
+AE000195,Drug_35,Fatigue,39,F,Severe,2026-04-29,2024-11-28,Patient,Singapore,No,0,Not Recovered,No,Yes,No
+AE000196,Drug_28,Diarrhea,49,M,Mild,2025-03-30,2024-02-01,Patient,Niger,No,6,Not Recovered,No,No,No
+AE000197,Drug_31,Seizure,4,M,Moderate,2024-11-15,2022-10-12,Patient,Mali,No,3,Recovered,No,No,Yes
+AE000198,Drug_44,Headache,52,F,Moderate,2023-04-30,2025-04-05,Healthcare Professional,San Marino,No,2,Recovered,No,No,Yes
+AE000199,Drug_16,Fatigue,83,F,Moderate,2024-11-21,2023-07-16,Healthcare Professional,Macao,No,4,Recovered,No,No,Yes
+AE000200,Drug_18,Rash,68,F,Severe,2021-11-13,2024-04-21,Healthcare Professional,Swaziland,No,6,Recovered,No,No,Yes
+AE000201,Drug_10,Seizure,57,F,Moderate,2024-06-21,2022-03-25,Healthcare Professional,Madagascar,Yes,4,Not Recovered,No,No,Yes
+AE000202,Drug_24,Fatigue,13,F,Moderate,2024-09-16,2021-11-12,Patient,Nigeria,No,7,Not Recovered,No,No,Yes
+AE000203,Drug_31,Drowsiness,65,F,Moderate,2025-02-21,2021-10-14,Patient,Cyprus,Yes,0,Recovered,Yes,No,Yes
+AE000204,Drug_46,Insomnia,63,M,Moderate,2022-08-14,2023-11-17,Pharmacist,Tuvalu,No,4,Unknown,No,No,Yes
+AE000205,Drug_24,Diarrhea,71,F,Mild,2022-06-12,2021-10-04,Healthcare Professional,Marshall Islands,No,3,Recovered,No,No,Yes
+AE000206,Drug_20,Fever,25,M,Severe,2024-08-26,2023-01-12,Healthcare Professional,El Salvador,No,3,Recovered,No,No,Yes
+AE000207,Drug_2,Shortness of breath,23,M,Mild,2023-03-16,2023-10-10,Healthcare Professional,Isle of Man,No,0,Recovered,No,No,No
+AE000208,Drug_42,Seizure,30,M,Moderate,2023-01-17,2023-11-28,Healthcare Professional,Swaziland,No,1,Recovered,No,No,Yes
+AE000209,Drug_39,Shortness of breath,61,M,Moderate,2025-09-20,2025-10-10,Healthcare Professional,Tuvalu,No,1,Recovered,No,No,Yes
+AE000210,Drug_3,Shortness of breath,7,M,Mild,2024-12-17,2023-09-05,Healthcare Professional,Croatia,No,4,Unknown,No,No,Yes
+AE000211,Drug_48,Fatigue,54,M,Mild,2026-07-01,2021-09-05,Patient,Guyana,Yes,6,Recovered,No,Yes,Yes
+AE000212,Drug_43,Fever,17,F,Mild,2022-08-01,2022-02-20,Healthcare Professional,Monaco,No,4,Unknown,No,No,No
+AE000213,Drug_4,Seizure,60,F,Mild,2021-10-11,2021-11-15,Healthcare Professional,North Macedonia,No,0,Recovered,No,No,No
+AE000214,Drug_45,Diarrhea,66,F,Severe,2022-07-18,2023-03-28,Patient,Montserrat,Yes,6,Not Recovered,No,No,Yes
+AE000215,Drug_43,Nausea,38,M,Severe,2023-05-10,2024-06-01,Pharmacist,Falkland Islands (Malvinas),No,3,Unknown,No,No,Yes
+AE000216,Drug_16,Cough,13,M,Mild,2023-06-27,2022-03-29,Patient,Guadeloupe,Yes,0,Recovered,No,No,Yes
+AE000217,Drug_17,Insomnia,52,M,Mild,2026-01-22,2025-11-28,Healthcare Professional,New Caledonia,Yes,1,Recovered,No,No,No
+AE000218,Drug_36,Drowsiness,52,F,Severe,2023-09-06,2025-12-23,Patient,Jamaica,No,3,Recovered,No,No,No
+AE000219,Drug_25,Diarrhea,32,F,Mild,2021-09-18,2025-11-17,Healthcare Professional,Uganda,No,7,Unknown,Yes,No,Yes
+AE000220,Drug_20,Allergic reaction,86,M,Life-threatening,2022-04-06,2024-07-27,Patient,Montenegro,Yes,4,Not Recovered,No,No,Yes
+AE000221,Drug_41,Nausea,9,F,Mild,2025-07-16,2024-12-26,Pharmacist,Bulgaria,No,1,Not Recovered,No,No,Yes
+AE000222,Drug_45,Fever,17,F,Moderate,2024-10-24,2023-12-28,Healthcare Professional,El Salvador,No,6,Not Recovered,No,No,No
+AE000223,Drug_24,Cough,82,M,Mild,2024-11-11,2024-03-29,Patient,Holy See (Vatican City State),No,6,Recovered,No,No,Yes
+AE000224,Drug_44,Cough,40,M,Mild,2022-05-05,2025-01-30,Patient,Bermuda,No,2,Recovered,No,No,Yes
+AE000225,Drug_8,Shortness of breath,75,F,Mild,2026-04-25,2021-12-31,Patient,Saint Barthelemy,Yes,1,Recovered,No,No,Yes
+AE000226,Drug_35,Nausea,54,F,Moderate,2024-07-02,2025-05-19,Healthcare Professional,Monaco,Yes,3,Recovered,No,No,No
+AE000227,Drug_16,Headache,54,M,Mild,2025-07-06,2022-03-20,Patient,Zambia,No,3,Fatal,No,No,Yes
+AE000228,Drug_29,Insomnia,28,M,Moderate,2022-02-20,2023-03-04,Healthcare Professional,Antarctica (the territory South of 60 deg S),No,0,Not Recovered,No,No,Yes
+AE000229,Drug_25,Dizziness,72,F,Mild,2025-12-05,2024-04-15,Healthcare Professional,Gibraltar,No,3,Unknown,No,No,Yes
+AE000230,Drug_1,Fever,50,M,Mild,2025-02-24,2024-05-08,Pharmacist,Benin,Yes,7,Recovered,No,No,Yes
+AE000231,Drug_26,Allergic reaction,18,F,Moderate,2026-05-25,2025-10-28,Pharmacist,Cayman Islands,No,2,Recovered,No,No,Yes
+AE000232,Drug_17,Seizure,13,M,Mild,2023-05-05,2024-12-15,Patient,Somalia,No,2,Fatal,No,No,Yes
+AE000233,Drug_20,Chest pain,33,M,Mild,2025-12-19,2022-09-15,Healthcare Professional,Ghana,No,6,Recovered,No,No,Yes
+AE000234,Drug_6,Insomnia,15,M,Mild,2024-10-04,2021-12-30,Patient,Gibraltar,No,3,Recovered,No,No,No
+AE000235,Drug_49,Headache,86,F,Moderate,2022-07-23,2026-03-05,Healthcare Professional,Ecuador,No,4,Recovered,No,No,No
+AE000236,Drug_16,Shortness of breath,38,F,Life-threatening,2022-07-25,2025-10-09,Healthcare Professional,Chad,No,3,Recovered,No,No,Yes
+AE000237,Drug_20,Vomiting,6,F,Moderate,2023-03-20,2022-12-19,Patient,Anguilla,No,4,Unknown,No,No,No
+AE000238,Drug_14,Insomnia,45,M,Mild,2025-04-06,2024-06-20,Healthcare Professional,Swaziland,No,3,Recovered,No,No,Yes
+AE000239,Drug_11,Drowsiness,59,F,Mild,2021-09-23,2024-09-08,Patient,Puerto Rico,No,1,Unknown,No,No,Yes
+AE000240,Drug_29,Insomnia,83,F,Mild,2023-01-28,2024-07-25,Healthcare Professional,Benin,No,3,Unknown,No,No,Yes
+AE000241,Drug_41,Headache,78,M,Mild,2026-03-17,2025-10-23,Patient,Kazakhstan,No,1,Recovered,No,No,Yes
+AE000242,Drug_21,Rash,48,F,Mild,2024-10-16,2022-11-26,Patient,Uzbekistan,No,4,Not Recovered,No,No,No
+AE000243,Drug_50,Vomiting,41,F,Mild,2026-03-26,2024-01-26,Pharmacist,Equatorial Guinea,No,7,Recovered,No,Yes,No
+AE000244,Drug_42,Seizure,83,F,Mild,2023-08-22,2023-03-27,Pharmacist,Turkmenistan,No,3,Recovered,No,No,Yes
+AE000245,Drug_27,Shortness of breath,79,F,Mild,2022-06-15,2025-06-25,Healthcare Professional,Tokelau,No,4,Unknown,No,No,Yes
+AE000246,Drug_3,Allergic reaction,74,F,Mild,2023-09-18,2024-01-21,Patient,Somalia,Yes,6,Recovered,No,No,Yes
+AE000247,Drug_18,Chest pain,55,F,Mild,2025-09-05,2024-02-22,Patient,Argentina,Yes,2,Recovered,Yes,No,No
+AE000248,Drug_6,Insomnia,61,M,Mild,2025-05-27,2025-03-18,Patient,Namibia,No,5,Recovered,No,No,Yes
+AE000249,Drug_50,Chest pain,2,F,Moderate,2024-11-30,2025-02-16,Patient,South Georgia and the South Sandwich Islands,No,7,Recovered,No,No,Yes
+AE000250,Drug_32,Constipation,2,M,Mild,2026-07-15,2022-10-23,Patient,Greece,No,6,Recovered,No,No,Yes
+AE000251,Drug_31,Diarrhea,85,F,Mild,2023-01-09,2023-08-02,Healthcare Professional,Israel,Yes,0,Recovered,No,No,No
+AE000252,Drug_48,Rash,76,F,Mild,2022-06-22,2025-01-17,Pharmacist,Afghanistan,No,4,Recovered,No,No,Yes
+AE000253,Drug_27,Chest pain,10,F,Mild,2022-07-21,2024-06-29,Patient,Cyprus,No,7,Unknown,No,No,No
+AE000254,Drug_22,Cough,76,F,Severe,2024-06-28,2025-02-21,Patient,South Georgia and the South Sandwich Islands,No,1,Recovered,No,No,Yes
+AE000255,Drug_46,Drowsiness,39,M,Mild,2022-06-08,2023-10-10,Patient,Central African Republic,Yes,0,Recovered,No,No,Yes
+AE000256,Drug_28,Fatigue,2,F,Moderate,2026-03-22,2024-02-26,Healthcare Professional,Singapore,No,7,Recovered,No,No,Yes
+AE000257,Drug_7,Vomiting,65,M,Moderate,2024-06-28,2026-03-24,Pharmacist,Eritrea,No,5,Not Recovered,No,No,Yes
+AE000258,Drug_11,Cough,66,M,Moderate,2026-06-02,2025-02-19,Pharmacist,Greece,No,6,Recovered,No,No,Yes
+AE000259,Drug_45,Rash,87,F,Severe,2022-08-06,2023-08-09,Patient,Turkey,No,3,Unknown,No,No,Yes
+AE000260,Drug_17,Nausea,81,F,Severe,2026-06-16,2023-12-02,Healthcare Professional,Chad,No,1,Not Recovered,No,No,Yes
+AE000261,Drug_33,Shortness of breath,52,M,Mild,2023-03-24,2023-04-20,Pharmacist,Vietnam,No,0,Recovered,No,No,Yes
+AE000262,Drug_5,Dizziness,85,M,Mild,2026-04-08,2022-07-19,Pharmacist,United States Minor Outlying Islands,No,6,Recovered,Yes,No,Yes
+AE000263,Drug_23,Allergic reaction,44,M,Moderate,2022-12-02,2025-02-10,Healthcare Professional,United States Minor Outlying Islands,Yes,0,Recovered,No,No,Yes
+AE000264,Drug_27,Headache,34,F,Life-threatening,2022-08-12,2024-12-11,Pharmacist,Tonga,No,4,Not Recovered,No,No,Yes
+AE000265,Drug_39,Insomnia,73,F,Severe,2023-01-30,2023-08-17,Healthcare Professional,Anguilla,Yes,6,Recovered,No,No,Yes
+AE000266,Drug_47,Diarrhea,81,M,Mild,2025-03-13,2023-11-25,Pharmacist,Oman,No,3,Not Recovered,No,No,Yes
+AE000267,Drug_36,Vomiting,45,F,Mild,2025-03-07,2025-04-26,Healthcare Professional,Taiwan,No,3,Unknown,No,No,Yes
+AE000268,Drug_48,Dizziness,32,M,Moderate,2026-03-08,2023-07-26,Patient,Algeria,No,3,Not Recovered,No,No,Yes
+AE000269,Drug_21,Cough,5,F,Mild,2025-07-16,2024-01-03,Pharmacist,Madagascar,No,4,Not Recovered,Yes,No,Yes
+AE000270,Drug_30,Fever,78,M,Moderate,2025-10-07,2023-02-17,Pharmacist,Nigeria,No,4,Not Recovered,No,No,Yes
+AE000271,Drug_45,Allergic reaction,89,F,Moderate,2023-05-05,2026-06-16,Pharmacist,Belize,No,7,Recovered,No,No,Yes
+AE000272,Drug_2,Cough,86,M,Mild,2025-01-13,2023-09-28,Healthcare Professional,Haiti,No,3,Recovered,No,No,Yes
+AE000273,Drug_49,Allergic reaction,63,F,Severe,2024-06-19,2022-05-23,Pharmacist,Faroe Islands,No,6,Recovered,No,No,No
+AE000274,Drug_4,Headache,69,F,Severe,2023-10-24,2021-08-28,Pharmacist,Saint Kitts and Nevis,No,0,Recovered,No,No,Yes
+AE000275,Drug_42,Headache,54,M,Mild,2023-02-22,2022-12-13,Healthcare Professional,Kuwait,Yes,5,Unknown,No,No,Yes
+AE000276,Drug_42,Chest pain,38,M,Moderate,2023-06-16,2025-06-19,Pharmacist,Sierra Leone,No,3,Recovered,No,No,Yes
+AE000277,Drug_12,Insomnia,9,M,Moderate,2023-05-28,2026-02-08,Pharmacist,Mozambique,No,7,Not Recovered,No,No,Yes
+AE000278,Drug_41,Vomiting,61,F,Mild,2022-05-01,2025-02-02,Healthcare Professional,Bouvet Island (Bouvetoya),Yes,4,Not Recovered,No,No,No
+AE000279,Drug_29,Insomnia,21,M,Mild,2025-10-11,2022-11-12,Healthcare Professional,Malaysia,No,7,Not Recovered,No,No,Yes
+AE000280,Drug_42,Rash,36,F,Mild,2023-06-09,2025-10-09,Healthcare Professional,Cayman Islands,Yes,3,Recovered,No,No,Yes
+AE000281,Drug_9,Diarrhea,1,F,Severe,2023-06-19,2024-12-07,Pharmacist,American Samoa,No,4,Recovered,No,No,Yes
+AE000282,Drug_1,Shortness of breath,22,M,Mild,2025-12-30,2025-07-03,Patient,Poland,No,3,Recovered,No,No,No
+AE000283,Drug_26,Drowsiness,87,M,Mild,2022-03-03,2025-01-07,Healthcare Professional,Heard Island and McDonald Islands,No,6,Unknown,No,No,Yes
+AE000284,Drug_13,Drowsiness,87,F,Mild,2023-07-28,2024-12-29,Pharmacist,Azerbaijan,No,5,Recovered,Yes,No,Yes
+AE000285,Drug_41,Fever,15,M,Mild,2024-07-18,2024-09-29,Patient,Myanmar,No,0,Recovered,No,No,Yes
+AE000286,Drug_20,Allergic reaction,46,M,Mild,2024-07-14,2023-02-28,Patient,Angola,Yes,6,Recovered,No,No,Yes
+AE000287,Drug_21,Allergic reaction,65,F,Mild,2023-12-11,2025-01-15,Healthcare Professional,Micronesia,No,0,Recovered,No,No,Yes
+AE000288,Drug_37,Seizure,6,M,Moderate,2021-08-17,2021-12-04,Healthcare Professional,Western Sahara,No,4,Recovered,Yes,Yes,Yes
+AE000289,Drug_6,Nausea,40,M,Moderate,2023-08-28,2023-10-26,Healthcare Professional,Saint Pierre and Miquelon,No,4,Unknown,No,No,Yes
+AE000290,Drug_8,Vomiting,35,M,Moderate,2025-11-28,2024-02-29,Healthcare Professional,Mayotte,No,1,Not Recovered,No,No,Yes
+AE000291,Drug_11,Vomiting,81,F,Moderate,2024-09-10,2023-06-21,Healthcare Professional,Cameroon,Yes,2,Unknown,No,No,Yes
+AE000292,Drug_16,Headache,61,M,Mild,2024-04-12,2025-04-01,Pharmacist,Chile,No,1,Recovered,No,No,Yes
+AE000293,Drug_34,Cough,23,F,Moderate,2025-12-05,2023-10-21,Pharmacist,Cook Islands,No,4,Recovered,Yes,No,No
+AE000294,Drug_46,Dizziness,20,M,Mild,2024-01-04,2022-05-16,Healthcare Professional,Sudan,No,7,Not Recovered,No,No,Yes
+AE000295,Drug_50,Rash,28,M,Mild,2022-04-12,2025-08-12,Pharmacist,Antarctica (the territory South of 60 deg S),Yes,5,Fatal,Yes,Yes,Yes
+AE000296,Drug_42,Chest pain,37,F,Mild,2023-10-16,2021-08-20,Healthcare Professional,Palau,Yes,7,Recovered,No,No,No
+AE000297,Drug_49,Fever,82,M,Mild,2024-03-31,2022-06-30,Healthcare Professional,Saint Helena,Yes,4,Unknown,No,No,No
+AE000298,Drug_9,Seizure,7,M,Mild,2021-11-14,2024-04-05,Patient,Svalbard & Jan Mayen Islands,Yes,3,Unknown,No,No,Yes
+AE000299,Drug_39,Cough,49,M,Mild,2022-10-18,2021-10-10,Healthcare Professional,Tunisia,No,1,Recovered,No,No,Yes
+AE000300,Drug_44,Fatigue,84,F,Moderate,2021-11-05,2025-12-02,Patient,Saint Martin,No,2,Recovered,Yes,No,No
+AE000301,Drug_27,Constipation,24,M,Moderate,2024-02-15,2024-09-22,Pharmacist,Tuvalu,Yes,7,Recovered,No,No,Yes
+AE000302,Drug_21,Allergic reaction,80,F,Mild,2023-03-16,2022-01-31,Healthcare Professional,United Kingdom,No,1,Unknown,No,No,Yes
+AE000303,Drug_29,Fever,13,F,Life-threatening,2022-04-04,2021-10-28,Patient,Libyan Arab Jamahiriya,No,6,Recovered,No,No,Yes
+AE000304,Drug_31,Fatigue,7,M,Moderate,2024-12-15,2025-03-23,Patient,Eritrea,No,0,Not Recovered,No,No,Yes
+AE000305,Drug_48,Insomnia,15,M,Severe,2022-05-22,2022-06-21,Pharmacist,Western Sahara,No,6,Not Recovered,No,No,Yes
+AE000306,Drug_9,Diarrhea,87,F,Moderate,2026-03-25,2025-01-23,Patient,Cameroon,No,0,Recovered,Yes,No,Yes
+AE000307,Drug_17,Allergic reaction,23,F,Mild,2024-06-24,2025-07-25,Healthcare Professional,Sao Tome and Principe,No,1,Recovered,No,No,Yes
+AE000308,Drug_12,Headache,69,F,Life-threatening,2025-11-17,2026-04-25,Healthcare Professional,American Samoa,No,5,Recovered,No,No,No
+AE000309,Drug_44,Shortness of breath,60,M,Severe,2024-11-24,2023-03-18,Patient,Saint Kitts and Nevis,No,6,Unknown,No,No,Yes
+AE000310,Drug_38,Constipation,10,M,Mild,2024-12-16,2025-11-11,Healthcare Professional,Zimbabwe,No,1,Not Recovered,No,No,Yes
+AE000311,Drug_21,Cough,51,F,Mild,2022-06-24,2022-01-11,Healthcare Professional,Myanmar,No,5,Fatal,No,No,Yes
+AE000312,Drug_19,Rash,64,F,Mild,2021-08-13,2025-09-25,Patient,Korea,Yes,4,Recovered,Yes,No,No
+AE000313,Drug_13,Vomiting,71,F,Severe,2024-02-28,2021-12-26,Pharmacist,Oman,No,5,Recovered,No,No,Yes
+AE000314,Drug_6,Insomnia,56,M,Mild,2025-09-25,2023-11-25,Pharmacist,Senegal,Yes,3,Unknown,No,No,Yes
+AE000315,Drug_27,Dizziness,32,F,Moderate,2026-01-03,2022-10-10,Healthcare Professional,Christmas Island,No,0,Recovered,No,No,Yes
+AE000316,Drug_24,Seizure,23,M,Moderate,2024-11-16,2022-07-02,Patient,Uzbekistan,No,7,Recovered,No,No,Yes
+AE000317,Drug_12,Constipation,54,M,Mild,2023-06-27,2023-12-16,Healthcare Professional,Sweden,No,2,Recovered,Yes,No,No
+AE000318,Drug_26,Chest pain,73,F,Moderate,2024-09-17,2025-09-08,Healthcare Professional,Tanzania,No,3,Recovered,Yes,No,Yes
+AE000319,Drug_25,Headache,85,F,Moderate,2026-01-01,2023-10-17,Patient,Pakistan,No,5,Recovered,No,No,Yes
+AE000320,Drug_37,Allergic reaction,70,M,Mild,2024-10-08,2024-01-15,Pharmacist,Portugal,Yes,6,Recovered,No,No,Yes
+AE000321,Drug_15,Shortness of breath,84,F,Mild,2023-10-22,2025-12-18,Healthcare Professional,Ghana,No,1,Not Recovered,No,No,Yes
+AE000322,Drug_2,Nausea,61,M,Severe,2024-11-19,2026-07-19,Pharmacist,Morocco,No,6,Recovered,No,No,No
+AE000323,Drug_2,Fever,79,M,Moderate,2022-10-10,2026-05-31,Healthcare Professional,Senegal,No,6,Unknown,No,No,Yes
+AE000324,Drug_36,Cough,20,F,Moderate,2024-11-13,2023-03-11,Patient,Uganda,No,0,Recovered,No,No,Yes
+AE000325,Drug_42,Nausea,53,M,Mild,2023-10-16,2026-07-17,Patient,Indonesia,Yes,7,Recovered,No,No,Yes
+AE000326,Drug_40,Constipation,15,M,Mild,2022-03-20,2025-05-02,Pharmacist,Dominica,Yes,1,Recovered,No,Yes,Yes
+AE000327,Drug_41,Headache,29,M,Life-threatening,2022-03-09,2022-08-07,Healthcare Professional,American Samoa,Yes,6,Unknown,No,No,Yes
+AE000328,Drug_15,Shortness of breath,70,M,Moderate,2023-07-04,2022-11-02,Patient,Faroe Islands,No,0,Unknown,No,No,Yes
+AE000329,Drug_6,Shortness of breath,80,M,Mild,2024-09-21,2025-02-01,Healthcare Professional,Turks and Caicos Islands,No,2,Recovered,No,No,No
+AE000330,Drug_30,Rash,65,F,Moderate,2022-03-05,2023-11-08,Healthcare Professional,Singapore,Yes,3,Recovered,No,No,Yes
+AE000331,Drug_13,Headache,62,F,Moderate,2025-02-01,2024-02-08,Pharmacist,Zimbabwe,No,2,Recovered,No,No,Yes
+AE000332,Drug_17,Fever,70,M,Mild,2026-05-03,2023-03-04,Healthcare Professional,Grenada,No,7,Unknown,Yes,No,No
+AE000333,Drug_45,Fatigue,16,F,Severe,2021-12-03,2024-11-22,Healthcare Professional,Svalbard & Jan Mayen Islands,No,2,Not Recovered,No,No,Yes
+AE000334,Drug_11,Diarrhea,54,F,Mild,2026-03-03,2023-09-26,Pharmacist,Aruba,No,3,Unknown,No,No,Yes
+AE000335,Drug_4,Headache,7,F,Moderate,2025-03-20,2023-07-07,Patient,Bahamas,No,5,Recovered,No,No,Yes
+AE000336,Drug_26,Shortness of breath,60,M,Mild,2023-06-28,2022-12-28,Healthcare Professional,Brunei Darussalam,No,7,Recovered,No,No,No
+AE000337,Drug_40,Fatigue,10,M,Mild,2024-03-19,2023-09-02,Healthcare Professional,Namibia,No,3,Not Recovered,No,No,No
+AE000338,Drug_28,Allergic reaction,53,F,Severe,2026-07-28,2024-05-08,Patient,Nepal,No,5,Unknown,No,No,Yes
+AE000339,Drug_39,Shortness of breath,8,M,Moderate,2024-07-03,2024-02-05,Pharmacist,Andorra,No,7,Recovered,No,Yes,Yes
+AE000340,Drug_17,Vomiting,85,M,Moderate,2022-06-22,2023-07-12,Patient,Malawi,No,6,Recovered,No,No,Yes
+AE000341,Drug_10,Rash,37,F,Mild,2025-06-13,2023-06-16,Healthcare Professional,Guatemala,No,2,Unknown,No,No,Yes
+AE000342,Drug_6,Vomiting,82,M,Severe,2025-06-11,2022-05-24,Healthcare Professional,Malta,No,6,Recovered,No,No,Yes
+AE000343,Drug_24,Seizure,4,F,Mild,2023-09-11,2026-02-10,Pharmacist,Taiwan,No,1,Recovered,No,Yes,Yes
+AE000344,Drug_11,Shortness of breath,84,F,Moderate,2026-04-15,2022-03-23,Pharmacist,United States Virgin Islands,No,7,Recovered,No,No,No
+AE000345,Drug_37,Vomiting,83,F,Severe,2022-11-05,2022-11-12,Patient,Sri Lanka,No,3,Recovered,No,No,Yes
+AE000346,Drug_8,Rash,23,F,Mild,2024-05-09,2023-06-28,Pharmacist,Cook Islands,No,2,Recovered,No,No,Yes
+AE000347,Drug_1,Cough,9,M,Mild,2021-09-15,2021-11-27,Patient,Portugal,No,7,Not Recovered,No,No,Yes
+AE000348,Drug_46,Cough,38,F,Life-threatening,2023-07-15,2023-03-23,Patient,Greenland,No,2,Recovered,No,No,Yes
+AE000349,Drug_34,Rash,45,F,Life-threatening,2022-08-04,2025-02-22,Healthcare Professional,Cameroon,No,2,Recovered,No,No,Yes
+AE000350,Drug_28,Shortness of breath,45,M,Moderate,2024-02-18,2021-10-03,Patient,Albania,No,6,Not Recovered,No,No,Yes
+AE000351,Drug_50,Vomiting,18,F,Mild,2021-12-01,2024-07-17,Patient,Niger,No,1,Unknown,Yes,No,Yes
+AE000352,Drug_30,Vomiting,46,F,Moderate,2022-01-23,2022-12-26,Pharmacist,Mauritania,No,4,Not Recovered,No,No,Yes
+AE000353,Drug_44,Allergic reaction,2,F,Mild,2021-09-11,2021-10-21,Pharmacist,Jordan,No,4,Fatal,No,No,Yes
+AE000354,Drug_32,Headache,48,F,Mild,2021-12-04,2023-07-09,Healthcare Professional,Gabon,No,3,Unknown,No,No,No
+AE000355,Drug_8,Constipation,17,M,Mild,2023-10-26,2024-08-30,Healthcare Professional,Haiti,Yes,6,Fatal,No,No,Yes
+AE000356,Drug_15,Fever,16,M,Mild,2021-08-17,2023-05-24,Healthcare Professional,South Georgia and the South Sandwich Islands,Yes,4,Unknown,No,No,Yes
+AE000357,Drug_46,Rash,45,M,Mild,2023-08-15,2026-05-17,Patient,Oman,No,0,Not Recovered,No,No,Yes
+AE000358,Drug_14,Insomnia,48,M,Mild,2022-08-01,2023-05-20,Pharmacist,Martinique,No,7,Not Recovered,No,No,Yes
+AE000359,Drug_13,Constipation,24,M,Moderate,2025-04-14,2023-01-04,Patient,French Southern Territories,No,5,Not Recovered,No,No,Yes
+AE000360,Drug_18,Constipation,65,F,Moderate,2025-01-19,2021-09-07,Healthcare Professional,El Salvador,Yes,3,Unknown,No,No,Yes
+AE000361,Drug_19,Shortness of breath,33,F,Severe,2024-05-01,2023-04-16,Pharmacist,Central African Republic,No,3,Not Recovered,No,No,Yes
+AE000362,Drug_48,Shortness of breath,4,M,Mild,2021-10-17,2022-09-06,Patient,Antigua and Barbuda,Yes,2,Not Recovered,No,No,Yes
+AE000363,Drug_32,Shortness of breath,1,F,Mild,2024-04-23,2022-03-31,Pharmacist,Northern Mariana Islands,No,5,Recovered,No,No,Yes
+AE000364,Drug_25,Vomiting,33,M,Moderate,2026-07-10,2022-04-29,Patient,Saint Lucia,Yes,7,Unknown,No,No,Yes
+AE000365,Drug_9,Seizure,74,F,Mild,2024-06-26,2021-09-15,Healthcare Professional,Antarctica (the territory South of 60 deg S),No,0,Recovered,No,No,Yes
+AE000366,Drug_28,Drowsiness,62,F,Mild,2022-04-10,2025-04-04,Patient,Greece,Yes,4,Recovered,No,No,Yes
+AE000367,Drug_14,Seizure,3,F,Moderate,2023-03-10,2026-08-10,Patient,Lao People's Democratic Republic,No,3,Not Recovered,No,No,No
+AE000368,Drug_39,Seizure,45,M,Mild,2022-12-18,2022-01-12,Healthcare Professional,Belize,No,6,Recovered,Yes,No,Yes
+AE000369,Drug_14,Constipation,21,M,Severe,2022-10-21,2022-05-23,Healthcare Professional,Saint Lucia,Yes,6,Recovered,No,No,Yes
+AE000370,Drug_19,Vomiting,64,F,Moderate,2025-07-21,2026-04-25,Patient,Morocco,No,7,Recovered,Yes,Yes,Yes
+AE000371,Drug_47,Fever,73,F,Mild,2022-06-20,2021-09-21,Patient,Montenegro,No,5,Recovered,Yes,No,Yes
+AE000372,Drug_44,Drowsiness,57,F,Mild,2025-10-24,2026-07-31,Patient,Bolivia,No,6,Recovered,No,No,Yes
+AE000373,Drug_13,Vomiting,40,M,Moderate,2025-06-09,2021-10-05,Healthcare Professional,Saint Vincent and the Grenadines,No,0,Recovered,No,No,Yes
+AE000374,Drug_27,Insomnia,62,M,Moderate,2023-11-04,2023-02-23,Healthcare Professional,Norway,No,1,Unknown,No,No,Yes
+AE000375,Drug_12,Rash,43,M,Severe,2025-01-29,2025-07-20,Healthcare Professional,Ghana,No,7,Recovered,No,No,No
+AE000376,Drug_27,Rash,88,F,Moderate,2024-11-12,2022-08-12,Pharmacist,Romania,No,1,Not Recovered,No,No,No
+AE000377,Drug_10,Seizure,46,F,Mild,2023-06-29,2022-03-12,Pharmacist,Estonia,No,6,Fatal,No,No,Yes
+AE000378,Drug_2,Constipation,72,M,Mild,2023-12-07,2022-01-21,Healthcare Professional,Tokelau,No,2,Recovered,No,Yes,Yes
+AE000379,Drug_19,Nausea,24,M,Moderate,2021-12-27,2022-08-10,Pharmacist,Austria,No,0,Not Recovered,No,No,Yes
+AE000380,Drug_17,Headache,24,F,Mild,2024-10-04,2026-06-27,Pharmacist,Seychelles,No,3,Recovered,No,No,Yes
+AE000381,Drug_16,Nausea,10,F,Moderate,2025-11-12,2022-11-09,Patient,Korea,No,1,Not Recovered,Yes,No,Yes
+AE000382,Drug_40,Shortness of breath,68,M,Moderate,2021-10-14,2021-12-05,Patient,Saint Pierre and Miquelon,Yes,5,Recovered,No,No,No
+AE000383,Drug_29,Vomiting,57,M,Moderate,2026-02-17,2023-12-09,Patient,Western Sahara,No,1,Unknown,No,No,Yes
+AE000384,Drug_16,Drowsiness,44,F,Mild,2024-03-29,2025-02-06,Pharmacist,Trinidad and Tobago,No,5,Recovered,No,No,Yes
+AE000385,Drug_24,Shortness of breath,73,M,Moderate,2022-09-21,2025-04-05,Pharmacist,Hong Kong,Yes,4,Recovered,No,No,Yes
+AE000386,Drug_38,Diarrhea,75,F,Mild,2024-03-13,2025-03-07,Patient,Saudi Arabia,No,4,Recovered,No,Yes,No
+AE000387,Drug_44,Drowsiness,48,M,Moderate,2025-10-17,2021-12-21,Patient,Bulgaria,No,0,Not Recovered,No,No,Yes
+AE000388,Drug_42,Diarrhea,77,F,Moderate,2025-07-03,2025-04-19,Healthcare Professional,Peru,Yes,6,Recovered,No,No,Yes
+AE000389,Drug_30,Fatigue,27,F,Moderate,2023-04-25,2021-12-31,Pharmacist,Suriname,No,4,Recovered,No,No,Yes
+AE000390,Drug_6,Drowsiness,30,M,Mild,2022-04-30,2022-05-07,Patient,Taiwan,Yes,0,Recovered,No,No,Yes
+AE000391,Drug_1,Cough,46,F,Moderate,2022-07-05,2023-04-01,Patient,Malta,No,3,Recovered,No,No,Yes
+AE000392,Drug_31,Vomiting,12,F,Moderate,2025-12-25,2026-03-28,Patient,Bahrain,Yes,3,Not Recovered,No,No,Yes
+AE000393,Drug_9,Allergic reaction,60,M,Mild,2026-06-17,2024-05-21,Pharmacist,Bosnia and Herzegovina,No,7,Recovered,No,No,Yes
+AE000394,Drug_21,Vomiting,19,M,Severe,2026-03-22,2024-11-11,Patient,Saint Martin,No,3,Not Recovered,No,No,No
+AE000395,Drug_45,Drowsiness,68,F,Moderate,2026-01-17,2024-04-16,Patient,Gabon,No,4,Recovered,Yes,No,No
+AE000396,Drug_26,Vomiting,54,F,Moderate,2022-04-19,2025-05-14,Patient,Slovenia,No,4,Recovered,Yes,No,Yes
+AE000397,Drug_44,Vomiting,34,M,Mild,2023-07-06,2022-02-11,Patient,Tajikistan,Yes,2,Recovered,No,No,Yes
+AE000398,Drug_14,Headache,87,M,Life-threatening,2024-07-15,2022-06-19,Patient,Belarus,No,1,Unknown,No,No,Yes
+AE000399,Drug_46,Headache,7,F,Moderate,2022-05-27,2025-08-05,Healthcare Professional,Iceland,No,5,Not Recovered,No,No,Yes
+AE000400,Drug_25,Constipation,82,M,Moderate,2022-02-01,2024-03-19,Patient,Niue,No,3,Recovered,No,No,Yes
+AE000401,Drug_46,Chest pain,42,F,Moderate,2026-03-12,2025-09-27,Healthcare Professional,Papua New Guinea,No,6,Not Recovered,No,No,Yes
+AE000402,Drug_28,Headache,68,F,Mild,2024-08-12,2021-10-17,Pharmacist,Singapore,No,4,Fatal,No,Yes,No
+AE000403,Drug_48,Nausea,53,F,Mild,2024-09-09,2026-04-23,Pharmacist,Saint Barthelemy,No,1,Recovered,No,No,No
+AE000404,Drug_39,Nausea,8,F,Mild,2021-12-13,2026-06-05,Pharmacist,Latvia,No,3,Recovered,Yes,No,No
+AE000405,Drug_17,Nausea,22,F,Mild,2026-03-03,2025-08-26,Pharmacist,Venezuela,No,3,Recovered,No,No,Yes
+AE000406,Drug_5,Insomnia,26,F,Moderate,2026-05-27,2022-12-07,Pharmacist,Jordan,Yes,5,Recovered,No,No,No
+AE000407,Drug_7,Rash,77,M,Mild,2022-09-08,2025-01-01,Patient,Switzerland,No,1,Recovered,No,No,Yes
+AE000408,Drug_36,Allergic reaction,63,F,Moderate,2023-08-26,2024-05-20,Patient,Rwanda,No,1,Not Recovered,No,No,Yes
+AE000409,Drug_4,Drowsiness,46,F,Moderate,2025-08-06,2022-09-10,Pharmacist,Argentina,No,4,Recovered,No,No,Yes
+AE000410,Drug_4,Seizure,81,F,Mild,2026-01-03,2022-11-01,Patient,Sao Tome and Principe,Yes,1,Recovered,No,No,No
+AE000411,Drug_22,Dizziness,44,F,Mild,2023-01-11,2022-09-16,Healthcare Professional,Malaysia,No,6,Recovered,No,No,Yes
+AE000412,Drug_16,Rash,62,F,Moderate,2023-09-26,2023-08-26,Healthcare Professional,Niue,No,6,Recovered,No,No,Yes
+AE000413,Drug_31,Headache,36,M,Mild,2022-02-17,2023-06-21,Patient,Colombia,No,1,Recovered,No,No,Yes
+AE000414,Drug_23,Fever,41,F,Mild,2025-01-27,2022-01-27,Pharmacist,India,No,4,Not Recovered,No,No,Yes
+AE000415,Drug_39,Allergic reaction,79,M,Moderate,2023-06-05,2023-10-31,Pharmacist,Greenland,No,3,Recovered,Yes,No,Yes
+AE000416,Drug_43,Diarrhea,82,F,Moderate,2026-04-14,2024-11-28,Healthcare Professional,Trinidad and Tobago,No,5,Fatal,No,No,Yes
+AE000417,Drug_39,Diarrhea,27,M,Moderate,2025-02-05,2022-08-14,Patient,Martinique,No,1,Recovered,No,No,No
+AE000418,Drug_46,Fatigue,70,M,Moderate,2022-12-29,2025-08-16,Healthcare Professional,Armenia,Yes,5,Not Recovered,No,No,No
+AE000419,Drug_48,Headache,41,F,Severe,2022-12-26,2024-05-09,Patient,Zambia,No,6,Recovered,No,No,No
+AE000420,Drug_3,Vomiting,5,F,Mild,2025-07-31,2026-02-13,Pharmacist,Panama,No,2,Not Recovered,No,No,Yes
+AE000421,Drug_1,Constipation,57,F,Life-threatening,2022-07-16,2023-12-31,Healthcare Professional,Bosnia and Herzegovina,No,7,Fatal,No,No,Yes
+AE000422,Drug_17,Fatigue,76,M,Mild,2025-03-10,2024-02-25,Patient,Mexico,No,0,Recovered,No,No,Yes
+AE000423,Drug_33,Rash,29,F,Moderate,2022-07-10,2024-01-01,Pharmacist,Bahamas,Yes,5,Not Recovered,No,No,No
+AE000424,Drug_40,Fatigue,12,F,Moderate,2021-12-22,2025-01-18,Patient,Guinea-Bissau,No,1,Recovered,Yes,No,Yes
+AE000425,Drug_25,Chest pain,25,M,Moderate,2026-02-22,2022-12-22,Pharmacist,Kazakhstan,Yes,5,Recovered,No,No,Yes
+AE000426,Drug_20,Headache,34,F,Life-threatening,2024-12-01,2024-05-14,Patient,Taiwan,No,7,Unknown,No,No,Yes
+AE000427,Drug_26,Chest pain,75,F,Mild,2022-09-17,2022-10-06,Healthcare Professional,Micronesia,No,1,Recovered,No,No,Yes
+AE000428,Drug_43,Chest pain,87,M,Mild,2022-07-25,2022-03-28,Patient,Haiti,Yes,6,Recovered,No,No,Yes
+AE000429,Drug_24,Insomnia,24,F,Mild,2023-02-10,2023-05-15,Healthcare Professional,Venezuela,No,0,Recovered,Yes,No,Yes
+AE000430,Drug_9,Nausea,82,F,Mild,2023-05-26,2022-01-25,Healthcare Professional,Sierra Leone,No,2,Recovered,No,No,Yes
+AE000431,Drug_36,Cough,63,F,Moderate,2025-05-16,2026-08-08,Healthcare Professional,Philippines,No,5,Unknown,No,Yes,Yes
+AE000432,Drug_3,Constipation,63,M,Mild,2024-12-23,2025-08-19,Pharmacist,Iraq,No,3,Recovered,Yes,No,Yes
+AE000433,Drug_38,Fever,10,F,Severe,2026-07-23,2026-01-02,Healthcare Professional,Algeria,No,2,Recovered,No,No,Yes
+AE000434,Drug_12,Nausea,5,F,Moderate,2025-05-07,2022-06-17,Healthcare Professional,Angola,Yes,0,Recovered,No,No,Yes
+AE000435,Drug_17,Rash,89,M,Mild,2025-05-07,2022-06-27,Healthcare Professional,Jersey,Yes,7,Recovered,No,No,No
+AE000436,Drug_11,Diarrhea,53,M,Mild,2022-04-28,2025-02-08,Pharmacist,Oman,Yes,5,Recovered,No,No,Yes
+AE000437,Drug_33,Shortness of breath,81,F,Mild,2022-10-01,2026-04-10,Patient,Luxembourg,No,1,Recovered,No,No,Yes
+AE000438,Drug_32,Nausea,28,F,Severe,2022-07-21,2022-01-02,Pharmacist,New Zealand,No,3,Recovered,No,No,Yes
+AE000439,Drug_22,Vomiting,65,F,Moderate,2023-01-17,2023-11-26,Pharmacist,Greece,Yes,2,Unknown,Yes,No,Yes
+AE000440,Drug_30,Drowsiness,45,F,Mild,2023-06-14,2024-07-25,Patient,Austria,No,2,Recovered,No,No,Yes
+AE000441,Drug_9,Chest pain,66,F,Mild,2021-11-08,2024-11-24,Patient,Cape Verde,No,3,Recovered,No,No,No
+AE000442,Drug_6,Drowsiness,49,F,Mild,2025-09-24,2026-05-26,Healthcare Professional,Belize,No,2,Unknown,Yes,No,No
+AE000443,Drug_21,Shortness of breath,40,M,Mild,2021-12-07,2025-04-10,Healthcare Professional,Uruguay,Yes,0,Not Recovered,No,No,Yes
+AE000444,Drug_46,Rash,66,M,Moderate,2023-02-25,2026-05-15,Patient,Spain,No,3,Fatal,No,No,Yes
+AE000445,Drug_34,Fatigue,8,F,Moderate,2023-09-08,2022-02-28,Patient,Syrian Arab Republic,No,0,Not Recovered,No,No,No
+AE000446,Drug_28,Diarrhea,27,F,Mild,2025-03-31,2023-10-24,Pharmacist,Portugal,No,3,Recovered,Yes,No,Yes
+AE000447,Drug_10,Rash,17,F,Severe,2026-04-03,2022-11-12,Pharmacist,Venezuela,No,0,Not Recovered,No,No,Yes
+AE000448,Drug_17,Shortness of breath,68,F,Mild,2025-09-20,2024-03-23,Pharmacist,Netherlands,No,1,Recovered,No,No,No
+AE000449,Drug_8,Nausea,44,F,Mild,2023-04-24,2025-11-02,Patient,Albania,No,1,Not Recovered,No,No,Yes
+AE000450,Drug_21,Diarrhea,31,M,Moderate,2021-12-26,2026-05-19,Healthcare Professional,Faroe Islands,No,2,Recovered,No,No,Yes
+AE000451,Drug_3,Fever,5,F,Mild,2022-07-13,2026-01-05,Pharmacist,Denmark,Yes,3,Unknown,No,No,Yes
+AE000452,Drug_9,Cough,60,M,Mild,2026-01-19,2024-06-11,Pharmacist,Croatia,No,5,Not Recovered,No,No,Yes
+AE000453,Drug_32,Rash,89,F,Moderate,2022-02-12,2025-11-15,Patient,Heard Island and McDonald Islands,No,7,Recovered,Yes,No,Yes
+AE000454,Drug_18,Diarrhea,19,F,Mild,2025-05-06,2025-05-05,Pharmacist,French Southern Territories,Yes,3,Recovered,No,No,Yes
+AE000455,Drug_48,Shortness of breath,42,F,Mild,2025-01-19,2022-04-15,Patient,Kazakhstan,No,0,Recovered,No,No,Yes
+AE000456,Drug_24,Fever,23,M,Moderate,2022-09-11,2022-02-02,Healthcare Professional,Bahamas,No,5,Not Recovered,No,No,Yes
+AE000457,Drug_28,Fever,77,M,Mild,2021-10-01,2022-06-13,Pharmacist,Argentina,No,2,Recovered,No,No,Yes
+AE000458,Drug_19,Constipation,17,M,Mild,2025-11-01,2023-09-28,Pharmacist,Swaziland,No,6,Recovered,No,No,Yes
+AE000459,Drug_17,Shortness of breath,58,F,Mild,2022-02-18,2025-02-04,Pharmacist,Italy,No,2,Unknown,Yes,No,No
+AE000460,Drug_40,Cough,87,M,Moderate,2025-07-16,2023-11-29,Patient,Bolivia,Yes,7,Unknown,No,No,Yes
+AE000461,Drug_49,Vomiting,49,M,Mild,2022-10-14,2022-05-31,Patient,Korea,No,6,Unknown,No,No,Yes
+AE000462,Drug_17,Drowsiness,3,F,Severe,2022-11-10,2025-01-16,Healthcare Professional,Nigeria,Yes,7,Recovered,No,Yes,Yes
+AE000463,Drug_34,Shortness of breath,77,F,Severe,2024-05-11,2025-08-11,Patient,Chile,Yes,5,Not Recovered,No,No,Yes
+AE000464,Drug_21,Fever,45,M,Mild,2025-04-12,2024-09-23,Pharmacist,Austria,No,3,Unknown,No,No,No
+AE000465,Drug_28,Cough,35,F,Severe,2025-12-10,2022-08-21,Pharmacist,Kuwait,No,6,Recovered,No,No,Yes
+AE000466,Drug_11,Insomnia,2,F,Moderate,2022-02-27,2023-03-26,Patient,Guadeloupe,No,1,Recovered,Yes,No,Yes
+AE000467,Drug_21,Diarrhea,47,F,Mild,2024-12-17,2025-10-01,Healthcare Professional,Cook Islands,No,6,Fatal,Yes,No,Yes
+AE000468,Drug_48,Seizure,3,F,Moderate,2025-08-09,2023-04-23,Patient,Armenia,Yes,7,Unknown,Yes,No,Yes
+AE000469,Drug_32,Chest pain,29,M,Moderate,2025-06-17,2022-03-21,Patient,Sudan,No,3,Not Recovered,No,No,Yes
+AE000470,Drug_49,Cough,74,M,Mild,2024-02-26,2026-02-22,Pharmacist,Reunion,No,6,Recovered,No,No,Yes
+AE000471,Drug_10,Fatigue,20,M,Mild,2025-03-18,2025-01-30,Pharmacist,Guernsey,No,5,Recovered,No,No,Yes
+AE000472,Drug_36,Seizure,34,M,Mild,2022-06-14,2022-01-14,Pharmacist,Botswana,No,3,Not Recovered,No,No,Yes
+AE000473,Drug_43,Seizure,79,F,Mild,2023-08-17,2025-12-09,Patient,Macao,Yes,4,Recovered,No,No,Yes
+AE000474,Drug_41,Rash,40,M,Mild,2022-05-17,2022-06-01,Patient,Italy,No,0,Not Recovered,No,No,Yes
+AE000475,Drug_29,Cough,65,F,Moderate,2022-08-21,2022-12-20,Healthcare Professional,Iraq,No,0,Recovered,No,No,Yes
+AE000476,Drug_4,Nausea,63,F,Mild,2024-03-18,2022-06-26,Pharmacist,Turks and Caicos Islands,No,4,Recovered,No,No,Yes
+AE000477,Drug_13,Drowsiness,56,M,Mild,2025-06-05,2022-01-05,Healthcare Professional,Lao People's Democratic Republic,Yes,2,Recovered,No,No,Yes
+AE000478,Drug_10,Insomnia,32,M,Mild,2023-10-22,2025-09-05,Pharmacist,Northern Mariana Islands,No,7,Recovered,No,No,Yes
+AE000479,Drug_4,Shortness of breath,66,M,Severe,2024-06-11,2025-06-16,Healthcare Professional,Greenland,Yes,5,Not Recovered,Yes,Yes,Yes
+AE000480,Drug_15,Allergic reaction,41,M,Mild,2022-03-29,2022-11-09,Pharmacist,South Africa,No,0,Recovered,No,No,No
+AE000481,Drug_12,Fever,29,F,Mild,2025-07-28,2024-01-21,Patient,Myanmar,No,2,Not Recovered,Yes,No,No
+AE000482,Drug_3,Drowsiness,84,F,Mild,2025-04-01,2022-04-06,Pharmacist,Afghanistan,No,1,Not Recovered,No,No,No
+AE000483,Drug_31,Nausea,87,F,Moderate,2022-11-12,2023-07-20,Healthcare Professional,South Africa,No,2,Recovered,No,Yes,No
+AE000484,Drug_17,Shortness of breath,51,F,Mild,2024-06-30,2024-09-19,Healthcare Professional,Colombia,No,7,Unknown,No,No,Yes
+AE000485,Drug_11,Drowsiness,12,M,Mild,2022-01-28,2021-10-23,Pharmacist,Western Sahara,No,0,Not Recovered,Yes,No,Yes
+AE000486,Drug_46,Shortness of breath,44,F,Mild,2023-06-05,2024-06-22,Patient,Congo,No,5,Not Recovered,No,No,No
+AE000487,Drug_30,Drowsiness,10,F,Mild,2025-04-09,2024-10-06,Pharmacist,Tunisia,Yes,5,Unknown,Yes,No,Yes
+AE000488,Drug_28,Constipation,83,M,Moderate,2022-08-26,2025-10-08,Patient,French Guiana,No,2,Recovered,No,No,Yes
+AE000489,Drug_8,Headache,74,F,Mild,2024-01-30,2022-07-05,Pharmacist,Ghana,No,6,Recovered,No,No,Yes
+AE000490,Drug_32,Nausea,83,M,Mild,2022-04-30,2023-12-11,Patient,Pakistan,No,7,Recovered,No,No,Yes
+AE000491,Drug_3,Allergic reaction,88,F,Moderate,2024-01-23,2022-01-09,Pharmacist,Guernsey,Yes,1,Recovered,No,No,Yes
+AE000492,Drug_29,Cough,9,F,Mild,2024-07-04,2021-08-16,Pharmacist,Saint Vincent and the Grenadines,Yes,4,Recovered,No,No,Yes
+AE000493,Drug_23,Nausea,29,F,Moderate,2024-01-19,2025-11-25,Patient,Vietnam,No,0,Not Recovered,No,No,No
+AE000494,Drug_46,Constipation,29,F,Mild,2026-01-21,2023-02-20,Patient,Australia,No,5,Recovered,No,No,Yes
+AE000495,Drug_36,Drowsiness,61,F,Life-threatening,2023-03-31,2022-10-18,Pharmacist,Angola,No,1,Recovered,Yes,No,Yes
+AE000496,Drug_32,Diarrhea,64,F,Life-threatening,2025-12-17,2023-06-01,Healthcare Professional,Equatorial Guinea,No,3,Recovered,No,No,Yes
+AE000497,Drug_30,Headache,3,F,Moderate,2023-10-15,2024-07-06,Patient,Panama,No,4,Recovered,No,No,No
+AE000498,Drug_32,Seizure,87,M,Life-threatening,2024-07-08,2021-09-20,Healthcare Professional,Kiribati,Yes,4,Not Recovered,Yes,No,Yes
+AE000499,Drug_8,Fatigue,4,F,Mild,2025-09-22,2022-03-27,Healthcare Professional,Cook Islands,No,6,Not Recovered,No,No,Yes
+AE000500,Drug_47,Constipation,55,F,Moderate,2026-03-31,2021-12-27,Healthcare Professional,Nauru,No,6,Recovered,No,Yes,Yes
+AE000501,Drug_10,Insomnia,14,M,Mild,2021-11-01,2025-10-01,Healthcare Professional,Timor-Leste,No,0,Recovered,No,No,Yes
+AE000502,Drug_8,Headache,77,M,Moderate,2024-01-30,2026-01-09,Pharmacist,Equatorial Guinea,No,1,Recovered,No,No,Yes
+AE000503,Drug_23,Allergic reaction,28,M,Mild,2025-02-22,2025-12-24,Patient,Gambia,Yes,5,Not Recovered,No,No,No
+AE000504,Drug_6,Vomiting,63,M,Mild,2025-07-06,2023-06-29,Pharmacist,Kazakhstan,No,6,Unknown,No,No,Yes
+AE000505,Drug_14,Headache,39,M,Life-threatening,2022-06-22,2023-03-25,Pharmacist,Chile,No,5,Recovered,Yes,No,Yes
+AE000506,Drug_19,Allergic reaction,64,M,Mild,2023-02-21,2026-03-21,Pharmacist,Lebanon,No,3,Fatal,No,No,Yes
+AE000507,Drug_12,Drowsiness,60,M,Moderate,2026-06-24,2022-08-28,Pharmacist,Svalbard & Jan Mayen Islands,No,5,Unknown,No,No,Yes
+AE000508,Drug_11,Diarrhea,20,M,Moderate,2022-10-13,2023-08-26,Pharmacist,China,No,1,Recovered,Yes,No,Yes
+AE000509,Drug_48,Constipation,28,M,Mild,2026-08-13,2026-06-21,Patient,Guinea,No,5,Unknown,Yes,No,Yes
+AE000510,Drug_33,Chest pain,14,F,Mild,2025-10-04,2023-06-01,Pharmacist,Turkmenistan,No,2,Recovered,No,No,Yes
+AE000511,Drug_18,Headache,77,F,Mild,2024-12-09,2023-02-27,Pharmacist,United States Virgin Islands,No,5,Unknown,No,No,Yes
+AE000512,Drug_37,Dizziness,75,F,Severe,2023-01-31,2024-09-14,Pharmacist,Hong Kong,No,0,Recovered,No,No,Yes
+AE000513,Drug_43,Constipation,58,F,Life-threatening,2026-05-13,2023-03-29,Healthcare Professional,Trinidad and Tobago,Yes,2,Recovered,No,No,No
+AE000514,Drug_38,Fatigue,39,M,Moderate,2024-09-24,2021-09-11,Pharmacist,Argentina,No,5,Unknown,No,No,Yes
+AE000515,Drug_14,Insomnia,58,F,Severe,2024-02-11,2025-01-28,Patient,Netherlands,No,5,Recovered,No,No,Yes
+AE000516,Drug_38,Cough,15,F,Mild,2023-10-07,2023-03-03,Patient,Kazakhstan,No,7,Unknown,No,No,Yes
+AE000517,Drug_1,Chest pain,73,M,Mild,2023-03-25,2021-11-26,Patient,Philippines,No,5,Recovered,No,No,Yes
+AE000518,Drug_34,Headache,3,M,Mild,2026-01-11,2023-09-13,Healthcare Professional,United States Minor Outlying Islands,No,2,Not Recovered,No,No,No
+AE000519,Drug_50,Chest pain,5,F,Moderate,2026-01-05,2025-02-11,Patient,Gibraltar,Yes,5,Recovered,No,No,Yes
+AE000520,Drug_37,Nausea,42,M,Mild,2021-10-24,2025-02-18,Healthcare Professional,Martinique,No,6,Unknown,No,No,Yes
+AE000521,Drug_12,Insomnia,15,F,Moderate,2023-04-02,2024-04-19,Patient,Aruba,No,4,Recovered,Yes,No,Yes
+AE000522,Drug_27,Seizure,3,F,Moderate,2023-05-02,2025-04-13,Healthcare Professional,Mongolia,No,5,Recovered,Yes,No,Yes
+AE000523,Drug_5,Constipation,35,M,Mild,2022-08-19,2024-12-06,Patient,Japan,No,6,Not Recovered,No,No,Yes
+AE000524,Drug_16,Shortness of breath,7,M,Mild,2025-05-09,2023-01-30,Pharmacist,South Africa,No,4,Unknown,No,No,Yes
+AE000525,Drug_50,Allergic reaction,24,F,Mild,2022-12-30,2024-07-30,Patient,Iran,No,2,Recovered,No,No,Yes
+AE000526,Drug_32,Seizure,31,M,Moderate,2026-06-25,2024-02-15,Patient,Tanzania,No,5,Recovered,No,No,Yes
+AE000527,Drug_44,Rash,78,F,Mild,2024-06-10,2025-07-10,Patient,Timor-Leste,No,6,Recovered,No,No,No
+AE000528,Drug_7,Allergic reaction,80,M,Mild,2025-06-02,2026-04-22,Pharmacist,Samoa,No,1,Recovered,No,No,No
+AE000529,Drug_22,Nausea,4,F,Moderate,2026-03-07,2023-06-22,Healthcare Professional,Libyan Arab Jamahiriya,No,6,Fatal,No,Yes,Yes
+AE000530,Drug_2,Vomiting,3,M,Mild,2022-06-17,2025-10-07,Healthcare Professional,Andorra,No,0,Recovered,No,No,Yes
+AE000531,Drug_19,Headache,9,F,Mild,2023-12-22,2026-01-23,Pharmacist,Andorra,No,5,Not Recovered,Yes,No,Yes
+AE000532,Drug_44,Allergic reaction,68,M,Moderate,2021-11-25,2024-08-14,Pharmacist,Germany,No,0,Recovered,No,No,Yes
+AE000533,Drug_44,Dizziness,83,M,Moderate,2022-01-12,2025-09-16,Healthcare Professional,Nigeria,No,1,Recovered,Yes,No,Yes
+AE000534,Drug_8,Shortness of breath,88,F,Moderate,2023-10-17,2023-12-03,Healthcare Professional,Estonia,Yes,2,Recovered,No,No,Yes
+AE000535,Drug_26,Shortness of breath,60,M,Mild,2023-01-01,2022-11-29,Healthcare Professional,Nicaragua,No,0,Fatal,No,No,Yes
+AE000536,Drug_24,Cough,11,M,Mild,2025-10-09,2023-03-02,Healthcare Professional,Aruba,Yes,5,Recovered,No,No,Yes
+AE000537,Drug_38,Headache,79,M,Moderate,2024-01-24,2026-04-20,Healthcare Professional,Hungary,No,4,Recovered,No,No,Yes
+AE000538,Drug_7,Diarrhea,36,F,Mild,2024-11-30,2025-04-16,Pharmacist,Botswana,No,3,Recovered,No,Yes,Yes
+AE000539,Drug_21,Vomiting,72,F,Severe,2022-10-19,2021-12-27,Healthcare Professional,Dominican Republic,No,4,Not Recovered,No,No,Yes
+AE000540,Drug_10,Headache,2,F,Mild,2023-06-03,2024-05-31,Healthcare Professional,Saint Kitts and Nevis,No,1,Recovered,No,No,Yes
+AE000541,Drug_2,Dizziness,50,M,Mild,2024-09-16,2024-11-13,Patient,Sweden,No,6,Unknown,Yes,No,Yes
+AE000542,Drug_6,Chest pain,3,M,Mild,2024-06-15,2026-02-20,Pharmacist,San Marino,Yes,7,Not Recovered,No,No,Yes
+AE000543,Drug_30,Chest pain,67,M,Severe,2024-03-12,2023-11-19,Pharmacist,Bahrain,No,7,Recovered,Yes,Yes,Yes
+AE000544,Drug_46,Diarrhea,85,F,Moderate,2023-06-16,2023-08-02,Healthcare Professional,Ecuador,No,3,Recovered,No,Yes,Yes
+AE000545,Drug_43,Fever,62,F,Mild,2024-01-10,2022-08-03,Patient,New Caledonia,No,0,Recovered,No,No,No
+AE000546,Drug_31,Dizziness,76,F,Moderate,2022-01-05,2021-08-23,Patient,Afghanistan,No,5,Unknown,No,No,Yes
+AE000547,Drug_30,Constipation,14,F,Mild,2024-11-17,2026-01-29,Healthcare Professional,Honduras,Yes,0,Recovered,No,No,Yes
+AE000548,Drug_41,Constipation,23,F,Mild,2025-01-23,2026-07-12,Patient,Micronesia,No,7,Recovered,No,No,No
+AE000549,Drug_18,Allergic reaction,77,M,Mild,2022-02-05,2024-03-13,Healthcare Professional,Mauritius,No,3,Recovered,No,No,Yes
+AE000550,Drug_39,Fever,16,M,Mild,2025-02-17,2025-11-06,Pharmacist,Cyprus,No,7,Not Recovered,No,No,No
+AE000551,Drug_43,Chest pain,81,M,Mild,2025-04-24,2021-11-20,Patient,Antarctica (the territory South of 60 deg S),No,0,Not Recovered,No,No,Yes
+AE000552,Drug_1,Dizziness,18,M,Mild,2024-03-24,2023-03-26,Healthcare Professional,Heard Island and McDonald Islands,No,3,Unknown,No,No,Yes
+AE000553,Drug_22,Vomiting,13,F,Mild,2024-11-28,2026-01-29,Healthcare Professional,Myanmar,No,2,Recovered,No,No,Yes
+AE000554,Drug_3,Allergic reaction,56,F,Mild,2023-03-05,2026-07-14,Healthcare Professional,Equatorial Guinea,No,1,Recovered,No,No,Yes
+AE000555,Drug_42,Allergic reaction,45,F,Mild,2021-12-31,2025-01-07,Pharmacist,Azerbaijan,No,7,Recovered,No,No,No
+AE000556,Drug_40,Chest pain,40,M,Severe,2024-12-02,2023-07-26,Patient,Jordan,Yes,5,Unknown,Yes,No,No
+AE000557,Drug_29,Chest pain,31,F,Moderate,2026-05-07,2023-02-08,Pharmacist,Burundi,No,4,Unknown,No,No,Yes
+AE000558,Drug_21,Cough,81,M,Life-threatening,2024-10-15,2026-02-08,Pharmacist,Saint Martin,No,3,Unknown,No,No,Yes
+AE000559,Drug_47,Vomiting,32,M,Mild,2025-02-26,2021-12-13,Patient,San Marino,No,6,Recovered,No,No,Yes
+AE000560,Drug_47,Dizziness,1,F,Mild,2022-08-05,2026-04-10,Pharmacist,Suriname,No,3,Recovered,No,No,Yes
+AE000561,Drug_37,Constipation,35,M,Moderate,2025-12-04,2022-01-10,Healthcare Professional,Cambodia,No,2,Recovered,No,No,Yes
+AE000562,Drug_9,Dizziness,36,M,Moderate,2025-05-23,2026-05-11,Patient,Saudi Arabia,No,6,Recovered,No,No,Yes
+AE000563,Drug_14,Fatigue,83,F,Moderate,2026-08-08,2025-10-31,Pharmacist,Iran,Yes,5,Recovered,No,No,Yes
+AE000564,Drug_4,Rash,66,F,Moderate,2022-02-09,2025-11-20,Patient,Malawi,No,5,Recovered,No,No,Yes
+AE000565,Drug_42,Drowsiness,29,M,Moderate,2023-02-14,2022-07-03,Pharmacist,Egypt,No,4,Recovered,No,No,No
+AE000566,Drug_19,Nausea,43,F,Moderate,2024-03-07,2023-08-30,Healthcare Professional,Maldives,No,2,Recovered,No,No,Yes
+AE000567,Drug_21,Constipation,29,F,Moderate,2023-05-28,2026-04-13,Pharmacist,Kazakhstan,No,2,Recovered,No,No,Yes
+AE000568,Drug_4,Dizziness,43,M,Life-threatening,2023-07-16,2021-12-06,Patient,Equatorial Guinea,No,1,Recovered,No,Yes,Yes
+AE000569,Drug_48,Drowsiness,19,M,Severe,2024-12-12,2022-02-15,Pharmacist,Malaysia,No,0,Not Recovered,No,No,No
+AE000570,Drug_5,Fever,64,F,Mild,2022-03-17,2022-02-06,Healthcare Professional,French Southern Territories,No,5,Recovered,No,No,Yes
+AE000571,Drug_36,Vomiting,31,M,Mild,2021-11-03,2023-06-25,Healthcare Professional,Cameroon,No,5,Not Recovered,No,No,No
+AE000572,Drug_39,Fever,19,M,Mild,2023-05-02,2022-01-19,Healthcare Professional,Saint Helena,Yes,4,Recovered,No,No,No
+AE000573,Drug_25,Dizziness,29,F,Mild,2022-11-11,2022-06-03,Pharmacist,Georgia,Yes,2,Fatal,No,No,No
+AE000574,Drug_6,Diarrhea,73,F,Mild,2023-12-13,2021-10-05,Patient,South Africa,No,6,Recovered,No,Yes,Yes
+AE000575,Drug_26,Seizure,7,M,Mild,2023-07-25,2026-02-26,Pharmacist,Hong Kong,Yes,0,Recovered,No,No,Yes
+AE000576,Drug_17,Vomiting,58,M,Mild,2022-04-29,2025-04-19,Pharmacist,Hong Kong,No,6,Not Recovered,No,No,No
+AE000577,Drug_12,Seizure,76,F,Moderate,2022-03-16,2022-10-03,Pharmacist,Marshall Islands,No,0,Unknown,Yes,No,Yes
+AE000578,Drug_16,Rash,60,F,Mild,2026-07-25,2022-08-11,Patient,Belgium,Yes,0,Recovered,No,No,Yes
+AE000579,Drug_50,Dizziness,51,F,Moderate,2023-08-01,2021-10-11,Healthcare Professional,Sudan,No,5,Recovered,No,No,Yes
+AE000580,Drug_26,Dizziness,82,F,Mild,2026-05-26,2022-10-09,Healthcare Professional,United States Minor Outlying Islands,No,6,Unknown,No,Yes,Yes
+AE000581,Drug_6,Shortness of breath,50,F,Severe,2023-09-24,2025-01-18,Healthcare Professional,Japan,No,6,Recovered,Yes,No,No
+AE000582,Drug_2,Fatigue,21,F,Moderate,2022-07-06,2023-12-18,Patient,Poland,No,0,Recovered,No,No,Yes
+AE000583,Drug_14,Seizure,9,F,Mild,2024-10-31,2022-07-15,Pharmacist,San Marino,No,1,Unknown,Yes,No,Yes
+AE000584,Drug_11,Allergic reaction,34,M,Severe,2025-04-18,2022-04-17,Pharmacist,Vanuatu,No,1,Fatal,No,No,Yes
+AE000585,Drug_25,Rash,34,M,Mild,2022-08-15,2021-10-11,Pharmacist,South Georgia and the South Sandwich Islands,No,2,Recovered,Yes,Yes,Yes
+AE000586,Drug_50,Rash,47,M,Severe,2025-01-25,2024-05-20,Patient,Timor-Leste,No,7,Unknown,No,No,Yes
+AE000587,Drug_26,Constipation,24,M,Moderate,2022-07-01,2023-01-09,Pharmacist,Brunei Darussalam,No,0,Recovered,No,No,No
+AE000588,Drug_19,Vomiting,80,M,Mild,2026-05-02,2022-12-18,Patient,Brazil,No,6,Recovered,Yes,No,No
+AE000589,Drug_42,Insomnia,28,M,Mild,2024-09-09,2025-04-27,Healthcare Professional,Ireland,No,2,Not Recovered,Yes,Yes,Yes
+AE000590,Drug_49,Rash,46,M,Mild,2026-05-07,2022-05-09,Healthcare Professional,Korea,No,7,Recovered,No,No,Yes
+AE000591,Drug_42,Headache,51,M,Severe,2022-03-13,2022-08-27,Patient,Ecuador,Yes,3,Recovered,Yes,No,Yes
+AE000592,Drug_10,Chest pain,6,M,Moderate,2022-04-22,2024-11-07,Healthcare Professional,Sweden,No,5,Unknown,No,No,Yes
+AE000593,Drug_8,Rash,63,M,Mild,2023-07-07,2023-07-29,Patient,Saint Lucia,Yes,1,Recovered,No,No,Yes
+AE000594,Drug_20,Drowsiness,53,F,Mild,2025-01-21,2025-09-07,Pharmacist,Christmas Island,No,1,Not Recovered,Yes,No,Yes
+AE000595,Drug_32,Fever,64,M,Mild,2025-04-14,2025-08-17,Healthcare Professional,Hungary,No,5,Recovered,No,No,Yes
+AE000596,Drug_28,Dizziness,52,F,Mild,2026-06-16,2021-10-28,Healthcare Professional,Uzbekistan,No,4,Recovered,No,No,Yes
+AE000597,Drug_48,Chest pain,60,M,Severe,2026-02-16,2022-01-09,Pharmacist,Mozambique,No,3,Not Recovered,No,No,Yes
+AE000598,Drug_20,Cough,41,F,Mild,2024-10-11,2024-10-14,Pharmacist,Afghanistan,Yes,6,Not Recovered,No,No,Yes
+AE000599,Drug_44,Chest pain,11,M,Mild,2024-05-26,2023-08-17,Patient,Cote d'Ivoire,No,1,Unknown,No,No,Yes
+AE000600,Drug_39,Drowsiness,4,F,Severe,2022-06-12,2022-03-24,Healthcare Professional,Congo,No,6,Unknown,Yes,No,Yes

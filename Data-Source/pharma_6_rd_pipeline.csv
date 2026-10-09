@@ -1,0 +1,301 @@
+project_id,project_name,disease_area,development_stage,compound_name,target_indication,start_date,expected_completion,project_cost_millions,funding_source,team_size,patent_filed,publication_count,collaboration_partner,risk_assessment,estimated_market_share,priority_level
+RD00001,Project_A234,Metabolic Disorders,Phase III,Compound_3839,Immunology treatment,2024-12-28,2026-09-30,141.73,Government Grant,99,No,14,Research Inst,Low,8.6,Medium
+RD00002,Project_B467,Immunology,Preclinical,Compound_4268,Oncology treatment,2023-08-11,2029-09-09,161.44,Private Equity,38,Yes,2,None,Medium,3.2,High
+RD00003,Project_C781,Respiratory,Phase I,Compound_3561,Infectious Diseases treatment,2024-11-01,2029-11-04,123.74,Partnership,83,Yes,10,None,Medium,3.0,High
+RD00004,Project_D198,Infectious Diseases,Phase I,Compound_9063,Respiratory treatment,2023-01-30,2030-05-31,118.74,Government Grant,55,Yes,8,Research Inst,Medium,18.7,High
+RD00005,Project_E952,Infectious Diseases,Phase III,Compound_2653,Oncology treatment,2022-11-12,2029-06-06,82.02,Partnership,40,Yes,14,Biotech Inc,Low,28.6,Medium
+RD00006,Project_F476,Cardiovascular,Phase II,Compound_7815,Neurology treatment,2024-10-22,2030-06-01,127.64,Partnership,57,No,4,Uni Hospital,High,21.2,Critical
+RD00007,Project_G624,Neurology,Pre-registration,Compound_9089,Infectious Diseases treatment,2022-03-26,2031-03-15,23.93,Partnership,94,No,4,Research Inst,Low,22.2,Critical
+RD00008,Project_H304,Neurology,Phase III,Compound_5975,Cardiovascular treatment,2026-05-25,2030-07-08,137.22,Partnership,98,Yes,4,Research Inst,Medium,10.5,High
+RD00009,Project_I601,Neurology,Preclinical,Compound_4845,Infectious Diseases treatment,2026-01-19,2027-05-26,21.68,Private Equity,66,No,8,Biotech Inc,High,18.0,High
+RD00010,Project_J556,Infectious Diseases,Phase III,Compound_4431,Oncology treatment,2023-05-24,2031-08-07,172.49,Government Grant,35,Yes,12,None,Medium,10.2,Medium
+RD00011,Project_K497,Respiratory,Phase II,Compound_1770,Respiratory treatment,2023-06-15,2026-10-04,101.63,Internal,93,No,9,Biotech Inc,Low,27.1,Low
+RD00012,Project_L587,Respiratory,Phase I,Compound_1297,Immunology treatment,2024-03-18,2028-07-24,106.54,Internal,8,No,12,Uni Hospital,High,4.8,Medium
+RD00013,Project_M374,Cardiovascular,Phase I,Compound_6878,Neurology treatment,2021-10-23,2029-02-14,117.39,Government Grant,16,Yes,0,Uni Hospital,Low,19.3,Low
+RD00014,Project_N676,Cardiovascular,Pre-registration,Compound_5273,Infectious Diseases treatment,2024-12-09,2028-10-27,155.43,Internal,57,Yes,4,Biotech Inc,Low,22.2,Medium
+RD00015,Project_O714,Neurology,Phase II,Compound_6849,Neurology treatment,2023-08-09,2030-12-11,96.22,Government Grant,65,Yes,9,Research Inst,Low,21.3,Critical
+RD00016,Project_P533,Oncology,Phase III,Compound_3598,Oncology treatment,2022-12-07,2027-02-14,86.09,Private Equity,23,No,5,None,Medium,8.5,Low
+RD00017,Project_Q192,Neurology,Phase II,Compound_3862,Oncology treatment,2025-10-06,2028-09-05,58.38,Government Grant,60,Yes,8,Research Inst,High,15.1,Critical
+RD00018,Project_R874,Infectious Diseases,Phase I,Compound_9248,Oncology treatment,2024-09-25,2030-07-16,26.48,Private Equity,13,Yes,2,Research Inst,Low,20.2,Low
+RD00019,Project_S532,Oncology,Phase III,Compound_1523,Immunology treatment,2022-06-09,2028-09-23,38.88,Government Grant,29,Yes,0,Research Inst,High,28.0,Medium
+RD00020,Project_T930,Cardiovascular,Phase III,Compound_2043,Cardiovascular treatment,2025-07-28,2027-07-24,1.11,Partnership,58,Yes,11,Research Inst,Low,15.5,Low
+RD00021,Project_U477,Immunology,Discovery,Compound_6533,Neurology treatment,2022-09-30,2030-09-13,174.01,Partnership,51,No,10,None,Medium,9.7,High
+RD00022,Project_V728,Metabolic Disorders,Phase I,Compound_8055,Cardiovascular treatment,2025-11-02,2029-09-06,153.23,Private Equity,45,No,10,Biotech Inc,Medium,12.2,Low
+RD00023,Project_W290,Oncology,Phase II,Compound_2867,Cardiovascular treatment,2026-04-06,2027-04-08,44.52,Internal,55,No,7,Uni Hospital,High,16.7,Medium
+RD00024,Project_X544,Respiratory,Phase I,Compound_4714,Neurology treatment,2024-05-16,2030-05-29,1.48,Partnership,54,Yes,8,Uni Hospital,Medium,29.3,Critical
+RD00025,Project_Y745,Cardiovascular,Phase III,Compound_2977,Respiratory treatment,2026-03-15,2030-03-18,98.93,Government Grant,11,Yes,11,None,Low,19.2,Low
+RD00026,Project_Z536,Oncology,Preclinical,Compound_4671,Oncology treatment,2021-10-03,2028-05-23,83.1,Internal,31,Yes,10,Biotech Inc,Medium,5.5,Low
+RD00027,Project_A195,Neurology,Phase III,Compound_8968,Cardiovascular treatment,2023-02-24,2031-03-04,155.43,Internal,52,No,5,None,Medium,25.5,Medium
+RD00028,Project_B141,Oncology,Phase II,Compound_5224,Neurology treatment,2023-10-31,2029-01-20,81.18,Private Equity,59,Yes,4,Research Inst,Low,6.3,High
+RD00029,Project_C625,Oncology,Phase I,Compound_6575,Infectious Diseases treatment,2025-12-31,2030-09-27,172.96,Internal,67,No,11,None,Low,2.1,High
+RD00030,Project_D449,Oncology,Phase I,Compound_6820,Metabolic Disorders treatment,2025-01-18,2028-07-09,20.07,Private Equity,10,Yes,7,Biotech Inc,Low,3.9,Medium
+RD00031,Project_E574,Infectious Diseases,Preclinical,Compound_1764,Cardiovascular treatment,2023-12-20,2028-08-09,73.81,Partnership,39,No,11,Uni Hospital,Medium,23.8,Low
+RD00032,Project_F792,Metabolic Disorders,Phase I,Compound_5382,Oncology treatment,2024-07-06,2026-11-24,186.85,Partnership,36,No,5,None,Medium,27.2,Medium
+RD00033,Project_G329,Infectious Diseases,Phase III,Compound_3476,Immunology treatment,2022-06-08,2027-01-26,3.33,Internal,82,No,5,Uni Hospital,Low,8.8,Critical
+RD00034,Project_H763,Metabolic Disorders,Phase I,Compound_9444,Neurology treatment,2024-09-10,2029-05-30,78.77,Internal,10,Yes,8,Uni Hospital,Low,15.4,High
+RD00035,Project_I802,Neurology,Phase III,Compound_2706,Cardiovascular treatment,2022-12-19,2031-02-13,52.68,Government Grant,67,Yes,8,Uni Hospital,Low,18.3,Medium
+RD00036,Project_J830,Immunology,Phase II,Compound_1826,Oncology treatment,2026-07-23,2027-01-07,106.84,Government Grant,22,No,0,Biotech Inc,Medium,13.1,Medium
+RD00037,Project_K258,Infectious Diseases,Preclinical,Compound_8173,Metabolic Disorders treatment,2022-07-18,2028-06-27,56.47,Private Equity,35,No,11,Research Inst,Low,2.9,Medium
+RD00038,Project_L607,Immunology,Phase II,Compound_8489,Oncology treatment,2026-02-01,2028-02-07,174.11,Internal,56,Yes,1,Research Inst,Low,2.6,High
+RD00039,Project_M639,Infectious Diseases,Phase III,Compound_2817,Neurology treatment,2023-12-23,2029-10-22,187.49,Internal,20,Yes,0,Biotech Inc,Low,13.8,High
+RD00040,Project_N744,Cardiovascular,Phase I,Compound_2734,Infectious Diseases treatment,2022-01-29,2031-06-30,169.98,Government Grant,60,No,1,Research Inst,Medium,24.1,High
+RD00041,Project_O762,Cardiovascular,Phase II,Compound_2669,Oncology treatment,2024-12-30,2027-08-13,80.32,Private Equity,71,No,2,Research Inst,Medium,3.5,High
+RD00042,Project_P637,Oncology,Preclinical,Compound_1687,Neurology treatment,2023-06-27,2029-02-08,198.0,Government Grant,99,Yes,12,Research Inst,Medium,7.0,High
+RD00043,Project_Q185,Immunology,Preclinical,Compound_9311,Cardiovascular treatment,2024-10-07,2031-07-10,147.27,Internal,66,Yes,13,None,Low,8.8,Low
+RD00044,Project_R397,Oncology,Phase I,Compound_2727,Infectious Diseases treatment,2025-09-04,2031-08-10,71.77,Private Equity,85,No,12,Research Inst,Medium,17.2,Medium
+RD00045,Project_S579,Metabolic Disorders,Phase I,Compound_3736,Neurology treatment,2023-03-19,2028-12-20,19.64,Partnership,56,No,1,None,Low,2.3,Medium
+RD00046,Project_T547,Oncology,Phase III,Compound_2934,Neurology treatment,2022-11-16,2030-11-07,133.74,Internal,9,Yes,5,Uni Hospital,Low,25.9,High
+RD00047,Project_U181,Infectious Diseases,Phase II,Compound_4365,Infectious Diseases treatment,2021-12-19,2030-02-05,145.98,Government Grant,57,Yes,3,None,High,14.7,Medium
+RD00048,Project_V920,Infectious Diseases,Discovery,Compound_6925,Respiratory treatment,2022-02-26,2029-03-17,25.37,Private Equity,84,No,14,Research Inst,Medium,15.1,Critical
+RD00049,Project_W589,Oncology,Phase II,Compound_3572,Oncology treatment,2025-05-30,2030-09-29,110.4,Government Grant,21,Yes,4,Biotech Inc,Medium,10.5,Low
+RD00050,Project_X407,Metabolic Disorders,Phase II,Compound_5786,Oncology treatment,2025-02-03,2029-06-08,197.43,Partnership,35,Yes,9,Uni Hospital,High,7.1,Critical
+RD00051,Project_Y252,Infectious Diseases,Phase I,Compound_8233,Cardiovascular treatment,2024-02-05,2029-08-15,65.92,Internal,20,No,8,Uni Hospital,High,11.5,Medium
+RD00052,Project_Z230,Metabolic Disorders,Phase III,Compound_9288,Cardiovascular treatment,2022-10-06,2031-07-02,61.08,Internal,61,Yes,1,None,Medium,27.5,Medium
+RD00053,Project_A800,Cardiovascular,Preclinical,Compound_9165,Respiratory treatment,2024-01-30,2028-09-27,180.76,Government Grant,25,Yes,2,Biotech Inc,Low,3.7,Critical
+RD00054,Project_B407,Cardiovascular,Pre-registration,Compound_2626,Immunology treatment,2026-02-12,2028-08-11,24.37,Internal,45,Yes,13,Research Inst,Medium,2.8,Low
+RD00055,Project_C961,Immunology,Phase I,Compound_3527,Immunology treatment,2026-06-02,2031-06-21,186.77,Government Grant,43,No,9,None,Medium,4.3,Critical
+RD00056,Project_D354,Cardiovascular,Phase II,Compound_6959,Cardiovascular treatment,2023-04-09,2028-02-21,156.12,Government Grant,41,Yes,0,None,Low,23.5,High
+RD00057,Project_E635,Metabolic Disorders,Pre-registration,Compound_6482,Infectious Diseases treatment,2025-08-31,2027-08-22,78.78,Private Equity,45,Yes,14,Uni Hospital,Medium,2.4,High
+RD00058,Project_F537,Oncology,Phase III,Compound_3257,Immunology treatment,2023-10-26,2028-01-16,17.63,Partnership,57,Yes,1,None,Medium,10.7,Low
+RD00059,Project_G402,Neurology,Discovery,Compound_3014,Respiratory treatment,2022-04-23,2030-04-25,4.82,Internal,78,Yes,0,Biotech Inc,Low,13.3,Critical
+RD00060,Project_H682,Infectious Diseases,Phase II,Compound_4307,Immunology treatment,2024-07-16,2029-07-21,75.79,Internal,36,No,13,None,Low,15.7,Medium
+RD00061,Project_I148,Oncology,Phase I,Compound_8194,Infectious Diseases treatment,2024-02-13,2027-08-26,141.37,Government Grant,29,No,8,None,Medium,1.1,High
+RD00062,Project_J664,Infectious Diseases,Phase II,Compound_7811,Oncology treatment,2023-04-21,2027-11-27,98.02,Partnership,57,No,2,Biotech Inc,High,15.1,Medium
+RD00063,Project_K178,Immunology,Phase III,Compound_1107,Neurology treatment,2026-07-04,2029-08-30,147.99,Private Equity,68,Yes,2,None,Low,6.7,Medium
+RD00064,Project_L146,Oncology,Phase II,Compound_5019,Oncology treatment,2022-08-11,2030-06-15,134.44,Government Grant,37,Yes,12,Research Inst,Low,3.8,Critical
+RD00065,Project_M625,Oncology,Discovery,Compound_8760,Neurology treatment,2026-04-02,2028-02-21,115.01,Partnership,42,Yes,6,None,High,16.5,Critical
+RD00066,Project_N210,Oncology,Phase II,Compound_6592,Infectious Diseases treatment,2025-02-25,2031-05-05,193.53,Internal,96,Yes,0,Research Inst,Low,22.6,Critical
+RD00067,Project_O622,Immunology,Discovery,Compound_5698,Immunology treatment,2024-07-29,2031-01-03,145.95,Private Equity,83,Yes,8,Biotech Inc,Medium,28.1,Low
+RD00068,Project_P535,Oncology,Phase I,Compound_9274,Infectious Diseases treatment,2022-04-15,2031-02-14,183.01,Private Equity,12,Yes,6,Research Inst,Medium,27.5,Low
+RD00069,Project_Q522,Infectious Diseases,Phase II,Compound_3805,Oncology treatment,2025-12-06,2030-11-22,49.19,Government Grant,5,No,14,Biotech Inc,Low,12.6,High
+RD00070,Project_R196,Neurology,Phase II,Compound_2396,Infectious Diseases treatment,2024-12-14,2030-08-19,143.01,Government Grant,78,No,8,Research Inst,Medium,21.4,Low
+RD00071,Project_S575,Oncology,Phase II,Compound_5358,Oncology treatment,2022-02-25,2029-05-14,119.96,Private Equity,63,No,7,Research Inst,High,21.2,High
+RD00072,Project_T776,Immunology,Preclinical,Compound_7101,Infectious Diseases treatment,2026-03-03,2031-01-07,184.93,Internal,39,Yes,4,Biotech Inc,Medium,13.0,High
+RD00073,Project_U837,Immunology,Pre-registration,Compound_7799,Metabolic Disorders treatment,2024-05-15,2031-06-15,102.58,Internal,20,No,11,Biotech Inc,High,3.8,Medium
+RD00074,Project_V682,Oncology,Phase III,Compound_6908,Cardiovascular treatment,2021-11-15,2028-11-16,56.65,Private Equity,18,Yes,2,Research Inst,Low,12.1,Medium
+RD00075,Project_W932,Immunology,Phase I,Compound_5021,Oncology treatment,2023-01-16,2027-10-27,77.58,Government Grant,9,Yes,10,Biotech Inc,High,29.8,High
+RD00076,Project_X359,Respiratory,Pre-registration,Compound_3483,Neurology treatment,2021-10-03,2027-06-15,44.55,Government Grant,84,Yes,8,Uni Hospital,Low,17.1,High
+RD00077,Project_Y463,Cardiovascular,Pre-registration,Compound_9677,Immunology treatment,2024-05-01,2030-04-17,44.77,Internal,25,Yes,4,None,Low,10.9,Low
+RD00078,Project_Z360,Metabolic Disorders,Preclinical,Compound_7909,Immunology treatment,2023-05-25,2027-05-22,94.61,Partnership,62,Yes,8,Research Inst,Low,22.6,Low
+RD00079,Project_A699,Immunology,Phase III,Compound_4738,Metabolic Disorders treatment,2022-10-09,2031-05-04,178.62,Partnership,61,Yes,2,Uni Hospital,High,20.9,Critical
+RD00080,Project_B183,Respiratory,Phase II,Compound_3260,Oncology treatment,2023-03-07,2030-02-21,39.18,Partnership,15,Yes,5,Uni Hospital,Medium,17.8,Medium
+RD00081,Project_C887,Respiratory,Preclinical,Compound_8025,Cardiovascular treatment,2024-09-01,2027-11-30,58.29,Internal,75,No,12,Uni Hospital,Medium,19.5,Critical
+RD00082,Project_D615,Neurology,Preclinical,Compound_7773,Respiratory treatment,2026-07-19,2029-11-07,170.74,Private Equity,12,Yes,1,Biotech Inc,Medium,18.0,High
+RD00083,Project_E116,Cardiovascular,Phase II,Compound_7706,Immunology treatment,2026-02-19,2029-06-15,68.51,Partnership,85,Yes,2,None,High,28.7,Critical
+RD00084,Project_F216,Infectious Diseases,Phase I,Compound_8516,Metabolic Disorders treatment,2026-01-14,2029-01-07,192.52,Internal,98,Yes,1,Research Inst,High,15.8,Medium
+RD00085,Project_G858,Cardiovascular,Phase III,Compound_9456,Respiratory treatment,2021-09-02,2027-02-27,54.52,Internal,18,Yes,11,None,Medium,18.1,High
+RD00086,Project_H777,Neurology,Discovery,Compound_6927,Cardiovascular treatment,2024-08-15,2030-11-30,88.99,Government Grant,53,No,1,Research Inst,Medium,14.7,Critical
+RD00087,Project_I573,Metabolic Disorders,Pre-registration,Compound_1487,Neurology treatment,2023-05-06,2028-04-09,20.03,Government Grant,37,Yes,4,None,Low,18.4,Critical
+RD00088,Project_J283,Cardiovascular,Phase III,Compound_8251,Immunology treatment,2021-10-03,2027-08-23,198.44,Internal,28,Yes,9,None,Low,26.8,High
+RD00089,Project_K905,Oncology,Phase III,Compound_3385,Infectious Diseases treatment,2025-10-12,2030-08-06,178.14,Government Grant,75,No,3,Uni Hospital,Low,10.9,High
+RD00090,Project_L286,Immunology,Phase I,Compound_1162,Infectious Diseases treatment,2025-01-13,2026-09-27,163.69,Government Grant,42,No,10,Biotech Inc,Low,15.4,Critical
+RD00091,Project_M963,Oncology,Phase III,Compound_9476,Oncology treatment,2024-12-09,2029-08-08,32.31,Government Grant,83,Yes,3,Research Inst,Low,14.0,Low
+RD00092,Project_N502,Respiratory,Phase I,Compound_2140,Respiratory treatment,2022-11-28,2029-06-15,193.9,Internal,54,Yes,12,Research Inst,Medium,12.5,High
+RD00093,Project_O146,Oncology,Phase II,Compound_2389,Metabolic Disorders treatment,2025-11-16,2030-11-05,185.9,Partnership,93,No,7,Research Inst,High,24.8,Medium
+RD00094,Project_P185,Respiratory,Phase I,Compound_6542,Immunology treatment,2025-01-31,2028-12-12,87.7,Government Grant,68,No,13,Uni Hospital,High,7.7,High
+RD00095,Project_Q526,Oncology,Phase III,Compound_6157,Cardiovascular treatment,2026-06-25,2027-02-18,136.65,Internal,85,No,5,Uni Hospital,Medium,15.5,Critical
+RD00096,Project_R997,Respiratory,Discovery,Compound_7580,Respiratory treatment,2025-06-02,2026-12-30,198.5,Internal,6,No,9,Uni Hospital,Low,27.8,High
+RD00097,Project_S821,Cardiovascular,Phase III,Compound_3692,Cardiovascular treatment,2024-02-06,2026-11-21,82.54,Private Equity,43,No,1,Uni Hospital,Low,5.7,Low
+RD00098,Project_T404,Infectious Diseases,Phase III,Compound_8111,Neurology treatment,2025-12-31,2029-03-13,23.5,Private Equity,78,Yes,12,Uni Hospital,High,1.1,Critical
+RD00099,Project_U421,Respiratory,Phase II,Compound_2007,Immunology treatment,2023-09-23,2030-09-08,173.69,Partnership,18,No,0,None,Low,8.7,Low
+RD00100,Project_V701,Metabolic Disorders,Preclinical,Compound_7443,Cardiovascular treatment,2026-02-04,2027-03-08,95.82,Private Equity,16,No,4,Research Inst,Medium,27.7,Medium
+RD00101,Project_W841,Immunology,Phase I,Compound_1607,Respiratory treatment,2024-12-27,2031-04-20,197.41,Internal,85,Yes,14,None,Low,3.5,Low
+RD00102,Project_X565,Cardiovascular,Phase II,Compound_3473,Cardiovascular treatment,2022-05-31,2028-12-04,110.63,Private Equity,82,No,6,Uni Hospital,Low,5.0,Low
+RD00103,Project_Y875,Metabolic Disorders,Phase I,Compound_1947,Immunology treatment,2022-07-06,2028-01-20,6.87,Government Grant,55,No,4,Biotech Inc,Low,10.3,Low
+RD00104,Project_Z786,Oncology,Discovery,Compound_9516,Infectious Diseases treatment,2021-09-24,2028-02-11,98.85,Private Equity,14,Yes,11,Uni Hospital,Medium,23.3,Critical
+RD00105,Project_A560,Neurology,Discovery,Compound_5845,Immunology treatment,2025-11-14,2027-07-18,143.89,Internal,48,Yes,3,Uni Hospital,Medium,22.8,High
+RD00106,Project_B738,Neurology,Phase III,Compound_7869,Infectious Diseases treatment,2025-11-13,2030-11-08,6.18,Partnership,44,Yes,4,Uni Hospital,Medium,3.5,High
+RD00107,Project_C927,Respiratory,Discovery,Compound_7586,Oncology treatment,2024-04-24,2026-12-25,83.28,Partnership,97,No,10,Research Inst,Medium,28.1,Medium
+RD00108,Project_D371,Oncology,Pre-registration,Compound_5986,Oncology treatment,2024-09-17,2031-03-16,31.96,Partnership,64,No,9,Research Inst,Low,7.9,Medium
+RD00109,Project_E449,Respiratory,Phase I,Compound_6139,Respiratory treatment,2026-07-09,2030-03-08,128.98,Partnership,74,Yes,7,Biotech Inc,Low,9.1,Critical
+RD00110,Project_F992,Infectious Diseases,Phase III,Compound_6638,Infectious Diseases treatment,2026-04-18,2030-02-09,191.51,Government Grant,35,Yes,4,Research Inst,Medium,12.2,Medium
+RD00111,Project_G929,Metabolic Disorders,Preclinical,Compound_1129,Respiratory treatment,2023-05-04,2029-07-16,125.29,Government Grant,41,Yes,8,Uni Hospital,Low,19.4,Critical
+RD00112,Project_H291,Immunology,Pre-registration,Compound_5583,Immunology treatment,2025-07-08,2031-05-27,139.28,Government Grant,77,Yes,9,Biotech Inc,Low,16.1,High
+RD00113,Project_I316,Respiratory,Discovery,Compound_9647,Neurology treatment,2021-09-27,2026-08-27,79.92,Private Equity,62,Yes,6,Biotech Inc,High,27.9,Medium
+RD00114,Project_J289,Metabolic Disorders,Discovery,Compound_3406,Metabolic Disorders treatment,2024-05-23,2029-09-26,113.07,Private Equity,47,Yes,10,Biotech Inc,Medium,17.4,Low
+RD00115,Project_K180,Cardiovascular,Discovery,Compound_7618,Cardiovascular treatment,2022-07-01,2027-01-06,109.23,Private Equity,75,Yes,12,Uni Hospital,Low,25.9,Medium
+RD00116,Project_L864,Infectious Diseases,Preclinical,Compound_8310,Oncology treatment,2022-10-31,2030-09-15,152.16,Partnership,42,Yes,13,Research Inst,High,3.3,Low
+RD00117,Project_M718,Neurology,Phase II,Compound_4360,Oncology treatment,2022-05-24,2028-12-20,171.53,Partnership,12,No,10,None,Medium,25.8,Low
+RD00118,Project_N365,Oncology,Phase III,Compound_9919,Infectious Diseases treatment,2023-11-18,2028-05-25,132.91,Private Equity,38,No,13,Research Inst,High,6.7,Medium
+RD00119,Project_O992,Cardiovascular,Phase I,Compound_8244,Neurology treatment,2026-07-20,2026-08-20,195.98,Government Grant,21,Yes,1,None,Medium,11.5,Critical
+RD00120,Project_P789,Infectious Diseases,Phase III,Compound_6656,Immunology treatment,2022-03-11,2030-05-14,165.83,Internal,21,Yes,8,Uni Hospital,Low,10.3,Critical
+RD00121,Project_Q208,Metabolic Disorders,Phase III,Compound_7627,Neurology treatment,2022-08-02,2030-10-14,25.8,Private Equity,98,No,1,Research Inst,Low,10.8,Low
+RD00122,Project_R544,Infectious Diseases,Pre-registration,Compound_4232,Respiratory treatment,2023-08-27,2029-09-12,101.99,Internal,86,No,5,Uni Hospital,High,27.6,High
+RD00123,Project_S647,Infectious Diseases,Preclinical,Compound_5940,Metabolic Disorders treatment,2022-07-22,2030-05-22,180.74,Government Grant,57,Yes,13,Uni Hospital,Low,13.8,High
+RD00124,Project_T118,Metabolic Disorders,Preclinical,Compound_2380,Infectious Diseases treatment,2023-03-26,2028-10-03,188.84,Internal,19,Yes,7,Biotech Inc,Low,8.8,High
+RD00125,Project_U105,Cardiovascular,Preclinical,Compound_1605,Neurology treatment,2024-03-05,2029-01-27,76.66,Partnership,68,Yes,1,Research Inst,Medium,9.5,High
+RD00126,Project_V504,Respiratory,Phase I,Compound_9805,Respiratory treatment,2022-09-08,2029-07-22,145.42,Internal,61,Yes,5,Biotech Inc,Medium,24.3,Critical
+RD00127,Project_W219,Immunology,Phase II,Compound_6480,Metabolic Disorders treatment,2023-07-15,2030-07-05,82.7,Private Equity,24,Yes,4,Research Inst,High,16.6,High
+RD00128,Project_X113,Metabolic Disorders,Phase II,Compound_7389,Cardiovascular treatment,2025-12-10,2028-11-28,25.61,Private Equity,65,Yes,14,Uni Hospital,High,14.0,Medium
+RD00129,Project_Y275,Cardiovascular,Phase I,Compound_3064,Immunology treatment,2024-04-12,2029-08-29,177.04,Government Grant,29,No,6,Biotech Inc,Medium,27.9,High
+RD00130,Project_Z771,Metabolic Disorders,Phase II,Compound_9527,Respiratory treatment,2025-05-21,2030-05-02,186.46,Private Equity,82,Yes,9,Uni Hospital,Medium,28.0,Low
+RD00131,Project_A588,Oncology,Phase I,Compound_9860,Immunology treatment,2024-10-23,2027-07-19,101.45,Internal,31,No,12,None,Medium,22.9,Medium
+RD00132,Project_B571,Cardiovascular,Phase I,Compound_5651,Neurology treatment,2023-06-12,2030-06-07,4.64,Partnership,51,Yes,4,Uni Hospital,Medium,16.0,Low
+RD00133,Project_C808,Infectious Diseases,Preclinical,Compound_4501,Oncology treatment,2026-01-28,2027-03-20,163.39,Internal,32,Yes,13,None,Medium,4.4,Critical
+RD00134,Project_D514,Immunology,Phase II,Compound_2520,Cardiovascular treatment,2022-03-07,2027-09-25,95.92,Internal,10,No,13,None,Medium,21.5,High
+RD00135,Project_E989,Immunology,Phase III,Compound_9383,Metabolic Disorders treatment,2026-05-18,2030-07-05,15.93,Internal,45,No,14,Biotech Inc,Low,24.6,Critical
+RD00136,Project_F773,Oncology,Phase III,Compound_6115,Immunology treatment,2021-08-19,2031-02-09,38.69,Private Equity,63,Yes,14,Biotech Inc,Medium,25.7,Low
+RD00137,Project_G862,Oncology,Pre-registration,Compound_9541,Immunology treatment,2022-03-16,2028-09-29,31.27,Government Grant,99,Yes,2,Research Inst,High,17.9,Critical
+RD00138,Project_H716,Neurology,Phase III,Compound_6582,Oncology treatment,2023-07-16,2029-06-26,137.57,Private Equity,82,Yes,5,Research Inst,High,18.9,Low
+RD00139,Project_I843,Neurology,Preclinical,Compound_3621,Neurology treatment,2026-03-18,2027-03-02,60.58,Internal,65,Yes,6,Biotech Inc,Medium,21.6,Low
+RD00140,Project_J598,Neurology,Preclinical,Compound_1383,Oncology treatment,2025-10-30,2027-02-13,26.41,Government Grant,84,Yes,0,Research Inst,Low,26.3,High
+RD00141,Project_K410,Cardiovascular,Pre-registration,Compound_1456,Infectious Diseases treatment,2025-10-15,2027-03-14,183.61,Government Grant,53,Yes,7,Uni Hospital,High,2.3,High
+RD00142,Project_L733,Immunology,Phase III,Compound_9846,Metabolic Disorders treatment,2025-07-21,2030-03-10,191.35,Internal,9,Yes,7,Uni Hospital,Medium,17.3,Medium
+RD00143,Project_M932,Oncology,Phase III,Compound_5238,Oncology treatment,2022-06-15,2029-08-14,28.58,Internal,15,Yes,12,Uni Hospital,Medium,11.7,Medium
+RD00144,Project_N731,Respiratory,Phase III,Compound_4954,Respiratory treatment,2024-05-15,2027-06-12,46.82,Private Equity,90,No,3,Uni Hospital,High,25.2,Medium
+RD00145,Project_O469,Neurology,Phase I,Compound_5979,Cardiovascular treatment,2024-04-15,2029-11-16,118.83,Government Grant,44,Yes,13,Uni Hospital,Medium,4.9,Critical
+RD00146,Project_P807,Oncology,Phase III,Compound_7926,Metabolic Disorders treatment,2025-06-16,2028-06-11,30.95,Partnership,96,Yes,13,None,High,27.4,Medium
+RD00147,Project_Q789,Neurology,Preclinical,Compound_9278,Immunology treatment,2026-05-17,2027-01-25,32.56,Government Grant,74,No,7,Uni Hospital,Low,4.6,Critical
+RD00148,Project_R806,Cardiovascular,Phase I,Compound_2809,Neurology treatment,2021-12-30,2027-08-24,67.98,Private Equity,43,No,2,Research Inst,High,3.6,High
+RD00149,Project_S791,Metabolic Disorders,Phase I,Compound_1982,Infectious Diseases treatment,2024-05-02,2031-02-07,189.88,Internal,74,Yes,12,Biotech Inc,Medium,11.0,High
+RD00150,Project_T504,Cardiovascular,Phase II,Compound_7110,Cardiovascular treatment,2025-05-01,2030-10-29,192.53,Government Grant,24,Yes,14,Biotech Inc,Medium,29.8,Low
+RD00151,Project_U923,Infectious Diseases,Phase II,Compound_5255,Immunology treatment,2026-06-21,2028-05-16,168.52,Partnership,8,No,4,Research Inst,Medium,19.4,Medium
+RD00152,Project_V409,Oncology,Phase II,Compound_9314,Immunology treatment,2023-09-28,2028-10-05,139.45,Private Equity,93,No,2,Research Inst,Medium,1.8,Medium
+RD00153,Project_W189,Respiratory,Phase II,Compound_6807,Respiratory treatment,2023-07-29,2029-10-13,144.41,Government Grant,17,Yes,1,Research Inst,Medium,8.2,Critical
+RD00154,Project_X228,Metabolic Disorders,Phase I,Compound_3028,Neurology treatment,2024-06-12,2031-03-17,94.44,Private Equity,53,No,4,Biotech Inc,Medium,5.3,Low
+RD00155,Project_Y238,Metabolic Disorders,Preclinical,Compound_1782,Metabolic Disorders treatment,2023-05-17,2027-05-23,106.5,Government Grant,80,No,7,Research Inst,Medium,1.0,High
+RD00156,Project_Z114,Infectious Diseases,Phase III,Compound_3043,Neurology treatment,2024-07-30,2026-09-19,127.26,Internal,13,Yes,8,Research Inst,High,15.9,High
+RD00157,Project_A295,Metabolic Disorders,Phase III,Compound_8352,Metabolic Disorders treatment,2024-04-04,2029-08-14,146.53,Partnership,63,Yes,4,None,Low,12.1,Low
+RD00158,Project_B214,Cardiovascular,Phase II,Compound_5881,Neurology treatment,2023-11-22,2031-07-21,20.27,Internal,7,No,2,None,Low,18.8,Critical
+RD00159,Project_C935,Metabolic Disorders,Phase II,Compound_1085,Respiratory treatment,2026-03-09,2030-11-06,45.75,Government Grant,15,Yes,11,None,High,7.3,Medium
+RD00160,Project_D116,Respiratory,Phase II,Compound_8424,Metabolic Disorders treatment,2023-12-25,2027-11-06,192.63,Partnership,9,Yes,2,Biotech Inc,Medium,25.1,High
+RD00161,Project_E812,Cardiovascular,Discovery,Compound_6553,Infectious Diseases treatment,2023-10-03,2031-08-03,67.69,Government Grant,39,Yes,7,Research Inst,Low,12.1,High
+RD00162,Project_F292,Metabolic Disorders,Phase I,Compound_4868,Neurology treatment,2025-12-31,2029-04-16,54.43,Government Grant,28,Yes,2,Uni Hospital,Medium,15.0,High
+RD00163,Project_G979,Metabolic Disorders,Discovery,Compound_9737,Cardiovascular treatment,2023-06-17,2029-10-17,84.96,Partnership,74,Yes,8,Biotech Inc,Medium,22.2,Low
+RD00164,Project_H127,Oncology,Phase III,Compound_4831,Metabolic Disorders treatment,2023-09-20,2029-12-25,58.89,Partnership,86,No,9,None,Medium,5.8,Critical
+RD00165,Project_I314,Respiratory,Phase II,Compound_6739,Neurology treatment,2022-01-15,2031-03-25,19.14,Private Equity,10,No,14,None,Low,8.6,High
+RD00166,Project_J592,Infectious Diseases,Preclinical,Compound_5902,Neurology treatment,2022-04-12,2030-10-21,42.38,Partnership,90,Yes,0,Biotech Inc,High,5.5,Low
+RD00167,Project_K764,Metabolic Disorders,Phase II,Compound_5661,Cardiovascular treatment,2021-09-13,2029-12-19,128.39,Internal,46,Yes,14,Biotech Inc,Medium,23.3,Low
+RD00168,Project_L248,Respiratory,Pre-registration,Compound_3293,Infectious Diseases treatment,2023-11-13,2027-09-04,45.41,Partnership,47,No,0,Research Inst,Medium,3.8,High
+RD00169,Project_M765,Metabolic Disorders,Phase I,Compound_7187,Immunology treatment,2024-09-05,2030-10-14,129.89,Partnership,18,Yes,4,Biotech Inc,High,15.2,High
+RD00170,Project_N347,Infectious Diseases,Pre-registration,Compound_9514,Neurology treatment,2024-07-27,2031-03-28,20.92,Private Equity,80,No,3,Uni Hospital,Low,22.7,High
+RD00171,Project_O546,Infectious Diseases,Pre-registration,Compound_5057,Oncology treatment,2024-05-30,2031-05-30,9.33,Internal,29,No,2,Uni Hospital,Medium,15.7,Medium
+RD00172,Project_P962,Oncology,Phase III,Compound_2724,Metabolic Disorders treatment,2024-04-15,2029-07-28,172.45,Internal,88,No,0,Biotech Inc,High,15.8,Critical
+RD00173,Project_Q741,Oncology,Phase III,Compound_6371,Cardiovascular treatment,2026-02-24,2030-12-13,152.25,Partnership,22,Yes,6,Uni Hospital,Low,2.8,Medium
+RD00174,Project_R978,Oncology,Phase I,Compound_9461,Metabolic Disorders treatment,2026-08-06,2028-03-16,133.54,Partnership,28,Yes,0,Research Inst,Medium,23.7,Medium
+RD00175,Project_S908,Immunology,Phase I,Compound_4154,Oncology treatment,2025-05-14,2028-03-22,7.15,Private Equity,67,Yes,5,Biotech Inc,High,18.5,Critical
+RD00176,Project_T651,Metabolic Disorders,Pre-registration,Compound_6919,Immunology treatment,2023-07-12,2028-01-25,48.63,Internal,83,Yes,9,Uni Hospital,Medium,20.4,Medium
+RD00177,Project_U295,Respiratory,Phase I,Compound_8443,Infectious Diseases treatment,2022-04-21,2027-01-26,162.65,Internal,99,No,1,None,Medium,23.2,Medium
+RD00178,Project_V188,Cardiovascular,Discovery,Compound_2605,Oncology treatment,2024-04-26,2028-02-23,29.79,Government Grant,5,No,13,Research Inst,Medium,17.3,Medium
+RD00179,Project_W408,Immunology,Preclinical,Compound_3401,Oncology treatment,2022-06-15,2028-10-29,162.76,Private Equity,19,No,3,Biotech Inc,Medium,15.8,Medium
+RD00180,Project_X888,Immunology,Phase III,Compound_7974,Metabolic Disorders treatment,2023-06-30,2027-11-22,117.26,Private Equity,58,Yes,7,Biotech Inc,Medium,20.2,Critical
+RD00181,Project_Y574,Cardiovascular,Phase I,Compound_7751,Cardiovascular treatment,2022-11-21,2031-07-21,148.33,Partnership,38,No,2,Biotech Inc,Medium,27.1,Medium
+RD00182,Project_Z251,Metabolic Disorders,Preclinical,Compound_2342,Infectious Diseases treatment,2021-12-20,2031-07-10,129.26,Internal,56,Yes,8,None,Medium,19.5,Low
+RD00183,Project_A585,Neurology,Phase III,Compound_2511,Immunology treatment,2022-04-26,2030-12-01,83.98,Partnership,6,No,4,Uni Hospital,Medium,23.9,Medium
+RD00184,Project_B532,Neurology,Phase II,Compound_2018,Metabolic Disorders treatment,2023-08-06,2031-07-17,59.1,Private Equity,40,Yes,5,Biotech Inc,Medium,14.9,High
+RD00185,Project_C122,Neurology,Phase II,Compound_7961,Metabolic Disorders treatment,2022-01-08,2028-05-18,134.87,Internal,27,Yes,1,Uni Hospital,Medium,18.1,Medium
+RD00186,Project_D219,Respiratory,Preclinical,Compound_3130,Infectious Diseases treatment,2023-07-27,2028-12-06,161.58,Internal,28,No,0,Research Inst,Medium,6.2,Critical
+RD00187,Project_E270,Oncology,Preclinical,Compound_8802,Respiratory treatment,2021-09-26,2028-04-28,9.9,Private Equity,36,No,4,None,High,15.2,High
+RD00188,Project_F256,Oncology,Preclinical,Compound_4519,Infectious Diseases treatment,2022-01-15,2029-12-14,76.6,Internal,55,No,0,None,Low,5.3,Low
+RD00189,Project_G856,Infectious Diseases,Phase II,Compound_8309,Immunology treatment,2025-01-10,2030-03-09,70.8,Government Grant,50,Yes,3,Research Inst,Medium,14.5,High
+RD00190,Project_H819,Respiratory,Phase III,Compound_2279,Oncology treatment,2025-10-25,2028-12-30,112.33,Private Equity,17,No,7,Research Inst,Medium,2.9,Low
+RD00191,Project_I555,Respiratory,Phase III,Compound_7050,Respiratory treatment,2024-03-26,2030-10-05,23.67,Private Equity,18,No,13,Biotech Inc,High,17.7,High
+RD00192,Project_J596,Infectious Diseases,Phase I,Compound_9622,Metabolic Disorders treatment,2024-06-16,2030-12-13,186.75,Internal,21,No,11,Research Inst,High,9.3,High
+RD00193,Project_K582,Immunology,Pre-registration,Compound_7598,Metabolic Disorders treatment,2024-04-06,2028-12-15,110.15,Private Equity,20,Yes,12,None,Medium,25.4,Low
+RD00194,Project_L120,Infectious Diseases,Preclinical,Compound_9502,Oncology treatment,2026-03-09,2031-06-22,184.83,Partnership,36,No,1,Uni Hospital,Medium,11.9,Critical
+RD00195,Project_M980,Oncology,Preclinical,Compound_7468,Immunology treatment,2024-10-29,2031-03-23,163.57,Private Equity,83,Yes,5,Uni Hospital,Medium,27.6,Low
+RD00196,Project_N560,Immunology,Phase III,Compound_5320,Oncology treatment,2024-10-22,2027-11-29,39.14,Partnership,99,Yes,11,Uni Hospital,Medium,14.7,High
+RD00197,Project_O699,Infectious Diseases,Preclinical,Compound_9172,Respiratory treatment,2022-08-23,2029-10-14,27.34,Government Grant,16,Yes,9,Uni Hospital,Low,25.6,Low
+RD00198,Project_P348,Infectious Diseases,Phase III,Compound_7937,Respiratory treatment,2025-06-16,2030-08-15,172.39,Government Grant,7,No,12,Uni Hospital,Medium,9.6,Low
+RD00199,Project_Q306,Respiratory,Discovery,Compound_8210,Metabolic Disorders treatment,2024-08-23,2030-05-24,107.68,Partnership,79,Yes,13,Uni Hospital,Low,14.1,High
+RD00200,Project_R401,Neurology,Discovery,Compound_9020,Infectious Diseases treatment,2025-07-14,2028-09-18,4.93,Private Equity,57,Yes,14,None,Medium,19.4,Medium
+RD00201,Project_S683,Oncology,Phase II,Compound_7830,Metabolic Disorders treatment,2024-04-28,2028-08-03,186.91,Partnership,47,No,4,Research Inst,Medium,8.5,Medium
+RD00202,Project_T949,Immunology,Preclinical,Compound_3668,Oncology treatment,2024-05-27,2028-05-09,95.13,Internal,9,Yes,0,None,Medium,20.1,Low
+RD00203,Project_U953,Cardiovascular,Discovery,Compound_3364,Neurology treatment,2024-11-15,2030-06-25,60.89,Partnership,51,Yes,7,Biotech Inc,Medium,9.4,Medium
+RD00204,Project_V501,Metabolic Disorders,Phase II,Compound_9286,Respiratory treatment,2022-08-01,2027-08-02,103.8,Government Grant,31,No,4,Uni Hospital,Low,15.0,Low
+RD00205,Project_W152,Infectious Diseases,Phase I,Compound_3082,Infectious Diseases treatment,2021-11-07,2030-08-20,164.76,Government Grant,56,Yes,8,Research Inst,Medium,1.7,Critical
+RD00206,Project_X441,Oncology,Phase III,Compound_8942,Respiratory treatment,2023-01-26,2026-09-29,22.95,Partnership,60,Yes,1,Research Inst,Low,3.3,Medium
+RD00207,Project_Y108,Immunology,Phase III,Compound_8499,Immunology treatment,2021-12-22,2028-04-14,72.43,Government Grant,84,Yes,14,Uni Hospital,Low,7.6,High
+RD00208,Project_Z205,Metabolic Disorders,Phase II,Compound_3119,Neurology treatment,2025-09-06,2028-09-15,64.45,Internal,84,Yes,5,Research Inst,Medium,24.4,Critical
+RD00209,Project_A745,Respiratory,Phase I,Compound_9408,Infectious Diseases treatment,2025-10-04,2028-01-25,168.09,Private Equity,84,Yes,6,Uni Hospital,High,20.2,High
+RD00210,Project_B967,Oncology,Phase II,Compound_9669,Cardiovascular treatment,2022-03-23,2029-03-21,155.91,Private Equity,90,No,0,Biotech Inc,High,26.9,High
+RD00211,Project_C830,Oncology,Phase III,Compound_2934,Respiratory treatment,2026-01-05,2029-07-03,80.62,Partnership,72,No,13,Uni Hospital,High,27.2,Critical
+RD00212,Project_D542,Immunology,Discovery,Compound_4483,Respiratory treatment,2025-05-04,2029-03-11,133.23,Government Grant,95,Yes,9,Biotech Inc,Low,11.9,High
+RD00213,Project_E525,Neurology,Phase I,Compound_8461,Respiratory treatment,2023-01-02,2030-07-06,79.49,Private Equity,19,Yes,3,Research Inst,Medium,11.7,Low
+RD00214,Project_F968,Metabolic Disorders,Phase III,Compound_8755,Metabolic Disorders treatment,2023-08-02,2030-05-18,114.69,Government Grant,23,Yes,1,None,Low,25.2,High
+RD00215,Project_G607,Neurology,Phase I,Compound_1534,Oncology treatment,2024-03-09,2027-07-17,198.25,Partnership,30,Yes,6,Research Inst,Low,13.4,High
+RD00216,Project_H854,Infectious Diseases,Phase II,Compound_3569,Oncology treatment,2025-04-10,2030-10-15,107.58,Government Grant,83,No,2,None,High,25.9,Low
+RD00217,Project_I692,Neurology,Discovery,Compound_7051,Infectious Diseases treatment,2026-03-02,2029-06-29,197.73,Internal,49,Yes,8,Uni Hospital,Medium,15.7,Medium
+RD00218,Project_J710,Infectious Diseases,Phase III,Compound_2945,Neurology treatment,2022-08-18,2028-09-17,149.69,Internal,14,No,7,Research Inst,Medium,13.3,High
+RD00219,Project_K848,Infectious Diseases,Preclinical,Compound_7694,Cardiovascular treatment,2026-05-25,2029-05-05,25.02,Government Grant,30,No,11,Research Inst,Medium,9.1,Medium
+RD00220,Project_L667,Immunology,Pre-registration,Compound_2807,Infectious Diseases treatment,2021-08-15,2029-10-31,159.4,Internal,12,No,9,Biotech Inc,Low,4.7,High
+RD00221,Project_M397,Oncology,Preclinical,Compound_2980,Oncology treatment,2025-03-04,2026-09-25,33.1,Partnership,84,Yes,12,Uni Hospital,Low,16.3,High
+RD00222,Project_N137,Cardiovascular,Pre-registration,Compound_7055,Cardiovascular treatment,2026-06-09,2030-02-06,106.93,Internal,97,Yes,6,None,Medium,10.4,High
+RD00223,Project_O599,Respiratory,Phase I,Compound_5744,Metabolic Disorders treatment,2023-01-06,2028-04-27,123.04,Internal,36,Yes,7,Uni Hospital,Low,8.2,High
+RD00224,Project_P509,Cardiovascular,Phase II,Compound_1659,Oncology treatment,2021-11-16,2028-09-27,178.55,Private Equity,25,No,0,Biotech Inc,Medium,5.9,Medium
+RD00225,Project_Q597,Neurology,Phase III,Compound_9565,Respiratory treatment,2023-07-27,2028-10-15,42.87,Private Equity,49,Yes,9,Biotech Inc,Medium,12.3,Medium
+RD00226,Project_R625,Immunology,Discovery,Compound_3511,Neurology treatment,2021-08-26,2026-10-16,175.31,Partnership,59,Yes,11,Biotech Inc,Low,17.1,Medium
+RD00227,Project_S705,Cardiovascular,Phase I,Compound_2929,Metabolic Disorders treatment,2024-08-18,2028-11-08,186.96,Internal,16,No,5,Uni Hospital,High,25.3,Medium
+RD00228,Project_T842,Respiratory,Pre-registration,Compound_7086,Metabolic Disorders treatment,2026-01-29,2030-09-25,18.81,Private Equity,52,Yes,6,Biotech Inc,Medium,24.8,Critical
+RD00229,Project_U726,Oncology,Phase I,Compound_5995,Neurology treatment,2026-02-25,2030-12-05,177.17,Government Grant,63,Yes,6,Uni Hospital,Medium,25.8,Critical
+RD00230,Project_V794,Infectious Diseases,Phase III,Compound_7135,Cardiovascular treatment,2024-05-02,2030-07-25,52.58,Government Grant,78,Yes,12,Biotech Inc,Low,17.7,High
+RD00231,Project_W936,Infectious Diseases,Preclinical,Compound_5968,Oncology treatment,2021-12-10,2028-12-29,17.12,Internal,74,Yes,13,Research Inst,Medium,17.2,Medium
+RD00232,Project_X988,Immunology,Phase III,Compound_5816,Respiratory treatment,2022-11-22,2028-05-20,191.76,Partnership,41,No,8,None,Low,27.2,Low
+RD00233,Project_Y599,Neurology,Discovery,Compound_8961,Immunology treatment,2022-06-04,2029-04-16,79.05,Internal,86,Yes,6,Uni Hospital,Medium,9.4,High
+RD00234,Project_Z337,Oncology,Phase III,Compound_1458,Metabolic Disorders treatment,2025-12-07,2029-08-29,124.97,Private Equity,35,Yes,11,None,Medium,5.2,Low
+RD00235,Project_A831,Respiratory,Phase I,Compound_3340,Neurology treatment,2023-04-14,2028-05-17,111.02,Internal,7,No,6,Uni Hospital,Medium,3.4,Critical
+RD00236,Project_B162,Neurology,Phase II,Compound_3328,Respiratory treatment,2021-12-07,2028-07-12,43.42,Internal,73,Yes,12,Uni Hospital,High,26.6,Low
+RD00237,Project_C640,Respiratory,Preclinical,Compound_7910,Metabolic Disorders treatment,2022-09-19,2027-11-14,134.24,Government Grant,63,Yes,5,Research Inst,Medium,11.8,Low
+RD00238,Project_D119,Neurology,Phase II,Compound_1797,Cardiovascular treatment,2022-02-24,2026-11-21,10.18,Government Grant,37,Yes,2,Research Inst,Medium,15.5,High
+RD00239,Project_E532,Immunology,Phase I,Compound_5999,Cardiovascular treatment,2022-03-16,2029-06-04,41.42,Private Equity,40,No,12,Uni Hospital,Low,24.3,High
+RD00240,Project_F690,Infectious Diseases,Phase I,Compound_5644,Infectious Diseases treatment,2025-05-06,2030-08-25,188.99,Partnership,78,No,5,Biotech Inc,High,11.8,High
+RD00241,Project_G423,Neurology,Phase III,Compound_4532,Neurology treatment,2024-05-25,2028-06-24,190.75,Partnership,7,Yes,8,Uni Hospital,Low,26.2,High
+RD00242,Project_H666,Respiratory,Preclinical,Compound_3999,Oncology treatment,2024-11-18,2028-05-14,97.05,Private Equity,79,Yes,10,Uni Hospital,Low,10.3,Medium
+RD00243,Project_I165,Neurology,Pre-registration,Compound_9008,Neurology treatment,2022-10-24,2030-10-11,34.65,Private Equity,7,No,9,Research Inst,Low,22.2,Medium
+RD00244,Project_J374,Oncology,Phase III,Compound_1034,Infectious Diseases treatment,2022-05-16,2029-11-03,84.9,Internal,96,Yes,2,Research Inst,High,20.4,Medium
+RD00245,Project_K763,Metabolic Disorders,Phase II,Compound_3004,Metabolic Disorders treatment,2023-04-29,2027-10-16,175.54,Internal,63,Yes,2,None,Low,6.8,Medium
+RD00246,Project_L527,Infectious Diseases,Preclinical,Compound_9970,Metabolic Disorders treatment,2026-01-11,2027-10-20,14.98,Partnership,58,No,10,None,Medium,4.6,High
+RD00247,Project_M584,Neurology,Phase III,Compound_6712,Immunology treatment,2024-01-26,2029-12-27,26.45,Internal,32,No,6,Biotech Inc,Medium,4.2,Low
+RD00248,Project_N219,Metabolic Disorders,Discovery,Compound_2106,Cardiovascular treatment,2023-02-18,2028-03-09,179.23,Internal,13,No,6,None,High,19.9,Critical
+RD00249,Project_O606,Cardiovascular,Phase III,Compound_1732,Oncology treatment,2026-07-06,2027-05-11,83.66,Government Grant,30,No,4,None,Medium,1.4,Low
+RD00250,Project_P737,Respiratory,Phase I,Compound_7841,Cardiovascular treatment,2024-07-03,2027-05-16,17.61,Private Equity,33,No,7,None,Medium,20.2,High
+RD00251,Project_Q761,Metabolic Disorders,Preclinical,Compound_8883,Respiratory treatment,2024-04-23,2027-11-12,28.7,Private Equity,14,No,7,Biotech Inc,High,23.7,Critical
+RD00252,Project_R455,Cardiovascular,Preclinical,Compound_6074,Metabolic Disorders treatment,2023-04-15,2026-09-26,176.61,Government Grant,31,Yes,10,Uni Hospital,Low,9.8,Critical
+RD00253,Project_S559,Respiratory,Pre-registration,Compound_8411,Infectious Diseases treatment,2022-02-15,2029-09-19,98.53,Government Grant,67,Yes,10,Uni Hospital,High,22.6,High
+RD00254,Project_T814,Infectious Diseases,Phase III,Compound_6534,Oncology treatment,2024-06-21,2029-03-20,33.44,Internal,66,No,14,Biotech Inc,Low,5.8,Critical
+RD00255,Project_U546,Infectious Diseases,Preclinical,Compound_7181,Respiratory treatment,2025-08-23,2026-12-11,178.92,Private Equity,22,Yes,1,Uni Hospital,High,28.9,High
+RD00256,Project_V121,Immunology,Pre-registration,Compound_8786,Neurology treatment,2024-03-24,2028-09-20,169.21,Partnership,57,No,10,None,Low,7.7,High
+RD00257,Project_W265,Metabolic Disorders,Preclinical,Compound_3175,Immunology treatment,2021-10-12,2028-12-25,5.58,Private Equity,86,No,5,None,Medium,15.2,High
+RD00258,Project_X394,Respiratory,Phase III,Compound_3269,Immunology treatment,2023-03-05,2027-08-08,116.62,Partnership,90,Yes,4,None,Low,29.4,Critical
+RD00259,Project_Y843,Neurology,Phase III,Compound_9270,Infectious Diseases treatment,2024-01-07,2026-11-02,49.62,Government Grant,21,Yes,3,None,Low,27.3,Medium
+RD00260,Project_Z296,Cardiovascular,Phase III,Compound_8551,Cardiovascular treatment,2024-01-19,2026-10-28,107.09,Private Equity,53,Yes,6,Uni Hospital,Medium,20.1,Medium
+RD00261,Project_A580,Metabolic Disorders,Phase I,Compound_8371,Immunology treatment,2023-01-11,2030-06-29,56.57,Government Grant,93,Yes,3,Biotech Inc,Medium,11.7,Low
+RD00262,Project_B452,Cardiovascular,Phase I,Compound_8357,Cardiovascular treatment,2025-10-30,2028-09-24,63.86,Private Equity,30,No,4,Biotech Inc,High,21.3,Critical
+RD00263,Project_C548,Respiratory,Phase II,Compound_3440,Metabolic Disorders treatment,2023-10-12,2027-10-31,120.77,Partnership,9,Yes,7,Biotech Inc,Low,14.3,Low
+RD00264,Project_D337,Infectious Diseases,Phase I,Compound_6328,Metabolic Disorders treatment,2023-01-12,2029-09-01,108.23,Government Grant,77,No,4,Research Inst,Low,4.2,Critical
+RD00265,Project_E619,Respiratory,Discovery,Compound_2463,Immunology treatment,2025-11-02,2029-09-30,79.64,Internal,48,Yes,10,Biotech Inc,High,24.1,Critical
+RD00266,Project_F324,Infectious Diseases,Phase III,Compound_7711,Metabolic Disorders treatment,2026-06-05,2028-02-15,22.41,Private Equity,28,No,12,Research Inst,Medium,26.3,Medium
+RD00267,Project_G701,Oncology,Phase II,Compound_7344,Metabolic Disorders treatment,2022-03-17,2030-07-08,193.92,Partnership,61,Yes,10,Biotech Inc,Medium,12.8,High
+RD00268,Project_H801,Oncology,Phase I,Compound_4814,Immunology treatment,2022-03-27,2026-10-05,35.75,Internal,11,Yes,8,None,Medium,20.3,High
+RD00269,Project_I447,Respiratory,Phase I,Compound_7478,Immunology treatment,2024-06-07,2028-07-20,126.99,Government Grant,24,Yes,9,Biotech Inc,Low,1.9,Critical
+RD00270,Project_J716,Infectious Diseases,Phase I,Compound_6554,Cardiovascular treatment,2022-10-16,2028-03-06,17.47,Private Equity,60,Yes,1,Research Inst,Medium,6.7,Medium
+RD00271,Project_K973,Oncology,Phase III,Compound_9863,Oncology treatment,2026-07-19,2030-05-22,137.97,Private Equity,76,No,1,None,Medium,17.5,High
+RD00272,Project_L962,Infectious Diseases,Phase III,Compound_1750,Immunology treatment,2021-11-29,2028-02-14,19.87,Internal,23,No,14,Research Inst,Medium,8.9,Critical
+RD00273,Project_M832,Metabolic Disorders,Phase III,Compound_8259,Cardiovascular treatment,2025-02-12,2030-03-07,46.67,Internal,68,Yes,8,Uni Hospital,Medium,28.4,Low
+RD00274,Project_N772,Infectious Diseases,Phase III,Compound_5544,Metabolic Disorders treatment,2024-01-21,2030-10-14,129.75,Government Grant,47,Yes,1,Uni Hospital,Low,25.3,High
+RD00275,Project_O579,Immunology,Phase III,Compound_2450,Oncology treatment,2021-09-19,2028-11-22,57.3,Internal,48,No,2,Uni Hospital,High,20.0,High
+RD00276,Project_P234,Oncology,Phase I,Compound_3713,Cardiovascular treatment,2023-02-27,2027-02-21,107.04,Private Equity,29,No,5,None,High,30.0,Medium
+RD00277,Project_Q400,Neurology,Preclinical,Compound_1406,Neurology treatment,2025-04-05,2031-03-03,25.78,Private Equity,21,Yes,3,None,Medium,8.1,High
+RD00278,Project_R840,Neurology,Phase III,Compound_6060,Immunology treatment,2025-07-11,2026-09-25,41.28,Private Equity,43,Yes,7,Research Inst,Low,27.7,High
+RD00279,Project_S828,Metabolic Disorders,Discovery,Compound_3028,Respiratory treatment,2021-12-07,2029-03-07,147.02,Private Equity,29,Yes,7,None,Low,9.8,Low
+RD00280,Project_T499,Immunology,Pre-registration,Compound_2395,Cardiovascular treatment,2025-07-20,2028-03-07,7.99,Internal,43,Yes,1,Biotech Inc,Medium,18.3,High
+RD00281,Project_U526,Respiratory,Pre-registration,Compound_4152,Immunology treatment,2023-09-22,2031-07-16,23.25,Internal,43,Yes,14,Research Inst,Medium,13.6,Medium
+RD00282,Project_V953,Neurology,Phase II,Compound_9877,Metabolic Disorders treatment,2025-05-03,2029-06-29,43.78,Partnership,63,Yes,1,Biotech Inc,Medium,13.9,Critical
+RD00283,Project_W789,Neurology,Phase I,Compound_1866,Respiratory treatment,2021-12-30,2029-09-22,5.02,Government Grant,70,Yes,2,None,Low,23.1,Critical
+RD00284,Project_X768,Metabolic Disorders,Phase II,Compound_9548,Neurology treatment,2025-04-12,2029-12-03,19.98,Internal,20,Yes,13,Biotech Inc,Medium,11.1,Critical
+RD00285,Project_Y852,Metabolic Disorders,Phase III,Compound_4103,Cardiovascular treatment,2024-05-29,2029-04-26,57.0,Government Grant,57,Yes,10,None,Medium,15.7,Medium
+RD00286,Project_Z468,Immunology,Phase III,Compound_8796,Respiratory treatment,2022-05-27,2029-09-21,19.49,Internal,82,Yes,1,None,Low,7.1,High
+RD00287,Project_A915,Cardiovascular,Discovery,Compound_9235,Metabolic Disorders treatment,2022-07-20,2027-03-10,173.36,Partnership,33,Yes,4,Biotech Inc,Medium,23.1,High
+RD00288,Project_B583,Immunology,Phase III,Compound_1305,Oncology treatment,2025-07-07,2029-09-24,14.15,Internal,70,Yes,0,Uni Hospital,Medium,17.0,Medium
+RD00289,Project_C918,Immunology,Phase II,Compound_2970,Metabolic Disorders treatment,2023-02-03,2027-12-11,172.34,Private Equity,14,Yes,6,None,Medium,8.4,Medium
+RD00290,Project_D964,Oncology,Discovery,Compound_9713,Metabolic Disorders treatment,2026-05-03,2028-08-10,164.75,Internal,6,Yes,7,Research Inst,Low,8.7,Medium
+RD00291,Project_E265,Neurology,Phase I,Compound_3944,Immunology treatment,2024-08-13,2029-12-17,21.05,Government Grant,95,No,11,Research Inst,High,9.5,High
+RD00292,Project_F736,Respiratory,Phase II,Compound_1310,Immunology treatment,2025-10-30,2028-10-15,6.01,Private Equity,17,Yes,3,Uni Hospital,Medium,21.3,High
+RD00293,Project_G312,Neurology,Preclinical,Compound_5504,Neurology treatment,2023-12-09,2028-12-02,10.95,Internal,58,No,6,Biotech Inc,High,18.3,Low
+RD00294,Project_H389,Cardiovascular,Preclinical,Compound_4371,Metabolic Disorders treatment,2022-07-07,2030-09-02,118.49,Private Equity,6,Yes,8,Uni Hospital,High,24.8,Medium
+RD00295,Project_I807,Respiratory,Discovery,Compound_5018,Immunology treatment,2022-07-27,2028-01-20,134.4,Private Equity,46,Yes,6,Biotech Inc,Low,17.6,High
+RD00296,Project_J867,Immunology,Pre-registration,Compound_8278,Infectious Diseases treatment,2024-07-19,2031-03-31,124.51,Private Equity,18,No,1,Uni Hospital,Medium,9.9,Medium
+RD00297,Project_K188,Infectious Diseases,Discovery,Compound_2386,Oncology treatment,2026-06-23,2029-02-20,108.75,Partnership,85,Yes,1,None,Low,28.9,High
+RD00298,Project_L783,Cardiovascular,Phase I,Compound_9741,Infectious Diseases treatment,2023-12-28,2026-10-15,35.76,Government Grant,55,Yes,9,Research Inst,Medium,26.7,Critical
+RD00299,Project_M594,Cardiovascular,Preclinical,Compound_6249,Metabolic Disorders treatment,2021-09-04,2029-06-02,168.35,Government Grant,53,Yes,9,Uni Hospital,High,9.1,High
+RD00300,Project_N232,Neurology,Phase III,Compound_7583,Metabolic Disorders treatment,2023-04-11,2029-09-25,66.18,Internal,42,Yes,9,Research Inst,Medium,27.5,Medium

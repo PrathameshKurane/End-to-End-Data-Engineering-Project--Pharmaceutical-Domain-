@@ -1,0 +1,701 @@
+physician_id,physician_name,specialty,years_experience,hospital_affiliation,practice_type,state,prescription_volume_monthly,most_prescribed_category,preferred_brands,e-prescribing_usage,pharma_visits_monthly,sample_drugs_accepted,off_label_prescribing_rate,patient_satisfaction_score,alcohol_prescription_rate
+PHY00001,Sheena Allen,Endocrinology,22,Ramirez-Bridges Medical Center,Academic Hospital,AL,804,Psychiatry,Brand_11,Yes,15,No,20.4,3.9,4.0
+PHY00002,Mark Carter,Endocrinology,37,Turner-Ware Medical Center,Private,AL,750,Endocrinology,Brand_8,Yes,9,Yes,21.7,4.4,5.0
+PHY00003,Peter Williams,Neurology,20,"Sanchez, Lawson and Martin Medical Center",Clinic,IL,261,Pulmonology,Brand_14,Yes,11,Yes,19.6,4.7,12.9
+PHY00004,Larry Hernandez,Endocrinology,4,"Williamson, Woods and Dixon Medical Center",Academic Hospital,SD,877,Psychiatry,Brand_14,Yes,8,No,3.4,4.2,11.8
+PHY00005,Andrew Myers,Neurology,26,"Farmer, Sweeney and Rivera Medical Center",Academic Hospital,FM,338,Psychiatry,Brand_13,Yes,13,Yes,16.2,4.2,14.0
+PHY00006,Robert Thomas,Psychiatry,20,"Harrell, Sherman and Mack Medical Center",Private,WY,698,Cardiology,Brand_18,Yes,1,Yes,22.9,4.5,10.5
+PHY00007,Megan Johnson,Neurology,22,Howard-Miller Medical Center,Academic Hospital,IL,227,Cardiology,Brand_10,Yes,9,Yes,6.0,3.7,8.7
+PHY00008,Mariah Olson,Pulmonology,43,Velazquez Ltd Medical Center,Community Hospital,ME,720,Gastroenterology,Brand_11,Yes,9,Yes,10.4,4.7,3.9
+PHY00009,Ronald Clark,Oncology,20,Lopez-Jones Medical Center,Academic Hospital,MH,950,Endocrinology,Brand_19,Yes,1,No,6.1,4.8,10.0
+PHY00010,Eric Crawford,Cardiology,29,"Chen, Brown and Jackson Medical Center",Private,ME,223,Neurology,Brand_1,Yes,5,Yes,26.6,4.3,13.6
+PHY00011,Andrea Durham,Pulmonology,31,Ferguson Group Medical Center,Academic Hospital,DE,804,Psychiatry,Brand_19,Yes,10,No,25.8,3.8,1.0
+PHY00012,Jennifer Gallegos,Oncology,23,Brown-Dixon Medical Center,Community Hospital,FL,672,Oncology,Brand_2,Yes,8,Yes,5.1,4.3,6.6
+PHY00013,Dorothy Baker,Gastroenterology,44,"Bowen, Brandt and Arellano Medical Center",Private,MP,693,Endocrinology,Brand_5,Yes,2,Yes,22.8,3.7,2.2
+PHY00014,Sarah Beasley,Psychiatry,38,Williams-Brown Medical Center,Private,MI,80,Psychiatry,Brand_5,No,18,Yes,10.9,4.6,12.2
+PHY00015,Diana Rowe,Pulmonology,16,Mendez and Sons Medical Center,Private,MI,53,Gastroenterology,Brand_11,Yes,10,Yes,20.6,4.0,9.2
+PHY00016,Vanessa Jackson,Cardiology,19,Collins PLC Medical Center,Clinic,ME,940,Cardiology,Brand_19,Yes,3,Yes,14.8,4.0,13.2
+PHY00017,Matthew Melton,Psychiatry,11,Blake PLC Medical Center,Private,TN,67,Pulmonology,Brand_20,Yes,14,Yes,14.2,4.9,0.9
+PHY00018,Jonathan Small,Pulmonology,12,Wilson LLC Medical Center,Private,TN,387,Cardiology,Brand_20,Yes,11,Yes,26.4,4.1,13.6
+PHY00019,Christopher Watkins,Oncology,36,Gordon-Graves Medical Center,Community Hospital,KS,281,Cardiology,Brand_19,Yes,3,Yes,19.1,4.7,1.0
+PHY00020,Sharon Roberts,Cardiology,13,Johnson-Griffin Medical Center,Community Hospital,DE,851,Cardiology,Brand_13,Yes,14,No,7.1,4.5,4.3
+PHY00021,Daniel Shaw,Psychiatry,2,"Cook, Sullivan and Wiley Medical Center",Academic Hospital,MT,97,Pulmonology,Brand_13,Yes,16,Yes,3.3,4.0,2.3
+PHY00022,Lauren Cummings,Pulmonology,11,"Ramirez, Terry and Hall Medical Center",Community Hospital,AS,112,Neurology,Brand_7,Yes,17,No,28.0,3.7,2.2
+PHY00023,Justin Barnes,Neurology,1,"Stone, Arnold and Coleman Medical Center",Academic Hospital,NY,319,Neurology,Brand_13,Yes,4,No,4.6,4.7,2.6
+PHY00024,Stephanie Anderson,Endocrinology,41,"Reid, Wilcox and Lawrence Medical Center",Private,MI,139,Psychiatry,Brand_3,Yes,9,Yes,22.0,4.6,7.2
+PHY00025,Joseph Foster,Oncology,10,Jacobson-Murray Medical Center,Academic Hospital,RI,648,Psychiatry,Brand_18,Yes,19,Yes,14.9,3.8,11.8
+PHY00026,Omar Flores,Neurology,3,Mason Ltd Medical Center,Academic Hospital,LA,338,Endocrinology,Brand_13,Yes,8,Yes,4.2,3.9,13.5
+PHY00027,Brenda Ellis,Psychiatry,8,Hall-Kelly Medical Center,Private,AL,130,Cardiology,Brand_7,Yes,17,Yes,23.3,4.6,8.5
+PHY00028,Emily Salazar,Psychiatry,16,Roy-White Medical Center,Private,KS,219,Gastroenterology,Brand_16,Yes,11,Yes,27.1,5.0,2.4
+PHY00029,Robert Henderson,Pulmonology,36,Hughes-Martin Medical Center,Clinic,KS,945,Cardiology,Brand_4,Yes,7,Yes,3.6,4.8,1.2
+PHY00030,Juan Barnett,Pulmonology,43,Stewart-Lewis Medical Center,Academic Hospital,MA,721,Pulmonology,Brand_11,No,10,Yes,2.0,4.5,7.4
+PHY00031,David Thompson,Cardiology,40,Schwartz-Porter Medical Center,Academic Hospital,WI,673,Oncology,Brand_19,No,3,Yes,25.5,4.9,11.5
+PHY00032,Kathleen Hale,Neurology,39,Phelps Ltd Medical Center,Clinic,SD,148,Oncology,Brand_15,Yes,8,Yes,15.0,3.9,9.3
+PHY00033,Jaime Barber,Psychiatry,20,Morris-Shelton Medical Center,Private,CO,932,Cardiology,Brand_10,Yes,3,Yes,20.2,3.5,8.7
+PHY00034,Kelly Ramirez,Cardiology,8,Wilson Inc Medical Center,Private,WY,732,Oncology,Brand_3,Yes,17,Yes,13.2,4.0,0.7
+PHY00035,Dana Banks,Endocrinology,10,"Chapman, Thompson and Walsh Medical Center",Community Hospital,VT,746,Oncology,Brand_6,Yes,13,No,12.4,5.0,6.2
+PHY00036,Lindsay Hawkins,Endocrinology,37,"Cooper, Callahan and James Medical Center",Private,WY,527,Cardiology,Brand_4,Yes,13,No,9.0,4.8,8.3
+PHY00037,Ronald Holloway,Cardiology,32,Jennings-Hanson Medical Center,Community Hospital,MI,192,Neurology,Brand_18,Yes,0,Yes,16.9,3.6,9.0
+PHY00038,Brian Sparks,Neurology,27,"Barnes, Rice and Taylor Medical Center",Community Hospital,MP,355,Neurology,Brand_6,Yes,8,No,4.8,4.3,0.1
+PHY00039,Robert Campos,Cardiology,31,"Smith, Murphy and Arias Medical Center",Private,AZ,421,Gastroenterology,Brand_2,Yes,5,Yes,21.5,3.6,3.0
+PHY00040,Cody Miranda,Pulmonology,3,Berg Inc Medical Center,Private,MH,804,Psychiatry,Brand_20,Yes,17,Yes,16.5,4.7,14.2
+PHY00041,Angela Keith,Cardiology,39,"Riley, Mendez and Franco Medical Center",Academic Hospital,MO,632,Neurology,Brand_16,Yes,10,Yes,25.4,4.1,7.6
+PHY00042,Nancy Ayala,Neurology,6,James Inc Medical Center,Community Hospital,OR,624,Cardiology,Brand_1,Yes,6,Yes,27.6,4.9,10.6
+PHY00043,Christina Jones,Endocrinology,17,Thompson Inc Medical Center,Academic Hospital,NV,631,Gastroenterology,Brand_6,Yes,7,No,27.0,3.6,4.6
+PHY00044,Lee Miller,Psychiatry,10,"Carter, Marshall and Spears Medical Center",Private,NJ,442,Oncology,Brand_7,No,2,No,18.0,4.6,8.8
+PHY00045,Michael Wallace,Endocrinology,21,"White, Vaughan and Burgess Medical Center",Academic Hospital,NY,702,Cardiology,Brand_3,Yes,10,No,9.6,4.1,5.3
+PHY00046,Kaitlyn Edwards,Pulmonology,29,Townsend PLC Medical Center,Academic Hospital,NJ,153,Endocrinology,Brand_13,Yes,10,Yes,10.7,3.9,4.5
+PHY00047,Christopher Stephens,Neurology,29,Washington Ltd Medical Center,Community Hospital,LA,195,Gastroenterology,Brand_10,Yes,1,Yes,19.6,4.3,6.2
+PHY00048,Michael Bailey,Gastroenterology,20,Coleman-Nelson Medical Center,Private,IN,724,Oncology,Brand_7,Yes,14,Yes,21.4,4.2,6.9
+PHY00049,Derek Donovan,Oncology,15,Barnett-Nguyen Medical Center,Clinic,CO,50,Cardiology,Brand_8,Yes,14,No,4.8,4.0,5.0
+PHY00050,Michael Mahoney,Neurology,2,"Martin, Garza and Valencia Medical Center",Academic Hospital,WA,777,Gastroenterology,Brand_10,Yes,4,Yes,29.9,4.5,3.9
+PHY00051,Lisa Campos,Endocrinology,33,Wyatt-Anderson Medical Center,Private,PW,174,Psychiatry,Brand_17,Yes,19,No,3.2,4.5,9.4
+PHY00052,Antonio Randall,Endocrinology,12,Harris Inc Medical Center,Academic Hospital,FL,419,Psychiatry,Brand_3,Yes,7,Yes,18.2,3.6,5.7
+PHY00053,Holly Colon,Gastroenterology,13,Phillips PLC Medical Center,Academic Hospital,DC,85,Oncology,Brand_15,Yes,15,No,15.9,4.4,3.0
+PHY00054,Cynthia Brown,Neurology,44,Conway-Carr Medical Center,Community Hospital,SC,291,Neurology,Brand_2,Yes,11,Yes,17.7,4.6,11.4
+PHY00055,Michael Hurst,Neurology,44,Barr-Frazier Medical Center,Clinic,PW,769,Psychiatry,Brand_12,Yes,13,No,16.0,3.6,10.9
+PHY00056,Erik Washington,Neurology,39,Maxwell-Jones Medical Center,Clinic,CA,816,Pulmonology,Brand_17,No,12,Yes,1.7,4.5,13.3
+PHY00057,David Peterson,Endocrinology,39,Hill-Davis Medical Center,Private,VA,863,Endocrinology,Brand_1,No,8,No,29.9,4.7,8.3
+PHY00058,Jared Durham,Gastroenterology,38,"Williams, Thomas and Smith Medical Center",Private,AL,539,Pulmonology,Brand_6,Yes,6,No,29.4,4.7,4.2
+PHY00059,Jenny Valenzuela,Pulmonology,21,Smith-Scott Medical Center,Clinic,PR,814,Pulmonology,Brand_11,Yes,16,No,15.7,3.6,13.0
+PHY00060,Dana Solis,Cardiology,41,"Lam, Rubio and Obrien Medical Center",Community Hospital,AZ,214,Gastroenterology,Brand_14,Yes,1,Yes,6.3,4.5,4.2
+PHY00061,Joseph Olsen,Oncology,16,Wallace and Sons Medical Center,Private,TX,171,Pulmonology,Brand_13,Yes,7,No,5.5,4.7,9.8
+PHY00062,Jeffrey Evans,Cardiology,34,Ashley-Peters Medical Center,Community Hospital,IN,643,Oncology,Brand_6,No,12,No,1.7,4.1,2.9
+PHY00063,Lisa Olsen,Pulmonology,27,Cain and Sons Medical Center,Community Hospital,MI,974,Endocrinology,Brand_4,Yes,7,Yes,18.4,4.3,9.4
+PHY00064,Joseph Hill,Endocrinology,43,Wolfe Group Medical Center,Private,AZ,861,Oncology,Brand_5,Yes,17,Yes,14.3,3.9,12.6
+PHY00065,Alexander Walker,Cardiology,3,Miller-Dickson Medical Center,Clinic,ND,910,Neurology,Brand_18,Yes,12,No,12.5,4.0,8.1
+PHY00066,Joseph Evans,Neurology,9,Rogers Group Medical Center,Academic Hospital,DE,885,Cardiology,Brand_14,Yes,7,Yes,15.8,4.3,7.1
+PHY00067,Mary Wells,Psychiatry,44,Edwards-Wilson Medical Center,Academic Hospital,VI,125,Pulmonology,Brand_16,No,15,Yes,26.2,3.7,14.9
+PHY00068,Anthony Chase,Neurology,34,"Carney, Chambers and Cisneros Medical Center",Community Hospital,ND,382,Oncology,Brand_3,Yes,19,Yes,2.1,4.1,0.3
+PHY00069,Larry Morales,Oncology,19,"Todd, Walsh and Lee Medical Center",Private,WI,959,Cardiology,Brand_13,Yes,2,Yes,16.3,4.0,5.0
+PHY00070,Willie Kelly,Neurology,38,Cervantes Inc Medical Center,Community Hospital,MS,895,Oncology,Brand_7,No,14,Yes,21.0,3.9,13.8
+PHY00071,Mikayla Oconnor,Psychiatry,26,Weaver-Curtis Medical Center,Community Hospital,OH,740,Gastroenterology,Brand_5,Yes,9,Yes,29.1,4.2,9.6
+PHY00072,Sherri Smith,Endocrinology,23,Alvarez Group Medical Center,Private,FL,763,Neurology,Brand_7,No,17,No,22.2,4.8,8.1
+PHY00073,Trevor Moore,Cardiology,18,Perez Ltd Medical Center,Academic Hospital,DC,135,Endocrinology,Brand_10,Yes,18,No,16.4,3.9,9.6
+PHY00074,Kathleen Davies,Neurology,40,"Tran, Moore and Novak Medical Center",Community Hospital,MS,826,Cardiology,Brand_14,Yes,1,No,23.0,4.5,4.8
+PHY00075,Erik Curtis,Pulmonology,41,"Strong, Wilson and Smith Medical Center",Clinic,VA,521,Endocrinology,Brand_16,Yes,9,No,29.9,3.9,1.1
+PHY00076,Jennifer Richards,Cardiology,38,Ramos-Walsh Medical Center,Clinic,CT,419,Oncology,Brand_6,Yes,15,Yes,26.7,3.7,4.1
+PHY00077,Jessica Jackson,Oncology,10,"Martin, Hayes and Ross Medical Center",Private,MA,386,Gastroenterology,Brand_20,Yes,7,Yes,2.7,4.9,5.0
+PHY00078,Thomas Smith,Gastroenterology,43,"Hardin, Sellers and Howell Medical Center",Community Hospital,NM,905,Pulmonology,Brand_19,Yes,6,Yes,17.2,4.4,7.2
+PHY00079,Tyler Lewis,Pulmonology,10,Williams-Adams Medical Center,Private,GA,630,Oncology,Brand_10,Yes,3,No,23.6,3.7,5.9
+PHY00080,Joseph Saunders,Pulmonology,21,Perez PLC Medical Center,Private,AR,979,Neurology,Brand_19,Yes,8,Yes,20.2,4.4,7.8
+PHY00081,Alyssa Jackson,Cardiology,38,Hampton-Williams Medical Center,Academic Hospital,ME,667,Oncology,Brand_7,Yes,1,Yes,12.5,3.8,2.9
+PHY00082,Veronica Poole MD,Oncology,38,Mendoza and Sons Medical Center,Private,ND,114,Neurology,Brand_17,Yes,15,Yes,9.7,4.8,2.8
+PHY00083,William Castillo,Oncology,7,"Cameron, Hansen and Conner Medical Center",Clinic,OH,588,Oncology,Brand_15,No,6,Yes,18.8,3.9,5.3
+PHY00084,Victoria Murray,Pulmonology,12,"Morrow, Finley and Jones Medical Center",Community Hospital,LA,985,Pulmonology,Brand_9,Yes,14,Yes,12.4,4.7,7.1
+PHY00085,Karen Dodson,Neurology,41,"Ortiz, Castillo and Tyler Medical Center",Academic Hospital,HI,441,Endocrinology,Brand_7,Yes,4,No,11.8,3.8,5.1
+PHY00086,Joel Maldonado,Pulmonology,33,Lawrence-Leonard Medical Center,Academic Hospital,VA,55,Oncology,Brand_1,Yes,0,Yes,25.1,4.3,8.6
+PHY00087,Victoria Velasquez,Pulmonology,25,Clay PLC Medical Center,Clinic,TX,870,Cardiology,Brand_5,Yes,19,No,9.5,4.9,4.7
+PHY00088,Charles Holloway MD,Pulmonology,28,"Buchanan, Brown and Hodge Medical Center",Private,FL,438,Psychiatry,Brand_15,Yes,4,Yes,19.3,3.9,2.7
+PHY00089,Zachary Thomas,Psychiatry,24,"Williams, Ellis and Miles Medical Center",Private,AL,487,Cardiology,Brand_3,Yes,12,Yes,26.2,3.6,12.9
+PHY00090,Jonathan Marks,Cardiology,31,Werner LLC Medical Center,Academic Hospital,LA,166,Gastroenterology,Brand_13,Yes,19,No,18.7,4.3,3.0
+PHY00091,Anna Lewis,Oncology,18,Campbell-Martinez Medical Center,Academic Hospital,MP,195,Cardiology,Brand_20,Yes,12,Yes,14.8,3.8,14.5
+PHY00092,Melanie Stevenson,Oncology,23,"Johnson, George and Smith Medical Center",Clinic,NH,725,Neurology,Brand_8,Yes,17,Yes,1.1,4.6,14.8
+PHY00093,Leslie Parsons,Oncology,7,"Jones, Hardy and Nelson Medical Center",Private,GU,146,Oncology,Brand_17,Yes,1,Yes,20.4,4.4,10.5
+PHY00094,Sarah Lamb,Endocrinology,8,Davis-Howard Medical Center,Academic Hospital,OH,945,Endocrinology,Brand_11,Yes,17,Yes,29.9,4.0,7.5
+PHY00095,Dennis Collins,Pulmonology,15,"Lopez, Rios and Church Medical Center",Community Hospital,MA,359,Gastroenterology,Brand_19,Yes,9,No,24.3,4.6,11.9
+PHY00096,Michelle Henderson,Cardiology,38,Campos LLC Medical Center,Community Hospital,NC,211,Oncology,Brand_16,Yes,2,Yes,19.0,3.9,13.1
+PHY00097,Ann Campos,Cardiology,28,Contreras-Andrade Medical Center,Community Hospital,ND,337,Psychiatry,Brand_15,No,9,No,14.1,4.9,10.6
+PHY00098,Dustin Willis,Oncology,27,Armstrong-Clark Medical Center,Academic Hospital,OR,612,Oncology,Brand_15,Yes,8,Yes,6.7,4.0,1.5
+PHY00099,Kimberly Harris,Cardiology,21,"Randall, Dorsey and Austin Medical Center",Private,SD,692,Psychiatry,Brand_19,Yes,2,Yes,20.8,4.6,0.0
+PHY00100,Lucas Chan,Cardiology,44,Ochoa-Cowan Medical Center,Clinic,PW,882,Psychiatry,Brand_2,Yes,5,No,5.3,3.9,2.9
+PHY00101,Micheal Thomas,Endocrinology,27,Heath Inc Medical Center,Private,WY,815,Cardiology,Brand_3,Yes,10,Yes,26.6,4.6,2.8
+PHY00102,Michele Lopez,Oncology,42,"Newton, Wells and Turner Medical Center",Community Hospital,NM,390,Psychiatry,Brand_10,Yes,5,Yes,10.6,3.5,2.7
+PHY00103,Elizabeth Patel,Cardiology,41,Ramirez and Sons Medical Center,Clinic,ND,574,Psychiatry,Brand_15,Yes,4,Yes,12.0,3.9,7.6
+PHY00104,Erin Dalton,Psychiatry,14,Thompson Inc Medical Center,Academic Hospital,SD,569,Pulmonology,Brand_12,Yes,13,No,6.5,3.6,7.8
+PHY00105,Audrey Bennett,Oncology,21,"Bean, Lewis and Ramos Medical Center",Clinic,MI,477,Gastroenterology,Brand_10,Yes,1,No,14.4,4.2,10.8
+PHY00106,Jacqueline Clayton,Cardiology,14,Miller-King Medical Center,Private,MH,463,Gastroenterology,Brand_13,No,0,Yes,20.4,4.2,3.0
+PHY00107,Emily Cherry,Endocrinology,43,Williamson Ltd Medical Center,Clinic,CT,313,Endocrinology,Brand_20,Yes,4,Yes,9.1,4.0,1.4
+PHY00108,Robert Williams,Pulmonology,6,Anderson-Lee Medical Center,Community Hospital,WI,875,Pulmonology,Brand_6,Yes,7,No,21.1,5.0,10.0
+PHY00109,Sierra Mathis,Psychiatry,12,James-Davis Medical Center,Private,CO,941,Neurology,Brand_14,No,9,Yes,18.6,3.9,7.3
+PHY00110,Gina White,Neurology,28,Cunningham PLC Medical Center,Community Hospital,HI,396,Oncology,Brand_8,Yes,18,No,11.2,4.7,10.0
+PHY00111,Gina Krueger,Neurology,29,"Mills, Sanders and Gonzalez Medical Center",Clinic,MO,408,Endocrinology,Brand_6,Yes,2,No,9.4,4.2,5.7
+PHY00112,Marcus Smith,Pulmonology,37,Stanley-Gray Medical Center,Academic Hospital,GU,904,Neurology,Brand_20,Yes,17,Yes,25.8,4.0,11.3
+PHY00113,Anna Bray,Psychiatry,38,Barrett-Poole Medical Center,Community Hospital,WI,185,Cardiology,Brand_14,No,6,No,0.4,3.8,10.2
+PHY00114,Jessica Hughes,Neurology,3,"May, Romero and Williams Medical Center",Community Hospital,VA,366,Endocrinology,Brand_15,Yes,12,Yes,21.5,4.5,9.8
+PHY00115,Michael Chang,Gastroenterology,33,Mendez-Harris Medical Center,Community Hospital,MO,809,Endocrinology,Brand_13,Yes,13,No,12.5,4.0,0.4
+PHY00116,Madison Peterson,Psychiatry,12,Wilson LLC Medical Center,Academic Hospital,TN,512,Cardiology,Brand_6,Yes,17,Yes,21.5,4.7,12.9
+PHY00117,Gloria Brown,Gastroenterology,12,Sanchez-Williams Medical Center,Community Hospital,ND,998,Psychiatry,Brand_19,Yes,11,Yes,15.2,5.0,5.6
+PHY00118,Jordan Herrera PhD,Pulmonology,11,Martin Inc Medical Center,Academic Hospital,PW,248,Cardiology,Brand_4,Yes,7,No,2.5,3.8,2.0
+PHY00119,Angela Rivera,Gastroenterology,28,"Wilson, Dawson and Carpenter Medical Center",Academic Hospital,HI,125,Oncology,Brand_13,Yes,17,Yes,29.5,3.7,11.3
+PHY00120,Robert Harris,Pulmonology,35,Jones LLC Medical Center,Private,MA,931,Cardiology,Brand_2,Yes,5,No,2.6,4.0,7.3
+PHY00121,Jesse Thomas,Cardiology,34,Williams-Hays Medical Center,Clinic,VT,469,Gastroenterology,Brand_8,Yes,11,No,4.8,4.2,0.5
+PHY00122,Joshua Washington,Neurology,22,Norton-Martinez Medical Center,Academic Hospital,IA,919,Endocrinology,Brand_6,Yes,2,No,12.6,4.0,11.7
+PHY00123,Lauren Ramos DVM,Neurology,39,"Thomas, Castillo and Duffy Medical Center",Private,MP,412,Gastroenterology,Brand_9,Yes,2,Yes,28.3,5.0,6.5
+PHY00124,Lorraine Nelson,Psychiatry,23,Kim-Nolan Medical Center,Private,PA,655,Gastroenterology,Brand_18,Yes,15,No,8.8,4.7,11.3
+PHY00125,Rodney Jones,Cardiology,12,Shepard-Chapman Medical Center,Private,DC,891,Cardiology,Brand_10,Yes,16,Yes,17.1,4.9,11.3
+PHY00126,Charles Hardy,Cardiology,19,Mcmahon Group Medical Center,Private,SC,495,Oncology,Brand_3,Yes,15,Yes,15.6,4.1,1.5
+PHY00127,Kevin Newton,Oncology,31,Winters Group Medical Center,Academic Hospital,UT,452,Gastroenterology,Brand_7,Yes,12,No,9.9,4.0,9.2
+PHY00128,Denise Rodriguez,Oncology,13,Hendricks LLC Medical Center,Clinic,AL,67,Psychiatry,Brand_16,No,12,No,20.9,4.1,5.4
+PHY00129,Andrew Davidson,Cardiology,19,Dominguez-Lawrence Medical Center,Private,RI,733,Psychiatry,Brand_14,Yes,11,No,15.0,4.3,8.2
+PHY00130,Jonathan Fernandez,Pulmonology,36,"Harding, Cisneros and Craig Medical Center",Clinic,NJ,418,Neurology,Brand_18,Yes,1,Yes,17.3,4.6,1.3
+PHY00131,Crystal Harrell,Pulmonology,22,Riggs-Petersen Medical Center,Private,MO,709,Pulmonology,Brand_4,Yes,13,No,6.3,4.8,8.8
+PHY00132,Andrew Romero,Pulmonology,44,Carey Group Medical Center,Community Hospital,OR,563,Neurology,Brand_12,Yes,9,No,27.8,4.2,11.7
+PHY00133,Alvin Cox,Psychiatry,30,Mendez-Craig Medical Center,Community Hospital,WY,79,Oncology,Brand_3,Yes,18,Yes,3.3,3.9,14.8
+PHY00134,Natalie Copeland,Endocrinology,4,Hall-Black Medical Center,Community Hospital,AS,484,Neurology,Brand_4,Yes,4,Yes,20.7,4.0,4.8
+PHY00135,Justin Garrett,Endocrinology,13,"Sutton, Thompson and Bates Medical Center",Academic Hospital,OK,221,Psychiatry,Brand_17,Yes,15,Yes,26.6,4.5,2.3
+PHY00136,Sarah Wright,Oncology,20,"Jones, Mullen and Finley Medical Center",Community Hospital,NY,299,Gastroenterology,Brand_11,Yes,4,Yes,2.5,4.4,5.5
+PHY00137,Aimee Gutierrez,Neurology,39,"Joyce, Evans and Beltran Medical Center",Academic Hospital,PW,540,Gastroenterology,Brand_14,Yes,1,Yes,0.9,4.2,0.3
+PHY00138,Emily Todd,Endocrinology,6,"Campbell, Warren and Garcia Medical Center",Private,ND,96,Pulmonology,Brand_15,Yes,5,Yes,10.0,3.8,6.1
+PHY00139,Benjamin Waters,Neurology,44,Evans Inc Medical Center,Private,VI,348,Psychiatry,Brand_6,Yes,11,No,23.7,4.8,13.7
+PHY00140,John Russell,Neurology,12,"Campos, Estrada and Castillo Medical Center",Private,AK,572,Gastroenterology,Brand_9,Yes,12,Yes,21.5,4.7,2.9
+PHY00141,Ronald Carey,Gastroenterology,16,"Barnett, Rivera and Black Medical Center",Academic Hospital,NV,519,Neurology,Brand_7,Yes,12,No,24.7,3.7,7.2
+PHY00142,William George,Pulmonology,17,Miles-Schaefer Medical Center,Community Hospital,OK,475,Cardiology,Brand_17,Yes,13,Yes,11.9,4.1,8.6
+PHY00143,Alexandra Weaver,Pulmonology,8,Foster-Hill Medical Center,Clinic,CO,324,Psychiatry,Brand_2,Yes,18,Yes,29.8,4.3,2.7
+PHY00144,Roger Gonzalez,Pulmonology,33,Gonzales-Vance Medical Center,Private,WA,436,Gastroenterology,Brand_15,Yes,14,Yes,11.0,4.2,5.0
+PHY00145,Robert Valenzuela,Cardiology,44,Garrison-Cole Medical Center,Academic Hospital,WV,565,Neurology,Brand_1,Yes,2,No,24.2,4.1,13.7
+PHY00146,Samantha Hodge,Endocrinology,39,"Rodriguez, Mooney and Nguyen Medical Center",Private,VI,532,Neurology,Brand_3,Yes,8,Yes,10.5,4.6,4.4
+PHY00147,Jennifer Simmons,Endocrinology,12,"Elliott, Allen and Parsons Medical Center",Community Hospital,WV,928,Gastroenterology,Brand_15,Yes,9,Yes,6.6,3.6,9.5
+PHY00148,Robert Johnson,Neurology,26,Adkins-Pierce Medical Center,Clinic,MT,727,Gastroenterology,Brand_13,No,6,No,10.1,4.2,2.1
+PHY00149,Melissa Hudson,Neurology,19,Reynolds Ltd Medical Center,Private,SC,762,Oncology,Brand_11,Yes,13,Yes,5.8,3.9,10.0
+PHY00150,Erik Adams,Pulmonology,13,Zavala-Snyder Medical Center,Clinic,MD,505,Oncology,Brand_13,Yes,16,No,3.9,3.6,4.2
+PHY00151,Daisy Cobb,Cardiology,10,"Brown, French and Miller Medical Center",Private,AK,211,Psychiatry,Brand_7,Yes,13,Yes,10.9,4.2,3.5
+PHY00152,Julie Woods,Pulmonology,34,"Fowler, Moore and Hayes Medical Center",Private,NV,356,Endocrinology,Brand_13,No,9,No,4.4,3.8,1.9
+PHY00153,Michelle Brown,Psychiatry,31,Wilkins-Newman Medical Center,Private,DE,800,Neurology,Brand_2,Yes,4,Yes,15.1,3.9,0.7
+PHY00154,Andrea Luna,Endocrinology,27,Smith-Pitts Medical Center,Private,TN,464,Gastroenterology,Brand_1,Yes,17,Yes,1.1,4.3,14.5
+PHY00155,Robert Hansen,Pulmonology,3,Clark-Malone Medical Center,Private,IN,665,Cardiology,Brand_9,Yes,16,Yes,12.9,5.0,6.2
+PHY00156,Mike Boyd,Pulmonology,44,Mcneil Inc Medical Center,Academic Hospital,AR,388,Endocrinology,Brand_4,Yes,17,Yes,28.7,4.5,11.7
+PHY00157,Nathan Thompson,Endocrinology,5,"Poole, French and Berry Medical Center",Community Hospital,OR,86,Neurology,Brand_5,No,3,No,10.8,3.9,13.8
+PHY00158,Rodney Cannon,Cardiology,5,"Nelson, Willis and Reed Medical Center",Private,TX,273,Endocrinology,Brand_11,Yes,19,No,4.1,4.1,3.1
+PHY00159,Dillon Wilson,Cardiology,37,"Friedman, Salinas and Ward Medical Center",Private,SC,989,Neurology,Brand_15,Yes,0,No,9.2,4.1,13.0
+PHY00160,Timothy Peterson,Gastroenterology,7,Williams Inc Medical Center,Private,AS,108,Neurology,Brand_16,Yes,12,Yes,23.7,3.7,10.6
+PHY00161,Amy Bailey,Psychiatry,40,"Miller, Martinez and Hester Medical Center",Community Hospital,AL,925,Endocrinology,Brand_15,Yes,9,No,9.4,3.7,8.7
+PHY00162,Teresa Edwards,Neurology,42,"Martinez, Pace and Clark Medical Center",Private,MA,269,Oncology,Brand_3,Yes,14,Yes,11.5,3.7,12.1
+PHY00163,Kelly Meyer,Endocrinology,13,Garcia-Mccarthy Medical Center,Private,AL,410,Neurology,Brand_3,Yes,4,Yes,23.7,4.3,1.7
+PHY00164,Sarah Blair,Neurology,34,"Lynch, Wheeler and Page Medical Center",Private,TN,835,Psychiatry,Brand_18,Yes,17,Yes,7.8,4.5,4.0
+PHY00165,Tina Hernandez,Endocrinology,36,Burke-Watkins Medical Center,Private,ND,74,Endocrinology,Brand_8,Yes,3,No,14.3,4.4,2.0
+PHY00166,Jerry Johnson,Gastroenterology,34,Marshall-Russo Medical Center,Academic Hospital,TX,955,Pulmonology,Brand_15,Yes,0,Yes,1.9,5.0,13.4
+PHY00167,Angel Reid,Cardiology,3,Wright LLC Medical Center,Private,CT,502,Oncology,Brand_5,Yes,9,Yes,5.2,3.7,1.5
+PHY00168,Dominique Barton,Pulmonology,10,Crawford Group Medical Center,Private,GU,256,Cardiology,Brand_16,Yes,16,No,6.3,5.0,14.7
+PHY00169,Dana White,Gastroenterology,43,"Smith, Miller and Cruz Medical Center",Community Hospital,MP,74,Gastroenterology,Brand_9,Yes,2,Yes,13.9,4.2,1.6
+PHY00170,John Williams,Cardiology,35,Frazier LLC Medical Center,Clinic,FM,133,Neurology,Brand_6,Yes,3,No,24.6,3.8,9.9
+PHY00171,Carolyn Yu,Gastroenterology,37,Hoffman-Anderson Medical Center,Clinic,SD,297,Pulmonology,Brand_6,Yes,11,No,10.6,4.9,9.9
+PHY00172,James Lambert,Cardiology,6,"Trujillo, Haynes and Hawkins Medical Center",Clinic,MP,297,Neurology,Brand_1,Yes,10,Yes,11.4,4.2,14.0
+PHY00173,Pedro Johnson,Gastroenterology,21,"Cruz, Sanchez and Ashley Medical Center",Community Hospital,PW,100,Pulmonology,Brand_20,Yes,2,No,9.0,4.0,4.8
+PHY00174,Carly Gilbert,Psychiatry,5,Gallegos-Morris Medical Center,Clinic,VA,998,Psychiatry,Brand_4,Yes,10,Yes,9.6,3.8,5.0
+PHY00175,Deborah Benitez,Gastroenterology,3,Padilla and Sons Medical Center,Academic Hospital,NV,571,Oncology,Brand_6,Yes,2,Yes,12.1,3.9,12.7
+PHY00176,Wendy Ortiz,Endocrinology,20,Brown-Gordon Medical Center,Community Hospital,DE,226,Neurology,Brand_10,No,3,No,27.0,5.0,14.7
+PHY00177,Brian Ferguson,Gastroenterology,30,"Obrien, Graham and Stewart Medical Center",Clinic,HI,174,Gastroenterology,Brand_4,No,2,No,0.7,4.0,0.5
+PHY00178,Lisa Cox,Cardiology,12,"Wallace, Jones and Guzman Medical Center",Community Hospital,KY,215,Pulmonology,Brand_18,Yes,11,Yes,18.7,5.0,9.5
+PHY00179,Holly Zimmerman,Pulmonology,35,Wright and Sons Medical Center,Clinic,WA,397,Oncology,Brand_13,Yes,11,Yes,26.6,4.0,3.7
+PHY00180,Robert Andersen,Gastroenterology,32,Herrera-Avery Medical Center,Private,IA,175,Gastroenterology,Brand_6,No,16,Yes,12.5,3.8,10.9
+PHY00181,Amber Cole,Psychiatry,19,Brown PLC Medical Center,Academic Hospital,KS,418,Neurology,Brand_3,Yes,7,No,19.5,3.8,11.6
+PHY00182,Danielle Garza,Neurology,15,Hernandez-Bowen Medical Center,Academic Hospital,KS,931,Pulmonology,Brand_1,Yes,9,No,17.6,4.1,11.4
+PHY00183,Pamela Thompson,Psychiatry,10,"Gonzalez, Martin and Hill Medical Center",Academic Hospital,AS,863,Cardiology,Brand_9,Yes,15,Yes,10.2,3.9,6.5
+PHY00184,Jennifer Dorsey,Psychiatry,26,Keller and Sons Medical Center,Clinic,AZ,296,Pulmonology,Brand_5,Yes,18,No,4.1,4.5,2.4
+PHY00185,Charles Perez,Oncology,6,Davis Ltd Medical Center,Clinic,WY,119,Psychiatry,Brand_15,Yes,14,No,6.6,3.9,8.8
+PHY00186,Melanie Murillo,Neurology,26,Campbell-Kelley Medical Center,Community Hospital,NM,572,Cardiology,Brand_12,Yes,10,Yes,1.7,4.8,11.8
+PHY00187,Mr. Eric Cruz MD,Oncology,2,"Drake, Reynolds and Willis Medical Center",Private,PW,132,Gastroenterology,Brand_6,Yes,6,Yes,22.9,4.8,13.7
+PHY00188,Christina Graham,Pulmonology,32,Bailey-Rice Medical Center,Private,MA,449,Cardiology,Brand_7,Yes,6,Yes,16.0,3.9,6.8
+PHY00189,Ricky Gray,Gastroenterology,3,"Sanchez, Robinson and Hernandez Medical Center",Community Hospital,MA,721,Pulmonology,Brand_2,Yes,17,No,23.6,4.6,3.7
+PHY00190,Jeffery Brady,Endocrinology,19,Bentley Ltd Medical Center,Academic Hospital,OR,435,Endocrinology,Brand_18,No,18,Yes,8.7,4.8,1.8
+PHY00191,Dennis Wang,Psychiatry,36,Cole LLC Medical Center,Private,FL,107,Cardiology,Brand_7,Yes,15,No,24.1,4.4,12.0
+PHY00192,William Miller,Psychiatry,20,"Walker, Mcmahon and Lopez Medical Center",Private,OK,523,Psychiatry,Brand_15,Yes,2,No,9.3,4.0,8.0
+PHY00193,Hannah Malone,Gastroenterology,30,"Ellison, Rodriguez and Baker Medical Center",Community Hospital,ID,902,Psychiatry,Brand_2,Yes,5,Yes,3.6,4.2,10.1
+PHY00194,Jonathan Wilkerson,Psychiatry,37,Lutz Group Medical Center,Community Hospital,MO,983,Pulmonology,Brand_17,Yes,0,No,16.0,4.7,2.4
+PHY00195,Rebecca Watson,Psychiatry,20,Cole-Robbins Medical Center,Private,AR,128,Neurology,Brand_4,Yes,0,Yes,28.4,3.9,0.1
+PHY00196,Alyssa Dunn,Oncology,34,Goodwin and Sons Medical Center,Academic Hospital,MP,234,Pulmonology,Brand_13,Yes,14,No,12.4,4.0,14.5
+PHY00197,Bonnie Powell,Endocrinology,44,Hansen and Sons Medical Center,Community Hospital,FM,126,Cardiology,Brand_10,Yes,19,No,15.5,3.7,12.2
+PHY00198,Devin Cooley,Oncology,17,"Roberts, Meyer and Nunez Medical Center",Academic Hospital,UT,120,Gastroenterology,Brand_15,No,10,No,13.5,4.1,6.0
+PHY00199,Cynthia Smith,Psychiatry,42,"Paul, Reese and Powers Medical Center",Clinic,NC,165,Oncology,Brand_2,Yes,9,No,13.7,3.6,6.9
+PHY00200,Mr. Gerald Wagner,Endocrinology,23,Wagner PLC Medical Center,Private,MA,234,Endocrinology,Brand_20,Yes,2,Yes,6.4,4.0,13.9
+PHY00201,Eddie Hurst,Neurology,41,Mercado Group Medical Center,Clinic,RI,372,Pulmonology,Brand_1,Yes,3,Yes,12.7,4.1,3.1
+PHY00202,Nicholas Blake,Oncology,9,Cherry-Williams Medical Center,Academic Hospital,TX,64,Endocrinology,Brand_2,No,11,No,14.9,3.9,12.0
+PHY00203,Valerie Boyd,Gastroenterology,27,Smith-Dunlap Medical Center,Community Hospital,ID,901,Endocrinology,Brand_13,Yes,5,Yes,22.3,3.7,0.3
+PHY00204,Christopher Young,Cardiology,17,"Hicks, Snyder and Clark Medical Center",Private,MN,491,Psychiatry,Brand_7,Yes,19,No,4.2,4.3,13.1
+PHY00205,Wesley Lee,Neurology,41,"Harris, Stone and Christensen Medical Center",Clinic,DC,564,Psychiatry,Brand_8,Yes,18,No,17.1,4.8,8.8
+PHY00206,Lisa Tate,Neurology,17,Johnson-Cook Medical Center,Private,NV,107,Neurology,Brand_12,Yes,15,Yes,19.9,4.0,7.2
+PHY00207,Darren Molina,Psychiatry,2,Walker-Mills Medical Center,Academic Hospital,SC,332,Cardiology,Brand_8,Yes,9,Yes,11.5,3.9,10.6
+PHY00208,Crystal Newton,Psychiatry,15,Sloan Ltd Medical Center,Clinic,MO,448,Psychiatry,Brand_7,Yes,5,Yes,16.5,3.9,1.0
+PHY00209,Michael Hall,Neurology,11,Salas LLC Medical Center,Academic Hospital,CO,749,Endocrinology,Brand_3,Yes,19,Yes,21.3,4.8,2.9
+PHY00210,Margaret Crosby,Gastroenterology,37,"Brown, Vazquez and Taylor Medical Center",Community Hospital,DE,820,Psychiatry,Brand_1,Yes,4,Yes,14.0,4.3,6.1
+PHY00211,Jonathan Lane,Gastroenterology,41,Griffin-Garza Medical Center,Clinic,VI,461,Pulmonology,Brand_14,Yes,9,No,10.0,3.7,9.3
+PHY00212,Willie Gutierrez,Oncology,9,"Powell, Walker and Miles Medical Center",Private,CA,736,Cardiology,Brand_1,Yes,11,Yes,24.7,4.6,2.2
+PHY00213,Karen Shaw,Endocrinology,14,Rosario-Garcia Medical Center,Academic Hospital,HI,626,Psychiatry,Brand_1,Yes,17,Yes,29.7,3.7,5.7
+PHY00214,Matthew Wilson,Oncology,8,Bryant Inc Medical Center,Community Hospital,IA,486,Pulmonology,Brand_11,Yes,2,Yes,6.5,3.6,3.9
+PHY00215,Ricardo Rowe,Oncology,43,Roberts Ltd Medical Center,Community Hospital,VA,965,Cardiology,Brand_7,Yes,4,Yes,26.7,3.9,9.7
+PHY00216,Heather Mitchell,Neurology,12,"Williams, Hernandez and Price Medical Center",Private,SD,60,Neurology,Brand_3,Yes,2,No,16.4,3.8,13.8
+PHY00217,Jerry Andersen,Oncology,7,"Walsh, Boyer and Macias Medical Center",Academic Hospital,OR,842,Psychiatry,Brand_8,Yes,2,Yes,13.4,4.4,2.5
+PHY00218,Sandra Wade,Gastroenterology,3,Frank and Sons Medical Center,Private,ND,240,Cardiology,Brand_4,Yes,8,Yes,26.8,4.2,2.8
+PHY00219,John George,Endocrinology,26,Newton-Sanchez Medical Center,Community Hospital,IN,565,Pulmonology,Brand_6,Yes,3,No,27.3,4.6,9.0
+PHY00220,Keith Gonzalez,Gastroenterology,3,Jones-Bullock Medical Center,Private,VA,900,Pulmonology,Brand_6,Yes,19,Yes,8.2,4.3,6.8
+PHY00221,Oscar Rocha,Neurology,4,Mcintyre-Rosario Medical Center,Private,NE,615,Cardiology,Brand_2,Yes,16,Yes,10.8,4.1,10.8
+PHY00222,Susan Dillon,Oncology,32,"Glenn, Nelson and Jones Medical Center",Community Hospital,WY,109,Pulmonology,Brand_14,Yes,6,No,25.6,4.3,4.3
+PHY00223,Amanda Schwartz,Psychiatry,14,"Perez, Black and Gregory Medical Center",Community Hospital,CT,205,Gastroenterology,Brand_17,Yes,12,No,14.7,4.2,8.2
+PHY00224,Jennifer Carter,Pulmonology,3,"Odonnell, Holland and Mullins Medical Center",Academic Hospital,MN,187,Oncology,Brand_4,Yes,11,Yes,8.6,3.6,5.8
+PHY00225,Brian Vargas,Oncology,13,Miller Group Medical Center,Academic Hospital,LA,518,Neurology,Brand_11,Yes,17,No,28.9,4.5,4.2
+PHY00226,Anthony Walker,Pulmonology,8,Smith-Cook Medical Center,Community Hospital,IN,725,Psychiatry,Brand_11,Yes,14,Yes,6.5,4.9,10.9
+PHY00227,Stephanie Davila,Gastroenterology,38,Baker-Davis Medical Center,Community Hospital,CO,641,Oncology,Brand_18,Yes,4,Yes,18.3,4.1,11.9
+PHY00228,Ariel Jones,Pulmonology,2,Rose Inc Medical Center,Community Hospital,MS,978,Psychiatry,Brand_7,No,0,No,12.8,4.1,4.9
+PHY00229,Parker George,Pulmonology,38,Wu LLC Medical Center,Academic Hospital,FM,364,Endocrinology,Brand_20,Yes,8,No,13.5,3.6,9.3
+PHY00230,Heather Gonzalez,Neurology,31,Durham and Sons Medical Center,Academic Hospital,IN,734,Endocrinology,Brand_7,Yes,8,Yes,3.2,4.8,2.7
+PHY00231,Caleb Herrera,Neurology,39,Mcmahon-Mckinney Medical Center,Private,NJ,228,Cardiology,Brand_18,Yes,12,Yes,7.7,4.9,11.9
+PHY00232,Trevor Holmes,Pulmonology,27,Holmes PLC Medical Center,Clinic,DC,95,Oncology,Brand_13,Yes,10,Yes,5.0,4.7,4.2
+PHY00233,Amy Brown,Psychiatry,17,Garza-Dickson Medical Center,Community Hospital,NY,446,Gastroenterology,Brand_14,Yes,8,No,22.5,3.7,2.6
+PHY00234,Anthony Stewart,Neurology,35,Elliott-Harrell Medical Center,Academic Hospital,AZ,817,Cardiology,Brand_4,Yes,4,No,20.9,4.9,14.1
+PHY00235,Wendy Rodriguez,Gastroenterology,24,James-Smith Medical Center,Academic Hospital,FL,398,Cardiology,Brand_8,Yes,13,No,23.8,3.5,6.3
+PHY00236,Erin Figueroa,Pulmonology,1,Glenn-Gonzalez Medical Center,Private,GU,181,Gastroenterology,Brand_7,Yes,15,Yes,21.0,4.2,9.7
+PHY00237,Jacob Gilbert,Pulmonology,29,"Scott, Jones and Jordan Medical Center",Academic Hospital,FL,731,Cardiology,Brand_4,Yes,1,No,3.9,4.3,12.1
+PHY00238,Margaret Kelly,Cardiology,26,"Tucker, Lee and Adkins Medical Center",Community Hospital,MA,460,Endocrinology,Brand_12,Yes,14,No,29.4,4.8,10.3
+PHY00239,Jon Perez,Gastroenterology,44,Sheppard LLC Medical Center,Clinic,ID,185,Gastroenterology,Brand_11,Yes,16,Yes,5.7,4.6,8.5
+PHY00240,Michael Mullins,Neurology,35,"Brown, Jones and Holmes Medical Center",Community Hospital,MA,666,Pulmonology,Brand_6,No,4,Yes,10.5,4.7,5.6
+PHY00241,Shawn Clayton,Oncology,44,Avery Inc Medical Center,Community Hospital,VI,863,Cardiology,Brand_1,No,9,Yes,21.2,4.8,13.8
+PHY00242,Erin Reynolds,Endocrinology,24,Molina PLC Medical Center,Community Hospital,AZ,953,Gastroenterology,Brand_13,No,14,Yes,4.2,4.2,2.0
+PHY00243,Thomas Cooper,Oncology,33,Mcdaniel PLC Medical Center,Academic Hospital,SD,75,Gastroenterology,Brand_11,Yes,19,Yes,5.1,4.7,13.3
+PHY00244,Donna Edwards,Neurology,26,"Allen, Perez and Rodriguez Medical Center",Private,MA,562,Pulmonology,Brand_1,No,3,Yes,26.3,3.6,10.6
+PHY00245,Jeffery Zuniga,Pulmonology,37,Carter-Miller Medical Center,Clinic,VA,540,Gastroenterology,Brand_13,Yes,3,Yes,10.0,4.2,8.6
+PHY00246,Sheila Watts,Gastroenterology,39,"Davidson, Curry and Peterson Medical Center",Academic Hospital,LA,929,Pulmonology,Brand_7,Yes,6,No,20.0,3.5,4.9
+PHY00247,Danielle Lee,Cardiology,26,"Adams, Pham and Rivera Medical Center",Clinic,AZ,815,Gastroenterology,Brand_15,Yes,0,Yes,25.8,4.9,2.2
+PHY00248,Matthew Ramirez,Oncology,38,Matthews-Mathews Medical Center,Academic Hospital,MS,772,Cardiology,Brand_8,Yes,19,No,29.2,4.9,6.6
+PHY00249,Katherine Wilson,Endocrinology,38,"Sanchez, Stewart and Salas Medical Center",Community Hospital,NM,517,Cardiology,Brand_3,Yes,1,No,6.3,3.6,11.8
+PHY00250,William Ford,Pulmonology,11,Edwards-Collins Medical Center,Academic Hospital,IL,771,Cardiology,Brand_9,Yes,18,Yes,3.7,4.3,11.2
+PHY00251,Kenneth Nelson,Oncology,29,Smith-Leonard Medical Center,Private,NH,651,Oncology,Brand_20,Yes,3,Yes,22.2,4.0,9.7
+PHY00252,Samuel Kelly,Psychiatry,29,"Fox, Phillips and Fleming Medical Center",Clinic,TX,88,Psychiatry,Brand_12,Yes,0,No,5.6,4.0,14.9
+PHY00253,Tina Garcia,Cardiology,3,"Henry, Maddox and Knight Medical Center",Community Hospital,VI,954,Oncology,Brand_2,Yes,0,Yes,17.4,4.2,14.6
+PHY00254,Brandon Crawford,Neurology,9,Estrada Group Medical Center,Academic Hospital,AK,76,Neurology,Brand_3,Yes,2,No,16.0,3.7,6.0
+PHY00255,Raymond Mayer,Gastroenterology,35,Mercado-Cervantes Medical Center,Private,AK,247,Pulmonology,Brand_7,Yes,17,Yes,16.8,3.8,2.9
+PHY00256,Paul Bush,Oncology,6,Roberts-Ho Medical Center,Clinic,MH,965,Oncology,Brand_14,No,2,Yes,19.5,4.4,7.0
+PHY00257,Daniel Brown,Oncology,9,Hoffman Ltd Medical Center,Clinic,KS,791,Gastroenterology,Brand_10,No,2,Yes,25.5,3.5,12.7
+PHY00258,Michael Wheeler,Gastroenterology,8,King-Camacho Medical Center,Academic Hospital,LA,577,Pulmonology,Brand_20,Yes,12,No,8.2,4.4,6.9
+PHY00259,Sean Dougherty,Oncology,27,Curtis-Pugh Medical Center,Private,NH,372,Gastroenterology,Brand_16,No,0,No,16.7,4.0,5.0
+PHY00260,Matthew Ruiz,Oncology,34,Long-Jones Medical Center,Private,WV,71,Pulmonology,Brand_4,No,12,Yes,10.1,4.7,11.1
+PHY00261,Jessica Torres,Endocrinology,24,Dickerson-Schroeder Medical Center,Private,SD,122,Pulmonology,Brand_18,Yes,4,Yes,9.6,4.4,9.8
+PHY00262,Robert Osborne,Psychiatry,5,"Burke, Taylor and Walker Medical Center",Academic Hospital,CO,745,Neurology,Brand_19,Yes,16,Yes,0.6,4.6,14.5
+PHY00263,Julia Wilson,Pulmonology,10,Williams LLC Medical Center,Community Hospital,DC,937,Endocrinology,Brand_6,Yes,10,Yes,18.0,3.7,8.2
+PHY00264,Laura Torres,Psychiatry,20,"Davis, Bullock and Le Medical Center",Academic Hospital,NV,490,Gastroenterology,Brand_9,No,9,Yes,29.2,3.9,14.5
+PHY00265,Renee Jones,Cardiology,22,"Humphrey, Wallace and Walker Medical Center",Academic Hospital,MP,999,Psychiatry,Brand_4,Yes,14,Yes,22.8,5.0,4.4
+PHY00266,David Jones,Cardiology,12,Murphy-Johnson Medical Center,Academic Hospital,MA,441,Cardiology,Brand_20,No,12,Yes,7.3,4.2,13.0
+PHY00267,Peggy Lee,Endocrinology,44,Simmons and Sons Medical Center,Private,MH,696,Neurology,Brand_11,Yes,9,Yes,21.5,4.0,5.3
+PHY00268,Joseph Hill,Gastroenterology,29,"Rubio, Robinson and Gutierrez Medical Center",Private,SC,381,Endocrinology,Brand_13,Yes,8,No,8.9,4.8,12.1
+PHY00269,Ruben Bryant,Gastroenterology,31,West Group Medical Center,Academic Hospital,HI,50,Psychiatry,Brand_5,Yes,6,Yes,22.6,3.5,13.9
+PHY00270,Janice Trevino,Psychiatry,6,Johnson-Powers Medical Center,Private,OK,487,Gastroenterology,Brand_11,Yes,9,No,25.6,4.3,9.3
+PHY00271,Matthew Smith,Cardiology,7,Hill-Little Medical Center,Academic Hospital,IN,957,Neurology,Brand_6,No,8,Yes,10.0,3.8,10.9
+PHY00272,Brent Deleon,Neurology,33,"Williams, Dixon and Dickson Medical Center",Private,GU,257,Endocrinology,Brand_11,Yes,12,No,0.1,4.1,14.4
+PHY00273,Renee Blair,Psychiatry,15,"Hampton, Lopez and Smith Medical Center",Community Hospital,CT,63,Cardiology,Brand_16,Yes,15,Yes,9.2,3.8,5.6
+PHY00274,Luke Bennett,Oncology,13,"Webster, Perez and Reynolds Medical Center",Community Hospital,IN,271,Endocrinology,Brand_3,Yes,1,No,6.2,3.6,7.7
+PHY00275,Robert Schultz,Psychiatry,24,Hurst-Williams Medical Center,Community Hospital,IL,293,Endocrinology,Brand_11,No,7,No,18.6,4.1,13.5
+PHY00276,Connor Hammond,Neurology,30,Scott PLC Medical Center,Academic Hospital,MA,708,Cardiology,Brand_1,Yes,6,No,8.7,4.7,10.1
+PHY00277,Mrs. Amy Hill,Oncology,33,Davidson LLC Medical Center,Academic Hospital,NH,324,Pulmonology,Brand_20,Yes,1,No,1.1,4.9,13.1
+PHY00278,David Sullivan,Psychiatry,20,"Owens, Carroll and Wheeler Medical Center",Community Hospital,PA,638,Pulmonology,Brand_19,Yes,0,No,15.9,4.4,9.3
+PHY00279,Charles Moore,Oncology,19,Howard-Riley Medical Center,Community Hospital,OK,157,Neurology,Brand_15,Yes,3,Yes,26.2,4.1,11.1
+PHY00280,Francisco Bridges,Oncology,19,"Hunt, Anderson and Carroll Medical Center",Community Hospital,NV,379,Endocrinology,Brand_13,Yes,5,No,13.5,4.7,0.2
+PHY00281,Mr. Timothy Crawford,Endocrinology,38,Myers-Johnson Medical Center,Academic Hospital,MH,672,Cardiology,Brand_17,Yes,1,Yes,11.3,4.3,5.1
+PHY00282,Mary Rodgers,Neurology,24,"King, Fisher and Little Medical Center",Private,MA,174,Neurology,Brand_8,Yes,6,Yes,5.4,4.1,11.6
+PHY00283,Mr. Shane Morris MD,Endocrinology,5,Garcia-Allison Medical Center,Academic Hospital,FM,142,Cardiology,Brand_17,Yes,9,No,11.6,3.8,6.1
+PHY00284,Michael Munoz,Psychiatry,22,Horn Ltd Medical Center,Private,NM,461,Oncology,Brand_19,Yes,8,Yes,9.9,4.7,5.4
+PHY00285,Juan Meadows,Gastroenterology,22,Burke Inc Medical Center,Academic Hospital,PA,286,Gastroenterology,Brand_1,Yes,1,Yes,29.8,4.3,14.3
+PHY00286,Joseph Collins,Pulmonology,28,Gordon Group Medical Center,Private,PA,809,Neurology,Brand_8,No,14,No,0.9,4.9,8.3
+PHY00287,Laura Brown,Gastroenterology,17,"Young, Randall and Cunningham Medical Center",Community Hospital,CT,704,Oncology,Brand_1,Yes,14,Yes,7.2,4.7,2.9
+PHY00288,Mr. Paul Hill,Gastroenterology,31,Moore Group Medical Center,Community Hospital,MD,258,Pulmonology,Brand_20,Yes,15,Yes,2.1,4.1,7.1
+PHY00289,Judy Vasquez,Oncology,7,Hernandez-Hernandez Medical Center,Private,VA,368,Gastroenterology,Brand_4,Yes,1,No,25.7,4.6,7.8
+PHY00290,Margaret Glover,Psychiatry,17,Freeman-Ryan Medical Center,Private,KY,72,Endocrinology,Brand_10,Yes,16,No,12.5,4.2,14.8
+PHY00291,Sarah Vasquez,Psychiatry,12,"Walters, Smith and Wheeler Medical Center",Academic Hospital,GU,476,Gastroenterology,Brand_8,Yes,10,No,23.9,3.6,10.8
+PHY00292,Debra Johnson,Pulmonology,7,Wu LLC Medical Center,Community Hospital,AS,59,Gastroenterology,Brand_14,Yes,17,No,20.8,4.3,7.8
+PHY00293,Michael Coleman,Endocrinology,29,Morris-Nicholson Medical Center,Community Hospital,RI,981,Endocrinology,Brand_8,Yes,0,Yes,27.8,4.8,6.5
+PHY00294,Alyssa Lucas,Psychiatry,8,"Hernandez, Ross and Lee Medical Center",Clinic,NH,817,Endocrinology,Brand_20,No,11,Yes,0.7,4.8,13.7
+PHY00295,Michelle Sutton,Neurology,4,Reed-Massey Medical Center,Community Hospital,CA,226,Neurology,Brand_3,Yes,5,No,6.2,4.4,9.7
+PHY00296,Corey Mckenzie,Oncology,40,"Avila, Price and Conley Medical Center",Academic Hospital,VA,959,Gastroenterology,Brand_2,Yes,17,No,21.1,4.1,5.3
+PHY00297,Steven Parker,Cardiology,16,"Mendoza, Torres and Shields Medical Center",Academic Hospital,NJ,815,Psychiatry,Brand_5,Yes,16,Yes,17.6,3.5,7.0
+PHY00298,Daniel Scott,Pulmonology,16,Jones PLC Medical Center,Community Hospital,MI,913,Neurology,Brand_12,Yes,16,Yes,20.8,4.0,4.2
+PHY00299,Jennifer Hall,Neurology,22,"Walters, Wood and Potter Medical Center",Clinic,AR,339,Neurology,Brand_16,Yes,1,Yes,17.3,5.0,14.4
+PHY00300,David Moore,Gastroenterology,11,Williams Group Medical Center,Academic Hospital,AZ,656,Psychiatry,Brand_10,Yes,17,No,17.4,4.6,10.5
+PHY00301,Maria Davis,Cardiology,41,Lewis Ltd Medical Center,Academic Hospital,MS,856,Neurology,Brand_7,Yes,14,No,28.0,4.6,5.9
+PHY00302,Joshua King,Pulmonology,11,"Collins, White and Coleman Medical Center",Private,NH,977,Pulmonology,Brand_5,Yes,0,Yes,27.6,4.6,2.7
+PHY00303,Robert Franklin,Cardiology,5,Jones Inc Medical Center,Clinic,ID,129,Oncology,Brand_13,Yes,19,Yes,1.1,4.4,2.7
+PHY00304,Chad Taylor,Endocrinology,42,Benson and Sons Medical Center,Community Hospital,NY,779,Psychiatry,Brand_7,Yes,13,Yes,12.4,4.4,7.2
+PHY00305,Melissa Wong,Cardiology,38,"Oliver, Williams and Fernandez Medical Center",Academic Hospital,UT,770,Psychiatry,Brand_2,Yes,12,No,15.3,4.2,7.0
+PHY00306,George Singh,Oncology,12,Williams-Palmer Medical Center,Clinic,SC,455,Gastroenterology,Brand_8,Yes,11,No,10.7,4.2,6.3
+PHY00307,Stephen Young,Endocrinology,40,Evans-Nelson Medical Center,Clinic,FL,149,Oncology,Brand_20,Yes,7,No,1.5,4.8,12.8
+PHY00308,Jonathan Smith,Neurology,25,"Wilson, Martinez and Gonzalez Medical Center",Private,KY,468,Psychiatry,Brand_15,Yes,6,Yes,14.2,4.1,14.7
+PHY00309,Donald Anderson,Neurology,13,"Price, Gutierrez and Thompson Medical Center",Private,NM,72,Gastroenterology,Brand_11,No,7,Yes,29.3,4.8,5.3
+PHY00310,Aaron Jackson,Neurology,26,Williams-Shea Medical Center,Community Hospital,WI,842,Psychiatry,Brand_5,Yes,17,Yes,2.2,4.8,4.4
+PHY00311,Jonathan Carr,Pulmonology,11,Poole-Smith Medical Center,Academic Hospital,NH,758,Oncology,Brand_9,Yes,14,No,24.5,4.7,11.6
+PHY00312,Carrie Nielsen,Gastroenterology,40,"Cannon, Sparks and Bowman Medical Center",Clinic,FM,439,Cardiology,Brand_11,Yes,6,Yes,5.9,3.6,6.7
+PHY00313,Katherine Williams,Psychiatry,23,Ware-Ruiz Medical Center,Academic Hospital,DC,296,Cardiology,Brand_2,Yes,0,No,17.3,3.7,3.3
+PHY00314,Heather Mcclure,Gastroenterology,13,Kramer-Wagner Medical Center,Academic Hospital,ID,651,Pulmonology,Brand_17,Yes,5,Yes,11.6,4.0,2.7
+PHY00315,Robert Dennis,Endocrinology,33,Ramirez-Brewer Medical Center,Academic Hospital,WY,814,Cardiology,Brand_14,Yes,15,Yes,10.5,4.8,4.2
+PHY00316,Lisa Nguyen,Endocrinology,28,"Stanton, Meyer and Valentine Medical Center",Private,MH,535,Oncology,Brand_10,Yes,13,No,26.1,4.8,0.0
+PHY00317,Ryan Johnson,Endocrinology,4,"Wilson, Davis and Collins Medical Center",Clinic,WI,567,Endocrinology,Brand_1,Yes,7,No,29.2,3.6,14.1
+PHY00318,Bobby Reyes,Oncology,28,Johnson-Kirk Medical Center,Community Hospital,MD,68,Neurology,Brand_8,No,9,No,11.6,4.0,6.5
+PHY00319,Eric Singh,Endocrinology,34,Bush-Conway Medical Center,Community Hospital,MH,540,Gastroenterology,Brand_11,Yes,16,No,19.2,4.8,1.2
+PHY00320,Heather Anderson,Oncology,10,Rodriguez Inc Medical Center,Private,MA,836,Psychiatry,Brand_11,Yes,14,Yes,16.7,3.9,2.5
+PHY00321,Daniel Horne,Pulmonology,8,"Velasquez, Davis and Williams Medical Center",Community Hospital,WI,159,Gastroenterology,Brand_8,No,13,Yes,2.3,5.0,4.9
+PHY00322,Stacey Schmidt,Neurology,9,"Harris, Campbell and Bates Medical Center",Community Hospital,VI,928,Oncology,Brand_7,Yes,19,No,1.2,4.2,8.3
+PHY00323,Lauren Willis,Psychiatry,18,Harmon-Brown Medical Center,Community Hospital,DE,656,Neurology,Brand_18,Yes,10,Yes,23.2,4.9,10.6
+PHY00324,David Forbes,Cardiology,2,"May, Frye and Burton Medical Center",Clinic,IL,648,Oncology,Brand_2,Yes,5,Yes,11.8,4.1,4.6
+PHY00325,Molly Smith,Gastroenterology,18,"Montgomery, Jones and Brown Medical Center",Private,CT,445,Psychiatry,Brand_8,Yes,3,No,9.2,4.0,14.4
+PHY00326,Brittney Hernandez,Gastroenterology,40,"Peterson, Mack and Morris Medical Center",Private,AS,62,Endocrinology,Brand_8,Yes,4,No,29.6,4.0,11.4
+PHY00327,Lori Thomas,Psychiatry,2,Rogers Inc Medical Center,Community Hospital,LA,391,Oncology,Brand_20,Yes,10,No,2.6,4.8,12.4
+PHY00328,Carol Harris,Psychiatry,22,Carlson-Morgan Medical Center,Community Hospital,DC,995,Neurology,Brand_13,Yes,11,Yes,8.1,4.0,4.9
+PHY00329,Jonathan Smith,Pulmonology,16,Lee PLC Medical Center,Community Hospital,PW,756,Pulmonology,Brand_17,Yes,10,No,25.7,4.5,5.7
+PHY00330,Chad Collins,Gastroenterology,37,"Baker, Burton and Krueger Medical Center",Private,PW,637,Neurology,Brand_11,Yes,17,No,12.4,4.2,8.1
+PHY00331,Heather Weber,Psychiatry,32,Decker-Gonzalez Medical Center,Academic Hospital,SD,790,Psychiatry,Brand_6,Yes,6,No,17.5,4.9,6.8
+PHY00332,Ronald Little,Cardiology,10,"Beltran, Ingram and Reyes Medical Center",Community Hospital,IN,208,Gastroenterology,Brand_15,Yes,0,Yes,1.5,3.7,3.9
+PHY00333,Cindy Ortiz,Oncology,41,"Watkins, Thornton and Turner Medical Center",Private,OR,382,Pulmonology,Brand_1,Yes,15,Yes,27.6,4.1,15.0
+PHY00334,Sarah Le,Neurology,34,Acevedo-Shah Medical Center,Private,HI,72,Cardiology,Brand_3,Yes,17,No,4.1,3.7,12.7
+PHY00335,Jaime Rodriguez,Pulmonology,16,"Wheeler, Ryan and Cherry Medical Center",Private,VT,766,Psychiatry,Brand_16,No,11,No,6.4,4.4,3.6
+PHY00336,Michael Sanders,Cardiology,34,"Todd, Clark and Sullivan Medical Center",Private,SC,887,Pulmonology,Brand_3,Yes,10,Yes,4.7,4.1,13.4
+PHY00337,Brandon Sexton,Gastroenterology,37,Espinoza Ltd Medical Center,Private,NE,942,Pulmonology,Brand_7,Yes,7,Yes,14.9,3.6,8.8
+PHY00338,Edward Baird,Neurology,40,"Collier, Hensley and Gallagher Medical Center",Private,UT,289,Psychiatry,Brand_2,No,0,No,24.5,4.8,0.2
+PHY00339,Amy Hill,Oncology,34,"Mccoy, Lyons and Booth Medical Center",Academic Hospital,TN,875,Gastroenterology,Brand_5,Yes,15,No,8.0,4.1,5.2
+PHY00340,Lisa Flores,Neurology,44,Thompson-Blankenship Medical Center,Private,DC,244,Cardiology,Brand_7,Yes,1,Yes,4.3,4.2,0.4
+PHY00341,Jay Owens,Oncology,13,Newton-Willis Medical Center,Community Hospital,MP,760,Endocrinology,Brand_5,Yes,5,Yes,12.3,4.1,1.3
+PHY00342,Alicia Brooks,Gastroenterology,37,"Joseph, Miller and Huffman Medical Center",Private,NJ,187,Oncology,Brand_3,Yes,16,No,29.4,4.2,2.7
+PHY00343,Krystal Hernandez,Cardiology,12,Phillips PLC Medical Center,Academic Hospital,OH,559,Neurology,Brand_6,Yes,16,Yes,0.3,3.5,7.3
+PHY00344,Richard Smith,Cardiology,15,Knight-Johnson Medical Center,Clinic,CA,272,Oncology,Brand_19,Yes,1,Yes,15.1,4.7,5.7
+PHY00345,Kathleen Palmer,Gastroenterology,30,Christensen-Miller Medical Center,Community Hospital,AK,885,Oncology,Brand_18,No,18,Yes,20.1,4.0,2.2
+PHY00346,Kimberly Gonzalez,Gastroenterology,31,"Lam, Hernandez and Griffin Medical Center",Academic Hospital,SD,477,Neurology,Brand_7,Yes,8,Yes,24.2,4.6,5.9
+PHY00347,Justin Snyder,Neurology,29,"Thomas, Henderson and Taylor Medical Center",Academic Hospital,FL,887,Cardiology,Brand_8,Yes,2,No,22.4,3.6,4.6
+PHY00348,Heather Sherman,Pulmonology,34,"Allen, Kelley and Fernandez Medical Center",Private,MN,899,Neurology,Brand_17,Yes,9,No,2.2,4.3,6.2
+PHY00349,Peter Roberts,Neurology,32,Alexander-Hansen Medical Center,Community Hospital,NC,504,Gastroenterology,Brand_3,Yes,4,No,13.9,4.9,2.6
+PHY00350,Rachel Ortega,Psychiatry,44,Love Ltd Medical Center,Private,VA,776,Cardiology,Brand_14,Yes,8,No,2.4,4.1,9.1
+PHY00351,Cynthia Ramirez,Psychiatry,23,"Frye, Campos and Mills Medical Center",Private,PR,57,Cardiology,Brand_15,Yes,13,Yes,18.6,3.8,0.7
+PHY00352,Rebecca Long,Neurology,10,Gonzales LLC Medical Center,Academic Hospital,VI,931,Psychiatry,Brand_10,Yes,10,Yes,2.3,3.6,5.8
+PHY00353,Wesley Smith,Psychiatry,8,"Coffey, Ortiz and Love Medical Center",Private,AS,265,Gastroenterology,Brand_6,Yes,18,Yes,1.5,4.8,13.4
+PHY00354,James Ramos,Gastroenterology,21,Gutierrez-Taylor Medical Center,Community Hospital,MH,333,Endocrinology,Brand_7,No,15,No,9.2,3.9,6.3
+PHY00355,Francis Morgan,Neurology,11,Leonard LLC Medical Center,Private,IN,542,Pulmonology,Brand_8,Yes,13,Yes,28.2,5.0,6.6
+PHY00356,Shane Fleming,Endocrinology,12,"Singleton, Kaiser and Riley Medical Center",Private,PA,488,Psychiatry,Brand_14,Yes,13,Yes,21.3,3.9,1.0
+PHY00357,Kathleen Larson,Psychiatry,39,"Harrell, Russell and Howard Medical Center",Community Hospital,PA,816,Endocrinology,Brand_6,Yes,3,Yes,0.1,4.2,9.1
+PHY00358,Sean Frank,Gastroenterology,19,"Allison, Hensley and Logan Medical Center",Academic Hospital,FL,372,Cardiology,Brand_20,Yes,7,No,8.5,4.2,14.0
+PHY00359,Katie Floyd,Neurology,34,Ward PLC Medical Center,Private,VI,766,Pulmonology,Brand_8,No,6,No,0.5,3.6,4.4
+PHY00360,Katherine Krause,Endocrinology,38,Santos PLC Medical Center,Private,HI,984,Pulmonology,Brand_10,Yes,2,Yes,8.8,4.3,5.9
+PHY00361,Donna Young,Gastroenterology,34,Choi-Martinez Medical Center,Private,WA,722,Psychiatry,Brand_10,Yes,13,No,20.6,4.5,8.8
+PHY00362,Jonathan Hanson,Psychiatry,26,"Bradford, Mitchell and Lewis Medical Center",Community Hospital,IN,675,Oncology,Brand_19,Yes,10,No,22.8,4.6,1.4
+PHY00363,Jacob Hernandez,Cardiology,40,Harris LLC Medical Center,Academic Hospital,HI,806,Neurology,Brand_15,No,18,Yes,24.1,4.3,14.3
+PHY00364,Michael Foley,Neurology,16,King PLC Medical Center,Academic Hospital,NC,897,Neurology,Brand_7,Yes,3,Yes,27.3,4.7,7.0
+PHY00365,Jane Rogers,Cardiology,19,King-Monroe Medical Center,Private,VA,764,Neurology,Brand_9,No,3,Yes,11.0,4.6,1.7
+PHY00366,Peter Jones,Pulmonology,29,Forbes-Larson Medical Center,Community Hospital,NE,462,Endocrinology,Brand_16,Yes,7,No,25.9,3.8,5.0
+PHY00367,Joshua Smith,Psychiatry,38,"Fritz, Smith and Mejia Medical Center",Private,MS,266,Neurology,Brand_3,Yes,14,Yes,21.8,4.1,5.6
+PHY00368,Jessica Parker,Pulmonology,36,"Johnson, Russell and Myers Medical Center",Academic Hospital,ND,194,Endocrinology,Brand_12,Yes,15,Yes,16.1,3.7,5.2
+PHY00369,Paul Reed,Endocrinology,21,Walsh-Johnson Medical Center,Academic Hospital,VA,982,Endocrinology,Brand_13,Yes,3,No,28.6,3.7,10.4
+PHY00370,Jose Sampson,Neurology,10,Powell-Ortiz Medical Center,Community Hospital,AL,695,Gastroenterology,Brand_13,Yes,9,No,28.4,4.6,5.2
+PHY00371,Tony Newman,Endocrinology,23,Paul LLC Medical Center,Community Hospital,NH,223,Pulmonology,Brand_6,Yes,4,No,26.9,4.3,4.9
+PHY00372,Samantha Garza,Gastroenterology,44,"Lambert, Mccormick and Davis Medical Center",Private,VI,319,Endocrinology,Brand_16,No,3,Yes,6.1,4.4,4.8
+PHY00373,Jerry Jones,Cardiology,44,"Parsons, Cooper and Reed Medical Center",Clinic,NJ,726,Oncology,Brand_15,Yes,1,No,6.2,4.6,11.7
+PHY00374,Justin Butler,Neurology,7,Shields-Smith Medical Center,Private,NH,931,Pulmonology,Brand_14,Yes,17,No,27.0,3.9,4.6
+PHY00375,Kenneth Rasmussen,Pulmonology,38,West-Lyons Medical Center,Academic Hospital,LA,668,Cardiology,Brand_17,Yes,7,No,11.9,4.1,0.2
+PHY00376,Richard Goodman,Cardiology,5,Jackson LLC Medical Center,Private,WY,809,Oncology,Brand_20,Yes,14,No,23.9,4.4,5.5
+PHY00377,Alejandro Long,Cardiology,19,"Sanchez, Key and Burke Medical Center",Community Hospital,VT,893,Cardiology,Brand_14,Yes,3,No,20.6,3.6,4.2
+PHY00378,Patricia Johnson,Endocrinology,33,Cummings and Sons Medical Center,Academic Hospital,OR,900,Oncology,Brand_5,Yes,12,No,22.9,4.7,13.6
+PHY00379,Michael Mendoza,Pulmonology,24,"Sullivan, Liu and Torres Medical Center",Private,FL,902,Endocrinology,Brand_16,Yes,13,Yes,0.8,4.0,7.2
+PHY00380,Cory Gilmore,Psychiatry,43,"Elliott, Walker and Carson Medical Center",Private,NE,78,Cardiology,Brand_1,Yes,8,Yes,12.9,4.5,3.5
+PHY00381,Kristina Mason,Pulmonology,23,Brown and Sons Medical Center,Private,GU,269,Pulmonology,Brand_13,Yes,5,Yes,25.7,5.0,14.7
+PHY00382,Jessica Martin,Cardiology,22,Martin LLC Medical Center,Clinic,MO,770,Neurology,Brand_14,No,11,No,14.7,4.2,3.7
+PHY00383,Stephanie Harris,Gastroenterology,36,Washington and Sons Medical Center,Community Hospital,KY,550,Oncology,Brand_3,Yes,12,Yes,20.7,3.8,11.4
+PHY00384,Jessica Bailey,Cardiology,21,Baldwin and Sons Medical Center,Private,WI,98,Cardiology,Brand_10,Yes,5,Yes,22.7,3.8,9.7
+PHY00385,Victoria Miller,Oncology,18,Johnson PLC Medical Center,Clinic,AR,51,Neurology,Brand_20,Yes,19,Yes,3.6,3.6,6.9
+PHY00386,Jason Weaver,Endocrinology,38,Luna-Cabrera Medical Center,Private,VA,759,Psychiatry,Brand_18,Yes,18,No,4.7,4.7,6.1
+PHY00387,Mary Cohen,Cardiology,27,"Hudson, Thompson and Hull Medical Center",Community Hospital,NJ,650,Gastroenterology,Brand_5,Yes,19,Yes,21.7,3.9,13.1
+PHY00388,Dominique Todd,Pulmonology,37,Mann PLC Medical Center,Academic Hospital,IN,772,Endocrinology,Brand_18,Yes,19,Yes,1.6,3.8,7.1
+PHY00389,Vanessa Smith,Oncology,25,Steele and Sons Medical Center,Private,OK,119,Oncology,Brand_6,Yes,7,Yes,10.3,4.6,5.6
+PHY00390,Jonathan Simmons,Gastroenterology,39,Jenkins-Long Medical Center,Private,OK,754,Oncology,Brand_9,Yes,4,Yes,27.5,4.0,5.3
+PHY00391,Dennis Rivers,Endocrinology,30,Calderon PLC Medical Center,Academic Hospital,MT,95,Pulmonology,Brand_13,Yes,7,No,17.2,4.4,4.1
+PHY00392,Brian White,Neurology,43,Wright-Barnett Medical Center,Clinic,NE,112,Pulmonology,Brand_15,Yes,12,No,27.3,4.1,6.1
+PHY00393,Jason Kerr,Psychiatry,14,West-Cruz Medical Center,Community Hospital,NC,680,Psychiatry,Brand_10,Yes,12,Yes,9.3,4.0,1.8
+PHY00394,Sarah Gutierrez,Endocrinology,34,Marshall Group Medical Center,Community Hospital,WV,787,Cardiology,Brand_15,Yes,4,No,19.1,4.2,1.0
+PHY00395,Tara Durham,Cardiology,32,James-Larson Medical Center,Clinic,VI,902,Oncology,Brand_10,Yes,13,No,8.6,4.0,8.1
+PHY00396,Stacy Campbell,Oncology,31,Hill LLC Medical Center,Academic Hospital,WV,966,Oncology,Brand_13,Yes,17,Yes,3.3,4.8,6.8
+PHY00397,Emily Christensen,Gastroenterology,2,"Garza, Hall and Eaton Medical Center",Private,LA,541,Gastroenterology,Brand_18,Yes,14,Yes,29.7,3.6,2.6
+PHY00398,Kyle Wells,Oncology,39,"Payne, Bailey and Marsh Medical Center",Clinic,MP,546,Oncology,Brand_20,Yes,0,No,5.3,3.5,1.6
+PHY00399,John Stone,Neurology,35,Kelly-Ramirez Medical Center,Academic Hospital,NY,76,Gastroenterology,Brand_16,Yes,6,No,5.7,4.1,2.1
+PHY00400,James Grant,Oncology,23,Burns Group Medical Center,Academic Hospital,NH,240,Gastroenterology,Brand_3,Yes,9,No,25.3,3.8,4.7
+PHY00401,Erin Higgins,Cardiology,6,"Woods, Lane and Gibbs Medical Center",Community Hospital,NV,840,Oncology,Brand_11,Yes,1,Yes,24.1,4.6,6.8
+PHY00402,Savannah Green,Endocrinology,21,Fowler Group Medical Center,Academic Hospital,MP,277,Psychiatry,Brand_5,Yes,12,No,29.3,4.0,2.9
+PHY00403,Megan Mcgee,Neurology,26,"Sandoval, Brooks and Fletcher Medical Center",Private,ID,917,Gastroenterology,Brand_16,Yes,2,No,2.2,3.9,11.3
+PHY00404,Trevor Young,Psychiatry,30,"Hubbard, Davis and Douglas Medical Center",Academic Hospital,DE,273,Endocrinology,Brand_7,Yes,7,No,2.8,4.0,2.9
+PHY00405,Diana Robinson,Gastroenterology,41,Gonzalez PLC Medical Center,Academic Hospital,ID,344,Oncology,Brand_5,Yes,11,Yes,13.5,3.8,1.9
+PHY00406,Vincent Richardson,Psychiatry,42,"Mccoy, Rocha and Roberts Medical Center",Academic Hospital,MT,107,Psychiatry,Brand_7,Yes,3,Yes,17.8,3.9,14.9
+PHY00407,Rachael Jordan,Cardiology,30,Rivera-Cantu Medical Center,Academic Hospital,AZ,862,Neurology,Brand_1,Yes,7,Yes,1.1,4.4,6.7
+PHY00408,Mikayla Long,Neurology,8,Schmidt-Price Medical Center,Private,NM,770,Gastroenterology,Brand_1,Yes,0,No,4.8,4.8,2.6
+PHY00409,Calvin Smith,Neurology,39,Grant-Sherman Medical Center,Academic Hospital,NH,703,Oncology,Brand_17,Yes,2,Yes,21.1,4.1,13.4
+PHY00410,Melissa Lopez,Cardiology,33,"Smith, Dunn and Gibson Medical Center",Clinic,CT,711,Cardiology,Brand_12,Yes,14,Yes,20.1,4.0,3.5
+PHY00411,Maria Smith,Pulmonology,10,"Molina, Thompson and Jordan Medical Center",Community Hospital,MS,578,Psychiatry,Brand_16,Yes,14,Yes,2.7,4.7,13.9
+PHY00412,Joseph Henderson,Neurology,18,Jones-Fuentes Medical Center,Community Hospital,MA,974,Cardiology,Brand_13,No,11,Yes,27.9,3.5,1.8
+PHY00413,James Nichols,Gastroenterology,36,Mitchell Inc Medical Center,Private,PW,545,Endocrinology,Brand_14,No,0,Yes,7.6,4.0,12.6
+PHY00414,Jason Porter,Oncology,41,"Robinson, Hart and Weiss Medical Center",Academic Hospital,PW,801,Neurology,Brand_13,Yes,10,Yes,26.6,4.2,2.8
+PHY00415,Miss Debra Hunt,Oncology,11,Newton-Rodriguez Medical Center,Community Hospital,MO,87,Cardiology,Brand_12,Yes,18,Yes,27.7,4.4,14.1
+PHY00416,Patricia Sellers,Cardiology,44,Floyd-Martinez Medical Center,Private,OR,907,Gastroenterology,Brand_13,Yes,4,Yes,14.7,3.7,8.6
+PHY00417,Brian Stephens,Cardiology,8,Jensen-Silva Medical Center,Private,OK,848,Oncology,Brand_16,Yes,16,Yes,12.4,4.1,2.8
+PHY00418,James Aguilar,Oncology,1,"Nixon, Lopez and Collins Medical Center",Community Hospital,KY,147,Psychiatry,Brand_10,Yes,1,Yes,8.3,4.3,12.7
+PHY00419,Veronica Fritz,Endocrinology,8,"Campos, Ryan and Thomas Medical Center",Community Hospital,TX,107,Gastroenterology,Brand_19,Yes,12,No,24.2,4.3,5.9
+PHY00420,April Hernandez,Cardiology,5,Miller LLC Medical Center,Community Hospital,IL,396,Neurology,Brand_3,No,2,Yes,5.9,4.4,11.0
+PHY00421,Patricia Hale,Oncology,1,Daniels LLC Medical Center,Community Hospital,TX,578,Psychiatry,Brand_14,Yes,12,Yes,18.7,4.5,9.7
+PHY00422,Robert Mcclure,Endocrinology,3,"Smith, Callahan and Gross Medical Center",Community Hospital,WV,681,Gastroenterology,Brand_2,Yes,7,No,17.0,4.1,10.7
+PHY00423,Lisa Ross,Endocrinology,27,Andrews LLC Medical Center,Private,NE,584,Pulmonology,Brand_4,Yes,12,Yes,7.5,3.6,5.2
+PHY00424,Deborah Savage,Pulmonology,23,Martin-Ellis Medical Center,Private,AK,531,Gastroenterology,Brand_13,Yes,2,No,29.5,3.6,14.1
+PHY00425,Brandon Owens,Oncology,44,Sullivan Inc Medical Center,Community Hospital,WY,771,Neurology,Brand_19,Yes,8,Yes,25.4,4.8,8.4
+PHY00426,Jessica Steele,Gastroenterology,39,Joseph-Howard Medical Center,Academic Hospital,UT,262,Pulmonology,Brand_6,Yes,1,No,0.6,4.5,1.2
+PHY00427,Matthew Daniel,Gastroenterology,40,"Walter, Jones and Jensen Medical Center",Private,SD,197,Cardiology,Brand_7,Yes,7,Yes,12.7,4.6,1.0
+PHY00428,Erin Thomas,Pulmonology,11,Mckee-Ray Medical Center,Private,OH,145,Endocrinology,Brand_14,Yes,0,Yes,10.8,4.9,11.1
+PHY00429,Kimberly Wade,Oncology,11,Cisneros LLC Medical Center,Community Hospital,OR,509,Pulmonology,Brand_9,No,14,Yes,26.5,4.6,12.7
+PHY00430,Kenneth Jones,Neurology,36,Newman PLC Medical Center,Community Hospital,ME,309,Psychiatry,Brand_12,Yes,7,Yes,7.9,4.5,10.4
+PHY00431,Lori Lewis,Endocrinology,38,"Austin, Ramos and Marquez Medical Center",Academic Hospital,NH,122,Oncology,Brand_17,Yes,7,Yes,30.0,4.5,4.2
+PHY00432,Paul Whitehead,Psychiatry,31,"Taylor, Johnston and Pacheco Medical Center",Clinic,MD,380,Psychiatry,Brand_16,Yes,6,Yes,6.0,3.9,3.4
+PHY00433,Amber Wilson,Neurology,24,Hamilton-Wood Medical Center,Academic Hospital,NJ,98,Pulmonology,Brand_12,Yes,19,Yes,7.3,4.9,8.5
+PHY00434,Tara Hunter,Neurology,19,Blair-Willis Medical Center,Clinic,LA,271,Endocrinology,Brand_2,Yes,12,No,20.0,4.3,3.0
+PHY00435,Tammy Fields,Endocrinology,32,Hess-Duffy Medical Center,Clinic,KS,414,Pulmonology,Brand_13,Yes,6,Yes,4.8,3.8,5.7
+PHY00436,Elizabeth Mitchell,Gastroenterology,40,"Cardenas, Buck and Jenkins Medical Center",Community Hospital,MD,843,Cardiology,Brand_14,Yes,6,Yes,26.7,3.8,9.4
+PHY00437,Sara Watson,Endocrinology,38,Robinson-Anderson Medical Center,Private,PR,554,Oncology,Brand_8,Yes,10,Yes,3.3,4.7,4.3
+PHY00438,Russell Fernandez,Endocrinology,17,"Contreras, Hunter and Wheeler Medical Center",Academic Hospital,MO,81,Oncology,Brand_8,Yes,1,No,29.5,3.9,5.6
+PHY00439,Richard Johnston,Cardiology,35,Taylor PLC Medical Center,Academic Hospital,MP,589,Gastroenterology,Brand_16,Yes,10,Yes,26.2,3.6,5.4
+PHY00440,Nancy Anderson,Oncology,12,Miller-Green Medical Center,Academic Hospital,MT,868,Cardiology,Brand_2,No,18,Yes,25.2,4.1,6.9
+PHY00441,Isabella Adams,Gastroenterology,15,Delgado-Alvarez Medical Center,Community Hospital,AK,729,Psychiatry,Brand_12,Yes,0,Yes,12.2,4.7,10.1
+PHY00442,Mark Jarvis,Pulmonology,39,"Reese, Rocha and Curry Medical Center",Clinic,IA,86,Oncology,Brand_1,Yes,16,No,15.4,4.1,11.7
+PHY00443,Lauren Murphy,Oncology,13,Richards and Sons Medical Center,Clinic,AK,795,Psychiatry,Brand_5,No,0,No,13.7,4.7,10.0
+PHY00444,Justin Hardy,Oncology,30,Vance-Lin Medical Center,Academic Hospital,WA,228,Psychiatry,Brand_9,Yes,12,Yes,29.6,4.7,0.4
+PHY00445,Michelle Woods,Endocrinology,42,Camacho Inc Medical Center,Private,RI,106,Cardiology,Brand_20,Yes,5,Yes,1.0,4.8,13.5
+PHY00446,Chelsea Maynard,Neurology,19,Bell-Clements Medical Center,Private,MS,794,Endocrinology,Brand_15,Yes,4,No,11.5,4.4,8.7
+PHY00447,Lynn Brown,Endocrinology,9,Richardson and Sons Medical Center,Private,ID,385,Gastroenterology,Brand_5,Yes,1,Yes,29.1,4.5,13.8
+PHY00448,Henry Frye,Endocrinology,28,Huynh-Lewis Medical Center,Private,ND,545,Endocrinology,Brand_9,Yes,9,Yes,11.1,3.9,14.5
+PHY00449,Francisco Ward,Neurology,44,Allison and Sons Medical Center,Private,SC,633,Psychiatry,Brand_8,No,18,Yes,12.0,3.6,7.0
+PHY00450,Larry Lester,Psychiatry,43,Manning-Smith Medical Center,Academic Hospital,IL,244,Gastroenterology,Brand_20,Yes,6,Yes,18.9,4.3,13.7
+PHY00451,Terrence Huff,Pulmonology,25,Chan-Flynn Medical Center,Private,MN,52,Cardiology,Brand_19,Yes,14,Yes,27.2,3.5,5.5
+PHY00452,Bradley Walker,Cardiology,40,Smith Ltd Medical Center,Community Hospital,GU,251,Endocrinology,Brand_6,Yes,10,No,8.8,4.2,3.9
+PHY00453,Tanya Lindsey,Psychiatry,41,Grimes PLC Medical Center,Community Hospital,PA,240,Pulmonology,Brand_1,No,5,No,28.4,3.7,1.1
+PHY00454,Karen Price,Endocrinology,4,Bailey Group Medical Center,Academic Hospital,MH,957,Psychiatry,Brand_4,Yes,4,Yes,8.5,3.7,6.8
+PHY00455,Eduardo Hill,Oncology,37,Hill-Aguirre Medical Center,Academic Hospital,VT,256,Oncology,Brand_3,Yes,3,No,24.5,4.8,10.3
+PHY00456,Erin Spencer,Oncology,7,Castaneda PLC Medical Center,Private,TN,160,Oncology,Brand_13,No,5,Yes,8.3,4.5,14.7
+PHY00457,Todd Nielsen,Neurology,41,Fletcher LLC Medical Center,Clinic,OR,396,Pulmonology,Brand_13,No,6,Yes,2.2,4.5,7.8
+PHY00458,Robert Cain,Endocrinology,4,"Thomas, Mercer and Meza Medical Center",Private,MN,555,Neurology,Brand_19,Yes,11,No,24.4,4.1,11.0
+PHY00459,Sarah Mathis,Gastroenterology,23,Brady and Sons Medical Center,Community Hospital,WI,612,Neurology,Brand_3,Yes,13,No,13.5,4.1,13.4
+PHY00460,Dr. Omar Davidson,Neurology,44,"Blake, Donovan and Boyd Medical Center",Private,SD,799,Neurology,Brand_17,Yes,1,No,11.7,4.0,8.1
+PHY00461,Danielle Sanchez,Neurology,44,Benitez-Vasquez Medical Center,Clinic,MA,956,Endocrinology,Brand_7,Yes,19,No,12.9,4.2,2.5
+PHY00462,Kathleen Calderon,Cardiology,6,Fuentes PLC Medical Center,Clinic,MI,183,Gastroenterology,Brand_14,No,2,Yes,18.3,4.4,12.7
+PHY00463,Luis Davis,Neurology,9,"Hampton, Knapp and Lynch Medical Center",Private,MH,957,Pulmonology,Brand_6,Yes,4,Yes,7.9,3.8,8.6
+PHY00464,Christopher Sanchez,Endocrinology,9,"Oneill, Wilson and Sanchez Medical Center",Clinic,WI,330,Oncology,Brand_14,Yes,9,No,7.1,3.9,11.4
+PHY00465,Larry Aguirre,Cardiology,21,Ho LLC Medical Center,Community Hospital,NJ,275,Oncology,Brand_9,Yes,6,Yes,14.5,4.2,9.9
+PHY00466,Stephanie White,Oncology,3,Martin Inc Medical Center,Community Hospital,OH,587,Endocrinology,Brand_10,No,8,No,1.1,4.1,0.9
+PHY00467,Bryan Anderson,Cardiology,13,"Gutierrez, Mclean and Logan Medical Center",Private,OH,265,Oncology,Brand_17,Yes,17,Yes,19.3,4.7,2.5
+PHY00468,Jeffrey Fernandez,Endocrinology,38,Parrish-Figueroa Medical Center,Private,ID,641,Oncology,Brand_18,Yes,5,No,24.7,4.7,4.3
+PHY00469,Alex Day MD,Pulmonology,18,"Garcia, Becker and Powell Medical Center",Clinic,MP,341,Psychiatry,Brand_13,Yes,9,Yes,21.8,4.0,4.3
+PHY00470,Kayla Flores,Psychiatry,31,"Jackson, Potts and Mccoy Medical Center",Private,HI,981,Oncology,Brand_19,Yes,11,No,14.1,4.2,12.6
+PHY00471,Jon Harris,Cardiology,29,"Henderson, Anderson and Mcdonald Medical Center",Clinic,TX,70,Psychiatry,Brand_10,Yes,1,No,17.0,5.0,9.0
+PHY00472,Jason Castaneda,Pulmonology,2,"Berger, Johnson and Small Medical Center",Academic Hospital,WA,271,Neurology,Brand_14,Yes,0,Yes,0.8,4.7,1.3
+PHY00473,Jesse Alvarado,Psychiatry,31,Newton-Thomas Medical Center,Private,PR,610,Cardiology,Brand_3,Yes,3,Yes,27.4,3.8,5.8
+PHY00474,David Ware,Cardiology,38,"Schroeder, Barron and Hanson Medical Center",Academic Hospital,CA,389,Psychiatry,Brand_4,Yes,14,No,16.7,3.9,8.3
+PHY00475,Cory Martin,Cardiology,7,Monroe-Wagner Medical Center,Academic Hospital,PR,423,Gastroenterology,Brand_19,Yes,1,Yes,9.5,3.6,3.8
+PHY00476,Kelsey Davis,Neurology,40,"Townsend, Hoffman and Harrison Medical Center",Clinic,MT,621,Pulmonology,Brand_12,Yes,2,Yes,8.8,4.5,0.6
+PHY00477,Sarah Kelley,Gastroenterology,10,Wagner-Cox Medical Center,Academic Hospital,ID,923,Oncology,Brand_5,No,16,Yes,19.8,4.0,5.7
+PHY00478,Amy Simmons,Gastroenterology,13,"Gutierrez, Johnson and Reyes Medical Center",Academic Hospital,VA,803,Neurology,Brand_9,Yes,1,Yes,17.5,4.3,6.9
+PHY00479,David Young,Gastroenterology,1,Allen-Conway Medical Center,Academic Hospital,SD,495,Cardiology,Brand_7,Yes,12,Yes,5.6,4.7,13.6
+PHY00480,John Black,Psychiatry,37,Gordon-Melton Medical Center,Community Hospital,MH,428,Cardiology,Brand_13,Yes,7,No,12.3,4.8,13.6
+PHY00481,Robert Lopez,Pulmonology,25,Carpenter Inc Medical Center,Clinic,MT,580,Neurology,Brand_10,Yes,19,Yes,20.3,4.0,7.5
+PHY00482,Katrina Valencia,Psychiatry,30,"Edwards, Richard and Evans Medical Center",Private,VT,444,Neurology,Brand_1,Yes,18,Yes,8.9,3.9,7.1
+PHY00483,Christopher Lewis,Cardiology,2,Hamilton Group Medical Center,Academic Hospital,IN,639,Cardiology,Brand_6,Yes,9,Yes,15.3,4.8,9.6
+PHY00484,John Gomez,Endocrinology,36,"Rogers, Newton and Miranda Medical Center",Community Hospital,HI,405,Cardiology,Brand_16,Yes,6,Yes,7.6,4.1,3.9
+PHY00485,Jeff Black,Endocrinology,24,Silva and Sons Medical Center,Private,MH,692,Oncology,Brand_1,Yes,3,No,2.2,4.7,4.3
+PHY00486,Mariah Cooper,Psychiatry,12,"Flynn, Butler and Brown Medical Center",Academic Hospital,PW,490,Pulmonology,Brand_4,Yes,17,Yes,11.6,3.7,0.0
+PHY00487,Justin Griffin,Neurology,5,Mcgee-Franklin Medical Center,Community Hospital,CT,263,Psychiatry,Brand_3,Yes,2,Yes,22.0,4.9,1.2
+PHY00488,Tina Wong,Neurology,15,"Martin, Little and Ritter Medical Center",Private,OK,177,Psychiatry,Brand_14,Yes,14,Yes,6.4,4.2,2.7
+PHY00489,Sharon Burns,Endocrinology,42,Gardner LLC Medical Center,Academic Hospital,NC,561,Cardiology,Brand_17,Yes,19,No,22.6,3.8,9.6
+PHY00490,Derek Guerrero,Neurology,7,Michael Inc Medical Center,Academic Hospital,CO,668,Cardiology,Brand_14,Yes,16,No,20.1,4.3,3.2
+PHY00491,Christina Jones,Cardiology,2,Green-Andrews Medical Center,Community Hospital,AZ,502,Gastroenterology,Brand_10,No,7,Yes,15.2,4.8,1.9
+PHY00492,Lisa Curtis,Gastroenterology,3,Wilson-Schroeder Medical Center,Private,IN,742,Pulmonology,Brand_14,Yes,14,No,29.1,4.1,9.2
+PHY00493,Sabrina Wall,Cardiology,4,Petersen PLC Medical Center,Private,SD,755,Pulmonology,Brand_6,Yes,12,Yes,26.5,3.8,9.8
+PHY00494,Linda York,Psychiatry,16,Hebert-Rice Medical Center,Private,WY,957,Endocrinology,Brand_6,Yes,13,Yes,16.9,4.4,0.9
+PHY00495,Brian Norris,Pulmonology,27,"Steele, Harrison and Johnson Medical Center",Clinic,PR,367,Cardiology,Brand_12,Yes,3,Yes,16.7,4.8,11.6
+PHY00496,Ashlee Faulkner,Gastroenterology,22,Robinson-Jefferson Medical Center,Academic Hospital,AK,94,Psychiatry,Brand_6,Yes,10,No,8.3,3.7,9.1
+PHY00497,Mark Morris,Oncology,3,"Duke, Brown and Ramos Medical Center",Private,WY,106,Oncology,Brand_5,Yes,2,No,27.6,3.6,6.0
+PHY00498,Amy Jackson,Endocrinology,17,Potter-Murphy Medical Center,Private,PR,435,Endocrinology,Brand_7,Yes,18,Yes,26.9,3.6,14.7
+PHY00499,William Jensen DVM,Gastroenterology,22,Gray Group Medical Center,Private,RI,918,Psychiatry,Brand_16,Yes,12,No,22.3,3.8,0.2
+PHY00500,Catherine Young,Endocrinology,7,"Davis, Deleon and Wright Medical Center",Private,FL,232,Oncology,Brand_6,Yes,3,Yes,3.8,3.5,8.2
+PHY00501,Madison Rios,Oncology,30,"Jordan, Nelson and Jensen Medical Center",Community Hospital,SD,836,Pulmonology,Brand_17,Yes,12,Yes,21.1,4.1,2.4
+PHY00502,Kara Lewis,Neurology,8,Castillo-Johnson Medical Center,Academic Hospital,FM,366,Pulmonology,Brand_4,Yes,14,No,7.6,4.5,4.9
+PHY00503,Deanna Cruz,Gastroenterology,19,Thomas-Stout Medical Center,Community Hospital,DE,457,Endocrinology,Brand_15,Yes,5,No,5.7,4.6,2.0
+PHY00504,Laurie Newton,Cardiology,7,"Cruz, Mack and Cox Medical Center",Private,CO,566,Endocrinology,Brand_19,Yes,17,Yes,22.8,4.5,10.0
+PHY00505,Donald Hensley,Cardiology,1,"Bell, Perez and Gonzalez Medical Center",Private,NV,715,Endocrinology,Brand_7,Yes,7,No,28.8,3.9,6.0
+PHY00506,Cesar Nguyen,Endocrinology,16,Turner Group Medical Center,Academic Hospital,MI,525,Endocrinology,Brand_6,Yes,8,No,3.3,4.6,14.8
+PHY00507,Patricia Jones,Gastroenterology,40,Brown-Bishop Medical Center,Academic Hospital,NY,980,Endocrinology,Brand_7,Yes,19,Yes,4.9,4.4,9.8
+PHY00508,Ashley Jones,Endocrinology,31,Alvarez-Case Medical Center,Private,KS,68,Endocrinology,Brand_2,Yes,1,Yes,6.6,4.8,13.8
+PHY00509,Gabriel Hernandez,Neurology,39,Allen PLC Medical Center,Academic Hospital,CO,80,Neurology,Brand_6,Yes,9,Yes,28.9,4.2,3.6
+PHY00510,Lawrence Wallace,Gastroenterology,27,Washington-Davis Medical Center,Private,PR,540,Pulmonology,Brand_7,Yes,1,No,20.9,3.8,4.8
+PHY00511,Daniel Gonzales,Neurology,10,Jones-Vincent Medical Center,Private,MT,989,Oncology,Brand_9,Yes,8,Yes,20.3,4.5,5.4
+PHY00512,Mark Gonzalez,Gastroenterology,34,Brandt PLC Medical Center,Community Hospital,WY,708,Psychiatry,Brand_14,Yes,8,Yes,15.2,3.7,12.6
+PHY00513,Tara Rodriguez,Endocrinology,14,Waters-Walsh Medical Center,Private,AL,517,Cardiology,Brand_15,Yes,12,Yes,16.1,4.9,3.2
+PHY00514,Denise Love,Neurology,2,Hoffman LLC Medical Center,Clinic,ME,923,Psychiatry,Brand_20,Yes,9,Yes,8.7,4.6,14.2
+PHY00515,Jon Floyd,Oncology,39,Hernandez-Rodriguez Medical Center,Clinic,LA,898,Neurology,Brand_4,Yes,6,No,4.6,4.6,0.7
+PHY00516,Katie Yoder,Cardiology,22,"Maxwell, Moss and Willis Medical Center",Academic Hospital,FM,445,Neurology,Brand_6,Yes,12,No,23.4,4.5,13.3
+PHY00517,Douglas Andersen,Endocrinology,26,"Mcknight, Roberts and Gonzalez Medical Center",Clinic,FM,468,Gastroenterology,Brand_3,Yes,4,Yes,14.1,3.6,6.8
+PHY00518,Veronica Perry,Oncology,44,Dunn PLC Medical Center,Academic Hospital,IL,907,Endocrinology,Brand_10,Yes,11,Yes,7.7,4.2,7.9
+PHY00519,Michelle Singh,Oncology,5,Davidson Ltd Medical Center,Clinic,IA,422,Neurology,Brand_3,Yes,8,Yes,19.0,4.5,15.0
+PHY00520,Connie Mueller,Gastroenterology,38,"Kelley, Townsend and Graham Medical Center",Clinic,NC,686,Psychiatry,Brand_13,Yes,8,No,6.3,3.8,13.1
+PHY00521,Robert Berry,Pulmonology,16,"Russell, Patterson and Malone Medical Center",Community Hospital,FL,377,Neurology,Brand_4,No,17,No,14.7,4.5,13.6
+PHY00522,Brittany Jackson,Psychiatry,12,Chandler Inc Medical Center,Private,MA,921,Psychiatry,Brand_9,Yes,7,No,5.7,4.7,8.8
+PHY00523,Nathan Brady,Endocrinology,41,Fleming-Small Medical Center,Academic Hospital,WA,586,Endocrinology,Brand_3,No,17,Yes,22.8,3.9,14.3
+PHY00524,Tonya Weber,Gastroenterology,44,Zimmerman-Simmons Medical Center,Community Hospital,NE,202,Endocrinology,Brand_11,Yes,9,Yes,9.6,3.8,10.3
+PHY00525,Carla Lawson,Psychiatry,42,"Clark, Suarez and Martin Medical Center",Private,DE,798,Neurology,Brand_1,Yes,0,No,13.3,4.8,12.3
+PHY00526,Edwin Wong,Oncology,17,Valdez-Clark Medical Center,Clinic,LA,775,Pulmonology,Brand_19,Yes,9,No,22.6,3.5,10.8
+PHY00527,Deborah Warren,Endocrinology,25,"Cortez, Soto and Morales Medical Center",Clinic,GU,702,Cardiology,Brand_8,Yes,4,No,19.8,3.9,11.7
+PHY00528,Kyle Rodriguez,Psychiatry,24,Adams-Thornton Medical Center,Clinic,TX,347,Endocrinology,Brand_16,Yes,17,Yes,12.0,4.1,9.6
+PHY00529,Debbie Hall,Cardiology,11,Sosa Group Medical Center,Academic Hospital,WV,192,Oncology,Brand_16,Yes,18,Yes,2.1,4.5,10.9
+PHY00530,Ivan Wang,Endocrinology,18,Howell-Arroyo Medical Center,Academic Hospital,VT,584,Oncology,Brand_4,Yes,12,Yes,27.6,5.0,6.5
+PHY00531,Jeremy Patton,Psychiatry,36,"Coleman, Brown and Thornton Medical Center",Academic Hospital,VT,845,Gastroenterology,Brand_1,Yes,5,Yes,0.2,4.1,10.6
+PHY00532,Anthony Morris,Neurology,3,Richardson-Armstrong Medical Center,Community Hospital,VT,161,Endocrinology,Brand_2,Yes,16,Yes,22.0,4.9,4.2
+PHY00533,Susan Hopkins,Endocrinology,19,"Silva, Smith and Lyons Medical Center",Academic Hospital,AZ,318,Pulmonology,Brand_9,Yes,13,Yes,28.4,4.1,9.5
+PHY00534,James Richardson,Pulmonology,6,"Townsend, Wilcox and Perkins Medical Center",Academic Hospital,CA,145,Pulmonology,Brand_1,Yes,5,No,9.2,4.5,7.9
+PHY00535,Lisa May,Gastroenterology,23,"Donaldson, Vargas and Mccoy Medical Center",Private,HI,380,Neurology,Brand_19,Yes,15,No,2.3,3.7,13.5
+PHY00536,Frederick Hunter,Neurology,40,Rush Inc Medical Center,Academic Hospital,WI,221,Endocrinology,Brand_2,Yes,8,Yes,7.5,4.2,10.1
+PHY00537,Jesus Lee,Endocrinology,7,"Landry, Cole and Roberts Medical Center",Academic Hospital,PA,511,Neurology,Brand_4,Yes,3,No,9.4,4.8,8.9
+PHY00538,Ruth Simon MD,Psychiatry,44,"Smith, Jackson and Joseph Medical Center",Community Hospital,NY,997,Psychiatry,Brand_7,Yes,17,Yes,13.5,4.0,4.7
+PHY00539,Alice Brown,Psychiatry,9,Williams Ltd Medical Center,Academic Hospital,RI,340,Cardiology,Brand_17,Yes,4,Yes,15.8,3.7,12.9
+PHY00540,Robert Cortez,Pulmonology,2,"Garcia, Castillo and Weber Medical Center",Private,MA,864,Cardiology,Brand_1,Yes,0,No,21.8,4.3,0.8
+PHY00541,Amber Morgan,Endocrinology,11,Stanley-Mccoy Medical Center,Academic Hospital,MH,284,Psychiatry,Brand_13,No,14,Yes,27.0,4.2,13.5
+PHY00542,Ryan Reid,Oncology,3,"Lopez, Wilson and Hayes Medical Center",Community Hospital,OR,468,Psychiatry,Brand_20,Yes,11,Yes,13.9,3.8,9.8
+PHY00543,Michael Wilson Jr.,Psychiatry,42,Russo PLC Medical Center,Clinic,NH,355,Psychiatry,Brand_17,Yes,13,No,22.4,4.9,2.8
+PHY00544,Sheila Fisher,Pulmonology,30,Boyd-Sparks Medical Center,Private,SC,537,Cardiology,Brand_9,Yes,11,Yes,3.8,4.4,13.5
+PHY00545,Candace Taylor,Endocrinology,8,Graham-Hickman Medical Center,Academic Hospital,VA,136,Endocrinology,Brand_16,Yes,12,No,9.9,4.0,4.9
+PHY00546,Angela Miller,Endocrinology,37,Cowan and Sons Medical Center,Community Hospital,WV,857,Oncology,Brand_16,Yes,2,No,3.5,5.0,2.5
+PHY00547,Brianna Phelps,Gastroenterology,21,"King, Tucker and Bryant Medical Center",Private,MH,382,Pulmonology,Brand_11,Yes,13,Yes,20.8,3.7,4.8
+PHY00548,Rodney Simon,Cardiology,8,Glover-Washington Medical Center,Academic Hospital,IL,759,Pulmonology,Brand_20,Yes,6,Yes,27.2,4.8,14.4
+PHY00549,David Lee,Neurology,11,Wilson Inc Medical Center,Academic Hospital,IA,782,Neurology,Brand_14,Yes,2,Yes,26.7,3.8,11.3
+PHY00550,Amy Bailey,Cardiology,41,"Henderson, Skinner and Williams Medical Center",Academic Hospital,GU,347,Oncology,Brand_11,Yes,8,Yes,9.8,3.9,13.8
+PHY00551,Robert Long,Neurology,34,Wood-Silva Medical Center,Academic Hospital,WA,192,Neurology,Brand_12,Yes,3,Yes,7.0,4.2,4.5
+PHY00552,Justin Thomas,Neurology,39,Tapia Group Medical Center,Clinic,ID,109,Cardiology,Brand_11,Yes,1,Yes,8.2,4.5,1.2
+PHY00553,Evan Hernandez,Gastroenterology,16,Ware-Wang Medical Center,Private,MI,875,Endocrinology,Brand_11,Yes,2,No,8.6,4.5,8.4
+PHY00554,Ashley Cook,Cardiology,7,Sanchez-Harris Medical Center,Private,PR,850,Oncology,Brand_8,Yes,0,Yes,2.5,3.5,7.2
+PHY00555,Bradley Hall,Pulmonology,4,Knight and Sons Medical Center,Private,GA,985,Psychiatry,Brand_12,Yes,4,Yes,4.0,3.9,10.8
+PHY00556,Gavin Kim,Oncology,32,"Hooper, Berry and Peters Medical Center",Academic Hospital,MT,51,Psychiatry,Brand_13,Yes,8,No,6.4,4.5,8.1
+PHY00557,Kelly Brewer,Endocrinology,37,Callahan-Sullivan Medical Center,Academic Hospital,PA,466,Psychiatry,Brand_13,No,17,No,0.2,4.8,5.9
+PHY00558,Latoya Richardson,Psychiatry,22,Woods Inc Medical Center,Private,NY,202,Gastroenterology,Brand_20,Yes,12,Yes,1.4,4.5,0.1
+PHY00559,Brian Bullock,Endocrinology,7,Blevins Ltd Medical Center,Clinic,IA,303,Gastroenterology,Brand_2,Yes,18,No,21.0,3.9,7.0
+PHY00560,Monica Castro,Pulmonology,13,Smith-Werner Medical Center,Community Hospital,IA,620,Gastroenterology,Brand_12,Yes,18,Yes,18.6,4.3,1.8
+PHY00561,Eric Aguilar,Pulmonology,18,"Miller, Potts and Barker Medical Center",Private,OK,972,Pulmonology,Brand_11,Yes,6,No,28.4,4.5,13.8
+PHY00562,Ronnie Hamilton,Cardiology,42,"Mathews, Pacheco and Moore Medical Center",Private,RI,812,Oncology,Brand_4,Yes,6,Yes,12.1,3.7,13.8
+PHY00563,Mr. William Williams DDS,Oncology,34,Noble Group Medical Center,Private,NE,417,Gastroenterology,Brand_1,No,14,Yes,13.3,4.3,12.1
+PHY00564,Matthew Sanchez,Psychiatry,13,Lowery Group Medical Center,Academic Hospital,LA,74,Gastroenterology,Brand_15,Yes,16,Yes,2.0,4.2,2.4
+PHY00565,William Robinson,Psychiatry,34,Ray Inc Medical Center,Private,OH,182,Endocrinology,Brand_13,Yes,2,Yes,4.6,4.0,2.2
+PHY00566,Elizabeth Washington,Pulmonology,29,Kidd-Ibarra Medical Center,Community Hospital,RI,292,Endocrinology,Brand_5,No,16,Yes,20.7,4.4,8.4
+PHY00567,Ashley Burke,Oncology,5,"Simmons, Mcmillan and Williams Medical Center",Academic Hospital,GU,111,Psychiatry,Brand_1,Yes,13,Yes,7.1,4.5,10.9
+PHY00568,Mrs. Hailey Allen,Gastroenterology,31,Davis Inc Medical Center,Clinic,MN,476,Oncology,Brand_20,Yes,4,Yes,23.2,5.0,13.6
+PHY00569,Frank Arias,Psychiatry,11,Anderson Group Medical Center,Community Hospital,FM,665,Psychiatry,Brand_4,Yes,6,No,21.2,4.1,13.4
+PHY00570,Jay Gregory,Gastroenterology,38,Carter LLC Medical Center,Private,UT,501,Neurology,Brand_17,Yes,18,No,22.4,4.3,2.3
+PHY00571,Elizabeth Beltran,Psychiatry,4,Rojas-Hanson Medical Center,Community Hospital,SC,127,Neurology,Brand_9,Yes,18,Yes,20.7,3.7,14.9
+PHY00572,Melissa Sampson,Oncology,7,"Hammond, Miller and Moore Medical Center",Private,WV,770,Oncology,Brand_8,Yes,0,No,21.2,4.3,2.4
+PHY00573,Kristina Arias,Cardiology,23,"Hernandez, Watson and Brown Medical Center",Academic Hospital,IL,154,Neurology,Brand_12,Yes,18,No,16.4,3.6,12.6
+PHY00574,Lindsey Walker,Gastroenterology,31,Griffith-Johns Medical Center,Academic Hospital,VA,652,Cardiology,Brand_15,Yes,16,Yes,20.3,3.7,8.8
+PHY00575,Robert Coleman,Cardiology,17,Garcia Group Medical Center,Academic Hospital,VA,725,Cardiology,Brand_20,Yes,14,No,15.8,3.8,10.2
+PHY00576,Melissa Humphrey,Pulmonology,10,Pineda-Melendez Medical Center,Community Hospital,NC,429,Cardiology,Brand_16,Yes,7,No,6.2,4.4,9.1
+PHY00577,Tammy Dickerson,Gastroenterology,22,Rodriguez-Cline Medical Center,Community Hospital,MP,915,Neurology,Brand_17,Yes,7,Yes,6.5,4.4,13.0
+PHY00578,William Odonnell,Psychiatry,30,Green LLC Medical Center,Community Hospital,SD,443,Endocrinology,Brand_14,Yes,0,Yes,12.2,4.7,9.6
+PHY00579,Roger Walker,Cardiology,29,Thomas-Villa Medical Center,Private,NH,164,Cardiology,Brand_7,No,19,Yes,0.4,4.2,12.7
+PHY00580,Brandon Cobb,Cardiology,17,"Hamilton, Ayers and Christensen Medical Center",Community Hospital,CA,711,Psychiatry,Brand_1,No,8,Yes,26.7,4.2,2.3
+PHY00581,Travis Bailey,Psychiatry,43,Hines-Walsh Medical Center,Clinic,SD,794,Gastroenterology,Brand_11,Yes,1,No,8.0,3.7,13.0
+PHY00582,Harold Robertson,Psychiatry,21,Mullins-Brewer Medical Center,Community Hospital,DE,647,Endocrinology,Brand_1,No,0,No,1.5,4.6,14.9
+PHY00583,Mary Holloway,Pulmonology,22,Jackson-Sanchez Medical Center,Academic Hospital,NY,589,Oncology,Brand_12,Yes,15,Yes,12.7,3.5,9.9
+PHY00584,Helen Cook,Pulmonology,39,"Moore, Johnson and Wong Medical Center",Clinic,LA,97,Neurology,Brand_2,Yes,12,No,24.5,4.1,14.6
+PHY00585,Christina Hall,Gastroenterology,40,"Ellis, Torres and Martinez Medical Center",Private,TX,237,Psychiatry,Brand_11,Yes,10,Yes,11.9,3.8,3.3
+PHY00586,Matthew Moreno,Cardiology,22,"Owens, Herrera and Perez Medical Center",Private,MP,645,Oncology,Brand_15,Yes,0,Yes,7.9,4.7,12.4
+PHY00587,Renee Nguyen,Pulmonology,27,Hayes Ltd Medical Center,Community Hospital,MO,624,Neurology,Brand_8,No,5,Yes,16.3,4.5,2.5
+PHY00588,John Patterson,Neurology,23,Hernandez Inc Medical Center,Academic Hospital,DE,563,Pulmonology,Brand_20,Yes,0,Yes,17.2,4.6,7.7
+PHY00589,Billy Montgomery,Oncology,4,"Hughes, Hall and Horne Medical Center",Private,IL,840,Neurology,Brand_16,Yes,5,Yes,22.8,3.7,10.0
+PHY00590,Gilbert Cole,Cardiology,26,Ross-Fox Medical Center,Academic Hospital,KS,100,Psychiatry,Brand_13,Yes,8,No,24.0,4.5,9.9
+PHY00591,Justin Jackson,Gastroenterology,39,"Jones, Parks and Salas Medical Center",Private,WI,275,Pulmonology,Brand_20,Yes,12,Yes,21.2,4.5,10.1
+PHY00592,Scott Myers,Cardiology,17,"Contreras, Huber and Whitaker Medical Center",Academic Hospital,WY,417,Neurology,Brand_3,Yes,15,No,0.1,3.5,4.8
+PHY00593,Terrence Perez,Neurology,3,"Ferguson, Brooks and Lee Medical Center",Private,ND,129,Neurology,Brand_12,Yes,19,Yes,0.1,4.0,14.6
+PHY00594,Jennifer Woodard DDS,Endocrinology,17,Sanchez-Brown Medical Center,Private,WY,973,Gastroenterology,Brand_14,Yes,3,Yes,29.3,3.6,0.1
+PHY00595,Megan Jackson,Gastroenterology,43,"Cox, Jones and Coleman Medical Center",Academic Hospital,RI,807,Neurology,Brand_16,Yes,19,No,7.9,4.5,9.3
+PHY00596,Corey Moore,Pulmonology,40,"Anderson, Johnson and Stokes Medical Center",Private,SC,255,Endocrinology,Brand_4,Yes,10,Yes,8.5,3.8,13.0
+PHY00597,Emily Parker,Endocrinology,19,"Jones, Keller and Acosta Medical Center",Academic Hospital,AR,677,Cardiology,Brand_13,Yes,12,No,22.0,3.9,13.4
+PHY00598,Terry Baxter,Pulmonology,39,Butler-Russo Medical Center,Academic Hospital,OH,818,Pulmonology,Brand_10,Yes,0,Yes,17.4,3.6,10.8
+PHY00599,Carlos Carter,Oncology,18,Suarez-Morrow Medical Center,Community Hospital,IL,448,Psychiatry,Brand_20,Yes,2,Yes,13.9,4.2,8.6
+PHY00600,Kristina Jackson,Psychiatry,28,Pena LLC Medical Center,Community Hospital,ND,576,Endocrinology,Brand_7,Yes,10,Yes,3.5,3.5,6.9
+PHY00601,David Wright,Cardiology,15,Boyd-Chung Medical Center,Private,AR,266,Psychiatry,Brand_5,Yes,19,No,2.4,4.8,6.7
+PHY00602,Richard Pierce,Neurology,26,Cunningham-Henderson Medical Center,Academic Hospital,PA,92,Endocrinology,Brand_17,Yes,7,Yes,21.1,3.5,6.4
+PHY00603,Taylor Hill,Gastroenterology,35,Cruz Group Medical Center,Clinic,MI,950,Gastroenterology,Brand_19,Yes,0,Yes,3.7,3.6,10.5
+PHY00604,Mary Carlson,Psychiatry,16,Newton-Jackson Medical Center,Private,FM,505,Neurology,Brand_17,No,18,No,13.1,4.5,11.0
+PHY00605,Jeff Moreno MD,Psychiatry,15,Gonzales-Turner Medical Center,Clinic,ND,664,Gastroenterology,Brand_2,Yes,13,No,22.1,4.9,7.7
+PHY00606,Megan Gibson,Endocrinology,5,Price PLC Medical Center,Private,MN,942,Pulmonology,Brand_5,Yes,17,Yes,27.7,4.8,11.1
+PHY00607,Nicholas Walker,Cardiology,24,"Guerrero, Le and May Medical Center",Private,MS,343,Neurology,Brand_16,Yes,5,No,26.2,3.6,7.9
+PHY00608,Anna Peterson,Oncology,2,Estes PLC Medical Center,Private,ME,624,Pulmonology,Brand_3,Yes,8,No,25.9,3.9,1.5
+PHY00609,Jennifer Porter,Neurology,36,Huynh-Jennings Medical Center,Academic Hospital,MH,792,Pulmonology,Brand_10,Yes,8,Yes,10.8,4.3,12.8
+PHY00610,Cristina Vincent,Cardiology,31,"Benson, Boone and Torres Medical Center",Private,NJ,548,Pulmonology,Brand_18,Yes,14,Yes,27.8,3.5,13.1
+PHY00611,Denise Lara,Psychiatry,30,"Meza, Murphy and Neal Medical Center",Academic Hospital,AR,287,Gastroenterology,Brand_15,Yes,4,Yes,20.5,4.3,4.0
+PHY00612,Melissa Blankenship,Psychiatry,12,"Elliott, English and Huffman Medical Center",Clinic,SD,988,Endocrinology,Brand_6,No,18,No,26.6,4.2,11.8
+PHY00613,Garrett Nicholson,Oncology,37,King-Morton Medical Center,Academic Hospital,CT,356,Neurology,Brand_15,No,8,Yes,2.7,4.4,7.7
+PHY00614,John Oliver,Endocrinology,21,"Dixon, Farmer and Anderson Medical Center",Community Hospital,IN,811,Gastroenterology,Brand_4,No,8,Yes,1.2,4.9,1.9
+PHY00615,Jesse Butler,Oncology,12,Bauer-Barnes Medical Center,Private,MS,639,Pulmonology,Brand_16,Yes,16,No,12.9,3.9,6.0
+PHY00616,James Cantu,Gastroenterology,40,"Wise, Waters and Cooper Medical Center",Community Hospital,MI,644,Cardiology,Brand_18,Yes,14,No,24.8,4.5,1.1
+PHY00617,Jeffrey Macias,Oncology,37,Mayer and Sons Medical Center,Clinic,NV,203,Psychiatry,Brand_8,Yes,9,Yes,12.3,4.1,11.8
+PHY00618,William Gibson,Cardiology,35,"Gordon, Barrett and Herman Medical Center",Private,MA,791,Pulmonology,Brand_8,Yes,8,No,26.5,4.2,2.9
+PHY00619,Scott Williams,Pulmonology,22,"Hall, Lopez and Johnson Medical Center",Academic Hospital,LA,146,Neurology,Brand_7,Yes,18,No,7.0,4.5,2.5
+PHY00620,Michael Smith,Endocrinology,36,"Sanchez, Gardner and West Medical Center",Private,CA,223,Pulmonology,Brand_6,No,6,No,1.2,4.9,3.1
+PHY00621,Zachary Haas,Psychiatry,8,Lawrence LLC Medical Center,Private,RI,701,Pulmonology,Brand_3,Yes,12,No,22.8,4.8,3.4
+PHY00622,Kristine Brown,Endocrinology,27,"Smith, Warner and Cruz Medical Center",Community Hospital,IL,142,Oncology,Brand_4,Yes,1,No,18.8,4.5,10.1
+PHY00623,Christina English,Cardiology,27,"Mitchell, Nelson and Norman Medical Center",Community Hospital,IL,701,Endocrinology,Brand_14,Yes,17,No,13.2,4.2,9.6
+PHY00624,Patricia Gonzales,Cardiology,36,Richardson LLC Medical Center,Community Hospital,WV,78,Pulmonology,Brand_1,Yes,7,No,25.4,4.1,1.9
+PHY00625,Jeffrey Warren,Pulmonology,7,"Alvarez, Miller and George Medical Center",Academic Hospital,VT,922,Endocrinology,Brand_6,Yes,7,No,24.7,4.7,10.9
+PHY00626,Jillian Oneal,Gastroenterology,3,Martinez-Ross Medical Center,Private,NH,110,Pulmonology,Brand_11,No,19,No,9.7,3.8,5.2
+PHY00627,Nicholas Ramsey,Oncology,4,Thompson-Schroeder Medical Center,Academic Hospital,MT,90,Neurology,Brand_13,Yes,8,Yes,25.1,4.4,6.9
+PHY00628,Maureen Parker,Gastroenterology,24,Johnson and Sons Medical Center,Private,AL,543,Gastroenterology,Brand_9,No,12,Yes,10.4,4.3,1.9
+PHY00629,Gilbert Lopez,Pulmonology,8,Cuevas-Wilkinson Medical Center,Private,RI,709,Gastroenterology,Brand_8,Yes,19,Yes,18.7,4.5,10.6
+PHY00630,Sean Richardson,Cardiology,13,Williams-Olson Medical Center,Private,NE,863,Endocrinology,Brand_9,Yes,11,Yes,5.8,3.8,5.6
+PHY00631,Tonya Gardner,Gastroenterology,9,Harvey Group Medical Center,Community Hospital,MS,808,Oncology,Brand_16,Yes,6,No,7.9,4.5,9.5
+PHY00632,Adam Haynes,Endocrinology,20,"Shaffer, Young and Green Medical Center",Private,CO,719,Endocrinology,Brand_4,No,12,Yes,13.4,4.4,6.4
+PHY00633,Julie Wolf,Oncology,20,"Sharp, Rodriguez and James Medical Center",Private,WA,344,Oncology,Brand_5,Yes,12,No,9.4,3.8,0.7
+PHY00634,Kimberly Baldwin,Gastroenterology,5,Smith PLC Medical Center,Private,SC,807,Endocrinology,Brand_18,Yes,3,No,3.9,4.2,10.6
+PHY00635,Gary Watkins,Oncology,5,"Brown, Henry and Gonzales Medical Center",Academic Hospital,MA,345,Endocrinology,Brand_16,Yes,1,Yes,14.5,4.5,8.3
+PHY00636,Troy Richardson,Oncology,35,"Olson, Anderson and Wells Medical Center",Private,IL,228,Oncology,Brand_3,No,1,Yes,15.3,4.9,6.5
+PHY00637,Richard Johnson,Endocrinology,1,"Williams, Hubbard and Harris Medical Center",Private,MH,307,Psychiatry,Brand_11,Yes,4,No,4.8,3.7,3.0
+PHY00638,Ronald Davis,Oncology,42,Adams-Jones Medical Center,Private,WI,779,Pulmonology,Brand_8,Yes,1,Yes,5.2,3.5,9.4
+PHY00639,Erika Hicks,Neurology,15,"Maxwell, Davis and Evans Medical Center",Academic Hospital,NE,498,Cardiology,Brand_19,Yes,14,No,0.9,3.7,4.1
+PHY00640,Steven Hughes,Neurology,17,"Harris, Smith and Douglas Medical Center",Academic Hospital,KY,717,Pulmonology,Brand_20,Yes,1,Yes,0.9,5.0,6.4
+PHY00641,Tristan Harris,Endocrinology,12,"Herrera, Barnes and Guzman Medical Center",Private,VA,356,Gastroenterology,Brand_3,Yes,1,No,10.8,4.7,0.8
+PHY00642,Brandon Nolan,Psychiatry,36,Gray-Spencer Medical Center,Academic Hospital,NY,169,Oncology,Brand_11,Yes,19,Yes,4.4,4.4,11.7
+PHY00643,Pamela Hunter,Pulmonology,43,"Howard, Henderson and Wilson Medical Center",Community Hospital,DE,313,Cardiology,Brand_13,Yes,7,Yes,27.6,3.7,1.4
+PHY00644,Alyssa Middleton,Psychiatry,15,Rodriguez PLC Medical Center,Academic Hospital,KY,336,Gastroenterology,Brand_13,Yes,4,Yes,6.0,4.1,13.4
+PHY00645,Peter Bradley,Oncology,14,Thornton-Spencer Medical Center,Academic Hospital,VA,600,Pulmonology,Brand_18,Yes,15,No,2.0,4.6,13.0
+PHY00646,William Miller,Endocrinology,27,"Reeves, Ryan and Fields Medical Center",Academic Hospital,NV,237,Pulmonology,Brand_14,No,13,Yes,12.1,4.8,14.6
+PHY00647,Gilbert Jordan,Oncology,22,"Reyes, Spencer and Russell Medical Center",Academic Hospital,MI,291,Endocrinology,Brand_8,No,7,Yes,5.8,4.1,13.6
+PHY00648,Michael Pena,Oncology,9,Hinton-Archer Medical Center,Academic Hospital,RI,644,Psychiatry,Brand_8,No,10,Yes,1.9,5.0,14.6
+PHY00649,Daniel Hanson,Neurology,21,Wolfe PLC Medical Center,Academic Hospital,NV,254,Oncology,Brand_9,Yes,10,No,22.6,3.7,13.3
+PHY00650,Robert Short,Gastroenterology,3,Bailey-White Medical Center,Clinic,NV,705,Psychiatry,Brand_4,Yes,7,No,16.7,4.1,1.7
+PHY00651,Michelle Boyd MD,Cardiology,31,"Castillo, Yang and Hale Medical Center",Academic Hospital,MS,328,Oncology,Brand_10,Yes,15,Yes,1.7,4.8,6.6
+PHY00652,Dana Newton,Endocrinology,13,Stephenson-Allen Medical Center,Community Hospital,NE,444,Pulmonology,Brand_3,Yes,7,No,14.0,4.5,1.1
+PHY00653,Donna Flores,Cardiology,2,"Sims, Benson and Goodman Medical Center",Community Hospital,MD,521,Neurology,Brand_4,Yes,19,Yes,1.2,4.7,8.2
+PHY00654,Craig Rodriguez,Neurology,14,Guerrero Ltd Medical Center,Academic Hospital,ID,426,Oncology,Brand_3,Yes,19,No,10.6,4.9,7.9
+PHY00655,David Webster,Cardiology,7,Carter and Sons Medical Center,Community Hospital,WA,743,Cardiology,Brand_11,Yes,11,Yes,10.9,4.3,13.8
+PHY00656,Christopher Lane,Pulmonology,29,Waters Ltd Medical Center,Clinic,IL,374,Neurology,Brand_19,Yes,4,No,24.7,3.9,14.5
+PHY00657,Tony Soto,Neurology,4,Miles Group Medical Center,Academic Hospital,CO,61,Endocrinology,Brand_7,Yes,2,Yes,22.1,4.5,3.9
+PHY00658,William Benson,Pulmonology,4,"Howell, White and Nguyen Medical Center",Academic Hospital,WI,341,Pulmonology,Brand_4,Yes,17,No,26.9,4.3,8.7
+PHY00659,Joan Smith,Psychiatry,24,Murphy Inc Medical Center,Community Hospital,MT,106,Gastroenterology,Brand_19,Yes,0,Yes,4.2,4.7,7.0
+PHY00660,Rebekah Knox,Neurology,42,Williams and Sons Medical Center,Community Hospital,NC,203,Oncology,Brand_12,Yes,18,No,16.0,4.3,8.2
+PHY00661,Kathy Bennett,Endocrinology,21,"Sawyer, Castaneda and Hanson Medical Center",Community Hospital,MN,653,Pulmonology,Brand_5,Yes,12,Yes,0.6,4.7,8.0
+PHY00662,Kevin Gill,Psychiatry,28,Mckenzie-Miller Medical Center,Clinic,LA,513,Cardiology,Brand_11,Yes,10,Yes,24.8,4.9,13.7
+PHY00663,Kelly Johnson,Oncology,38,Franco-George Medical Center,Community Hospital,CA,651,Gastroenterology,Brand_13,No,0,Yes,11.0,4.6,13.4
+PHY00664,Jason Walker,Endocrinology,8,Perry-Welch Medical Center,Community Hospital,IN,565,Endocrinology,Brand_19,Yes,17,No,2.1,4.6,1.8
+PHY00665,Dr. Jeremy Whitehead,Endocrinology,42,Walker-Stanton Medical Center,Private,FL,782,Cardiology,Brand_1,Yes,18,Yes,9.7,4.4,5.2
+PHY00666,Kimberly Jones,Pulmonology,17,"Kennedy, Smith and Graham Medical Center",Community Hospital,GU,705,Endocrinology,Brand_10,No,12,Yes,8.6,4.2,11.3
+PHY00667,Steven Clark,Gastroenterology,9,Johnson-Young Medical Center,Clinic,AS,71,Pulmonology,Brand_2,Yes,7,No,23.0,5.0,10.3
+PHY00668,Rebecca Solomon,Endocrinology,20,Williams-Dougherty Medical Center,Academic Hospital,AK,753,Oncology,Brand_19,Yes,17,Yes,3.8,4.5,9.5
+PHY00669,Susan Jennings,Cardiology,5,Taylor-Flores Medical Center,Clinic,AZ,156,Gastroenterology,Brand_18,Yes,1,Yes,16.7,4.8,14.9
+PHY00670,Jeremy Parsons,Cardiology,35,Hunter-Cox Medical Center,Academic Hospital,OK,375,Gastroenterology,Brand_7,Yes,18,Yes,23.8,4.3,5.1
+PHY00671,Melinda Smith,Oncology,41,"Campbell, Robinson and Palmer Medical Center",Private,KY,781,Gastroenterology,Brand_13,Yes,18,No,22.2,4.3,7.7
+PHY00672,Carly Anderson,Cardiology,29,Phillips Ltd Medical Center,Academic Hospital,WV,956,Psychiatry,Brand_14,Yes,4,No,28.1,4.5,14.7
+PHY00673,Joshua Hammond,Endocrinology,12,"Brown, Smith and Thornton Medical Center",Private,KS,475,Endocrinology,Brand_11,Yes,7,No,0.0,4.6,10.4
+PHY00674,Brianna Walsh,Pulmonology,32,Allen-Monroe Medical Center,Private,ME,288,Gastroenterology,Brand_12,Yes,19,No,10.6,4.2,9.7
+PHY00675,Brian Pace,Neurology,31,Long PLC Medical Center,Private,WY,390,Pulmonology,Brand_5,Yes,2,No,11.1,4.0,2.3
+PHY00676,Stacey Clark,Oncology,31,Schaefer PLC Medical Center,Academic Hospital,ME,779,Psychiatry,Brand_17,No,1,No,1.0,3.9,3.7
+PHY00677,Ellen Hamilton,Oncology,1,"Bentley, Branch and Morse Medical Center",Clinic,AL,88,Gastroenterology,Brand_20,Yes,5,Yes,24.5,4.1,5.7
+PHY00678,Melissa Wheeler,Endocrinology,43,Hill LLC Medical Center,Private,SD,806,Endocrinology,Brand_19,Yes,15,No,20.7,3.8,7.0
+PHY00679,Brianna Hill,Psychiatry,5,Brown Inc Medical Center,Private,KS,992,Psychiatry,Brand_8,Yes,14,No,15.8,4.1,7.5
+PHY00680,Rachael Hernandez,Gastroenterology,36,Robinson-Vasquez Medical Center,Clinic,MD,711,Oncology,Brand_4,Yes,3,Yes,12.2,4.8,13.5
+PHY00681,Frank Hall,Gastroenterology,12,"Wilson, Garcia and Johnson Medical Center",Clinic,PW,79,Cardiology,Brand_13,Yes,1,No,26.9,5.0,1.6
+PHY00682,Michael Bates,Cardiology,16,"Figueroa, Anthony and Diaz Medical Center",Community Hospital,PR,463,Oncology,Brand_1,Yes,13,No,7.9,4.4,3.7
+PHY00683,Elizabeth Walsh,Psychiatry,16,"Mora, White and Khan Medical Center",Private,IA,210,Endocrinology,Brand_18,Yes,5,No,10.0,3.7,2.2
+PHY00684,Michael Long,Endocrinology,21,Smith-Hughes Medical Center,Community Hospital,TN,665,Gastroenterology,Brand_15,Yes,19,No,28.6,4.1,11.0
+PHY00685,Thomas Lewis,Psychiatry,33,Short LLC Medical Center,Private,FL,719,Neurology,Brand_11,Yes,19,Yes,1.9,4.4,14.6
+PHY00686,Shawn Sanchez,Endocrinology,26,Mullins LLC Medical Center,Community Hospital,MT,982,Cardiology,Brand_5,Yes,3,Yes,23.4,4.1,13.4
+PHY00687,Philip Boyd,Cardiology,3,Padilla PLC Medical Center,Academic Hospital,WI,358,Gastroenterology,Brand_10,No,19,Yes,21.5,3.8,10.8
+PHY00688,Melanie Ashley,Gastroenterology,23,Campbell Ltd Medical Center,Community Hospital,NM,463,Psychiatry,Brand_8,Yes,0,No,27.1,3.8,0.3
+PHY00689,Benjamin Wright,Cardiology,25,"Myers, Wilson and Bailey Medical Center",Academic Hospital,FM,971,Cardiology,Brand_16,Yes,13,Yes,2.7,4.2,5.2
+PHY00690,Desiree Edwards,Oncology,20,Alvarez PLC Medical Center,Clinic,LA,183,Cardiology,Brand_15,No,2,No,29.1,3.8,13.0
+PHY00691,Angela Brown,Psychiatry,36,"Carter, Brooks and Flores Medical Center",Private,MD,615,Gastroenterology,Brand_5,Yes,3,Yes,0.9,3.9,9.8
+PHY00692,Steven Moore,Gastroenterology,35,Taylor-Ortega Medical Center,Private,AR,949,Oncology,Brand_20,Yes,19,Yes,10.1,4.8,3.1
+PHY00693,Elizabeth Gibson,Psychiatry,43,"Bryant, Phillips and Smith Medical Center",Community Hospital,IL,384,Endocrinology,Brand_10,No,13,Yes,2.5,4.7,7.0
+PHY00694,Maria Price,Psychiatry,33,Obrien LLC Medical Center,Community Hospital,ND,85,Pulmonology,Brand_5,Yes,19,No,1.5,3.6,1.3
+PHY00695,Jose Peters,Gastroenterology,5,Miller and Sons Medical Center,Private,NJ,880,Pulmonology,Brand_2,Yes,18,Yes,28.9,4.0,7.8
+PHY00696,Vanessa Miranda,Psychiatry,4,Harrison Group Medical Center,Private,NE,692,Oncology,Brand_20,Yes,8,Yes,21.6,4.3,13.5
+PHY00697,Elizabeth Ward,Pulmonology,8,Martinez-Hernandez Medical Center,Academic Hospital,CT,874,Endocrinology,Brand_11,Yes,13,Yes,15.2,3.6,0.6
+PHY00698,Jose Robinson,Neurology,11,"Boyer, Hood and Crawford Medical Center",Academic Hospital,WA,129,Neurology,Brand_10,Yes,3,No,3.2,4.5,9.2
+PHY00699,Tina Lozano,Oncology,43,Davidson Ltd Medical Center,Private,MS,833,Oncology,Brand_17,Yes,3,No,15.8,4.1,3.5
+PHY00700,Scott Castillo,Oncology,27,"Greene, Mcgee and Yu Medical Center",Community Hospital,HI,985,Gastroenterology,Brand_4,Yes,11,Yes,9.6,4.1,14.9
