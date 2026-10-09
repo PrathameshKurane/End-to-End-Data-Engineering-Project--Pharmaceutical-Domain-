@@ -1,4 +1,4 @@
-# Pharma Data Analytics Platform
+# End-to-End Pharmaceutical Data Engineering Project
 
 An end-to-end pharmaceutical data engineering project built using **Azure Data Lake Storage Gen2, Azure Databricks, PySpark, Delta Lake, and Unity Catalog**. The platform follows the Medallion Architecture to ingest, transform, validate, and organize pharmaceutical data for business analytics.
 
