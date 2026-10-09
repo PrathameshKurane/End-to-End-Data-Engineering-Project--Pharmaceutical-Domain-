@@ -48,3 +48,60 @@ LOCATION 'abfss://bronze@pharmadatalake.dfs.core.windows.net/employees/';
 
 -- Verify all tables
 SHOW TABLES IN pharma_catalog_prod.bronze;
+
+
+
+
+-- CREATE ALL SILVER TABLES IN UNITY CATALOG
+-- ============================================
+
+USE CATALOG pharma_catalog_prod;
+USE SCHEMA silver;
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_clinical_trials
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/clinical_trials_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_sales
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/sales_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_inventory
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/inventory_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_prescriptions
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/prescriptions_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_side_effects
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/side_effects_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_rd_pipeline
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/rd_pipeline_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_pricing
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/pricing_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_physician
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/physician_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_marketing
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/marketing_silver/';
+
+CREATE TABLE IF NOT EXISTS pharma_catalog_prod.silver.silver_employees
+USING DELTA
+LOCATION 'abfss://silver@pharmadatalake789.dfs.core.windows.net/employees_silver/';
+
+-- Verify all tables
+SHOW TABLES IN pharma_catalog_prod.silver;
+
+
+
+
+
